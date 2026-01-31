@@ -1,1 +1,6 @@
-{"versions":["bw-github-pages-docs"]}
+{
+  "versions": [
+    "bw-github-pages-docs",
+    "bw-github-pages-docs-v2"
+  ]
+}
