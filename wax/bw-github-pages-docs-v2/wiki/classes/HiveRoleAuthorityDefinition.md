@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L9)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L9)
 
 ## Properties
 
@@ -53,7 +53,7 @@ Role level name. It should be unique and marked `as const` for proper type narro
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/level\_base.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/level_base.ts#L10)
+[wasm/lib/detailed/complex\_operations/role\_classes/level\_base.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/level_base.ts#L10)
 
 ## Accessors
 
@@ -77,7 +77,7 @@ This check does not rely on previous [add](./HiveRoleAuthorityDefinition#add), [
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L39)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L39)
 
 ***
 
@@ -97,7 +97,7 @@ Either true or false depending on whether the authority is null or not.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:218](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L218)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:218](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L218)
 
 ***
 
@@ -117,7 +117,7 @@ Either true or false depending on whether the authority is null or not.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L73)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L73)
 
 ## Methods
 
@@ -150,7 +150,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:122](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L122)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:122](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L122)
 
 ***
 
@@ -174,7 +174,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L77)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L77)
 
 ***
 
@@ -192,7 +192,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:203](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L203)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:203](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L203)
 
 ***
 
@@ -212,7 +212,7 @@ Once called, will mark given role as modified, and effectively push its definiti
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L30)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L30)
 
 ***
 
@@ -232,7 +232,7 @@ Once called, will mark given role as modified, and effectively push its definiti
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L99)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L99)
 
 ***
 
@@ -252,7 +252,7 @@ Once called, will mark given role as modified, and effectively push its definiti
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L104)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L104)
 
 ***
 
@@ -284,7 +284,7 @@ Either true or false depending on whether the account or key is present in the c
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:173](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L173)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:173](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L173)
 
 ***
 
@@ -312,7 +312,7 @@ Either true or false depending on whether the account or key is present in the c
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L66)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L66)
 
 ***
 
@@ -339,7 +339,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:158](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L158)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:158](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L158)
 
 ***
 
@@ -359,7 +359,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L87)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L87)
 
 ***
 
@@ -397,7 +397,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:138](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L138)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:138](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L138)
 
 ***
 
@@ -417,7 +417,7 @@ Resets the level to its initial state.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L26)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L26)
 
 ***
 
@@ -443,4 +443,4 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:190](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L190)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:190](https://gitlab.syncad.com/hive/wax/-/blob/68ec4e7437e5f2c8b344551ab8912a85d3c584ec/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L190)
