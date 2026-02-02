@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L21)
+[wasm/lib/detailed/util/request\_helper.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L21)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L17)
+[wasm/lib/detailed/util/request\_helper.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L17)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L19)
+[wasm/lib/detailed/util/request\_helper.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L19)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L25)
+[wasm/lib/detailed/util/request\_helper.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L25)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L20)
+[wasm/lib/detailed/util/request\_helper.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L20)
 
 ***
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L18)
+[wasm/lib/detailed/util/request\_helper.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L18)
 
 ***
 
@@ -76,4 +76,4 @@ X-Wax-Api-Caller header value for the request
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/6f80dba3c56b541899267ad49d9305ed1cc0d6b9/ts/wasm/lib/detailed/util/request_helper.ts#L29)
+[wasm/lib/detailed/util/request\_helper.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/8f4868a84978a3f8c750536f945a2a0ec7470397/ts/wasm/lib/detailed/util/request_helper.ts#L29)
