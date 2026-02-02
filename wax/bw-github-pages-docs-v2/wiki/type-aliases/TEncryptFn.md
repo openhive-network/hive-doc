@@ -16,4 +16,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/encryption_visitor.ts#L4)
+[wasm/lib/detailed/encryption\_visitor.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/encryption_visitor.ts#L4)

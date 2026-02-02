@@ -19,7 +19,7 @@ true
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L100)
+[wasm/lib/detailed/complex\_operations/comment.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L100)
 
 ***
 
@@ -38,7 +38,7 @@ true
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L107)
+[wasm/lib/detailed/complex\_operations/comment.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L107)
 
 ***
 
@@ -50,7 +50,7 @@ The alternative author of the post.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L82)
+[wasm/lib/detailed/complex\_operations/comment.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L82)
 
 ***
 
@@ -63,7 +63,7 @@ Account name, the author of the post or the comment.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L32)
+[wasm/lib/detailed/complex\_operations/comment.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L32)
 
 ***
 
@@ -76,7 +76,7 @@ Setting this property will create an additional comment_options operation.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:92](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L92)
+[wasm/lib/detailed/complex\_operations/comment.ts:92](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L92)
 
 ***
 
@@ -89,7 +89,7 @@ The content of the post or the comment.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L37)
+[wasm/lib/detailed/complex\_operations/comment.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L37)
 
 ***
 
@@ -101,7 +101,7 @@ The description of the post.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L70)
+[wasm/lib/detailed/complex\_operations/comment.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L70)
 
 ***
 
@@ -118,7 +118,7 @@ Currently supported formats are: html, markdown, markdown+html.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L66)
+[wasm/lib/detailed/complex\_operations/comment.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L66)
 
 ***
 
@@ -130,7 +130,7 @@ The images in the post.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L78)
+[wasm/lib/detailed/complex\_operations/comment.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L78)
 
 ***
 
@@ -149,7 +149,7 @@ For the second layer, the following keys may be used:
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L48)
+[wasm/lib/detailed/complex\_operations/comment.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L48)
 
 ***
 
@@ -161,7 +161,7 @@ The links in the post.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L74)
+[wasm/lib/detailed/complex\_operations/comment.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L74)
 
 ***
 
@@ -180,7 +180,7 @@ Setting this property will create an additional comment_options operation.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L121)
+[wasm/lib/detailed/complex\_operations/comment.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L121)
 
 ***
 
@@ -193,7 +193,7 @@ If the operation creates a post, it is empty.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L21)
+[wasm/lib/detailed/complex\_operations/comment.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L21)
 
 ***
 
@@ -207,7 +207,7 @@ When a user creates a post, it may contain the identifier of the community (e.g.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L27)
+[wasm/lib/detailed/complex\_operations/comment.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L27)
 
 ***
 
@@ -226,7 +226,7 @@ Setting this property will create an additional comment_options operation.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L114)
+[wasm/lib/detailed/complex\_operations/comment.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L114)
 
 ***
 
@@ -239,7 +239,7 @@ Unique to the author, the identifier of the post or comment.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L53)
+[wasm/lib/detailed/complex\_operations/comment.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L53)
 
 ***
 
@@ -251,7 +251,7 @@ The tags of the post.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L86)
+[wasm/lib/detailed/complex\_operations/comment.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L86)
 
 ***
 
@@ -264,4 +264,4 @@ The title of the submitted post, in case of the comment, is often empty.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/2765bf30e974bf76e09d2574c0ad71106b64f92b/ts/wasm/lib/detailed/complex_operations/comment.ts#L58)
+[wasm/lib/detailed/complex\_operations/comment.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/complex_operations/comment.ts#L58)
