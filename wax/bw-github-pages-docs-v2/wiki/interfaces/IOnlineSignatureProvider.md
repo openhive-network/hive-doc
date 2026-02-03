@@ -26,4 +26,4 @@ resolves when the wallet finished signing (signature(s) appended internally)
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/extensions/signatures/index.ts#L63)
+[wasm/lib/detailed/extensions/signatures/index.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/extensions/signatures/index.ts#L63)

@@ -30,7 +30,7 @@ Options for the formatter
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/base.ts#L17)
+[wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/base.ts#L17)
 
 ***
 
@@ -40,7 +40,7 @@ Options for the formatter
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/waxify.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/waxify.ts#L25)
+[wasm/lib/detailed/formatters/waxify.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/waxify.ts#L25)
 
 ## Methods
 
@@ -238,7 +238,7 @@ extended formatter class
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/waxify.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/waxify.ts#L87)
+[wasm/lib/detailed/formatters/waxify.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/waxify.ts#L87)
 
 ***
 
@@ -284,7 +284,7 @@ formatter.format(naiObject);
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/base.ts#L72)
+[wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/base.ts#L72)
 
 ***
 
@@ -326,7 +326,7 @@ formatted number
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/waxify.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/waxify.ts#L60)
+[wasm/lib/detailed/formatters/waxify.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/waxify.ts#L60)
 
 ***
 
@@ -356,7 +356,7 @@ formatted number
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/waxify.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/waxify.ts#L152)
+[wasm/lib/detailed/formatters/waxify.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/waxify.ts#L152)
 
 ***
 
@@ -390,7 +390,7 @@ formatted number
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/waxify.ts:171](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/waxify.ts#L171)
+[wasm/lib/detailed/formatters/waxify.ts:171](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/waxify.ts#L171)
 
 ***
 
@@ -436,7 +436,7 @@ formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/base.ts#L76)
+[wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/base.ts#L76)
 
 ***
 
@@ -538,4 +538,4 @@ true
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/waxify.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/formatters/waxify.ts#L29)
+[wasm/lib/detailed/formatters/waxify.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/formatters/waxify.ts#L29)

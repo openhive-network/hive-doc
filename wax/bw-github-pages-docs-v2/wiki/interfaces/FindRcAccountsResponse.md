@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/2a8a222adc7c9c4574359f5ae1b32581699ca8fa/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L15)
+[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L15)
