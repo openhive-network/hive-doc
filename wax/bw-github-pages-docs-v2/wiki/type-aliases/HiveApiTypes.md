@@ -160,4 +160,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/39ccd143761fb683bd6b99ed65ccf3cfe7af2648/ts/wasm/lib/detailed/chain_api_data.ts#L16)
+[wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/71b6f108be21d1700323d3d4958dc29cb6099ac3/ts/wasm/lib/detailed/chain_api_data.ts#L16)
