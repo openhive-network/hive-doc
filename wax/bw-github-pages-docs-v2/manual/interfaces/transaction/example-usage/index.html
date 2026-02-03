@@ -1,0 +1,1879 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-root" content="/wax-doc/-/bw-github-pages-docs-v2">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823473186432">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Example Transaction interface usage | Wax &#128218;</title>
+    <meta name="title" content="Example Transaction interface usage | Wax 📚">
+    <meta name="description" content="Once you know all the ITransaction interface functionality, let's look at an example of complete usage.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://hive.pages.syncad.com/wax-doc/-/bw-github-pages-docs-v2/interfaces/transaction/example-usage/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hive.pages.syncad.com/wax-doc/-/bw-github-pages-docs-v2/interfaces/transaction/example-usage/">
+    <meta property="og:title" content="Example Transaction interface usage | Wax 📚">
+    <meta property="og:description" content="Once you know all the ITransaction interface functionality, let's look at an example of complete usage.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hive.pages.syncad.com/wax-doc/-/bw-github-pages-docs-v2/interfaces/transaction/example-usage/">
+    <meta property="twitter:title" content="Example Transaction interface usage | Wax 📚">
+    <meta property="twitter:description" content="Once you know all the ITransaction interface functionality, let's look at an example of complete usage.">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../../static/favicon.ico" rel="icon">
+    <link href="../../../resources/css/retype.css?v=3.11.0.823473186432" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.11.0.823473186432" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.11.0.823473186432" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=3.11.0.823473186432" defer></script>
+
+    <style>
+      /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
+
+      :root {
+        /* oklch values for Hive theme - https://oklch.com/ */
+        --hive-lightness:       0.58;
+        --hive-lightness-hover: 0.48;
+        --hive-chroma:          0.2;
+
+        --hive-primary:         var(--hive-lightness)       var(--hive-chroma) 24;
+        --hive-primary-hover:   var(--hive-lightness-hover) var(--hive-chroma) 30;
+        --hive-primary-text:    var(--hive-lightness)       var(--hive-chroma) 15;
+
+        --hive-callout-primary: var(--hive-lightness) 0.044 265;
+      }
+
+      .text-base-500, .text-badge-primary-text, button, .text-badge-info-text {
+        color: oklch(var(--hive-primary-text)) !important;
+      }
+
+      .hover\:border-base-border-hover:hover {
+        border-color: oklch(var(--hive-primary-hover)) !important;
+      }
+      .border-badge-primary-border, .border-badge-info-border {
+        border-color: oklch(var(--hive-primary)  / .2) !important;
+      }
+      .border-gray-400 {
+        border-color: oklch(var(--hive-primary-hover) / .9) !important;
+      }
+
+      .bg-gray-100 {
+        background-color: oklch(var(--hive-primary-hover) / .05) !important;
+      }
+      .bg-gray-200, .hover\:bg-nav-item-bg-hover:hover, .bg-badge-info {
+        background-color: oklch(var(--hive-primary-hover) / .1) !important;
+      }
+
+      .text-nav-item-text-active, .bg-badge-primary, .bg-base-item-bg:hover, .hover\:bg-gray-200:hover, .hover\:bg-base-item-bg-hover:hover,
+      .bg-base-item-bg-hover, button.scheme-menu-item:hover, .scheme-menu-item-active {
+        background-color: oklch(var(--hive-primary) / .1) !important;
+      }
+
+      a.text-toc-text-active, a.hover\:text-toc-text-hover:hover, .text-branding-label-text, .text-nav-item-text-active,
+      nav a, footer a, a.header-anchor-trigger, .retype-markdown a {
+        color: oklch(var(--hive-primary)) !important;
+      }
+
+      .hover\:bg-nav-item-bg-hover:hover > a > span, .dark button:hover,
+      button:hover, nav a:hover, footer a:hover, .retype-markdown a:hover,
+      .retype-markdown div > h1 > .header-anchor-trigger:hover, .retype-markdown div > h2 > .header-anchor-trigger:hover,
+      .retype-markdown div > h3 > .header-anchor-trigger:hover, .retype-markdown div > h4 > .header-anchor-trigger:hover,
+      .retype-markdown div > h5 > .header-anchor-trigger:hover, .retype-markdown div > h6 > .header-anchor-trigger:hover {
+        color: oklch(var(--hive-primary-hover)) !important;
+      }
+
+      .border-tab-border-active {
+        border-color: oklch(var(--hive-primary)) !important;
+      }
+
+      .bg-toc-border-active, .bg-nav-item-border-active {
+        background-color: oklch(var(--hive-primary)) !important;
+      }
+
+      .ring-1 {
+        box-shadow: 0 0 0 1px oklch(var(--hive-primary)) !important;
+      }
+
+      /* Override default callout colors to match secondary one - this is to avoid confusion with error callouts */
+      .text-callout-primary {
+        color: oklch(var(--hive-callout-primary)) !important;
+      }
+      .bg-callout-primary {
+        background-color: oklch(var(--hive-callout-primary)) !important;
+      }
+    </style>
+    <script>
+      // This code is responsible for persisting the selected programming language
+      {
+        const languages = {
+          'javascript': [],
+          'python': []
+        };
+        const languageKeys = Object.keys(languages);
+
+        const originalHistoryPush = history.pushState;
+        history.pushState = function(...args) {
+          const url = new URL(args[2]);
+          if (url.host !== window.location.host)
+            return originalHistoryPush.apply(this, args); // Do not interfere with external links
+
+          const lang = window.localStorage.getItem('lang');
+          if (lang) {
+            // We could use the official Retype supported syntax, but it is not persistant over multiple websites,
+            // We also cannot link to a specific section when using the hash syntax and when used, it scrolls down.
+            // We can uncomment the following code when Retype makes it work better or adds some official support for persistant state tabs.
+            // const hash = url.hash.slice(1); if (!hash || languageKeys.includes(hash)) url.hash = `#${lang}`; else
+            // For now we have to use the query syntax:
+            url.searchParams.set('lang', lang);
+            args[2] = url.toString();
+          }
+          return originalHistoryPush.apply(this, args);
+        };
+
+        let previousLang;
+
+        window.addEventListener('DOMContentLoaded', () => {
+          // Also apply the current language periodically.
+          const applyLanguage = () => {
+            const lang = window.localStorage.getItem('lang');
+            if (!lang)
+              return;
+            languages[lang].forEach(el => {
+              el.click();
+            });
+          }
+          // Tab items are generated on the client side based on the templates, so we need to wait for them to be available.
+          // Also the entire DOM of the document.body can be replaced, invalidating all of our components, so we have to re-gather them periodically.
+          const gatherNodes = () => {
+            Object.keys(languages).forEach(async lang => {
+              let langNodes;
+              while(true) {
+                langNodes = document.querySelectorAll(`div#${lang} > a`);
+                if (langNodes.length > 0)
+                  break;
+
+                await new Promise(resolve => setTimeout(resolve, 50));
+              }
+
+              if (langNodes[0] === languages[lang][0])
+                return; // Already applied on click event
+
+              languages[lang] = langNodes;
+
+              languages[lang].forEach(el => {
+                el.addEventListener("click", event => {
+                  if (!event.isTrusted) return; // Ignore non-user-initiated events
+                  window.localStorage.setItem('lang', lang);
+                  applyLanguage();
+                  // Change the user location for the SEO - load other languages snippets and documentation
+                  window.history.pushState(null, '', window.location.href);
+                });
+              });
+              applyLanguage();
+            });
+          };
+          setInterval(gatherNodes, 200);
+          setInterval(applyLanguage, 1000);
+          const url = new URL(window.location.href);
+          const lang = url.searchParams.get('lang');
+          if (lang) // On hard refresh, or on first visit, when lang in query provided - apply this setting
+            window.localStorage.setItem('lang', lang);
+        });
+      }
+    </script>
+
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../../" class="flex items-center leading-snug text-2xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/hive.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/hive.svg">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Wax Docs</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">1.27.11-rc0-1</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.io" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Hive Website</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.blog" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Hive Blog</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://gitlab.syncad.com/hive/wax" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Wax GitLab</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://www.npmjs.com/package/@hiveio/wax" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>NPM package</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.io" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Hive Website</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.blog" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Hive Blog</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://gitlab.syncad.com/hive/wax" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Wax GitLab</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://www.npmjs.com/package/@hiveio/wax" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>NPM package</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="example-transaction-interface-usage" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-transaction-interface-usage">#</doc-anchor-trigger>
+        <span>Example Transaction interface usage</span>
+    </h1>
+</doc-anchor-target>
+<p>Once you know all the <code v-pre>ITransaction</code> interface functionality, let&#x27;s look at an example of complete usage.</p>
+<doc-anchor-target id="example-usage-hf26-format">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-usage-hf26-format">#</doc-anchor-trigger>
+        <span>Example usage (HF26 format)</span>
+    </h2>
+</doc-anchor-target>
+<p>In this example we will create a transaction with two operations: <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border h-6 px-2 text-xs rounded-md">
+    <span>comment_operation</span>
+</span> and <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border h-6 px-2 text-xs rounded-md">
+    <span>comment_options_operation</span>
+</span>. We will sign it using two different keys (multi-signing) leveraging <a href="../../signers/">signers functionality</a>.</p>
+<doc-tabs>
+<doc-tab v-cloak id="javascript">
+<template #title>JavaScript</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself: <a href="https://stackblitz.com/github/openhive-network/wax-doc-snippets?file=src%2Ftypescript%2Ftransaction%2Fexample-usage%2Fexample-usage%2Fexample-usage.ts&amp;startScript=test-transaction-example-usage">src/typescript/transaction/example-usage/example-usage/example-usage.ts</a></div>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">import { createHiveChain, ReplyOperation } from '@hiveio/wax';
+
+// Initialize chain
+const chain = await createHiveChain();
+
+// Retrieve the signers
+const { signer1, signer2 } = globalThis.snippetsBeekeeperData;
+
+// Create a transaction
+const tx = await chain.createTransaction();
+
+// Use the ReplyOperation to create a reply operation
+tx.pushOperation(new ReplyOperation({
+  parentAuthor: 'parent-author',
+  parentPermlink: 'parent-permlink',
+  author: 'author',
+  body: 'body',
+  beneficiaries: [{ account: 'test', weight: 40 }],
+  tags: ['tag'],
+  description: 'description',
+}));
+
+// Convert the transaction into the Hive API-form JSON
+const apiTx = tx.toApi();
+
+// log apiTransaction
+console.log(apiTx);
+
+// Apply the transaction in the API form into transaction interface
+const txFromApi = chain.createTransactionFromJson(apiTx);
+
+await signer1.signTransaction(txFromApi);
+
+// Log txSigned
+console.log(txFromApi.toApi());
+
+await signer2.signTransaction(txFromApi);
+
+// log multi signed transaction
+console.log(txFromApi.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access to Hive mainnet keys.
+ */
+// await chain.broadcast(txFromApi);</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-javascript"><code v-pre class="language-javascript">// apiTx
+{
+  &quot;ref_block_num&quot;: 14509,
+  &quot;ref_block_prefix&quot;: 1156896789,
+  &quot;expiration&quot;: &quot;2024-06-27T11:45:47&quot;,
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;comment_operation&quot;,
+      &quot;value&quot;: {
+        &quot;parent_author&quot;: &quot;parent-author&quot;,
+        &quot;parent_permlink&quot;: &quot;parent-permlink&quot;,
+        &quot;author&quot;: &quot;author&quot;,
+        &quot;permlink&quot;: &quot;re-parent-author-1719488687642&quot;,
+        &quot;title&quot;: &quot;&quot;,
+        &quot;body&quot;: &quot;body&quot;,
+        &quot;json_metadata&quot;: &quot;{\&quot;format\&quot;:\&quot;markdown+html\&quot;,\&quot;app\&quot;:\&quot;@hiveio/wax/1.27.6-rc1\&quot;,\&quot;tags\&quot;:[\&quot;tag\&quot;],\&quot;description\&quot;:\&quot;description\&quot;}&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;comment_options_operation&quot;,
+      &quot;value&quot;: {
+        &quot;author&quot;: &quot;author&quot;,
+        &quot;permlink&quot;: &quot;re-parent-author-1719488687642&quot;,
+        &quot;max_accepted_payout&quot;: {
+          &quot;amount&quot;: &quot;1000000000&quot;,
+          &quot;precision&quot;: 3,
+          &quot;nai&quot;: &quot;@@000000013&quot;
+        },
+        &quot;percent_hbd&quot;: 10000,
+        &quot;allow_votes&quot;: true,
+        &quot;allow_curation_rewards&quot;: true,
+        &quot;extensions&quot;: [
+          {
+            &quot;type&quot;: &quot;comment_payout_beneficiaries&quot;,
+            &quot;value&quot;: {
+              &quot;beneficiaries&quot;: [
+                {
+                  &quot;account&quot;: &quot;test&quot;,
+                  &quot;weight&quot;: 40
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+// txSigned (only signatures field)
+signatures: [
+  '1fa3b3153c15633841bedac753ef0770d020b6e67c4325402aa8657556d2feafac4c8ed7a3a7638e0cef5d50e01e91b6a17e8740161f1fda65a9331a02b9cc0ff9'
+]
+
+// txMultiSigned (only signatures field)
+signatures: [
+  '1fa3b3153c15633841bedac753ef0770d020b6e67c4325402aa8657556d2feafac4c8ed7a3a7638e0cef5d50e01e91b6a17e8740161f1fda65a9331a02b9cc0ff9',
+  '20562268d6bffe4bebc95dddceccf40479ea8e6a2d079f7d0d2a3627d45b2d1bef7283852299b8a1d64444f89007b90bd92714c3aec8a541906bd0754419d85980'
+]</code></pre>
+</doc-codeblock></div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Please note that the output for <code v-pre>txSigned</code> and <code v-pre>txMultiSigned</code> is not complete due to its complexity. Only the signatures field is presented. You can see the full output in the console by testing it yourself.</p>
+        </div>
+    </div>
+</div>
+</doc-panel>
+</doc-tab>
+<doc-tab v-cloak id="python">
+<template #title>Python</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/python/transaction/example_usage/example_usage/example_usage.py">src/python/transaction/example_usage/example_usage/example_usage.py</a></div>
+<pre translate="no" class="language-python"><code v-pre class="language-python">import asyncio
+
+from beekeepy import AsyncBeekeeper
+from wax import create_hive_chain
+from wax.proto.operations import vote
+
+
+# Initialize hive chain interface
+chain = create_hive_chain()
+
+
+class WalletUser:
+    def __init__(self, username: str, wallet_name: str, wallet_password: str, role: str = &quot;active&quot;):
+        self.username = username
+        self.wallet_name = wallet_name
+        self.wallet_pass = wallet_password
+        self.role = role
+
+        key = chain.get_private_key_from_password(username, role=role, password=wallet_password)
+        self.public_key = key.associated_public_key
+        self.private_key = key.wif_private_key
+
+
+async def main():
+    # Retrieve the signers
+    alice = WalletUser(&quot;alice&quot;, &quot;alice_wallet_name&quot;, &quot;alice_wallet_password&quot;)
+    bob = WalletUser(&quot;bob&quot;, &quot;bob_wallet_name&quot;, &quot;bob_wallet_password&quot;)
+    accounts = [alice, bob]
+
+    # Initialize a transaction object
+    tx = await chain.create_transaction()
+
+    # Declare example operation
+    operation = vote(voter=&quot;voter&quot;, author=&quot;test-author&quot;, permlink=&quot;test-permlink&quot;, weight=2200)
+
+    # Push operation into the transaction
+    tx.push_operation(operation)
+
+    async with await AsyncBeekeeper.factory() as beekeeper:
+        async with await beekeeper.create_session() as session:
+            existing_wallets = [w.name for w in await session.wallets_created]
+
+            if all(acc.wallet_name in existing_wallets for acc in accounts):
+                wallets = [await session.open_wallet(name=acc.wallet_name) for acc in accounts]
+                alice_wallet, bob_wallet = [await w.unlock(acc.wallet_pass) for w, acc in zip(wallets, accounts)]
+            else:
+                wallets = [await session.create_wallet(name=a.wallet_name, password=a.wallet_pass) for a in accounts]
+                alice_wallet, bob_wallet = wallets
+
+            async with alice_wallet, bob_wallet:
+                [await w.import_key(private_key=a.private_key) for w, a in zip([alice_wallet, bob_wallet], accounts)]
+
+                # Convert transaction into the Hive API-form JSON.
+                tx_in_api_form = tx.to_api()
+                print(tx_in_api_form)
+
+                # Apply the transaction in the API form into transaction interface
+                tx_from_api = chain.create_transaction_from_json(tx_in_api_form)
+                print(tx_from_api.to_api())
+
+                # Sign the transaction in the API form into transaction interface, and log signed transaction
+                await tx_from_api.sign(alice_wallet, alice.public_key)
+                print(tx_from_api.to_api())
+
+                # Apply the transaction in the API form into transaction interface, and log multi-signed transaction
+                await tx_from_api.sign(bob_wallet, bob.public_key)
+                print(tx_from_api.to_api())
+
+                # Call actual broadcast API to send transaction to the blockchain.
+                # The code is commented out because examples does not have access to Hive mainnet keys.
+
+                # await chain.broadcast(transaction=tx_from_api)
+
+
+asyncio.run(main())</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+   &quot;ref_block_num&quot;:14073,
+   &quot;ref_block_prefix&quot;:3321583026,
+   &quot;expiration&quot;:&quot;2025-09-10T10:46:42&quot;,
+   &quot;operations&quot;:[
+      {
+         &quot;type&quot;:&quot;vote_operation&quot;,
+         &quot;value&quot;:{
+            &quot;voter&quot;:&quot;voter&quot;,
+            &quot;author&quot;:&quot;test-author&quot;,
+            &quot;permlink&quot;:&quot;test-permlink&quot;,
+            &quot;weight&quot;:2200
+         }
+      }
+   ],
+   &quot;extensions&quot;:[],
+   &quot;signatures&quot;:[
+      &quot;20f6b616bbd0f2d00351567b4c92f70f65d086302716addd5efb236631e11e6c3c4bbfc696a2d3e8258354d94ca305e2e1dbc9ab7a38a9d4334aeba8485ea7df8b&quot;,
+      &quot;1fefa4bcac7d768ec44db424e99b1973fd71f0af07cea7fa7c850847ee74a098172b0f2d99d1888e49e81ca2b6eb184192fba68e37ce969b12350240e109a8afad&quot;
+   ]
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="example-usage-legacy-format">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-usage-legacy-format">#</doc-anchor-trigger>
+        <span>Example usage (Legacy format)</span>
+    </h2>
+</doc-anchor-target>
+<p>In this example we will create a transaction with one <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border h-6 px-2 text-xs rounded-md">
+    <span>vote_operation</span>
+</span>. We will sign it using one key.</p>
+<p>Because the legacy format is considered deprecated, the example below is for educational purposes only. We recommend using the HF26 format for creating and managing transactions. Due to the deprecated status of the legacy format, <a href="../../signers/">signers</a> do not support signing transactions in legacy format. Therefore, in this example, we will use a raw Beekeeper wallet to sign the transaction digest.</p>
+<doc-tabs>
+<doc-tab v-cloak id="javascript">
+<template #title>JavaScript</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself: <a href="https://stackblitz.com/github/openhive-network/wax-doc-snippets?file=src%2Ftypescript%2Ftransaction%2Fexample-usage%2Fexample-usage%2Fexample-legacy-usage.ts&amp;startScript=test-transaction-example-legacy-usage">src/typescript/transaction/example-usage/example-usage/example-legacy-usage.ts</a></div>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">import { createHiveChain } from '@hiveio/wax';
+
+// Initialize chain
+const chain = await createHiveChain();
+
+// Create/get a wallet
+const { wallet, publicKey1 } = globalThis.snippetsBeekeeperData;
+
+// Create a transaction
+const tx = await chain.createTransaction();
+
+// Declare example operation
+const operation = {
+  vote_operation: {
+    voter: &quot;voter&quot;,
+    author: &quot;author&quot;,
+    permlink: &quot;test-permlink&quot;,
+    weight: 2200
+  }
+};
+
+// Push the operation into the transaction
+tx.pushOperation(operation);
+
+// Convert the transaction into the Hive API-legacy form JSON before signing
+const legacyApiTx = tx.toLegacyApi();
+
+console.log(legacyApiTx);
+
+// Because we want to process transction signing in legacy way, we need to sign the transaction externally, which is shown below.
+// We need to calculate the transaction digest first.
+const digest = tx.legacy_sigDigest;
+
+/*
+Other signers (except beekeeper) do not allow signing the digest directly,
+this is a beekeeper-specific feature.
+*/
+
+// Generate the signature based on the transction digest
+const signature = wallet.signDigest(publicKey1, digest);
+
+// Suplement the transaction by created signature
+tx.addSignature(signature);
+
+// This is JSON form ready for broadcasting or passing to third-party service.
+const txApiForm = tx.toLegacyApi();
+
+console.log(txApiForm);</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-javascript"><code v-pre class="language-javascript">// Hive API-legacy form JSON before signing
+{
+  &quot;ref_block_num&quot;: 62661,
+  &quot;ref_block_prefix&quot;: 599480679,
+  &quot;expiration&quot;: &quot;2024-07-01T10:43:35&quot;,
+  &quot;operations&quot;: [
+    [
+      &quot;vote&quot;,
+      {
+        &quot;voter&quot;: &quot;voter&quot;,
+        &quot;author&quot;: &quot;test-author&quot;,
+        &quot;permlink&quot;: &quot;test-permlink&quot;,
+        &quot;weight&quot;: 2200
+      }
+    ]
+  ],
+  &quot;extensions&quot;: [],
+  &quot;signatures&quot;: []
+}
+
+// Hive API-legacy form JSON after signing
+{
+  &quot;ref_block_num&quot;: 63407,
+  &quot;ref_block_prefix&quot;: 1196655671,
+  &quot;expiration&quot;: &quot;2024-07-01T11:20:51&quot;,
+  &quot;operations&quot;: [
+    [
+      &quot;vote&quot;,
+      {
+        &quot;voter&quot;: &quot;voter&quot;,
+        &quot;author&quot;: &quot;test-author&quot;,
+        &quot;permlink&quot;: &quot;test-permlink&quot;,
+        &quot;weight&quot;: 2200
+      }
+    ]
+  ],
+  &quot;extensions&quot;: [],
+  &quot;signatures&quot;: [
+    &quot;200d601328ce2634744daca1629ae3b83094937592811eb53e75238d1ebddf9fbf4723934be2ab4ad6a0db6151fb7d6bd766289e9cca9e6a1fa258da34c2aa86f2&quot;
+  ]
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Also if you want to use some custom tool for signing the transaction instead of our provided methods, you can do it based on the sample above. If you do not want to use <code v-pre>ITransaction</code> interface in legacy form, you can do it just by replacing:</p>
+<p><code v-pre>const digest = tx.legacy_sigDigest;</code> -&gt; <code v-pre>const digest = tx.sigDigest;</code>.</p>
+        </div>
+    </div>
+</div>
+</doc-tab>
+<doc-tab v-cloak id="python">
+<template #title>Python</template>
+<p><strong>The legacy transaction format is deprecated</strong> — wax-python no longer supports this conversion.</p>
+</doc-tab>
+</doc-tabs>
+<doc-anchor-target id="full-transaction-interface-example-usage">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#full-transaction-interface-example-usage">#</doc-anchor-trigger>
+        <span>Full Transaction interface example usage</span>
+    </h2>
+</doc-anchor-target>
+<doc-tabs>
+<doc-tab v-cloak id="javascript">
+<template #title>JavaScript</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself: <a href="https://stackblitz.com/github/openhive-network/wax-doc-snippets?file=src%2Ftypescript%2Ftransaction%2Fexample-usage%2Fexample-usage%2Ffull-transaction-usage.ts&amp;startScript=test-transaction-full-example-usage">src/typescript/transaction/example-usage/example-usage/full-transaction-usage.ts</a></div>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">import beekeeperFactory from '@hiveio/beekeeper';
+import {
+  createHiveChain,
+  createWaxFoundation,
+  ReplyOperation,
+  BlogPostOperation,
+  ECommentFormat,
+  DefineRecurrentTransferOperation,
+  UpdateProposalOperation,
+  WitnessSetPropertiesOperation,
+  FollowOperation,
+  ResourceCreditsOperation,
+  CommunityOperation,
+  AccountAuthorityUpdateOperation
+} from '@hiveio/wax';
+
+// Initialize wax api
+const waxApi = await createWaxFoundation();
+
+// Initialize chain
+const chain = await createHiveChain();
+
+// Initialize beekeeper
+const beekeeper = await beekeeperFactory();
+
+// Create session
+const session = beekeeper.createSession('salt');
+
+// Create wallet
+const { wallet } = await session.createWallet('w1');
+
+// Declare example account name
+const accountName = &quot;your-account&quot;;
+// Declare example password for generating private key
+const masterPassword = &quot;your-master-password&quot;;
+
+// Generating a new posting private key from a password
+const privatePostingKeyData = waxApi.getPrivateKeyFromPassword(
+  accountName,
+  'posting',
+  masterPassword
+);
+// Import the posting key into the wallet
+const publicPostingSigningKey = await wallet.importKey(
+  privatePostingKeyData.wifPrivateKey
+);
+
+// Generating a new active private key from a password
+const privateActiveKeyData = waxApi.getPrivateKeyFromPassword(
+  accountName,
+  'active',
+  masterPassword
+);
+// Import the active key into the wallet
+const publicActiveSigningKey = await wallet.importKey(
+  privateActiveKeyData.wifPrivateKey
+);
+
+// Generating a new encryption private key from a password
+const privateEncryptionKeyData = waxApi.getPrivateKeyFromPassword(
+  accountName,
+  'memo',
+  masterPassword
+);
+// Import the encryption key into the wallet
+const publicEncryptionSigningKey = await wallet.importKey(
+  privateEncryptionKeyData.wifPrivateKey
+);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//                  Simple operation scenario                 //
+////////////////////////////////////////////////////////////////
+
+// Create a transaction
+const simpleOperationTx = await chain.createTransaction();
+
+const voteOp = {
+  vote_operation: {
+    voter: &quot;voter&quot;,
+    author: &quot;author&quot;,
+    permlink: &quot;test-permlink&quot;,
+    weight: 2200
+  }
+};
+
+// Push simple vote operation into previously initialized transaction
+simpleOperationTx.pushOperation(voteOp);
+
+// Sign and build the transaction
+simpleOperationTx.sign(wallet, publicPostingSigningKey);
+
+// Log the simple transaction into console in API form
+console.log(simpleOperationTx.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access to
+ * Hive mainnet keys.
+ */
+// await chain.broadcast(simpleOperationTx);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//             Simple operation legacy scenario               //
+////////////////////////////////////////////////////////////////
+
+// Create a transaction
+const legacyTx = await chain.createTransaction();
+
+// Declare example transfer operation
+const transferOp = {
+  transfer_operation: {
+    from: accountName,
+    to: &quot;friend&quot;,
+    amount: chain.hiveCoins(100),
+    memo: &quot;My transfer operation&quot;
+  }
+};
+
+// Push simple vote operation into previously initialized transaction
+legacyTx.pushOperation(transferOp)
+
+// Because we want to process transction signing in legacy way, we need to sign the transaction externally, which is shown below.
+// We need to calculate the transaction digest first.
+const digest = legacyTx.legacy_sigDigest;
+
+/*
+Other signers (except beekeeper) do not allow signing the digest directly,
+this is a beekeeper-specific feature.
+*/
+
+// Generate the signature based on the transction digest
+const signature = wallet.signDigest(publicPostingSigningKey, digest);
+
+// Suplement the transaction by created signature
+legacyTx.addSignature(signature);
+
+// This is JSON form ready for broadcasting or passing to third-party service.
+const txApiForm = legacyTx.toLegacyApi();
+
+// Log the simple legacy transaction into console in API form
+console.log(txApiForm);
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access to Hive mainnet keys.
+ */
+// await chain.broadcast(otherOperationsTx);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//                    Encryption example                      //
+////////////////////////////////////////////////////////////////
+
+// Create a transaction
+const encryptionTx = await chain.createTransaction();
+
+// Declare other example transfer operation
+const transferEncryptionOp = {
+  transfer_operation: {
+    from: accountName,
+    to: &quot;friend&quot;,
+    amount: chain.hiveCoins(100),
+    memo: &quot;This will be encrypted&quot;
+  }
+};
+
+encryptionTx
+  // Start encryption process
+  .startEncrypt(publicEncryptionSigningKey)
+  // Push transfer operation into previously initialized transaction
+  .pushOperation(transferEncryptionOp)
+  // Stop encryption process
+  .stopEncrypt()
+  // Push another transfer operation into previously initialized transaction
+  .pushOperation(transferOp);
+
+// Sign and build the transaction
+encryptionTx.sign(wallet, publicPostingSigningKey);
+
+// Log the encryption transaction into console in API form
+console.log(encryptionTx.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access
+ * to Hive mainnet keys.
+ */
+// await chain.broadcast(otherOperationsTx);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//                Comment operation scenario                  //
+////////////////////////////////////////////////////////////////
+
+// This example will create multiple operations including
+// comment_operation and comment_options_operation
+
+// Create a transaction
+const commentOperationTx = await chain.createTransaction();
+
+/*
+ * Use BlogPostOperation to create an article operation and set all fields.
+*/
+commentOperationTx.pushOperation(new BlogPostOperation({
+  author: accountName,
+  permlink: 'my-article-permlink',
+  title: 'My article title',
+  body: 'My article body',
+  category: 'my-category',
+  tags: ['my-article'],
+  description: 'This is my article!',
+  images: ['article.jpg'],
+  links: ['https://example.com'],
+  format: ECommentFormat.MARKDOWN,
+  beneficiaries: [{ account: 'friend', weight: 40 }],
+  maxAcceptedPayout: chain.hbdCoins(100),
+  allowCurationRewards: true,
+  allowVotes: true
+}));
+
+/*
+ * Use ReplyOperation to create a reply operation and set all fields.
+ * Note that the category is not set because it is only available in
+ * the BlogPostOperation.
+*/
+commentOperationTx.pushOperation(new ReplyOperation({
+  author: accountName,
+  permlink: 'My-reply-permlink',
+  parentAuthor: accountName,
+  parentPermlink: 'my-article-permlink',
+  body: 'My reply body',
+  tags: ['my-reply'],
+  description: 'This is my reply!',
+  images: ['reply.jpg'],
+  links: ['https://example.com'],
+  format: ECommentFormat.MARKDOWN,
+  beneficiaries: [{ account: 'friend', weight: 40 }],
+  maxAcceptedPayout: chain.hbdCoins(100),
+  allowCurationRewards: true,
+  allowVotes: true
+}));
+
+/*
+Note that all the logic is hidden under the specific operation
+constructor that you are currently using
+*/
+
+// Sign and build the transaction
+commentOperationTx.sign(wallet, publicPostingSigningKey);
+
+// Log the article transaction into console in API form
+console.log(commentOperationTx.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access
+ * to Hive mainnet keys.
+ */
+// await chain.broadcast(otherOperationsTx);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//            Account authority update scenario               //
+////////////////////////////////////////////////////////////////
+
+// This example will create account_update2_operation
+
+// Create a transaction
+const accountUpdateTx = await chain.createTransaction();
+
+/*
+ * Use AccountAuthorityUpdateOperation to create
+ * new account_update2_operation with all the fields initialized
+ */
+const accountAuthorityUpdateOp = await AccountAuthorityUpdateOperation.createFor(
+  chain,
+  &quot;gtg&quot;
+);
+
+// role method squashes all authority categories and allows you to select
+// specific ones to modify in a user-friendly interface
+const hasGandalfAuth = accountAuthorityUpdateOp.role(&quot;active&quot;).has(&quot;gandalf&quot;);
+
+console.log(&quot;Has Gandalf Auth:&quot;, hasGandalfAuth);
+
+// Add frodo authority with weight 2
+accountAuthorityUpdateOp.role(&quot;active&quot;).add(&quot;frodo&quot;, 2);
+
+// Update the memo key
+accountAuthorityUpdateOp.role(&quot;memo&quot;).set(
+  &quot;STM8GC13uCZbP44HzMLV6zPZGwVQ8Nt4Kji8PapsPiNq1BK153XTX&quot;
+);
+
+// You can also iterate over different authority levels from given category
+// To perform batch operations
+console.log(&quot;Current account authority:&quot;)
+for(const role of accountAuthorityUpdateOp.roles(&quot;hive&quot;))
+  console.log(role.level, &quot;:&quot;, role.value);
+
+accountUpdateTx.pushOperation(accountAuthorityUpdateOp);
+
+// Sign and build the transaction
+accountUpdateTx.sign(wallet, publicActiveSigningKey);
+
+// Log the article transaction into console in API form
+console.log(accountUpdateTx.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access
+ * to Hive mainnet keys.
+ */
+// await chain.broadcast(otherOperationsTx);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//            Other operation factories scenario              //
+////////////////////////////////////////////////////////////////
+
+// Create a transaction
+const operationFactoriesTx = await chain.createTransaction();
+
+// Create a recurrent transfer operation that will be executed every day
+// for 30 days with the ammount of 100.000 HIVE
+operationFactoriesTx.pushOperation(new DefineRecurrentTransferOperation({
+  from: accountName,
+  to: 'friend',
+  amount: chain.hiveCoins(100),
+  memo: 'Daily pay',
+  recurrence: 24,
+  executions: 30
+}));
+
+// Create a proposal update operation of id equals 1 with the
+// ammount of 100.000 HBD
+operationFactoriesTx.pushOperation(new UpdateProposalOperation({
+  proposalId: 1,
+  creator: accountName,
+  dailyPay: chain.hbdCoins(100),
+  subject: 'Proposal Update',
+  permlink: 'proposal-update',
+  endDate:  '2023-03-14',
+}));
+
+// Create a witness set properties operation with hbd interest rate of 7.5%,
+// maximum block size of 65536, account creation fee of 300.000 HIVE
+// and url of &quot;https://example.com&quot;
+operationFactoriesTx.pushOperation(new WitnessSetPropertiesOperation({
+  owner: accountName,
+  witnessSigningKey: publicActiveSigningKey,
+  maximumBlockSize: 65536,
+  hbdInterestRate: 750,
+  accountCreationFee: chain.hiveCoins(300),
+  url: &quot;https://example.com&quot;
+}));
+
+// Sign and build the transaction
+operationFactoriesTx.sign(wallet, publicActiveSigningKey);
+
+// Log the operation factories transaction into console in API form
+console.log(operationFactoriesTx.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access
+ * to Hive mainnet keys.
+ */
+// await chain.broadcast(otherOperationsTx);
+
+'--------------------------------------------------------------'
+////////////////////////////////////////////////////////////////
+//      Scenario taht includes all HiveAppsOperations         //
+////////////////////////////////////////////////////////////////
+
+// (custom_json based)
+
+// Create a transaction
+const otherOperationsTx = await chain.createTransaction();
+
+// Create follow operation new instance
+const followOperation = new FollowOperation();
+
+// Push operations of follow operation into the created transaction
+otherOperationsTx.pushOperation(
+  followOperation
+    .followBlog(accountName, 'blog-to-follow')
+    .muteBlog(accountName, 'blog-to-mute')
+    .reblog(accountName, 'to-reblog', 'post-permlink')
+    // The account that authorizes underlying custom json operation is
+    // also reponsible for signing the transaction using its posting authority
+    .authorize(accountName)
+);
+
+// Create resource credits operation new instance
+const rcOperation = new ResourceCreditsOperation();
+
+// Push operations of resource credits operation into the created transaction
+otherOperationsTx.pushOperation(
+  rcOperation
+  // Delegate 1000 RC from your account to a friend's account.
+  .delegate(accountName, 1000, 'friend')
+  // The account that authorizes underlying custom json operation is also
+  // reponsible for signing the transaction using its posting authority
+  .authorize(accountName)
+);
+
+// Create community operation new instance
+const communityOperation = new CommunityOperation();
+
+// Declare example community name
+const communityName = 'community-name';
+
+// Push operations of community operation into the created transaction
+otherOperationsTx.pushOperation(
+  communityOperation
+    // Subscribe the community
+    .subscribe('communityName')
+    // Flag the post of the author in the community with the permlink
+    // Add notes regarding the violation (violation notes).
+    .flagPost(communityName, 'author-account', 'post-permlink', 'violation notes')
+    // The account that authorizes underlying custom json operation is also
+    // reponsible for signing the transaction using its posting authority
+    .authorize(accountName)
+);
+
+// Sign and build the transaction
+otherOperationsTx.sign(wallet, publicPostingSigningKey);
+
+// Log the other operations transaction into console in API form
+console.log(otherOperationsTx.toApi());
+
+/*
+ * Call actual broadcast API to send transaction to the blockchain.
+ * The code is commented out because examples does not have access
+ * to Hive mainnet keys.
+ */
+// await chain.broadcast(otherOperationsTx);</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-javascript"><code v-pre class="language-javascript">// simpleOperationTx
+{
+  &quot;ref_block_num&quot;: 32100,
+  &quot;ref_block_prefix&quot;: 27252558,
+  &quot;expiration&quot;: &quot;2024-07-02T15:56:28&quot;,
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;vote_operation&quot;,
+      &quot;value&quot;: {
+        &quot;voter&quot;: &quot;voter&quot;,
+        &quot;author&quot;: &quot;test-author&quot;,
+        &quot;permlink&quot;: &quot;test-permlink&quot;,
+        &quot;weight&quot;: 2200
+      }
+    }
+  ],
+  &quot;signatures&quot;: [
+    &quot;20fb288dad117d77d18c7880873b165e77954f052ae83a04889744671dfd1f8b97354b3637ad3b16cb5a52a767986748e668ca3ba02fe64f75e3def75a22930755&quot;
+  ]
+}
+
+// legacyTx
+{
+  &quot;ref_block_num&quot;: 32100,
+  &quot;ref_block_prefix&quot;: 27252558,
+  &quot;expiration&quot;: &quot;2024-07-02T15:56:28&quot;,
+  &quot;operations&quot;: [
+    [
+      &quot;transfer&quot;,
+      {
+        &quot;from&quot;: &quot;your-account&quot;,
+        &quot;to&quot;: &quot;friend&quot;,
+        &quot;amount&quot;: &quot;0.100 HIVE&quot;,
+        &quot;memo&quot;: &quot;My transfer operation&quot;
+      }
+    ]
+  ],
+  &quot;extensions&quot;: [],
+  &quot;signatures&quot;: [
+    &quot;1f5e2496ba8f6d2bcace6f6d244d8d130b053dfc5c17c4474b77a6110d8650451512dc6242cf5149bb2e6ae58b279378af230d71fbe62e2c1685912f4789b68a78&quot;
+  ]
+}
+
+// encryptionTx
+{
+  &quot;ref_block_num&quot;: 32100,
+  &quot;ref_block_prefix&quot;: 27252558,
+  &quot;expiration&quot;: &quot;2024-07-02T15:56:28&quot;,
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;transfer_operation&quot;,
+      &quot;value&quot;: {
+        &quot;from&quot;: &quot;your-account&quot;,
+        &quot;to&quot;: &quot;friend&quot;,
+        &quot;amount&quot;: { &quot;amount&quot;: &quot;100&quot;, &quot;precision&quot;: 3, &quot;nai&quot;: &quot;@@000000021&quot; },
+        &quot;memo&quot;: &quot;#4MWxEsc6QMPu5ifjW1mNpJh6Rx4Li4kaJVxEvNFWysAsggDSLNF6ZEdauVEuompzPXuMuZ4tfTtAadcYXHAXH5ASVCRapttKgx7xEn1S4dydFrM7Uc8jpMmdJ4HDxnhCELxQrxX4iqoFhYaVdYPVq3A8&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;transfer_operation&quot;,
+      &quot;value&quot;: {
+        &quot;from&quot;: &quot;your-account&quot;,
+        &quot;to&quot;: &quot;friend&quot;,
+        &quot;amount&quot;: { &quot;amount&quot;: &quot;100&quot;, &quot;precision&quot;: 3, &quot;nai&quot;: &quot;@@000000021&quot; },
+        &quot;memo&quot;: &quot;My transfer operation&quot;
+      }
+    }
+  ],
+  &quot;signatures&quot;: [
+    &quot;20768549f9e17688287c6e511a1efa170834dd5ef0662e737de47a874876b83a4812a2f38d1386c1d2ab2ae055282f1ada76646434ad87377a78988c70de36a7ed&quot;
+  ]
+}
+
+// commentOperationTx
+{
+  &quot;ref_block_num&quot;: 32100,
+  &quot;ref_block_prefix&quot;: 27252558,
+  &quot;expiration&quot;: &quot;2024-07-02T15:56:28&quot;,
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;comment_operation&quot;,
+      &quot;value&quot;: {
+        &quot;parent_author&quot;: &quot;&quot;,
+        &quot;parent_permlink&quot;: &quot;my-category&quot;,
+        &quot;author&quot;: &quot;your-account&quot;,
+        &quot;permlink&quot;: &quot;my-article-permlink&quot;,
+        &quot;title&quot;: &quot;My article title&quot;,
+        &quot;body&quot;: &quot;My article body&quot;,
+        &quot;json_metadata&quot;: &quot;{\&quot;format\&quot;:\&quot;markdown\&quot;,\&quot;app\&quot;:\&quot;@hiveio/wax/1.27.6-rc1\&quot;,\&quot;tags\&quot;:[\&quot;my-article\&quot;],\&quot;description\&quot;:\&quot;This is my article!\&quot;,\&quot;image\&quot;:[\&quot;article.jpg\&quot;],\&quot;links\&quot;:[\&quot;https://example.com\&quot;]}&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;comment_options_operation&quot;,
+      &quot;value&quot;: {
+        &quot;author&quot;: &quot;your-account&quot;,
+        &quot;permlink&quot;: &quot;my-article-permlink&quot;,
+        &quot;max_accepted_payout&quot;: { &quot;amount&quot;: &quot;100&quot;, &quot;precision&quot;: 3, &quot;nai&quot;: &quot;@@000000021&quot; },
+        &quot;percent_hbd&quot;: 10000,
+        &quot;allow_votes&quot;: true,
+        &quot;allow_curation_rewards&quot;: true,
+        &quot;extensions&quot;: [
+          {
+            &quot;type&quot;: &quot;comment_payout_beneficiaries&quot;,
+            &quot;value&quot;: {
+              &quot;beneficiaries&quot;: [
+                {
+                  &quot;account&quot;: &quot;friend&quot;,
+                  &quot;weight&quot;: 40
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      &quot;type&quot;: &quot;comment_operation&quot;,
+      &quot;value&quot;: {
+        &quot;parent_author&quot;: &quot;your-account&quot;,
+        &quot;parent_permlink&quot;: &quot;my-article-permlink&quot;,
+        &quot;author&quot;: &quot;your-account&quot;,
+        &quot;permlink&quot;: &quot;re-your-account-1719935728826&quot;,
+        &quot;title&quot;: &quot;&quot;,
+        &quot;body&quot;: &quot;My reply body&quot;,
+        &quot;json_metadata&quot;: &quot;{\&quot;format\&quot;:\&quot;markdown\&quot;,\&quot;app\&quot;:\&quot;@hiveio/wax/1.27.6-rc1\&quot;,\&quot;tags\&quot;:[\&quot;my-reply\&quot;],\&quot;description\&quot;:\&quot;This is my reply!\&quot;,\&quot;image\&quot;:[\&quot;reply.jpg\&quot;],\&quot;links\&quot;:[\&quot;https://example.com\&quot;]}&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;comment_options_operation&quot;,
+      &quot;value&quot;: {
+        &quot;author&quot;: &quot;your-account&quot;,
+        &quot;permlink&quot;: &quot;re-your-account-1719935728826&quot;,
+        &quot;max_accepted_payout&quot;: { &quot;amount&quot;: &quot;100&quot;, &quot;precision&quot;: 3, &quot;nai&quot;: &quot;@@000000021&quot; },
+        &quot;percent_hbd&quot;: 10000,
+        &quot;allow_votes&quot;: true,
+        &quot;allow_curation_rewards&quot;: true,
+        &quot;extensions&quot;: [
+          {
+            &quot;type&quot;: &quot;comment_payout_beneficiaries&quot;,
+            &quot;value&quot;: {
+              &quot;beneficiaries&quot;: [
+                {
+                  &quot;account&quot;: &quot;friend&quot;,
+                  &quot;weight&quot;: 40
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  &quot;signatures&quot;: [
+    &quot;1f1eea6ee1577ae6fedab52ad1cc394b359ea00d0269267e2814a1ea532481329b35ca591a4656414c0fcacd432d40a2ab997f7da29d5686d5cc9207867e0f417d&quot;
+  ]
+}
+
+// operationFactoriesTx
+{
+  &quot;ref_block_num&quot;: 32101,
+  &quot;ref_block_prefix&quot;: 2985086707,
+  &quot;expiration&quot;: &quot;2024-07-02T15:56:29&quot;,
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;recurrent_transfer_operation&quot;,
+      &quot;value&quot;: {
+        &quot;from&quot;: &quot;your-account&quot;,
+        &quot;to&quot;: &quot;friend&quot;,
+        &quot;amount&quot;: { &quot;amount&quot;: &quot;100&quot;, &quot;precision&quot;: 3, &quot;nai&quot;: &quot;@@000000021&quot; },
+        &quot;memo&quot;: &quot;Daily pay&quot;,
+        &quot;recurrence&quot;: 24,
+        &quot;executions&quot;: 30
+      }
+    },
+    {
+      &quot;type&quot;: &quot;update_proposal_operation&quot;,
+      &quot;value&quot;: {
+        &quot;proposal_id&quot;: &quot;1&quot;,
+        &quot;creator&quot;: &quot;your-account&quot;,
+        &quot;daily_pay&quot;: { &quot;amount&quot;: &quot;100&quot;, &quot;precision&quot;: 3, &quot;nai&quot;: &quot;@@000000021&quot; },
+        &quot;subject&quot;: &quot;Proposal Update&quot;,
+        &quot;permlink&quot;: &quot;proposal-update&quot;,
+        &quot;extensions&quot;: [
+          {
+            &quot;type&quot;: &quot;update_proposal_end_date&quot;,
+            &quot;value&quot;: {
+              &quot;end_date&quot;: &quot;2023-03-14T00:00:00&quot;
+            }
+          }
+        ]
+      }
+    },
+    {
+      &quot;type&quot;: &quot;witness_set_properties_operation&quot;,
+      &quot;value&quot;: {
+        &quot;owner&quot;: &quot;your-account&quot;,
+        &quot;props&quot;: [
+          [ &quot;account_creation_fee&quot;, &quot;307500000000000003535445454d0000&quot; ],
+          [ &quot;hbd_interest_rate&quot;, &quot;ee02&quot; ],
+          [ &quot;key&quot;, &quot;03d61d6fa3124160f86e1f870328e4ee1c4956529f3e001a3ce466d192bd4e07ab&quot; ],
+          [ &quot;maximum_block_size&quot;, &quot;00000100&quot; ],
+          [ &quot;url&quot;, &quot;1368747470733a2f2f6578616d706c652e636f6d&quot; ]
+        ]
+      }
+    }
+  ],
+  &quot;signatures&quot;: [
+    &quot;1fb7cb30e685afdf928d14a8a04a0e8d75511137d72db7e5be0a79d633b54795ee097f2b4cacbfbff1b0f470cbed35146bd35d09ae3987cd6dcf3db0df8bca84e4&quot;
+  ]
+}
+
+// otherOperationsTx
+{
+  &quot;ref_block_num&quot;: 32101,
+  &quot;ref_block_prefix&quot;: 2985086707,
+  &quot;expiration&quot;: &quot;2024-07-02T15:56:29&quot;,
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;custom_json_operation&quot;,
+      &quot;value&quot;: {
+        &quot;required_posting_auths&quot;: [ &quot;your-account&quot; ],
+        &quot;id&quot;: &quot;follow&quot;,
+        &quot;json&quot;: &quot;[\&quot;follow\&quot;,{\&quot;follower\&quot;:\&quot;your-account\&quot;,\&quot;following\&quot;:\&quot;blog-to-follow\&quot;,\&quot;what\&quot;:[\&quot;blog\&quot;]}]&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;custom_json_operation&quot;,
+      &quot;value&quot;: {
+        &quot;required_posting_auths&quot;: [ &quot;your-account&quot; ],
+        &quot;id&quot;: &quot;follow&quot;,
+        &quot;json&quot;: &quot;[\&quot;follow\&quot;,{\&quot;follower\&quot;:\&quot;your-account\&quot;,\&quot;following\&quot;:\&quot;blog-to-mute\&quot;,\&quot;what\&quot;:[\&quot;ignore\&quot;]}]&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;custom_json_operation&quot;,
+      &quot;value&quot;: {
+        &quot;required_posting_auths&quot;: [ &quot;your-account&quot; ],
+        &quot;id&quot;: &quot;follow&quot;,
+        &quot;json&quot;: &quot;[\&quot;reblog\&quot;,{\&quot;account\&quot;:\&quot;your-account\&quot;,\&quot;author\&quot;:\&quot;to-reblog\&quot;,\&quot;permlink\&quot;:\&quot;post-permlink\&quot;}]&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;custom_json_operation&quot;,
+      &quot;value&quot;: {
+        &quot;required_posting_auths&quot;: [ &quot;your-account&quot; ],
+        &quot;id&quot;: &quot;rc&quot;,
+        &quot;json&quot;: &quot;[\&quot;delegate_rc\&quot;,{\&quot;from\&quot;:\&quot;your-account\&quot;,\&quot;delegatees\&quot;:[\&quot;friend\&quot;],\&quot;max_rc\&quot;:\&quot;1000\&quot;,\&quot;extensions\&quot;:[]}]&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;custom_json_operation&quot;,
+      &quot;value&quot;: {
+        &quot;required_posting_auths&quot;: [ &quot;your-account&quot; ],
+        &quot;id&quot;: &quot;community&quot;,
+        &quot;json&quot;: &quot;[\&quot;subscribe\&quot;,{\&quot;community\&quot;:\&quot;communityName\&quot;}]&quot;
+      }
+    },
+    {
+      &quot;type&quot;: &quot;custom_json_operation&quot;,
+      &quot;value&quot;: {
+        &quot;required_posting_auths&quot;: [ &quot;your-account&quot; ],
+        &quot;id&quot;: &quot;community&quot;,
+        &quot;json&quot;: &quot;[\&quot;flagPost\&quot;,{\&quot;community\&quot;:\&quot;community-name\&quot;,\&quot;account\&quot;:\&quot;author-account\&quot;,\&quot;permlink\&quot;:\&quot;post-permlink\&quot;,\&quot;notes\&quot;:\&quot;violation notes\&quot;}]&quot;
+      }
+    }
+  ],
+  &quot;signatures&quot;: [
+    &quot;1fdce7303d535ca89b99c501113b36076586374d9ddc481519db70c94ea54fd23214b0a8353799008afa35d9f53c5bdd6b943fd132db506b6c5f26854a821dfd7e&quot;
+  ]
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
+<doc-tab v-cloak id="python">
+<template #title>Python</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/python/transaction/example_usage/example_usage/full_transaction_usage.py">src/python/transaction/example_usage/example_usage/full_transaction_usage.py</a></div>
+<pre translate="no" class="language-python"><code v-pre class="language-python">import asyncio
+import secrets
+import string
+
+from beekeepy import AsyncBeekeeper
+from wax import create_hive_chain, create_wax_foundation
+from wax.complex_operations.account_update import AccountAuthorityUpdateOperation
+from wax.complex_operations.witness_set_properties import WitnessSetProperties, WitnessSetPropertiesData
+from wax.proto.operations import vote
+
+
+async def main():
+    # Create a Wax Foundation instance
+    my_wax = create_wax_foundation()
+
+    # Initialize hive chain interface
+    chain = create_hive_chain()
+
+    # Initialize beekeeper instance
+    bk = await AsyncBeekeeper.factory()
+
+    # Initialize beekeeper session
+    session = await bk.create_session(salt=&quot;salt&quot;)
+
+    # Create personal wallet
+    wallet = await session.create_wallet(name=&quot;my_wallet&quot;, password=&quot;my_wallet_password&quot;)
+    await wallet.unlock(password=&quot;my_wallet_password&quot;)
+
+    async with bk:
+        async with wallet:
+            # Declare example account name
+            account_name = &quot;your-account&quot;
+
+            # Declare example password for generating private key
+            characters = string.ascii_letters + string.digits + string.punctuation
+            master_password = &quot;&quot;.join(secrets.choice(characters) for _ in range(24))
+
+            # Generating a new posting private key from a password
+            private_posting_key_data = my_wax.get_private_key_from_password(
+                account=account_name, role=&quot;posting&quot;, password=master_password
+            )
+
+            # Import the posting private key into the wallet
+            public_posting_signing_key = await wallet.import_key(private_key=private_posting_key_data.wif_private_key)
+
+            # Generating a new active private key from a password
+            private_active_key_data = my_wax.get_private_key_from_password(
+                account=account_name, role=&quot;active&quot;, password=master_password
+            )
+
+            # Import the active private key into the wallet
+            public_active_signing_key = await wallet.import_key(private_key=private_active_key_data.wif_private_key)
+
+            # Generating a new encryption private key from a password
+            private_memo_key_data = my_wax.get_private_key_from_password(
+                account=account_name, role=&quot;memo&quot;, password=master_password
+            )
+
+            # Import the memo private key into the wallet
+            public_memo_signing_key = await wallet.import_key(private_key=private_memo_key_data.wif_private_key)
+
+            # ==============================================================
+            #                    Simple operation scenario
+            # ==============================================================
+
+            # Initialize a transaction object
+            simple_operation_tx = await chain.create_transaction()
+
+            vote_op = vote(voter=&quot;voter&quot;, author=&quot;test-author&quot;, permlink=&quot;test-permlink&quot;, weight=2200)
+
+            # Push simple vote operation into previously initialized transaction
+            simple_operation_tx.push_operation(vote_op)
+
+            # Sign and build the transaction
+            await simple_operation_tx.sign(wallet=wallet, public_key=public_active_signing_key)
+            # Log the simple transaction into console in API form
+            print(simple_operation_tx.to_api())
+
+            # Call actual broadcast API to send transaction to the blockchain.
+            # The code is commented out because examples does not have access to
+            # Hive mainnet keys.
+            # await chain.broadcast(transaction=simple_operation_tx)
+
+            # =============================================================
+            #                 Account authority update scenario
+            # =============================================================
+
+            # This example will create account_update2_operation
+
+            # Create a transaction
+            account_update_tx = await chain.create_transaction()
+
+            # Use AccountAuthorityUpdateOperation to create
+            # new account_update2_operation with all the fields initialized
+
+            # Create online operation - createFor will parse authorities for &quot;gtg&quot; account from the chain
+            account_authority_update_op = await AccountAuthorityUpdateOperation.create_for(chain, account_name=&quot;gtg&quot;)
+
+            # role method squashes all authority categories and allows you to select
+            # specific ones to modify in a user-friendly interface
+            has_gandalf_auth = account_authority_update_op.roles.active.has(&quot;gandalf&quot;)
+            print(f&quot;Has Gandalf Auth:&quot;, {has_gandalf_auth})
+
+            # Add frodo authority with weight 2
+            account_authority_update_op.roles.active.add(account_or_key=&quot;frodo&quot;, weight=2)
+
+            # Update the memo key
+            account_authority_update_op.roles.memo.set(&quot;STM8GC13uCZbP44HzMLV6zPZGwVQ8Nt4Kji8PapsPiNq1BK153XTX&quot;)
+
+            # You can also iterate over different authority levels from given category, to perform batch operations
+            print(&quot;Current account authority:&quot;)
+
+            for role in account_authority_update_op.categories.hive:
+                print(f&quot;{role.level}&quot;, &quot;:&quot;, {str(role.value)})
+
+            # Push operation to the transaction
+            account_update_tx.push_operation(account_authority_update_op)
+
+            # Sign and build the transaction
+            await account_update_tx.sign(wallet=wallet, public_key=public_posting_signing_key)
+
+            # Log the article transaction into console in API form
+            print(account_update_tx.to_api())
+
+            # Call actual broadcast API to send transaction to the blockchain.
+            # The code is commented out because examples does not have access
+            # to Hive mainnet keys.
+            # await chain.broadcast(transaction=account_update_tx)
+
+            # =============================================================
+            #                 WitnessSetProperties scenario
+            # =============================================================
+
+            # This example will create witness_set_properties_operation
+
+            # Create a transaction
+            witness_set_properties_tx = await chain.create_transaction()
+
+            # Use WitnessSetProperties and WitnessSetPropertiesData to create
+            # new witness_set_properties_operation with all the fields initialized
+            witness_set_properties_op = WitnessSetProperties(
+                data=WitnessSetPropertiesData(
+                    owner=account_name,
+                    witness_signing_key=public_posting_signing_key,
+                    maximum_block_size=65536,
+                    hbd_interest_rate=750,
+                    account_creation_fee=chain.hive.coins(300),
+                    url=&quot;https://example.com&quot;,
+                )
+            )
+
+            # Push operation to the transaction
+            witness_set_properties_tx.push_operation(witness_set_properties_op)
+
+            # Sign and build the transaction
+            await witness_set_properties_tx.sign(wallet=wallet, public_key=public_active_signing_key)
+
+            # Log the article transaction into console in API form
+            print(witness_set_properties_tx.to_api())
+
+            # Call actual broadcast API to send transaction to the blockchain.
+            # The code is commented out because examples does not have access
+            # to Hive mainnet keys.
+            # await chain.broadcast(transaction=witness_set_properties_tx)
+
+
+asyncio.run(main())</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">// vote_operation example
+{
+   &quot;ref_block_num&quot;:17278,
+   &quot;ref_block_prefix&quot;:212961194,
+   &quot;expiration&quot;:&quot;2025-09-10T13:27:11&quot;,
+   &quot;operations&quot;:[
+      {
+         &quot;type&quot;:&quot;vote_operation&quot;,
+         &quot;value&quot;:{
+            &quot;voter&quot;:&quot;voter&quot;,
+            &quot;author&quot;:&quot;test-author&quot;,
+            &quot;permlink&quot;:&quot;test-permlink&quot;,
+            &quot;weight&quot;:2200
+         }
+      }
+   ],
+   &quot;extensions&quot;:[],
+   &quot;signatures&quot;:[
+      &quot;1f3210995ffd58567d1b067dad09e0102cc209fe8ef2d6b4189b8b8fc32aa7698b2cefa4648d4830e458990366f16187d376e9b353a22c6fc5de38a0c1f729b53a&quot;
+   ]
+}
+
+
+// account_update2_operation example
+{
+   &quot;ref_block_num&quot;:17278,
+   &quot;ref_block_prefix&quot;:212961194,
+   &quot;expiration&quot;:&quot;2025-09-10T13:27:11&quot;,
+   &quot;operations&quot;:[
+      {
+         &quot;type&quot;:&quot;account_update2_operation&quot;,
+         &quot;value&quot;:{
+            &quot;account&quot;:&quot;gtg&quot;,
+            &quot;active&quot;:{
+               &quot;weight_threshold&quot;:1,
+               &quot;account_auths&quot;:[
+                  [
+                     &quot;frodo&quot;,
+                     2
+                  ]
+               ],
+               &quot;key_auths&quot;:[
+                  [
+                     &quot;STM8NWQYG4BvjGNu8zqqV9fbR7aSCZHcxkVib41PYnpGmPRe6BHVG&quot;,
+                     1
+                  ]
+               ]
+            },
+            &quot;memo_key&quot;:&quot;STM8GC13uCZbP44HzMLV6zPZGwVQ8Nt4Kji8PapsPiNq1BK153XTX&quot;,
+            &quot;json_metadata&quot;:&quot;&quot;,
+            &quot;posting_json_metadata&quot;:&quot;&quot;,
+            &quot;extensions&quot;:[]
+         }
+      }
+   ],
+   &quot;extensions&quot;:[],
+   &quot;signatures&quot;:[
+      &quot;1fd29fcb695d4ac7680dd1f09904b1302c02dbed32d36d3a475ae9f0b3541db37701ebde5132bb38a7d6381bf58c1b3ebb741016bd71ec66cdcf885b82680b65eb&quot;
+   ]
+}
+
+// witness_set_properties_operation example
+{
+   &quot;ref_block_num&quot;:17278,
+   &quot;ref_block_prefix&quot;:212961194,
+   &quot;expiration&quot;:&quot;2025-09-10T13:27:11&quot;,
+   &quot;operations&quot;:[
+      {
+         &quot;type&quot;:&quot;witness_set_properties_operation&quot;,
+         &quot;value&quot;:{
+            &quot;owner&quot;:&quot;your-account&quot;,
+            &quot;props&quot;:[
+               [
+                  &quot;account_creation_fee&quot;,
+                  &quot;e0930400000000002320bcbe&quot;
+               ],
+               [
+                  &quot;hbd_interest_rate&quot;,
+                  &quot;ee02&quot;
+               ],
+               [
+                  &quot;key&quot;,
+                  &quot;02eb1b5b1c1c8eccb4ec9883ec43feef355516853cb665fc05c40a65ac0b2ff6c9&quot;
+               ],
+               [
+                  &quot;maximum_block_size&quot;,
+                  &quot;00000100&quot;
+               ],
+               [
+                  &quot;url&quot;,
+                  &quot;1368747470733a2f2f6578616d706c652e636f6d&quot;
+               ]
+            ],
+            &quot;extensions&quot;:[]
+         }
+      }
+   ],
+   &quot;extensions&quot;:[],
+   &quot;signatures&quot;:[
+      &quot;20fd4edef6cc2d024d2dcb1e171d5e7422f8254a236b48771e474ef4c1d54696af7dbe73dd3f5adb72d584db96214602b6e27f88bc7d6155cdd3360f8a137db38b&quot;
+   ]
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
+</doc-tabs>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../interfaces/transaction/hive-apps-operations/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Hive Apps Operations</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../interfaces/transaction/example-usage/advanced-usage/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Advanced usage</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
+                                        </li>
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/7d6c04a4/">Version: 7d6c04a4</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Example usage", level: 3, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
