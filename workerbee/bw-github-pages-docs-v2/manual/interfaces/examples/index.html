@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-root" content="/workerbee-doc/-/bw-github-pages-docs-v2">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823524918168">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Advanced Examples | WorkerBee &#128218;</title>
+    <meta name="title" content="Advanced Examples | WorkerBee 📚">
+    <meta name="description" content="Explore sophisticated use cases and patterns with WorkerBee. These examples demonstrate real-world applications and advanced techniques.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://hive.pages.syncad.com/workerbee-doc/-/bw-github-pages-docs-v2/interfaces/examples/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hive.pages.syncad.com/workerbee-doc/-/bw-github-pages-docs-v2/interfaces/examples/">
+    <meta property="og:title" content="Advanced Examples | WorkerBee 📚">
+    <meta property="og:description" content="Explore sophisticated use cases and patterns with WorkerBee. These examples demonstrate real-world applications and advanced techniques.">
+    <meta property="og:image" content="https://hive.pages.syncad.com/workerbee-doc/-/bw-github-pages-docs-v2/static/advanced-examples/tg-bot.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hive.pages.syncad.com/workerbee-doc/-/bw-github-pages-docs-v2/interfaces/examples/">
+    <meta property="twitter:title" content="Advanced Examples | WorkerBee 📚">
+    <meta property="twitter:description" content="Explore sophisticated use cases and patterns with WorkerBee. These examples demonstrate real-world applications and advanced techniques.">
+    <meta property="twitter:image" content="https://hive.pages.syncad.com/workerbee-doc/-/bw-github-pages-docs-v2/static/advanced-examples/tg-bot.png">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.11.0.823524918168" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.823524918168" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.823524918168" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.823524918168" defer></script>
+
+    <style>
+      /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
+
+      :root {
+        /* oklch values for Hive theme - https://oklch.com/ */
+        --hive-lightness:       0.58;
+        --hive-lightness-hover: 0.48;
+        --hive-chroma:          0.2;
+
+        --hive-primary:         var(--hive-lightness)       var(--hive-chroma) 24;
+        --hive-primary-hover:   var(--hive-lightness-hover) var(--hive-chroma) 30;
+        --hive-primary-text:    var(--hive-lightness)       var(--hive-chroma) 15;
+
+        --hive-callout-primary: var(--hive-lightness) 0.044 265;
+      }
+
+      .text-base-500, .text-badge-primary-text, button, .text-badge-info-text {
+        color: oklch(var(--hive-primary-text)) !important;
+      }
+
+      .hover\:border-base-border-hover:hover {
+        border-color: oklch(var(--hive-primary-hover)) !important;
+      }
+      .border-badge-primary-border, .border-badge-info-border {
+        border-color: oklch(var(--hive-primary)  / .2) !important;
+      }
+      .border-gray-400 {
+        border-color: oklch(var(--hive-primary-hover) / .9) !important;
+      }
+
+      .bg-gray-100 {
+        background-color: oklch(var(--hive-primary-hover) / .05) !important;
+      }
+      .bg-gray-200, .hover\:bg-nav-item-bg-hover:hover, .bg-badge-info {
+        background-color: oklch(var(--hive-primary-hover) / .1) !important;
+      }
+
+      .text-nav-item-text-active, .bg-badge-primary, .bg-base-item-bg:hover, .hover\:bg-gray-200:hover, .hover\:bg-base-item-bg-hover:hover,
+      .bg-base-item-bg-hover, button.scheme-menu-item:hover, .scheme-menu-item-active {
+        background-color: oklch(var(--hive-primary) / .1) !important;
+      }
+
+      a.text-toc-text-active, a.hover\:text-toc-text-hover:hover, .text-branding-label-text, .text-nav-item-text-active,
+      nav a, footer a, a.header-anchor-trigger, .retype-markdown a {
+        color: oklch(var(--hive-primary)) !important;
+      }
+
+      .hover\:bg-nav-item-bg-hover:hover > a > span, .dark button:hover,
+      button:hover, nav a:hover, footer a:hover, .retype-markdown a:hover,
+      .retype-markdown div > h1 > .header-anchor-trigger:hover, .retype-markdown div > h2 > .header-anchor-trigger:hover,
+      .retype-markdown div > h3 > .header-anchor-trigger:hover, .retype-markdown div > h4 > .header-anchor-trigger:hover,
+      .retype-markdown div > h5 > .header-anchor-trigger:hover, .retype-markdown div > h6 > .header-anchor-trigger:hover {
+        color: oklch(var(--hive-primary-hover)) !important;
+      }
+
+      .border-tab-border-active {
+        border-color: oklch(var(--hive-primary)) !important;
+      }
+
+      .bg-toc-border-active, .bg-nav-item-border-active {
+        background-color: oklch(var(--hive-primary)) !important;
+      }
+
+      .ring-1 {
+        box-shadow: 0 0 0 1px oklch(var(--hive-primary)) !important;
+      }
+
+      /* Override default callout colors to match secondary one - this is to avoid confusion with error callouts */
+      .text-callout-primary {
+        color: oklch(var(--hive-callout-primary)) !important;
+      }
+      .bg-callout-primary {
+        background-color: oklch(var(--hive-callout-primary)) !important;
+      }
+    </style>
+    <script>
+      // This code is responsible for persisting the selected programming language
+      {
+        const languages = {
+          'javascript': [],
+          'python': []
+        };
+        const languageKeys = Object.keys(languages);
+
+        const originalHistoryPush = history.pushState;
+        history.pushState = function(...args) {
+          const url = new URL(args[2]);
+          if (url.host !== window.location.host)
+            return originalHistoryPush.apply(this, args); // Do not interfere with external links
+
+          const lang = window.localStorage.getItem('lang');
+          if (lang) {
+            // We could use the official Retype supported syntax, but it is not persistant over multiple websites,
+            // We also cannot link to a specific section when using the hash syntax and when used, it scrolls down.
+            // We can uncomment the following code when Retype makes it work better or adds some official support for persistant state tabs.
+            // const hash = url.hash.slice(1); if (!hash || languageKeys.includes(hash)) url.hash = `#${lang}`; else
+            // For now we have to use the query syntax:
+            url.searchParams.set('lang', lang);
+            args[2] = url.toString();
+          }
+          return originalHistoryPush.apply(this, args);
+        };
+
+        let previousLang;
+
+        window.addEventListener('DOMContentLoaded', () => {
+          // Also apply the current language periodically.
+          const applyLanguage = () => {
+            const lang = window.localStorage.getItem('lang');
+            if (!lang)
+              return;
+            languages[lang].forEach(el => {
+              el.click();
+            });
+          }
+          // Tab items are generated on the client side based on the templates, so we need to wait for them to be available.
+          // Also the entire DOM of the document.body can be replaced, invalidating all of our components, so we have to re-gather them periodically.
+          const gatherNodes = () => {
+            Object.keys(languages).forEach(async lang => {
+              let langNodes;
+              while(true) {
+                langNodes = document.querySelectorAll(`div#${lang} > a`);
+                if (langNodes.length > 0)
+                  break;
+
+                await new Promise(resolve => setTimeout(resolve, 50));
+              }
+
+              if (langNodes[0] === languages[lang][0])
+                return; // Already applied on click event
+
+              languages[lang] = langNodes;
+
+              languages[lang].forEach(el => {
+                el.addEventListener("click", event => {
+                  if (!event.isTrusted) return; // Ignore non-user-initiated events
+                  window.localStorage.setItem('lang', lang);
+                  applyLanguage();
+                  // Change the user location for the SEO - load other languages snippets and documentation
+                  window.history.pushState(null, '', window.location.href);
+                });
+              });
+              applyLanguage();
+            });
+          };
+          setInterval(gatherNodes, 200);
+          setInterval(applyLanguage, 1000);
+          const url = new URL(window.location.href);
+          const lang = url.searchParams.get('lang');
+          if (lang) // On hard refresh, or on first visit, when lang in query provided - apply this setting
+            window.localStorage.setItem('lang', lang);
+        });
+      }
+    </script>
+
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/hive.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/hive.svg">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">WorkerBee Docs</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">1.27.6-rc13</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.io" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Hive Website</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.blog" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Hive Blog</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://gitlab.syncad.com/hive/workerbee" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>WorkerBee GitLab</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://www.npmjs.com/package/@hiveio/workerbee" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>NPM package</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.io" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Hive Website</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.blog" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Hive Blog</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://gitlab.syncad.com/hive/workerbee" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>WorkerBee GitLab</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://www.npmjs.com/package/@hiveio/workerbee" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>NPM package</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="advanced-examples" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#advanced-examples">#</doc-anchor-trigger>
+        <span>Advanced Examples</span>
+    </h1>
+</doc-anchor-target>
+<p>Explore sophisticated use cases and patterns with WorkerBee. These examples demonstrate real-world applications and advanced techniques.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Dependencies &amp; Environment Variables</h5>
+<p>Some examples use the <a href="https://npmjs.com/package/dotenv">dotenv</a> package to read from a <a href="https://www.dotenv.org/docs/security/env#example">.env</a> file.</p>
+<p>Create a <code v-pre>.env</code> file in your project root with the specified by each example environment variables.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>TypeScript Support</h5>
+<p>If you are working with TypeScript, ensure you have the necessary type definitions installed:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">pnpm add -D @types/node</code></pre>
+</doc-codeblock></div>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="robot_face-nodejs-intelligent-voting-bot">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#robot_face-nodejs-intelligent-voting-bot">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F916;</span> Node.js Intelligent Voting Bot</span>
+    </h2>
+</doc-anchor-target>
+<p>A smart voting bot that considers multiple factors before casting votes.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Environment Variables</h5>
+<ul>
+<li><code v-pre>POSTING_WIF_KEY</code> - Posting private key for your Hive account.</li>
+<li><code v-pre>HIVE_ACCOUNT</code> - Your Hive account name used for voting.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Prepare imports
+import createBeekeeper from '@hiveio/beekeeper';
+import BeekeeperProvider from '@hiveio/wax-signers-beekeeper';
+import { createHiveChain, EManabarType } from '@hiveio/wax';
+import WorkerBee from '@hiveio/workerbee';
+import dotenv from 'dotenv';
+
+// Load .env variables
+dotenv.config();
+
+const temporaryWalletName = &quot;w0&quot;;
+const privateKey = process.env.POSTING_WIF_KEY as string;
+const accountName = process.env.HIVE_ACCOUNT as string;
+
+// Initialize @hiveio packages
+const wax = await createHiveChain();
+
+// Create temporary in-memory Beekeeper instance for more convenient key management
+const beekeeper = await createBeekeeper({ inMemory: true });
+const session = beekeeper.createSession(&quot;salt&quot; + Math.random());
+
+// As we are using in-memory beekeeper, we need to create and import keys on each run
+const { wallet } = await session.createWallet(temporaryWalletName, Math.random().toString(), true);
+const publicKey = await wallet.importKey(privateKey);
+
+const beekeeperProvider = BeekeeperProvider.for(wax, wallet, publicKey);
+
+// Initialize WorkerBee with explicit Hive chain to prevent unnecessary reinitialization
+// This is highly recommended, but not breaking nor strictly required for the app to work
+const wb = new WorkerBee({
+  explicitChain: wax
+});
+await wb.start();
+
+// Define function for upvoting posts
+const upvote = async (author: string, permlink: string) =&gt; {
+  // Catch errors here so they can be logged but won't discard the whole voting stream
+  try {
+    const tx = await wax.createTransaction();
+    tx.pushOperation({
+      vote_operation: {
+        author,
+        permlink,
+        voter: accountName,
+        weight: 10000 // 100% upvote
+      }
+    });
+
+    // Sign the transaction with Beekeeper
+    await beekeeperProvider.signTransaction(tx);
+
+    // Broadcast the transaction to the Hive network
+    await wax.broadcast(tx);
+
+    console.log(`Upvoted @${author}/${permlink} with 100% weight @ tx #${tx.id}`);
+  } catch (error) {
+    console.error(&quot;Upvote error:&quot;, error);
+  }
+};
+
+// Actual bot code
+wb.observe
+  // Listen to new posts by specified accounts
+  .onPosts(&quot;gtg&quot;, &quot;blocktrades&quot;, &quot;thebeedevs&quot;)
+  // Provide upvote manabar data for me to check if I can upvote
+  .provideManabarData(EManabarType.UPVOTE, accountName)
+  .subscribe({
+    // Error handling callback:
+    error: console.error,
+    // This function can be async too with no error handling on my side as it will be automatically forwarded to error callback
+    next: async ({ manabarData, posts }) =&gt; {
+      const manabarLoad = manabarData.gtg?.[EManabarType.UPVOTE]?.percent;
+
+      // No manabar data available, skip
+      // This can happen if the account does not exist
+      if (manabarLoad === undefined) return;
+      console.log(`New posts detected. @${accountName} upvote manabar load: ${manabarLoad}%`);
+
+      if (manabarLoad &gt;= 98) {
+        for(const author in posts) {
+          for(const post of posts[author]) {
+            console.log(`Upvoting @${post.author}/${post.permlink}...`);
+
+            // Note: This function is async, but we don't await it here to avoid blocking the stream
+            upvote(post.author, post.permlink);
+          }
+        }
+      }
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="closed_lock_with_key-telegram-authorization-bot">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#closed_lock_with_key-telegram-authorization-bot">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F510;</span> Telegram Authorization Bot</span>
+    </h2>
+</doc-anchor-target>
+<p>A bot that proofs user Hive account ownership via Telegram. <strong>No more guessing usernames!</strong></p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Environment Variables</h5>
+<ul>
+<li><code v-pre>BOT_TOKEN</code> - Telegram bot token from <a href="https://core.telegram.org/bots/features#creating-a-new-bot">BotFather</a></li>
+<li><code v-pre>BRIDGE_URL</code> - URL of your Hive dAppAuth bridge instance. This would be usually <a href="https://auth.openhive.network">https://auth.openhive.network</a> or similar.</li>
+<li><code v-pre>HIVE_ACCOUNT</code> - Your Hive account name used as a dApp identifier in the dAppAuth operations. This wil be displayed to users when they authorize.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Prepare imports
+import { Telegraf } from 'telegraf';
+import WorkerBee from '@hiveio/workerbee';
+import dotenv from 'dotenv';
+
+// Load .env variables
+dotenv.config();
+
+// Initialize WorkerBee and Telegram bot
+const wb = new WorkerBee();
+await wb.start();
+
+const tg = new Telegraf(process.env.BOT_TOKEN as string);
+
+// Handle /start command
+tg.start(ctx =&gt; {
+  ctx.reply(`${process.env.BRIDGE_URL}/automation/authorize?code=${ctx.message.from.id}&amp;app=${process.env.HIVE_ACCOUNT}`)
+});
+tg.launch();
+
+// Track already authorized users to avoid spamming
+const alreadyAuthorized = new Set&lt;string&gt;();
+
+// Listen for dappauth operations
+wb.observe
+  .onCustomOperation(&quot;dappauth&quot;) // This custom operation is used by dAppAuth
+  .subscribe({
+    // Log all errors:
+    error: console.error,
+    // Process new operations:
+    next: async ({ customOperations }) =&gt; {
+      for(const { operation } of (customOperations.dappauth || [])) {
+        if (&quot;json&quot; in operation) {
+          try {
+            // Parse JSON data
+            const { dapp, code } = JSON.parse(operation.json);
+
+            // Only process operations for our dapp
+            if (dapp !== process.env.HIVE_ACCOUNT) continue;
+
+            // Skip if already authorized
+            if (alreadyAuthorized.has(code)) continue;
+
+            // Send confirmation message to user
+            await tg.telegram.sendMessage(code, `You have successfully logged in as @${operation.required_posting_auths.join(', @')}`);
+
+            // Mark this code as authorized
+            alreadyAuthorized.add(code);
+          } catch (e) {
+            console.error(&quot;Invalid JSON in dappauth operation:&quot;, operation.json);
+          }
+        }
+      }
+    }
+  });
+
+// Enable graceful stop
+process.once('SIGINT', () =&gt; { wb.stop(); tg.stop('SIGINT') })
+process.once('SIGTERM', () =&gt; { wb.stop(); tg.stop('SIGTERM') })</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="authorization-flow">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#authorization-flow">#</doc-anchor-trigger>
+        <span>Authorization flow</span>
+    </h3>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../static/advanced-examples/tg-bot.png" alt="Telegram Bot Message" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Telegram Bot Message</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="../../static/advanced-examples/tg-auth.png" alt="Authorization window" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Authorization window</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="bell-rss-advanced-notification-system">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bell-rss-advanced-notification-system">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F514;</span> RSS Advanced Notification System</span>
+    </h2>
+</doc-anchor-target>
+<p>A comprehensive notification system for RSS feeds regarding critical account updates.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>RSS clients</h5>
+<p>For testing, you can use any RSS reader app or website. Some popular options include:</p>
+<ul>
+<li><a href="https://feedly.com/news-reader#:%7E:text=RSS">Feedly</a></li>
+<li><a href="https://www.inoreader.com/blog/2024/01/stay-in-the-know-with-monitoring-feeds.html">Inoreader</a></li>
+<li><a href="https://chromewebstore.google.com/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp">RSS Feed Reader Chrome Extension</a></li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Dependencies</h5>
+<ul>
+<li><code v-pre>express</code> - Web server to serve the RSS feed.</li>
+<li><code v-pre>cors</code> - Middleware to enable <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> for the RSS feed - may be required by some clients.</li>
+<li><code v-pre>@types/express</code>, <code v-pre>@types/cors</code> - TypeScript-only types for the above packages.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Prepare imports
+import WorkerBee, { EAlarmType } from &quot;@hiveio/workerbee&quot;;
+import express from 'express';
+import cors from 'cors';
+
+// Create express server with CORS enabled
+const app = express();
+app.use(cors());
+
+// Listen on port 3000
+const server = app.listen(3000);
+
+const wb = new WorkerBee();
+await wb.start();
+
+// Utility functions to stringify and describe alarm codes
+export const stringifyAlarmCode = (alarmCode: EAlarmType): string =&gt; {
+  switch (alarmCode) {
+    case EAlarmType.DECLINING_VOTING_RIGHTS:
+      return 'Declining voting rights is underway for the account';
+    case EAlarmType.GOVERNANCE_VOTE_EXPIRATION_SOON:
+      return 'Governance votes will expire soon';
+    case EAlarmType.GOVERNANCE_VOTE_EXPIRED:
+      return 'No active governance votes';
+    case EAlarmType.LEGACY_RECOVERY_ACCOUNT_SET:
+      return 'Your recovery account is listed as a warning account';
+    case EAlarmType.RECOVERY_ACCOUNT_IS_CHANGING:
+      return 'Setting the recovery account to is in progress';
+  }
+};
+export const describeAlarmCode = (alarmCode: EAlarmType): string =&gt; {
+  switch (alarmCode) {
+    case EAlarmType.DECLINING_VOTING_RIGHTS:
+      return 'You can cancel it by creating a decline operation with the `decline` value set to false before effective date';
+    case EAlarmType.GOVERNANCE_VOTE_EXPIRATION_SOON:
+    case EAlarmType.GOVERNANCE_VOTE_EXPIRED:
+      return 'You should cast votes for witnesses and proposals or set a proxy';
+    case EAlarmType.LEGACY_RECOVERY_ACCOUNT_SET:
+      return 'You should change it to account other than the warning account';
+    case EAlarmType.RECOVERY_ACCOUNT_IS_CHANGING:
+      return 'You can cancel it by setting a recovery account to the previous one';
+  }
+};
+
+const accountAlarms = new Map&lt;string, EAlarmType[]&gt;();
+
+let previousUnsubscribe = () =&gt; {};
+
+// This function is called to reinitialize the alarm listener whenever a new account is added
+// This is necessary because WorkerBee's onAlarm method requires the full list of accounts to observe
+const reinitializeAlarmListener = () =&gt; {
+  const observer = wb.observe.onAlarm(...accountAlarms.keys());
+
+  // Unsubscribe from previous subscription if exists and subscribe to a new one
+  previousUnsubscribe();
+
+  ({ unsubscribe: previousUnsubscribe } = observer.subscribe({
+    error: console.error,
+    next({ alarmsPerAccount }) {
+      // Clear the existing map before updating
+      accountAlarms.clear();
+
+      // Update the map with the new alarms for each account
+      for(const account in alarmsPerAccount)
+        accountAlarms.set(account, [...alarmsPerAccount[account]!]);
+    }
+  }));
+};
+
+app.get('/alarms/:account', (req, res, next) =&gt; {
+  if (!req.params.account) {
+    res.status(400).send('Account is required');
+    return;
+  }
+  if (!req.params.account.endsWith('.xml'))
+    return next();
+
+  const account = req.params.account.slice(0, -4);
+
+  let currentAccountAlarms = accountAlarms.get(account);
+  const isAlreadyObservingAccount = currentAccountAlarms !== undefined;
+
+  if (!isAlreadyObservingAccount) {
+    console.log(`🤖 📡 New account for alarms: ${account}`);
+    currentAccountAlarms = [];
+    accountAlarms.set(account, currentAccountAlarms);
+
+    reinitializeAlarmListener();
+  }
+
+  res.status(200).contentType('application/rss+xml').send(`&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;rss version=&quot;2.0&quot;&gt;
+  &lt;channel&gt;
+    &lt;title&gt;@${account} alarms&lt;/title&gt;
+    &lt;link&gt;https://hive.blog/@${account}&lt;/link&gt;
+    &lt;description&gt;Alarms for account Hive account @${account}&lt;/description&gt;${
+      currentAccountAlarms!.map(alarmCode =&gt; `
+    &lt;item&gt;
+      &lt;title&gt;${stringifyAlarmCode(alarmCode)}&lt;/title&gt;
+      &lt;link&gt;https://hive.blog/@${account}&lt;/link&gt;
+      &lt;description&gt;${describeAlarmCode(alarmCode)}&lt;/description&gt;
+    &lt;/item&gt;`).join('')}
+    &lt;language&gt;en-us&lt;/language&gt;
+    &lt;ttl&gt;1&lt;/ttl&gt;
+  &lt;/channel&gt;
+&lt;/rss&gt;`);
+    });
+
+console.log(`🐝 Observing for new accounts on RSS 🐝`);
+
+const stopFn = () =&gt; {
+  wb.stop();
+  wb.delete();
+  server.close(console.error);
+};
+process.once('SIGINT', stopFn.bind('SIGINT'));
+process.once('SIGTERM', stopFn.bind('SIGTERM'));</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="rss-feed-example">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rss-feed-example">#</doc-anchor-trigger>
+        <span>RSS Feed Example</span>
+    </h3>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../static/advanced-examples/rss-raw.png" alt="Raw RSS Feed Data" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Raw RSS Feed Data</figcaption>
+</figure>
+</p>
+<p><figure class="content-center">
+    <img src="../../static/advanced-examples/rss-client.png" alt="RSS Feed in Reader" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">RSS Feed in Reader</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="mag_right-ai-powered-content-quality-analyzer">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mag_right-ai-powered-content-quality-analyzer">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F50E;</span> AI-powered Content Quality Analyzer</span>
+    </h2>
+</doc-anchor-target>
+<p>Analyze and score content quality using various metrics.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Environment Variables</h5>
+<ul>
+<li><code v-pre>OPENAI_API_KEY</code> - Your OpenAI API key from <a href="https://platform.openai.com/account/api-keys">OpenAI</a></li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Dependencies</h5>
+<ul>
+<li><code v-pre>openai</code> - Official OpenAI SDK for API access.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Prepare imports
+import OpenAI from &quot;openai&quot;;
+import dotenv from &quot;dotenv&quot;;
+import WorkerBee from '@hiveio/workerbee';
+
+dotenv.config();
+
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+// Utility function wrapping the request creation
+const createRequest = (userContent: string) =&gt; openai.responses.create({
+  model: &quot;gpt-4.1-mini&quot;,
+  input: [
+    {
+      &quot;role&quot;: &quot;system&quot;,
+      &quot;content&quot;: [
+        {
+          &quot;type&quot;: &quot;input_text&quot;,
+          &quot;text&quot;: &quot;Calculate provided user post content quality regarding sentiment, engagement potential, spelling issues and overall readability score. Text can be provided in markdown or HTML syntax. Ignore syntax issue and focus only on the readable content&quot;
+        }
+      ]
+    },
+    {
+      &quot;role&quot;: &quot;user&quot;,
+      &quot;content&quot;: [
+        {
+          &quot;type&quot;: &quot;input_text&quot;,
+          &quot;text&quot;: userContent
+        }
+      ]
+    },
+  ],
+  text: {
+    // Define the structure of the response using JSON Schema standard
+    &quot;format&quot;: {
+      &quot;type&quot;: &quot;json_schema&quot;,
+      &quot;name&quot;: &quot;post_content_quality&quot;,
+      &quot;strict&quot;: true,
+      &quot;schema&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;sentiment&quot;: {
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;description&quot;: &quot;Overall sentiment of the post&quot;,
+            &quot;enum&quot;: [
+              &quot;Positive&quot;,
+              &quot;Neutral&quot;,
+              &quot;Negative&quot;,
+              &quot;Mixed&quot;
+            ]
+          },
+          &quot;engagement_potential&quot;: {
+            &quot;type&quot;: &quot;number&quot;,
+            &quot;minimum&quot;: 0,
+            &quot;maximum&quot;: 10,
+            &quot;description&quot;: &quot;Likelihood this content will prompt user interaction (0-10, higher is more engaging)&quot;
+          },
+          &quot;spelling_issues&quot;: {
+            &quot;type&quot;: &quot;boolean&quot;,
+            &quot;description&quot;: &quot;Whether there are spelling mistakes present in the post&quot;
+          },
+          &quot;readability_score&quot;: {
+            &quot;type&quot;: &quot;number&quot;,
+            &quot;minimum&quot;: 0,
+            &quot;maximum&quot;: 10,
+            &quot;description&quot;: &quot;Flesch reading ease score (0-10, higher is easier)&quot;
+          }
+        },
+        &quot;required&quot;: [
+          &quot;sentiment&quot;,
+          &quot;engagement_potential&quot;,
+          &quot;spelling_issues&quot;,
+          &quot;readability_score&quot;
+        ],
+        &quot;additionalProperties&quot;: false
+      }
+    }
+  },
+  temperature: 1,
+  max_output_tokens: 1000,
+  top_p: 1
+});
+
+const wb = new WorkerBee();
+await wb.start();
+
+wb.observe
+  .onBlock()
+  .provideBlockData()
+  .subscribe({
+    error: console.error,
+    next: async ({ block }) =&gt; {
+      for (const { transaction } of block.transactions) {
+        for (const op of transaction.operations) {
+          if (op.comment_operation) {
+            const permlink = `@${op.comment_operation.author}/${op.comment_operation.permlink}`;
+            try {
+              const response = await createRequest(op.comment_operation.body);
+              const result = JSON.parse(response.output_text);
+
+              console.log(`Post Content ${permlink} Quality Analysis:`, result);
+            } catch (error) {
+              console.error(`Error processing post ${permlink}:`, error);
+            }
+          }
+        }
+      }
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="example-output">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-output">#</doc-anchor-trigger>
+        <span>Example Output</span>
+    </h3>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../static/advanced-examples/ai-analysis.png" alt="Example AI analysis console output" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Example AI analysis console output</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="trophy-rest-api-achievement-system">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#trophy-rest-api-achievement-system">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F3C6;</span> REST API Achievement System</span>
+    </h2>
+</doc-anchor-target>
+<p>Gamify user engagement with an achievement system.</p>
+<p>This example also leverages the power of WorkerBee to analyze past operations and maintain a local state.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-primary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Dependencies</h5>
+<ul>
+<li><code v-pre>express</code> - Web server to serve the REST API.</li>
+<li><code v-pre>cors</code> - Middleware to enable <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> for the API - may be required by some clients.</li>
+<li><code v-pre>@types/express</code>, <code v-pre>@types/cors</code> - TypeScript-only types for the above packages.</li>
+</ul>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Prepare imports
+import WorkerBee, { IBlockProviderData } from &quot;@hiveio/workerbee&quot;;
+import express from 'express';
+import cors from 'cors';
+
+// Create express server with CORS enabled
+const app = express();
+app.use(cors());
+
+// Listen on port 3000
+const server = app.listen(3000);
+
+const wb = new WorkerBee({ chainOptions: {
+  // Disable timeout for long polling requests - we are collecting past data
+  apiTimeout: 0
+} });
+await wb.start();
+
+const accountVotes: Record&lt;string, number&gt; = {};
+const accountComments: Record&lt;string, number&gt; = {};
+
+// Utility function to stringify achievements
+const stringifyAccountAchievements = (account: string) =&gt; {
+  const votesCount = accountVotes[account] || 0;
+  const commentsCount = accountComments[account] || 0;
+  const achievements: string[] = [];
+
+  if (votesCount &gt;= 1) achievements.push('First Vote');
+  if (votesCount &gt;= 10) achievements.push('10 Votes');
+  if (votesCount &gt;= 50) achievements.push('50 Votes');
+  if (votesCount &gt;= 100) achievements.push('100 Votes');
+
+  if (commentsCount &gt;= 1) achievements.push('First Comment');
+  if (commentsCount &gt;= 10) achievements.push('10 Comments');
+  if (commentsCount &gt;= 50) achievements.push('50 Comments');
+  if (commentsCount &gt;= 100) achievements.push('100 Comments');
+
+  return achievements;
+};
+
+app.get('/achievements/:account', (req, res) =&gt; {
+  if (!req.params.account) {
+    res.status(400).send('Account is required');
+    return;
+  }
+
+  const account = req.params.account;
+
+  res.status(200).contentType('application/json').send({
+    account,
+    achievements: stringifyAccountAchievements(account)
+  });
+});
+
+const analyzeBlock = ({ block }: IBlockProviderData) =&gt; {
+  // Log every 1000th block
+  if (block.number % 1000 === 0)
+    console.log(`Analyzing block #${block.number}`);
+
+  for(const { transaction } of block.transactions)
+    for(const { vote_operation, comment_operation } of transaction.operations) {
+      if (vote_operation) {
+        const { voter, author } = vote_operation;
+        accountVotes[voter] = (accountVotes[voter] || 0) + 1;
+        accountComments[author] = (accountComments[author] || 0) + 1;
+      }
+
+      if (comment_operation) {
+        const { author } = comment_operation;
+        accountComments[author] = (accountComments[author] || 0) + 1;
+      }
+    }
+};
+
+(await wb.providePastOperations(&quot;-30m&quot;))
+  .onBlock()
+  .provideBlockData()
+  .subscribe({
+    error: console.error,
+    next: analyzeBlock,
+    complete: () =&gt; {
+      console.log('Completed past operations');
+
+      wb.observe
+        .onBlock()
+        .provideBlockData()
+        .subscribe({
+          error: console.error,
+          next: analyzeBlock
+        });
+    }
+  })
+
+const stopFn = () =&gt; {
+  wb.stop();
+  wb.delete();
+  server.close(console.error);
+};
+process.once('SIGINT', stopFn.bind('SIGINT'));
+process.once('SIGTERM', stopFn.bind('SIGTERM'));</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="example-api-output">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example-api-output">#</doc-anchor-trigger>
+        <span>Example API Output</span>
+    </h3>
+</doc-anchor-target>
+<blockquote>
+<p><code v-pre>curl -s http://localhost:3000/achievements/scifimultiverse | jq</code></p>
+</blockquote>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;account&quot;: &quot;scifimultiverse&quot;,
+  &quot;achievements&quot;: [
+    &quot;First Vote&quot;,
+    &quot;10 Votes&quot;,
+    &quot;First Comment&quot;
+  ]
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="love_letter-summary">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#love_letter-summary">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F48C;</span> Summary</span>
+    </h2>
+</doc-anchor-target>
+<p>These advanced examples showcase WorkerBee&#x27;s power for building sophisticated blockchain applications. Each example demonstrates different architectural patterns, real-world use cases, and advanced features of the library.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../interfaces/core-architecture/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Core Architecture</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../interfaces/api-reference/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">API Reference</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/workerbee-doc/-/blob/main/LICENSE.md">License</a>
+                                        </li>
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/workerbee-doc/-/blob/567711ee/">Version: 567711ee</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Advanced Examples", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>

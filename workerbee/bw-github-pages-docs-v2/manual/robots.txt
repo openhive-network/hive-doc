@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hive.pages.syncad.com/workerbee-doc/-/bw-github-pages-docs-v2/sitemap.xml.gz
