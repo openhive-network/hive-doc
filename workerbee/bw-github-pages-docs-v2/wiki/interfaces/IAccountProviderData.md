@@ -1,0 +1,17 @@
+[@hiveio/workerbee](../globals) / IAccountProviderData
+
+# Interface: IAccountProviderData\<TAccounts\>
+
+## Type Parameters
+
+• **TAccounts** *extends* `TAccountName`[]
+
+## Properties
+
+### accounts
+
+> **accounts**: `Partial`\<[`TAccountProvided`](../type-aliases/TAccountProvided)\<`TAccounts`\>\>
+
+#### Defined in
+
+[src/chain-observers/providers/account-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/providers/account-provider.ts#L13)
