@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L8)
+[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/2f0aa97c17fb0fa1f30220cb74fec9c62bf0cce9/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L8)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L11)
+[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/2f0aa97c17fb0fa1f30220cb74fec9c62bf0cce9/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L11)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L10)
+[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/2f0aa97c17fb0fa1f30220cb74fec9c62bf0cce9/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L10)
 
 ***
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/a9eb358591a30de507c01893e4d42a1e3b370322/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L9)
+[wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/2f0aa97c17fb0fa1f30220cb74fec9c62bf0cce9/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L9)

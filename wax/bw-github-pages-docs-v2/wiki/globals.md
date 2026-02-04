@@ -278,6 +278,7 @@
 - [NoOverride](./type-aliases/NoOverride)
 - [TAccountName](./type-aliases/TAccountName)
 - [TAuthorityRole](./type-aliases/TAuthorityRole)
+- [TBinaryBuffer](./type-aliases/TBinaryBuffer)
 - [TBlockHash](./type-aliases/TBlockHash)
 - [TCalculateScoresFunction](./type-aliases/TCalculateScoresFunction)
 - [TCommunityRules](./type-aliases/TCommunityRules)
