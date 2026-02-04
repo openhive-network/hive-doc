@@ -28,4 +28,4 @@ If you do not register an "error" event listener, the error will be dropped sile
 
 #### Defined in
 
-[src/interfaces.ts:234](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/interfaces.ts#L234)
+[src/interfaces.ts:234](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L234)

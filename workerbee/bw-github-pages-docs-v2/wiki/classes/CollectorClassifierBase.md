@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
+[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
+[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
 
 ***
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
+[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
 
 ***
 
@@ -78,7 +78,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
+[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
 
 ***
 
@@ -88,4 +88,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
+[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/collector-classifier-base.ts#L30)

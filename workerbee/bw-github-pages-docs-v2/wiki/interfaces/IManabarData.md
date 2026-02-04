@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/account-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/account-classifier.ts#L11)
+[src/chain-observers/classifiers/account-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/account-classifier.ts#L11)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/account-classifier.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/classifiers/account-classifier.ts#L12)
+[src/chain-observers/classifiers/account-classifier.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/account-classifier.ts#L12)

@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[src/chain-observers/providers/alarm-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/b2ef1619bb44c83140e212324c99b788670cee40/src/chain-observers/providers/alarm-provider.ts#L9)
+[src/chain-observers/providers/alarm-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/providers/alarm-provider.ts#L9)
