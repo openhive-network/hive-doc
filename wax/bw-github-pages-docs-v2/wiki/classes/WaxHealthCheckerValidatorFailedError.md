@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/healthchecker/errors.ts#L16)
+[wasm/lib/detailed/healthchecker/errors.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/37aea6ebf0bc728d8380eb6a484b9727b2b4b28e/ts/wasm/lib/detailed/healthchecker/errors.ts#L16)
 
 ## Properties
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/healthchecker/errors.ts#L18)
+[wasm/lib/detailed/healthchecker/errors.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/37aea6ebf0bc728d8380eb6a484b9727b2b4b28e/ts/wasm/lib/detailed/healthchecker/errors.ts#L18)
 
 ***
 
@@ -78,7 +78,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.err
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/healthchecker/errors.ts#L17)
+[wasm/lib/detailed/healthchecker/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/37aea6ebf0bc728d8380eb6a484b9727b2b4b28e/ts/wasm/lib/detailed/healthchecker/errors.ts#L17)
 
 ***
 
@@ -116,7 +116,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/healthchecker/errors.ts#L19)
+[wasm/lib/detailed/healthchecker/errors.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/37aea6ebf0bc728d8380eb6a484b9727b2b4b28e/ts/wasm/lib/detailed/healthchecker/errors.ts#L19)
 
 ***
 
@@ -126,7 +126,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/healthchecker/errors.ts#L20)
+[wasm/lib/detailed/healthchecker/errors.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/37aea6ebf0bc728d8380eb6a484b9727b2b4b28e/ts/wasm/lib/detailed/healthchecker/errors.ts#L20)
 
 ***
 
