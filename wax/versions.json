@@ -1,6 +1,7 @@
 {
   "versions": [
     "develop",
+    "2-0-0-rc0",
     "bw-github-pages-docs",
     "bw-github-pages-docs-v2",
     "main"
