@@ -8,4 +8,4 @@ String in hex format
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/37aea6ebf0bc728d8380eb6a484b9727b2b4b28e/ts/wasm/lib/detailed/interfaces.ts#L66)
+[wasm/lib/detailed/interfaces.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/1a548f19544207255a9a9b26ad3f975a5118c6ac/ts/wasm/lib/detailed/interfaces.ts#L66)
