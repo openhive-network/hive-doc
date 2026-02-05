@@ -26,7 +26,7 @@ Endpoint for all of the API requests
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/da2f35291da85a3882dd223725b24e1a8e00958b/ts/wasm/lib/detailed/interfaces.ts#L121)
+[wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/interfaces.ts#L121)
 
 ***
 
@@ -49,7 +49,7 @@ Set to 0 to disable timeout
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/da2f35291da85a3882dd223725b24e1a8e00958b/ts/wasm/lib/detailed/interfaces.ts#L149)
+[wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/interfaces.ts#L149)
 
 ***
 
@@ -65,7 +65,7 @@ Chain id in hex string format
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/da2f35291da85a3882dd223725b24e1a8e00958b/ts/wasm/lib/detailed/interfaces.ts#L111)
+[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 ***
 
@@ -87,7 +87,7 @@ Endpoint for all of the REST API requests
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/da2f35291da85a3882dd223725b24e1a8e00958b/ts/wasm/lib/detailed/interfaces.ts#L129)
+[wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/interfaces.ts#L129)
 
 ***
 
@@ -115,7 +115,7 @@ Note: When you don't have your WASM file served from the static directory (such 
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/da2f35291da85a3882dd223725b24e1a8e00958b/ts/wasm/lib/detailed/interfaces.ts#L170)
+[wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/interfaces.ts#L170)
 
 ***
 
@@ -140,4 +140,4 @@ undefined
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/da2f35291da85a3882dd223725b24e1a8e00958b/ts/wasm/lib/detailed/interfaces.ts#L140)
+[wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/8ad2b63c881a2d911b31e0c06383e6fc0fe73d22/ts/wasm/lib/detailed/interfaces.ts#L140)
