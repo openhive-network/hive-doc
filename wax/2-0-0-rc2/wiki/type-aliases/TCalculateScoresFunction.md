@@ -1,0 +1,19 @@
+[@hiveio/wax](../globals) / TCalculateScoresFunction
+
+# Type Alias: TCalculateScoresFunction()
+
+> **TCalculateScoresFunction**: (`data`) => [`TScoredEndpoint`](./TScoredEndpoint)[]
+
+## Parameters
+
+### data
+
+`Readonly`\<[`string`, [`THiveEndpointData`](./THiveEndpointData)[]][]\>
+
+## Returns
+
+[`TScoredEndpoint`](./TScoredEndpoint)[]
+
+## Defined in
+
+[wasm/lib/detailed/healthchecker/healthchecker.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/a3ee40eb64ee238318a1f50f983c200901c6b4e1/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L30)
