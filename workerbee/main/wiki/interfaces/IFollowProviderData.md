@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/follow-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/providers/follow-provider.ts#L18)
+[src/chain-observers/providers/follow-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/providers/follow-provider.ts#L18)

@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/block-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/block-classifier.ts#L6)
+[src/chain-observers/classifiers/block-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/classifiers/block-classifier.ts#L6)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/block-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/chain-observers/classifiers/block-classifier.ts#L5)
+[src/chain-observers/classifiers/block-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/classifiers/block-classifier.ts#L5)

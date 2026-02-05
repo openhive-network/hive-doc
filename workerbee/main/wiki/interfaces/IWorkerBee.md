@@ -12,7 +12,7 @@ Exposed hive chain interface we are using.
 
 #### Defined in
 
-[src/interfaces.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L43)
+[src/interfaces.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L43)
 
 ***
 
@@ -24,7 +24,7 @@ Indicates if the bot is running
 
 #### Defined in
 
-[src/interfaces.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L38)
+[src/interfaces.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L38)
 
 ## Accessors
 
@@ -55,7 +55,7 @@ workerbee.observe.onBlock().subscribe({
 
 #### Defined in
 
-[src/interfaces.ts:132](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L132)
+[src/interfaces.ts:132](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L132)
 
 ## Methods
 
@@ -83,7 +83,7 @@ for await (const block of workerbee) {
 
 #### Defined in
 
-[src/interfaces.ts:168](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L168)
+[src/interfaces.ts:168](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L168)
 
 ***
 
@@ -120,7 +120,7 @@ Options for broadcasting
 
 #### Defined in
 
-[src/interfaces.ts:152](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L152)
+[src/interfaces.ts:152](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L152)
 
 ***
 
@@ -137,7 +137,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 
 #### Defined in
 
-[src/interfaces.ts:59](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L59)
+[src/interfaces.ts:59](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L59)
 
 ***
 
@@ -153,7 +153,7 @@ The version of the library
 
 #### Defined in
 
-[src/interfaces.ts:137](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L137)
+[src/interfaces.ts:137](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L137)
 
 ***
 
@@ -183,7 +183,7 @@ for await (const block of workerbee.iterate()) {
 
 ##### Defined in
 
-[src/interfaces.ts:184](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L184)
+[src/interfaces.ts:184](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L184)
 
 #### Call Signature
 
@@ -221,7 +221,7 @@ try {
 
 ##### Defined in
 
-[src/interfaces.ts:206](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L206)
+[src/interfaces.ts:206](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L206)
 
 #### Call Signature
 
@@ -254,7 +254,7 @@ for await (const block of workerbee.iterate(console.error))
 
 ##### Defined in
 
-[src/interfaces.ts:223](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L223)
+[src/interfaces.ts:223](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L223)
 
 ***
 
@@ -307,7 +307,7 @@ if called before [start](./IWorkerBee#start)
 
 ##### Defined in
 
-[src/interfaces.ts:86](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L86)
+[src/interfaces.ts:86](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L86)
 
 #### Call Signature
 
@@ -354,7 +354,7 @@ if called before [start](./IWorkerBee#start)
 
 ##### Defined in
 
-[src/interfaces.ts:115](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L115)
+[src/interfaces.ts:115](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L115)
 
 ***
 
@@ -370,7 +370,7 @@ Starts the automation with given configuration
 
 #### Defined in
 
-[src/interfaces.ts:48](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L48)
+[src/interfaces.ts:48](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L48)
 
 ***
 
@@ -386,4 +386,4 @@ Request automation stop
 
 #### Defined in
 
-[src/interfaces.ts:53](https://gitlab.syncad.com/hive/workerbee/-/blob/ef496d9c96e74fe07bdfc5743dc58495a42eee68/src/interfaces.ts#L53)
+[src/interfaces.ts:53](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/interfaces.ts#L53)
