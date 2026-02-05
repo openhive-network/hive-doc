@@ -26,7 +26,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/b04b22aa68d18405547bad10bff8194a1f5d1376/ts/wasm/lib/detailed/interfaces.ts#L192)
+[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/interfaces.ts#L192)
 
 ## Methods
 
@@ -61,7 +61,7 @@ If you do not have a signature, create one using dedicated signature providers, 
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/b04b22aa68d18405547bad10bff8194a1f5d1376/ts/wasm/lib/detailed/interfaces.ts#L209)
+[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/interfaces.ts#L209)
 
 ***
 
@@ -79,7 +79,7 @@ either true or false based on the signatures amount
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/b04b22aa68d18405547bad10bff8194a1f5d1376/ts/wasm/lib/detailed/interfaces.ts#L250)
+[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/interfaces.ts#L250)
 
 ***
 
@@ -107,7 +107,7 @@ If you are implementing your transaction class and do not have operations to enc
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:259](https://gitlab.syncad.com/hive/wax/-/blob/b04b22aa68d18405547bad10bff8194a1f5d1376/ts/wasm/lib/detailed/interfaces.ts#L259)
+[wasm/lib/detailed/interfaces.ts:259](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/interfaces.ts#L259)
 
 ***
 
@@ -133,7 +133,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/b04b22aa68d18405547bad10bff8194a1f5d1376/ts/wasm/lib/detailed/interfaces.ts#L243)
+[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/interfaces.ts#L243)
 
 ***
 
@@ -171,4 +171,4 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/b04b22aa68d18405547bad10bff8194a1f5d1376/ts/wasm/lib/detailed/interfaces.ts#L232)
+[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/interfaces.ts#L232)
