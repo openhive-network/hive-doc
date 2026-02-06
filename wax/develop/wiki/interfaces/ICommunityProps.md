@@ -18,7 +18,7 @@ Community about
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L63)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/99f67a8c04ccce81c4687346434ed0802c9d7d6a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L63)
 
 ***
 
@@ -36,7 +36,7 @@ Community description
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L87)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/99f67a8c04ccce81c4687346434ed0802c9d7d6a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L87)
 
 ***
 
@@ -54,7 +54,7 @@ Community rules
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L95)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/99f67a8c04ccce81c4687346434ed0802c9d7d6a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L95)
 
 ***
 
@@ -72,7 +72,7 @@ false
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L71)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/99f67a8c04ccce81c4687346434ed0802c9d7d6a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L71)
 
 ***
 
@@ -90,7 +90,7 @@ ESupportedLanguages.ENGLISH
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L79)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/99f67a8c04ccce81c4687346434ed0802c9d7d6a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L79)
 
 ***
 
@@ -102,4 +102,4 @@ Community title
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/ac1ac1931e32ec643b6bef7d6fee572aee5ac3b8/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L55)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/99f67a8c04ccce81c4687346434ed0802c9d7d6a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L55)
