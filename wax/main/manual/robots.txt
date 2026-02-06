@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hive.pages.syncad.com/wax-doc/default/sitemap.xml.gz
+Sitemap: https://hive.pages.syncad.com/wax-doc/-/main/sitemap.xml.gz
