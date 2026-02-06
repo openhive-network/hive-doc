@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-root" content="/workerbee-doc/default">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.823703539906">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Data Providers | WorkerBee &#128218;</title>
+    <meta name="title" content="Data Providers | WorkerBee 📚">
+    <meta name="description" content="Data Providers are WorkerBee's powerful data transformation layer that intelligently gathers, processes, and normalizes blockchain data into clean,...">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://hive.pages.syncad.com/workerbee-doc/default/interfaces/providers/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hive.pages.syncad.com/workerbee-doc/default/interfaces/providers/">
+    <meta property="og:title" content="Data Providers | WorkerBee 📚">
+    <meta property="og:description" content="Data Providers are WorkerBee's powerful data transformation layer that intelligently gathers, processes, and normalizes blockchain data into clean,...">
+    <meta property="og:image" content="https://hive.pages.syncad.com/workerbee-doc/default/static/wb-cycle.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hive.pages.syncad.com/workerbee-doc/default/interfaces/providers/">
+    <meta property="twitter:title" content="Data Providers | WorkerBee 📚">
+    <meta property="twitter:description" content="Data Providers are WorkerBee's powerful data transformation layer that intelligently gathers, processes, and normalizes blockchain data into clean,...">
+    <meta property="twitter:image" content="https://hive.pages.syncad.com/workerbee-doc/default/static/wb-cycle.png">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../static/favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.11.0.823703539906" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.823703539906" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.823703539906" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.11.0.823703539906" defer></script>
+
+    <style>
+      /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
+
+      :root {
+        /* oklch values for Hive theme - https://oklch.com/ */
+        --hive-lightness:       0.58;
+        --hive-lightness-hover: 0.48;
+        --hive-chroma:          0.2;
+
+        --hive-primary:         var(--hive-lightness)       var(--hive-chroma) 24;
+        --hive-primary-hover:   var(--hive-lightness-hover) var(--hive-chroma) 30;
+        --hive-primary-text:    var(--hive-lightness)       var(--hive-chroma) 15;
+
+        --hive-callout-primary: var(--hive-lightness) 0.044 265;
+      }
+
+      .text-base-500, .text-badge-primary-text, button, .text-badge-info-text {
+        color: oklch(var(--hive-primary-text)) !important;
+      }
+
+      .hover\:border-base-border-hover:hover {
+        border-color: oklch(var(--hive-primary-hover)) !important;
+      }
+      .border-badge-primary-border, .border-badge-info-border {
+        border-color: oklch(var(--hive-primary)  / .2) !important;
+      }
+      .border-gray-400 {
+        border-color: oklch(var(--hive-primary-hover) / .9) !important;
+      }
+
+      .bg-gray-100 {
+        background-color: oklch(var(--hive-primary-hover) / .05) !important;
+      }
+      .bg-gray-200, .hover\:bg-nav-item-bg-hover:hover, .bg-badge-info {
+        background-color: oklch(var(--hive-primary-hover) / .1) !important;
+      }
+
+      .text-nav-item-text-active, .bg-badge-primary, .bg-base-item-bg:hover, .hover\:bg-gray-200:hover, .hover\:bg-base-item-bg-hover:hover,
+      .bg-base-item-bg-hover, button.scheme-menu-item:hover, .scheme-menu-item-active {
+        background-color: oklch(var(--hive-primary) / .1) !important;
+      }
+
+      a.text-toc-text-active, a.hover\:text-toc-text-hover:hover, .text-branding-label-text, .text-nav-item-text-active,
+      nav a, footer a, a.header-anchor-trigger, .retype-markdown a {
+        color: oklch(var(--hive-primary)) !important;
+      }
+
+      .hover\:bg-nav-item-bg-hover:hover > a > span, .dark button:hover,
+      button:hover, nav a:hover, footer a:hover, .retype-markdown a:hover,
+      .retype-markdown div > h1 > .header-anchor-trigger:hover, .retype-markdown div > h2 > .header-anchor-trigger:hover,
+      .retype-markdown div > h3 > .header-anchor-trigger:hover, .retype-markdown div > h4 > .header-anchor-trigger:hover,
+      .retype-markdown div > h5 > .header-anchor-trigger:hover, .retype-markdown div > h6 > .header-anchor-trigger:hover {
+        color: oklch(var(--hive-primary-hover)) !important;
+      }
+
+      .border-tab-border-active {
+        border-color: oklch(var(--hive-primary)) !important;
+      }
+
+      .bg-toc-border-active, .bg-nav-item-border-active {
+        background-color: oklch(var(--hive-primary)) !important;
+      }
+
+      .ring-1 {
+        box-shadow: 0 0 0 1px oklch(var(--hive-primary)) !important;
+      }
+
+      /* Override default callout colors to match secondary one - this is to avoid confusion with error callouts */
+      .text-callout-primary {
+        color: oklch(var(--hive-callout-primary)) !important;
+      }
+      .bg-callout-primary {
+        background-color: oklch(var(--hive-callout-primary)) !important;
+      }
+    </style>
+    <script>
+      // This code is responsible for persisting the selected programming language
+      {
+        const languages = {
+          'javascript': [],
+          'python': []
+        };
+        const languageKeys = Object.keys(languages);
+
+        const originalHistoryPush = history.pushState;
+        history.pushState = function(...args) {
+          const url = new URL(args[2]);
+          if (url.host !== window.location.host)
+            return originalHistoryPush.apply(this, args); // Do not interfere with external links
+
+          const lang = window.localStorage.getItem('lang');
+          if (lang) {
+            // We could use the official Retype supported syntax, but it is not persistant over multiple websites,
+            // We also cannot link to a specific section when using the hash syntax and when used, it scrolls down.
+            // We can uncomment the following code when Retype makes it work better or adds some official support for persistant state tabs.
+            // const hash = url.hash.slice(1); if (!hash || languageKeys.includes(hash)) url.hash = `#${lang}`; else
+            // For now we have to use the query syntax:
+            url.searchParams.set('lang', lang);
+            args[2] = url.toString();
+          }
+          return originalHistoryPush.apply(this, args);
+        };
+
+        let previousLang;
+
+        window.addEventListener('DOMContentLoaded', () => {
+          // Also apply the current language periodically.
+          const applyLanguage = () => {
+            const lang = window.localStorage.getItem('lang');
+            if (!lang)
+              return;
+            languages[lang].forEach(el => {
+              el.click();
+            });
+          }
+          // Tab items are generated on the client side based on the templates, so we need to wait for them to be available.
+          // Also the entire DOM of the document.body can be replaced, invalidating all of our components, so we have to re-gather them periodically.
+          const gatherNodes = () => {
+            Object.keys(languages).forEach(async lang => {
+              let langNodes;
+              while(true) {
+                langNodes = document.querySelectorAll(`div#${lang} > a`);
+                if (langNodes.length > 0)
+                  break;
+
+                await new Promise(resolve => setTimeout(resolve, 50));
+              }
+
+              if (langNodes[0] === languages[lang][0])
+                return; // Already applied on click event
+
+              languages[lang] = langNodes;
+
+              languages[lang].forEach(el => {
+                el.addEventListener("click", event => {
+                  if (!event.isTrusted) return; // Ignore non-user-initiated events
+                  window.localStorage.setItem('lang', lang);
+                  applyLanguage();
+                  // Change the user location for the SEO - load other languages snippets and documentation
+                  window.history.pushState(null, '', window.location.href);
+                });
+              });
+              applyLanguage();
+            });
+          };
+          setInterval(gatherNodes, 200);
+          setInterval(applyLanguage, 1000);
+          const url = new URL(window.location.href);
+          const lang = url.searchParams.get('lang');
+          if (lang) // On hard refresh, or on first visit, when lang in query provided - apply this setting
+            window.localStorage.setItem('lang', lang);
+        });
+      }
+    </script>
+
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../static/hive.svg">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../static/hive.svg">
+                            </span>
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">WorkerBee Docs</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">1.27.6-rc13</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.io" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Hive Website</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.blog" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>Hive Blog</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://gitlab.syncad.com/hive/workerbee" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>WorkerBee GitLab</span>
+                                </a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://www.npmjs.com/package/@hiveio/workerbee" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                        <g fill="currentColor">
+                                            <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/>
+                                        </g>
+                                    </svg>
+                                    <span>NPM package</span>
+                                </a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-base-border">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.io" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="m12 20.703.343.667a.748.748 0 0 1-.686 0l-.003-.002-.007-.003-.025-.013a31.138 31.138 0 0 1-5.233-3.576C3.8 15.573 1 12.332 1 8.514v-.001C1 5.053 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262a31.148 31.148 0 0 1-5.233 3.576l-.025.013-.007.003-.002.001ZM6.736 4C4.657 4 2.5 5.88 2.5 8.514c0 3.107 2.324 5.96 4.861 8.12a29.655 29.655 0 0 0 4.566 3.175l.073.041.073-.04c.271-.153.661-.38 1.13-.674.94-.588 2.19-1.441 3.436-2.502 2.537-2.16 4.861-5.013 4.861-8.12C21.5 5.88 19.343 4 17.264 4c-2.106 0-3.801 1.389-4.553 3.643a.751.751 0 0 1-1.422 0C10.537 5.389 8.841 4 6.736 4Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Hive Website</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://hive.blog" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M1.75 1h12.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 14.25 14H8.061l-2.574 2.573A1.458 1.458 0 0 1 3 15.543V14H1.75A1.75 1.75 0 0 1 0 12.25v-9.5C0 1.784.784 1 1.75 1ZM1.5 2.75v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25H1.75a.25.25 0 0 0-.25.25Z"/><path d="M22.5 8.75a.25.25 0 0 0-.25-.25h-3.5a.75.75 0 0 1 0-1.5h3.5c.966 0 1.75.784 1.75 1.75v9.5A1.75 1.75 0 0 1 22.25 20H21v1.543a1.457 1.457 0 0 1-2.487 1.03L15.939 20H10.75A1.75 1.75 0 0 1 9 18.25v-1.465a.75.75 0 0 1 1.5 0v1.465c0 .138.112.25.25.25h5.5a.75.75 0 0 1 .53.22l2.72 2.72v-2.19a.75.75 0 0 1 .75-.75h2a.25.25 0 0 0 .25-.25v-9.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>Hive Blog</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://gitlab.syncad.com/hive/workerbee" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>WorkerBee GitLab</span>
+                                        </a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text-weight hover:text-header-text-hover" href="https://www.npmjs.com/package/@hiveio/workerbee" target="_blank">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
+                                                <g fill="currentColor">
+                                                    <path d="M12.876.64V.639l8.25 4.763c.541.313.875.89.875 1.515v9.525a1.75 1.75 0 0 1-.875 1.516l-8.25 4.762a1.748 1.748 0 0 1-1.75 0l-8.25-4.763a1.75 1.75 0 0 1-.875-1.515V6.917c0-.625.334-1.202.875-1.515L11.126.64a1.748 1.748 0 0 1 1.75 0Zm-1 1.298L4.251 6.34l7.75 4.474 7.75-4.474-7.625-4.402a.248.248 0 0 0-.25 0Zm.875 19.123 7.625-4.402a.25.25 0 0 0 .125-.216V7.639l-7.75 4.474ZM3.501 7.64v8.803c0 .09.048.172.125.216l7.625 4.402v-8.947Z"/>
+                                                </g>
+                                            </svg>
+                                            <span>NPM package</span>
+                                        </a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="data-providers" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-providers">#</doc-anchor-trigger>
+        <span>Data Providers</span>
+    </h1>
+</doc-anchor-target>
+<p>Data Providers are WorkerBee&#x27;s powerful data transformation layer that intelligently gathers, processes, and normalizes blockchain data into clean, type-safe objects for your application. They execute only when filters match, ensuring optimal performance and minimal resource usage.</p>
+<doc-anchor-target id="mag-provider-overview">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#mag-provider-overview">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F50D;</span> Provider Overview</span>
+    </h2>
+</doc-anchor-target>
+<p>Providers transform raw blockchain data into structured TypeScript objects, running concurrently with filters and automatically benefiting from WorkerBee&#x27;s advanced caching system. They provide rich contextual data that complements the events detected by filters.</p>
+<p><figure class="content-center">
+    <img src="../../static/wb-cycle.png" alt="Data flow diagram showing how providers enhance filter events with contextual blockchain data" class="rounded-lg rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Data flow diagram showing how providers enhance filter events with contextual blockchain data</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="basic-provider-usage">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#basic-provider-usage">#</doc-anchor-trigger>
+        <span>Basic Provider Usage</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-secondary"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-secondary" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>Note that the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining"><code v-pre>?.</code> operator</a> is used to safely access nested properties, preventing runtime errors if data is not available for any reason, e.g. if the account is not found, or if an API endpoint is temporarily down.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Provider Performance Impact</h5>
+<p><strong>Important</strong>: Providers may trigger additional API calls to gather data not available from defined filters itself. This can impact performance when monitoring high-frequency events.</p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript" data-line="8,12"><code v-pre class="language-typescript">import { WorkerBee } from '@hiveio/workerbee';
+
+const workerbee = new WorkerBee();
+
+// Use providers to get additional data
+workerbee.observe
+  .onPosts(&quot;alice&quot;)           // FILTER: Detects when Alice creates a post
+  .provideAccounts(&quot;bob&quot;)     // PROVIDER: Fetches Bob's account data (additional API call)
+  .subscribe({
+    next: ({ posts, accounts }) =&gt; {
+      // DATA FROM FILTER (onPosts):
+      // - posts.alice contains Alice's post operation data
+      // - This data comes directly with filter from only get_block API call
+      posts.alice?.forEach(({ operation }) =&gt; {
+        console.log(`Alice created post: ${operation.permlink}`);
+      });
+
+      // DATA FROM PROVIDER (provideAccounts):
+      // - accounts.bob contains Bob's current account state
+      // - This data requires an additional API call to fetch current account info
+      console.log(`Bob's current balance: ${accounts.bob?.balance.HIVE.liquid} HIVE`);
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="arrows_counterclockwise-filters-vs-providers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#arrows_counterclockwise-filters-vs-providers">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F504;</span> Filters vs. Providers</span>
+    </h2>
+</doc-anchor-target>
+<p>Understanding the distinction between <strong>Filters</strong> and <strong>Providers</strong> is crucial for effective WorkerBee usage:</p>
+<doc-anchor-target id="filters-the-when-layer">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#filters-the-when-layer">#</doc-anchor-trigger>
+        <span>Filters: The &quot;WHEN&quot; Layer</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Filters determine WHEN your callback should be triggered</strong> by monitoring specific blockchain events:</p>
+<ul>
+<li>Monitor for specific events (posts, votes, transfers, etc.)</li>
+<li>Trigger your callbacks when conditions are met</li>
+<li>Work like event listeners - they detect what happened</li>
+</ul>
+<doc-anchor-target id="providers-the-what-layer">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#providers-the-what-layer">#</doc-anchor-trigger>
+        <span>Providers: The &quot;WHAT&quot; Layer</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Providers determine WHAT additional data you need</strong> when filters trigger:</p>
+<ul>
+<li>Fetch and structure additional contextual data</li>
+<li>Provide rich, normalized information about accounts, blocks, prices, etc.</li>
+<li>Work like data fetchers - they gather information you need to process the event</li>
+<li>Execute automatically when any filter matches</li>
+</ul>
+<doc-anchor-target id="working-together">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#working-together">#</doc-anchor-trigger>
+        <span>Working Together</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">workerbee.observe
+  .onPosts(&quot;alice&quot;)           // FILTER: Watch for Alice's posts (WHEN)
+  .provideAccounts(&quot;alice&quot;)   // PROVIDER: Get Alice's account data (WHAT)
+  .subscribe({
+    next: ({ posts, accounts }) =&gt; {
+      // Filter detected the event: Alice posted
+      // Provider supplied the data: Alice's account balance, reputation, etc.
+      console.log(`Alice posted! Her balance: ${accounts.alice?.balance.HIVE.liquid}`);
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<p>This separation allows for:</p>
+<ul>
+<li><strong>Clean architecture</strong>: Event detection separate from data fetching</li>
+<li><strong>Optimal performance</strong>: Providers only run when filters match</li>
+<li><strong>Flexible combinations</strong>: Mix any filters with any providers</li>
+<li><strong>Smart caching</strong>: Reuse provider data across multiple filter matches</li>
+</ul>
+<p>For detailed filters information, check out the filters chapter:</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Browse Detailed Filters Information</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>../filters/</span>
+    </div>
+    <a href="../filters/" target="_blank" class="absolute block inset-0"></a>
+</div>
+</p>
+<doc-anchor-target id="gear-how-providers-work">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#gear-how-providers-work">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x2699;&#xFE0F;</span> How Providers Work</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="provider-squashing--optimization">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#provider-squashing--optimization">#</doc-anchor-trigger>
+        <span>Provider Squashing &amp; Optimization</span>
+    </h3>
+</doc-anchor-target>
+<p>WorkerBee intelligently <strong>combines multiple calls to the same provider type</strong>, significantly optimizing performance. When you call the same provider multiple times, WorkerBee merges all parameters into a single efficient request.</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Multiple provider calls...
+workerbee.observe
+  .onBlock()
+  .provideAccounts(&quot;alice&quot;)
+  .provideAccounts(&quot;bob&quot;)
+  .provideAccounts(&quot;charlie&quot;)
+  .subscribe({
+    next: ({ accounts }) =&gt; {
+      // ...receives data for all three accounts in one optimized call
+      console.log(accounts.alice?.name);  // Alice's data
+      console.log(accounts.bob?.name);    // Bob's data
+      console.log(accounts.charlie?.name); // Charlie's data
+    }
+  });
+
+// ...is automatically optimized to a single efficient provider call
+// equivalent to: .provideAccounts(&quot;alice&quot;, &quot;bob&quot;, &quot;charlie&quot;)</code></pre>
+</doc-codeblock></div>
+<p>This optimization works for <strong>every provider per type</strong> and dramatically reduces API calls and processing overhead.</p>
+<doc-anchor-target id="arrows_counterclockwise-working-with-iterators">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#arrows_counterclockwise-working-with-iterators">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F504;</span> Working with Iterators</span>
+    </h2>
+</doc-anchor-target>
+<p>Many providers return data as <strong>WorkerBee iterators</strong> for optimal performance and memory usage. These iterators are fully compatible with standard JavaScript iteration patterns.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Providers that return iterators</h5>
+<p>Example providers that return <code v-pre>WorkerBeeIterable</code>:</p>
+<ul>
+<li><strong>Feed Price Provider</strong>: <code v-pre>data.feedPrice.priceHistory</code> - Historical price data</li>
+<li><strong>New Account Provider</strong>: <code v-pre>data.newAccounts</code> - Newly created accounts</li>
+<li><strong>Impacted Account Provider</strong>: <code v-pre>data.impactedAccounts[account]</code> - Operations affecting accounts</li>
+<li><strong>Whale Alert Provider</strong>: <code v-pre>data.whaleOperations</code> - Large transfers</li>
+<li><strong>Exchange Transfer Provider</strong>: <code v-pre>data.exchangeTransferOperations</code> - Exchange deposits/withdrawals</li>
+<li><strong>Internal Market Provider</strong>: <code v-pre>data.internalMarketOperations</code> - DEX operations</li>
+<li><strong>Alarm Provider</strong>: <code v-pre>data.alarmsPerAccount[account]</code> - Account security alerts</li>
+</ul>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="forof-loop-recommended">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#forof-loop-recommended">#</doc-anchor-trigger>
+        <span>For...of Loop (Recommended)</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">workerbee.observe
+  .onBlock()
+  .provideFeedPriceData()
+  .subscribe({
+    next: ({ feedPrice }) =&gt; {
+      // Iterate through historical price data from provider
+      for (const price of feedPrice.priceHistory) {
+        console.log(`Historical HIVE price: ${price.base.amount} ${price.base.symbol}`);
+        console.log(`Exchange rate: ${price.quote.amount} ${price.quote.symbol}`);
+      }
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="foreach-method">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#foreach-method">#</doc-anchor-trigger>
+        <span>forEach Method</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">workerbee.observe
+  .onNewAccount()  // Filter automatically adds NewAccountProvider
+  .subscribe({
+    next: ({ newAccounts }) =&gt; {
+      // Provider returns WorkerBeeIterable of new accounts
+      newAccounts.forEach((account) =&gt; {
+        console.log(`🆕 New account created: @${account.accountName}`);
+        console.log(`Created by: @${account.creator}`);
+        console.log(`Memo key: ${account.memo}`);
+      });
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="working-with-multiple-provider-iterators">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#working-with-multiple-provider-iterators">#</doc-anchor-trigger>
+        <span>Working with Multiple Provider Iterators</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">workerbee.observe
+  .onBlock()
+  .provideFeedPriceData()      // Returns iterator: feedPrice.priceHistory
+  .subscribe({
+    next: ({ feedPrice }) =&gt; {
+      // Calculate price statistics from provider data
+      let totalPrices = 0;
+      let priceCount = 0;
+      let minPrice = Infinity;
+      let maxPrice = 0;
+
+      // Efficient iteration over provider's historical data
+      for (const price of feedPrice.priceHistory) {
+        const priceValue = parseFloat(price.base.amount);
+        totalPrices += priceValue;
+        priceCount++;
+        minPrice = Math.min(minPrice, priceValue);
+        maxPrice = Math.max(maxPrice, priceValue);
+      }
+
+      if (priceCount &gt; 0) {
+        const avgPrice = totalPrices / priceCount;
+        console.log(`📊 HIVE Price Analysis (from ${priceCount} data points):`);
+        console.log(`Average: $${avgPrice.toFixed(4)}`);
+        console.log(`Range: $${minPrice.toFixed(4)} - $${maxPrice.toFixed(4)}`);
+        console.log(`Current: $${feedPrice.currentMedianHistory.base.amount}`);
+      }
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="link-providers-and-logical-filters-interaction">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#link-providers-and-logical-filters-interaction">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F517;</span> Providers and Logical Filters Interaction</span>
+    </h2>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p><strong>Important</strong>: Providers are <strong>independent of logical operators</strong> (<code v-pre>and</code>/<code v-pre>or</code>) and can be placed anywhere in the filter chain. They will <strong>always execute when any filter matches</strong>, regardless of logical grouping.</p>
+        </div>
+    </div>
+</div>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">// Providers work the same regardless of and/or placement
+workerbee.observe
+  .onPosts(&quot;alice&quot;)
+  .provideAccounts(&quot;bob&quot;)        // ✅ Provider here
+  .and.onComments(&quot;charlie&quot;)
+  .provideAccounts(&quot;dave&quot;)       // ✅ Provider here too
+  .or.onVotes(&quot;eve&quot;)
+  .provideAccounts(&quot;frank&quot;)      // ✅ And here
+  .subscribe({
+    next: ({ accounts }) =&gt; {
+      // All account data available when ANY filter matches:
+      // accounts.bob, accounts.dave, accounts.frank
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<p>This design ensures that providers deliver consistent, complete data regardless of which specific filter triggered the event.</p>
+<doc-anchor-target id="rocket-advanced-example-mixed-providers--filters">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rocket-advanced-example-mixed-providers--filters">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F680;</span> Advanced Example: Mixed Providers &amp; Filters</span>
+    </h2>
+</doc-anchor-target>
+<p>Here&#x27;s a sophisticated example demonstrating provider squashing, iterators, and complex filter combinations:</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-typescript"><code v-pre class="language-typescript">import { WorkerBee, EManabarType } from '@hiveio/workerbee';
+
+const workerbee = new WorkerBee();
+
+await workerbee.start();
+
+workerbee.observe
+  // 🔍 Complex filter combinations
+  .onPosts(&quot;alice&quot;, &quot;bob&quot;)
+  .or.onComments(&quot;alice&quot;, &quot;bob&quot;)
+  .or.onVotes(&quot;charlie&quot;)
+  .or.onWhaleAlert(workerbee.chain.hiveCoins(5000))
+
+  // 📋 Multiple provider calls (automatically optimized)
+  .provideAccounts(&quot;alice&quot;)        // Will be squashed
+  .provideAccounts(&quot;bob&quot;, &quot;charlie&quot;) // into single call
+  .provideAccounts(&quot;whale-watcher&quot;)  // for all accounts
+
+  // ⚡ Manabar data for different types
+  .provideManabarData(EManabarType.UPVOTE, &quot;alice&quot;)
+  .provideManabarData(EManabarType.RC, &quot;alice&quot;, &quot;bob&quot;)
+  .provideManabarData(EManabarType.DOWNVOTE, &quot;charlie&quot;)
+
+  // 🏗️ Block and market data
+  .provideBlockData()
+  .provideFeedPriceData()
+
+  .subscribe({
+    next: (data) =&gt; {
+      // 📝 Handle post creation
+      if (data.posts) {
+        for (const [author, posts] of Object.entries(data.posts)) {
+          posts.forEach(({ operation }) =&gt; {
+            console.log(`📄 New post by @${author}: &quot;${operation.title}&quot;`);
+            console.log(`💰 Author balance: ${data.accounts[author]?.balance.HIVE.liquid}`);
+          });
+        }
+      }
+
+      // 💬 Handle comments
+      if (data.comments) {
+        for (const [author, comments] of Object.entries(data.comments)) {
+          comments.forEach(({ operation }) =&gt; {
+            console.log(`💬 Comment by @${author} on @${operation.parent_author}/${operation.parent_permlink}`);
+
+            // Check author's RC level
+            const rcManabar = data.manabarData[author]?.[EManabarType.RC];
+            if (rcManabar &amp;&amp; rcManabar.percent &lt; 20) {
+              console.log(`⚠️ Warning: @${author} has low RC (${rcManabar.percent.toFixed(1)}%)`);
+            }
+          });
+        }
+      }
+
+      // 👍 Handle votes
+      if (data.votes?.charlie) {
+        data.votes.charlie.forEach(({ operation }) =&gt; {
+          const voteValue = operation.weight &gt; 0 ? '👍 Upvote' : '👎 Downvote';
+          console.log(`${voteValue} by @${operation.voter}: ${Math.abs(operation.weight/100)}%`);
+
+          // Check voter's voting power
+          const upvoteManabar = data.manabarData[operation.voter]?.[EManabarType.UPVOTE];
+          if (upvoteManabar) {
+            console.log(`🔋 Voting power: ${upvoteManabar.percent.toFixed(1)}%`);
+          }
+        });
+      }
+
+      // 🐋 Handle whale transfers
+      if (data.whaleOperations) {
+        data.whaleOperations.forEach(({ operation, transaction }) =&gt; {
+          console.log(`🐋 WHALE ALERT: ${operation.amount.amount} ${operation.amount.symbol}`);
+          console.log(`From: @${operation.from} → To: @${operation.to}`);
+          console.log(`Block: #${data.block.number} | TX: ${transaction.id}`);
+
+          // Check if whale accounts are in our data
+          const fromAccount = data.accounts[operation.from];
+          const toAccount = data.accounts[operation.to];
+
+          if (fromAccount) {
+            console.log(`Sender total HIVE: ${fromAccount.balance.HIVE.total}`);
+          }
+          if (toAccount) {
+            console.log(`Receiver total HIVE: ${toAccount.balance.HIVE.total}`);
+          }
+        });
+      }
+
+      // 📊 Market context
+      console.log(`💱 Current HIVE price: $${data.feedPrice?.currentMedianHistory?.base?.amount || 'N/A'}`);
+      console.log(`📦 Block #${data.block.number} by @${data.block.witness}`);
+    },
+
+    error: (error) =&gt; {
+      console.error('❌ WorkerBee error:', error);
+    }
+  });</code></pre>
+</doc-codeblock></div>
+<p>This example demonstrates:</p>
+<ul>
+<li><strong>Provider squashing</strong>: Multiple <code v-pre>provideAccounts</code> calls are automatically optimized</li>
+<li><strong>Iterator usage</strong>: Clean iteration over posts, comments, votes, and whale operations</li>
+<li><strong>Data correlation</strong>: Using account data alongside manabar information</li>
+<li><strong>Complex filtering</strong>: Multiple OR conditions with independent provider execution</li>
+<li><strong>Performance optimization</strong>: Parallel provider execution with intelligent caching</li>
+</ul>
+<hr>
+<doc-anchor-target id="books-complete-reference">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#books-complete-reference">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4DA;</span> Complete Reference</span>
+    </h2>
+</doc-anchor-target>
+<p>For comprehensive examples of all available providers, check out the complete API reference:</p>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-block mb-px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
+        </span>
+        <span class="inline-block font-medium ml-2">Browse All Provider Examples in API Reference</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>../api-reference/#providers</span>
+    </div>
+    <a href="../api-reference/#providers" class="absolute block inset-0"></a>
+</div>
+</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../interfaces/filters/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Filters & Conditions</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../interfaces/patterns/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Common Patterns</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/workerbee-doc/-/blob/main/LICENSE.md">License</a>
+                                        </li>
+                                        <li>
+                                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/workerbee-doc/-/blob/a47b2207/">Version: a47b2207</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"><p>© Copyright 2026. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Data Providers", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
