@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hive.pages.syncad.com/workerbee-doc/-/bw-normalize-version-format/sitemap.xml.gz
