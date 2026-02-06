@@ -1,6 +1,7 @@
 {
   "versions": [
     "bw-github-pages-docs-v2",
+    "bw/normalize-version-format",
     "main"
   ]
 }
