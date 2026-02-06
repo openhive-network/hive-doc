@@ -1,0 +1,91 @@
+[@hiveio/workerbee](../globals) / DynamicGlobalPropertiesClassifier
+
+# Class: DynamicGlobalPropertiesClassifier
+
+## Extends
+
+- [`CollectorClassifierBase`](./CollectorClassifierBase)\<`object`, `IDynamicGlobalPropertiesData`\>
+
+## Constructors
+
+### new DynamicGlobalPropertiesClassifier()
+
+> **new DynamicGlobalPropertiesClassifier**(): [`DynamicGlobalPropertiesClassifier`](./DynamicGlobalPropertiesClassifier)
+
+#### Returns
+
+[`DynamicGlobalPropertiesClassifier`](./DynamicGlobalPropertiesClassifier)
+
+#### Inherited from
+
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`constructor`](./CollectorClassifierBase#constructors)
+
+## Properties
+
+### getType
+
+> **getType**: `IDynamicGlobalPropertiesData`
+
+#### Inherited from
+
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`getType`](./CollectorClassifierBase#gettype)
+
+#### Defined in
+
+[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
+
+***
+
+### optionsType
+
+> **optionsType**: `undefined`
+
+#### Inherited from
+
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`optionsType`](./CollectorClassifierBase#optionstype)
+
+#### Defined in
+
+[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
+
+***
+
+### queryOptionsType
+
+> **queryOptionsType**: `void`
+
+#### Inherited from
+
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`queryOptionsType`](./CollectorClassifierBase#queryoptionstype)
+
+#### Defined in
+
+[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
+
+***
+
+### queryType
+
+> **queryType**: `void`
+
+#### Inherited from
+
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`queryType`](./CollectorClassifierBase#querytype)
+
+#### Defined in
+
+[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
+
+***
+
+### storeType
+
+> **storeType**: `object`
+
+#### Inherited from
+
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`storeType`](./CollectorClassifierBase#storetype)
+
+#### Defined in
+
+[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
