@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/impacted-account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/classifiers/impacted-account-classifier.ts#L5)
+[src/chain-observers/classifiers/impacted-account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/impacted-account-classifier.ts#L5)
 
 ***
 
@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/classifiers/operation-classifier.ts#L11)
+[src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/operation-classifier.ts#L11)

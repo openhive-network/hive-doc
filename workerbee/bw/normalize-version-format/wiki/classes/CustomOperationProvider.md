@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/custom-operation-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/custom-operation-provider.ts#L22)
+[src/chain-observers/providers/custom-operation-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/custom-operation-provider.ts#L22)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/custom-operation-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/custom-operation-provider.ts#L33)
+[src/chain-observers/providers/custom-operation-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/custom-operation-provider.ts#L33)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/custom-operation-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/custom-operation-provider.ts#L24)
+[src/chain-observers/providers/custom-operation-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/custom-operation-provider.ts#L24)
 
 ***
 
@@ -98,4 +98,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/custom-operation-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/custom-operation-provider.ts#L29)
+[src/chain-observers/providers/custom-operation-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/custom-operation-provider.ts#L29)

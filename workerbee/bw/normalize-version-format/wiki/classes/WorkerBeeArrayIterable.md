@@ -45,7 +45,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/iterator.ts#L37)
+[src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/iterator.ts#L37)
 
 ## Properties
 
@@ -59,7 +59,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/iterator.ts#L16)
+[src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/iterator.ts#L16)
 
 ## Methods
 
@@ -77,7 +77,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/iterator.ts#L22)
+[src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/iterator.ts#L22)
 
 ***
 
@@ -101,7 +101,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/iterator.ts#L30)
+[src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/iterator.ts#L30)
 
 ***
 
@@ -121,7 +121,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/iterator.ts#L41)
+[src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/iterator.ts#L41)
 
 ***
 
@@ -139,4 +139,4 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/iterator.ts#L26)
+[src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/iterator.ts#L26)

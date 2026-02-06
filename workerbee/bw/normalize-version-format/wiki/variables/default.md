@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[src/index.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/index.ts#L12)
+[src/index.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/index.ts#L12)

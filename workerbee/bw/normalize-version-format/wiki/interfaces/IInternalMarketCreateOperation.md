@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L19)
+[src/chain-observers/providers/internal-market-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L19)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L18)
+[src/chain-observers/providers/internal-market-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L18)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L21)
+[src/chain-observers/providers/internal-market-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L21)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L22)
+[src/chain-observers/providers/internal-market-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L22)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L20)
+[src/chain-observers/providers/internal-market-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L20)
 
 ***
 
@@ -68,7 +68,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L10)
+[src/chain-observers/providers/internal-market-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L10)
 
 ***
 
@@ -82,4 +82,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/internal-market-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/chain-observers/providers/internal-market-provider.ts#L9)
+[src/chain-observers/providers/internal-market-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/providers/internal-market-provider.ts#L9)

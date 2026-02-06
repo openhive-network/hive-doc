@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/errors.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/errors.ts#L5)
+[src/errors.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/errors.ts#L5)
 
 ## Properties
 

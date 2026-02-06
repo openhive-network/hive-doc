@@ -18,7 +18,7 @@ Time in milliseconds after which the transaction will be considered expired
 
 #### Defined in
 
-[src/interfaces.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/interfaces.ts#L24)
+[src/interfaces.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/interfaces.ts#L24)
 
 ***
 
@@ -36,4 +36,4 @@ false
 
 #### Defined in
 
-[src/interfaces.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/interfaces.ts#L16)
+[src/interfaces.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/interfaces.ts#L16)

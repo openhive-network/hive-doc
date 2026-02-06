@@ -26,7 +26,7 @@ if the consumer has unsubscribed.
 
 #### Defined in
 
-[src/types/subscribable.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/subscribable.ts#L26)
+[src/types/subscribable.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/subscribable.ts#L26)
 
 ***
 
@@ -52,7 +52,7 @@ the consumer has unsubscribed.
 
 #### Defined in
 
-[src/types/subscribable.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/subscribable.ts#L18)
+[src/types/subscribable.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/subscribable.ts#L18)
 
 ***
 
@@ -76,4 +76,4 @@ functions have been called, nor after the consumer has unsubscribed.
 
 #### Defined in
 
-[src/types/subscribable.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/b90beefe2138db7c7c82f316cc8e8ea954f21c30/src/types/subscribable.ts#L10)
+[src/types/subscribable.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/types/subscribable.ts#L10)
