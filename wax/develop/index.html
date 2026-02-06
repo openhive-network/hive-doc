@@ -63,13 +63,8 @@
       color: var(--accent-color);
     }
     .dir-name { font-weight: 500; }
-    .breadcrumb {
-      margin-bottom: 1.5rem;
-      color: var(--text-muted);
-      font-size: 0.9rem;
-    }
-    .breadcrumb a { color: var(--accent-color); text-decoration: none; }
-    .breadcrumb a:hover { text-decoration: underline; }
+    .loading { text-align: center; padding: 2rem; color: var(--text-muted); }
+    .error { text-align: center; padding: 2rem; color: #f85149; }
   </style>
 </head>
 <body>
@@ -79,17 +74,32 @@
       <p class="subtitle">Select a subdirectory</p>
     </header>
     <main>
-      <div class="dir-list">
-        <a href="manual/" class="dir-item">
-          <svg class="dir-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>
-          <span class="dir-name">manual/</span>
-        </a>
-        <a href="wiki/" class="dir-item">
-          <svg class="dir-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>
-          <span class="dir-name">wiki/</span>
-        </a>
+      <div id="subdirs" class="dir-list">
+        <div class="loading">Loading...</div>
       </div>
     </main>
   </div>
+  <script>
+    const folderIcon = '<svg class="dir-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>';
+
+    fetch('subdirs.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('subdirs');
+        if (!data.subdirs || data.subdirs.length === 0) {
+          container.innerHTML = '<div class="error">No subdirectories available</div>';
+          return;
+        }
+        container.innerHTML = data.subdirs.map(s => `
+          <a href="${s}/" class="dir-item">
+            ${folderIcon}
+            <span class="dir-name">${s}/</span>
+          </a>
+        `).join('');
+      })
+      .catch(err => {
+        document.getElementById('subdirs').innerHTML = '<div class="error">Failed to load subdirectories</div>';
+      });
+  </script>
 </body>
 </html>
