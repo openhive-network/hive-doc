@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
+[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
 
 ***
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
+[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
 
 ***
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
+[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
 
 ***
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
+[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
 
 ***
 
@@ -88,7 +88,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
+[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
 
 ## Methods
 
@@ -108,4 +108,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/decline-voting-rights-classifier.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/1f3f643bda15e565c40fb757d44bfd8511e321cf/src/chain-observers/classifiers/decline-voting-rights-classifier.ts#L23)
+[src/chain-observers/classifiers/decline-voting-rights-classifier.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/decline-voting-rights-classifier.ts#L23)
