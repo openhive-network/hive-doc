@@ -7,6 +7,7 @@
     "2-0-0-rc2",
     "bw-github-pages-docs",
     "bw-github-pages-docs-v2",
+    "bw/bump-hive-submodule",
     "bw/normalize-version-format",
     "main",
     "master"
