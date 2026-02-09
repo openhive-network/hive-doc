@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/manabar-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/providers/manabar-provider.ts#L20)
+[src/chain-observers/providers/manabar-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/manabar-provider.ts#L20)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/manabar-provider.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/providers/manabar-provider.ts#L41)
+[src/chain-observers/providers/manabar-provider.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/manabar-provider.ts#L41)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/manabar-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/providers/manabar-provider.ts#L22)
+[src/chain-observers/providers/manabar-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/manabar-provider.ts#L22)
 
 ***
 
@@ -98,4 +98,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/manabar-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/providers/manabar-provider.ts#L32)
+[src/chain-observers/providers/manabar-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/manabar-provider.ts#L32)

@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/a9c18a70c8fa630b34e00ffd5c64e7e0814c726d/src/chain-observers/providers/content-metadata-provider.ts#L23)
+[src/chain-observers/providers/content-metadata-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L23)
