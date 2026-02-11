@@ -18,7 +18,7 @@ true
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:109](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L109)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:109](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L109)
 
 ***
 
@@ -36,7 +36,7 @@ true
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:97](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L97)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:97](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L97)
 
 ***
 
@@ -54,7 +54,7 @@ true
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:103](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L103)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:103](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L103)
 
 ***
 
@@ -72,7 +72,7 @@ The author of the content, usually a Hive account name.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L15)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L15)
 
 ***
 
@@ -91,7 +91,7 @@ This will be 0 if the post hasn't paid out yet.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:116](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L116)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:116](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L116)
 
 ***
 
@@ -109,7 +109,7 @@ The main topic or community tag for this content.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L9)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L9)
 
 ***
 
@@ -128,7 +128,7 @@ This will also show "0" or be empty if the `payoutTime` is in the future.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:91](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L91)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:91](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L91)
 
 ***
 
@@ -148,7 +148,7 @@ true
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:76](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L76)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:76](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L76)
 
 ***
 
@@ -170,7 +170,7 @@ relative to other content paying out at the same time.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:52](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L52)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:52](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L52)
 
 ***
 
@@ -190,7 +190,7 @@ this shows the raw count of votes.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:60](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L60)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:60](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L60)
 
 ***
 
@@ -209,7 +209,7 @@ Will be empty if it's a top-level post.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:34](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L34)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:34](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L34)
 
 ***
 
@@ -228,7 +228,7 @@ Will be the category if it's a reply to the main category feed.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L41)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L41)
 
 ***
 
@@ -248,7 +248,7 @@ Set to "1970-01-01T00:00:00Z" if the content is still pending.
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:68](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L68)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:68](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L68)
 
 ***
 
@@ -266,7 +266,7 @@ The unique identifier for this content, often called a "permlink."
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L21)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L21)
 
 ***
 
@@ -284,7 +284,7 @@ The title of the content. This is usually present for posts, but might be empty 
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L27)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L27)
 
 ***
 
@@ -304,4 +304,4 @@ The `amount` is the numerical value, `nai` is the asset identifier, and `precisi
 
 #### Defined in
 
-[src/chain-observers/classifiers/content-metadata-classifier.ts:84](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/content-metadata-classifier.ts#L84)
+[src/chain-observers/classifiers/content-metadata-classifier.ts:84](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/content-metadata-classifier.ts#L84)

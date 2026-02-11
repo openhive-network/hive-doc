@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/whale-alert-provider.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/whale-alert-provider.ts#L16)
+[src/chain-observers/providers/whale-alert-provider.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/whale-alert-provider.ts#L16)

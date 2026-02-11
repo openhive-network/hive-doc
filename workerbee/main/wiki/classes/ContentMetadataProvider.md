@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L38)
+[src/chain-observers/providers/content-metadata-provider.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/content-metadata-provider.ts#L38)
 
 ## Properties
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L35)
+[src/chain-observers/providers/content-metadata-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/content-metadata-provider.ts#L35)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L36)
+[src/chain-observers/providers/content-metadata-provider.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/content-metadata-provider.ts#L36)
 
 ## Methods
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:49](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L49)
+[src/chain-observers/providers/content-metadata-provider.ts:49](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/content-metadata-provider.ts#L49)
 
 ***
 
@@ -98,7 +98,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/provider-base.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/provider-base.ts#L17)
+[src/chain-observers/providers/provider-base.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/provider-base.ts#L17)
 
 ***
 
@@ -122,7 +122,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:47](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L47)
+[src/chain-observers/providers/content-metadata-provider.ts:47](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/content-metadata-provider.ts#L47)
 
 ***
 
@@ -140,4 +140,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/content-metadata-provider.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/providers/content-metadata-provider.ts#L43)
+[src/chain-observers/providers/content-metadata-provider.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/providers/content-metadata-provider.ts#L43)

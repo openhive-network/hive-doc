@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/operation-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/operation-classifier.ts#L6)
+[src/chain-observers/classifiers/operation-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/operation-classifier.ts#L6)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/operation-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/3dea0e6c6cad7461308332944c53e8f69fe2f812/src/chain-observers/classifiers/operation-classifier.ts#L7)
+[src/chain-observers/classifiers/operation-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/d6dcf4229bbf793dd6bd36e74404691b693d4a39/src/chain-observers/classifiers/operation-classifier.ts#L7)
