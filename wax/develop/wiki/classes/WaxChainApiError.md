@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/c69b0cd6f3a40872b17b06ad7d40b4f704a75376/ts/wasm/lib/detailed/errors.ts#L40)
+[wasm/lib/detailed/errors.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/efdfa13743cd7acc5af92502f618638c80ed1453/ts/wasm/lib/detailed/errors.ts#L40)
 
 ## Properties
 
@@ -92,7 +92,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/c69b0cd6f3a40872b17b06ad7d40b4f704a75376/ts/wasm/lib/detailed/errors.ts#L42)
+[wasm/lib/detailed/errors.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/efdfa13743cd7acc5af92502f618638c80ed1453/ts/wasm/lib/detailed/errors.ts#L42)
 
 ***
 
@@ -102,7 +102,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/c69b0cd6f3a40872b17b06ad7d40b4f704a75376/ts/wasm/lib/detailed/errors.ts#L43)
+[wasm/lib/detailed/errors.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/efdfa13743cd7acc5af92502f618638c80ed1453/ts/wasm/lib/detailed/errors.ts#L43)
 
 ***
 
