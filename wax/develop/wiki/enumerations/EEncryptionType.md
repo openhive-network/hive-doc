@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/efdfa13743cd7acc5af92502f618638c80ed1453/ts/wasm/lib/detailed/encryption_visitor.ts#L8)
+[wasm/lib/detailed/encryption\_visitor.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/8afd6f2cbf3984662ecbb95618917604066228bc/ts/wasm/lib/detailed/encryption_visitor.ts#L8)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/efdfa13743cd7acc5af92502f618638c80ed1453/ts/wasm/lib/detailed/encryption_visitor.ts#L7)
+[wasm/lib/detailed/encryption\_visitor.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/8afd6f2cbf3984662ecbb95618917604066228bc/ts/wasm/lib/detailed/encryption_visitor.ts#L7)
