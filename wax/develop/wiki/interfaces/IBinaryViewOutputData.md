@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/8afd6f2cbf3984662ecbb95618917604066228bc/ts/wasm/lib/detailed/interfaces.ts#L59)
+[wasm/lib/detailed/interfaces.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/interfaces.ts#L59)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/8afd6f2cbf3984662ecbb95618917604066228bc/ts/wasm/lib/detailed/interfaces.ts#L60)
+[wasm/lib/detailed/interfaces.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/interfaces.ts#L60)
