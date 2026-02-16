@@ -12,7 +12,7 @@ Current manabar value
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:81](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/interfaces.ts#L81)
+[wasm/lib/detailed/interfaces.ts:81](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/interfaces.ts#L81)
 
 ***
 
@@ -24,7 +24,7 @@ Maximum manabar value
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:88](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/interfaces.ts#L88)
+[wasm/lib/detailed/interfaces.ts:88](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/interfaces.ts#L88)
 
 ***
 
@@ -36,4 +36,4 @@ Percent of manabar load with two digits of precision, safely calculated based on
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/interfaces.ts#L95)
+[wasm/lib/detailed/interfaces.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/interfaces.ts#L95)

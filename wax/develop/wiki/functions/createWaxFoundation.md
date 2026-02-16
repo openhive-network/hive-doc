@@ -26,4 +26,4 @@ on any Wax API-related error
 
 ## Defined in
 
-[wasm/lib/index.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/index.ts#L82)
+[wasm/lib/index.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/index.ts#L82)

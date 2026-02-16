@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L17)
+[wasm/lib/detailed/healthchecker/endpoint.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L17)
 
 ***
 
@@ -32,7 +32,7 @@ Endpoints that will be checked
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L22)
+[wasm/lib/detailed/healthchecker/endpoint.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L22)
 
 ***
 
@@ -45,7 +45,7 @@ Can be used upon validationerror parsing to properly identify the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L28)
+[wasm/lib/detailed/healthchecker/endpoint.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L28)
 
 ***
 
@@ -65,7 +65,7 @@ Can be used upon validationerror parsing to properly identify the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L11)
+[wasm/lib/detailed/healthchecker/endpoint.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L11)
 
 ## Methods
 
@@ -89,7 +89,7 @@ url to add
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L34)
+[wasm/lib/detailed/healthchecker/endpoint.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L34)
 
 ***
 
@@ -105,7 +105,7 @@ Lists sorted endpoint url statuses (latency in descending order)
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L46)
+[wasm/lib/detailed/healthchecker/endpoint.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L46)
 
 ***
 
@@ -131,4 +131,4 @@ true if endpoint was removed, false if it was not found
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/bf3eec1cb090d565a6022f7f980f6259bba7b2ac/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L41)
+[wasm/lib/detailed/healthchecker/endpoint.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L41)
