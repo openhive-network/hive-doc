@@ -16,4 +16,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/util/query\_string.ts:1](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/util/query_string.ts#L1)
+[wasm/lib/detailed/util/query\_string.ts:1](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/util/query_string.ts#L1)

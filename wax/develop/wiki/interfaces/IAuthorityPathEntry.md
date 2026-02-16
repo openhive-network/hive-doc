@@ -15,7 +15,7 @@ Account name or public key specified at given authority entry definition.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L76)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L76)
 
 ***
 
@@ -27,7 +27,7 @@ Role level (posting/active/owner) specific to processed authority entry.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L80)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L80)
 
 ***
 
@@ -39,7 +39,7 @@ Holds set of gathered information described by [TAuthorityEntryProcessingStatus]
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:98](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L98)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:98](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L98)
 
 ***
 
@@ -51,7 +51,7 @@ Current processing nest level (in case of account authority redirection it can b
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:93](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L93)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:93](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L93)
 
 ***
 
@@ -63,7 +63,7 @@ A threashold specific to processed authority role definition.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L84)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L84)
 
 ***
 
@@ -76,7 +76,7 @@ This structure allows to see all paths entered during authority verification pro
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L104)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L104)
 
 ***
 
@@ -88,4 +88,4 @@ A weight specific to processed (account or key) entry definition.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:88](https://gitlab.syncad.com/hive/wax/-/blob/25b077f1212af270804d5f80de54dc9af4e3c0b0/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L88)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:88](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L88)
