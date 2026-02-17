@@ -12,7 +12,7 @@ The account name of the proposal creator.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L15)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L15)
 
 ***
 
@@ -25,7 +25,7 @@ The daily pay of the proposal.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L20)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L20)
 
 ***
 
@@ -38,7 +38,7 @@ The end date of the proposal.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L35)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L35)
 
 ***
 
@@ -51,7 +51,7 @@ The permlink of the proposal.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L30)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L30)
 
 ***
 
@@ -63,7 +63,7 @@ The identifier of the proposal to be updated.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L11)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L11)
 
 ***
 
@@ -76,4 +76,4 @@ The subject of the proposal.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/742eca65a48eb16152b3c1d1e2208fb91a5718b6/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L25)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L25)
