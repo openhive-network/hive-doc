@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L52)
+[wasm/lib/detailed/healthchecker/endpoint.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/f73f483d5c38a28ebc5e72b9fcff623d1cf9e30d/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L52)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L50)
+[wasm/lib/detailed/healthchecker/endpoint.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/f73f483d5c38a28ebc5e72b9fcff623d1cf9e30d/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L50)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L53)
+[wasm/lib/detailed/healthchecker/endpoint.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/f73f483d5c38a28ebc5e72b9fcff623d1cf9e30d/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L53)
 
 ***
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L51)
+[wasm/lib/detailed/healthchecker/endpoint.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/f73f483d5c38a28ebc5e72b9fcff623d1cf9e30d/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L51)
 
 ***
 
@@ -50,4 +50,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L54)
+[wasm/lib/detailed/healthchecker/endpoint.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/f73f483d5c38a28ebc5e72b9fcff623d1cf9e30d/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L54)

@@ -57,4 +57,4 @@ Will be set to non-null value when given (decoded from signature) public key mat
 
 ## Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/c51ee609f80bc885646f0cf15e53fb833e7bd6e2/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L11)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/f73f483d5c38a28ebc5e72b9fcff623d1cf9e30d/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L11)
