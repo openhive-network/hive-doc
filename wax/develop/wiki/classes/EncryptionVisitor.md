@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L12)
+[wasm/lib/detailed/encryption\_visitor.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L12)
 
 ## Methods
 
@@ -58,7 +58,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L26)
+[wasm/lib/detailed/visitor.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L26)
 
 ***
 
@@ -82,7 +82,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L42)
+[wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L42)
 
 ***
 
@@ -106,7 +106,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L71)
+[wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L71)
 
 ***
 
@@ -130,7 +130,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L43)
+[wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L43)
 
 ***
 
@@ -154,7 +154,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L73)
+[wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L73)
 
 ***
 
@@ -178,7 +178,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L46)
+[wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L46)
 
 ***
 
@@ -202,7 +202,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L45)
+[wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L45)
 
 ***
 
@@ -226,7 +226,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L67)
+[wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L67)
 
 ***
 
@@ -250,7 +250,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L59)
+[wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L59)
 
 ***
 
@@ -274,7 +274,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L55)
+[wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L55)
 
 ***
 
@@ -298,7 +298,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L69)
+[wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L69)
 
 ***
 
@@ -322,7 +322,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L78)
+[wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L78)
 
 ***
 
@@ -346,7 +346,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L18)
+[wasm/lib/detailed/encryption\_visitor.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L18)
 
 ***
 
@@ -370,7 +370,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L52)
+[wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L52)
 
 ***
 
@@ -394,7 +394,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L41)
+[wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L41)
 
 ***
 
@@ -418,7 +418,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L56)
+[wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L56)
 
 ***
 
@@ -442,7 +442,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L74)
+[wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L74)
 
 ***
 
@@ -466,7 +466,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L28)
+[wasm/lib/detailed/encryption\_visitor.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L28)
 
 ***
 
@@ -490,7 +490,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L48)
+[wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L48)
 
 ***
 
@@ -514,7 +514,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L68)
+[wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L68)
 
 ***
 
@@ -538,7 +538,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L70)
+[wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L70)
 
 ***
 
@@ -562,7 +562,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L50)
+[wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L50)
 
 ***
 
@@ -586,7 +586,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L64)
+[wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L64)
 
 ***
 
@@ -610,7 +610,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L61)
+[wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L61)
 
 ***
 
@@ -634,7 +634,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L62)
+[wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L62)
 
 ***
 
@@ -658,7 +658,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L60)
+[wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L60)
 
 ***
 
@@ -682,7 +682,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L40)
+[wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L40)
 
 ***
 
@@ -706,7 +706,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L39)
+[wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L39)
 
 ***
 
@@ -730,7 +730,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L38)
+[wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L38)
 
 ***
 
@@ -754,7 +754,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L54)
+[wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L54)
 
 ***
 
@@ -778,7 +778,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L47)
+[wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L47)
 
 ***
 
@@ -802,7 +802,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L63)
+[wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L63)
 
 ***
 
@@ -826,7 +826,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L58)
+[wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L58)
 
 ***
 
@@ -850,7 +850,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L47)
+[wasm/lib/detailed/encryption\_visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L47)
 
 ***
 
@@ -874,7 +874,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L76)
+[wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L76)
 
 ***
 
@@ -898,7 +898,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L57)
+[wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L57)
 
 ***
 
@@ -922,7 +922,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L53)
+[wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L53)
 
 ***
 
@@ -946,7 +946,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L43)
+[wasm/lib/detailed/encryption\_visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L43)
 
 ***
 
@@ -970,7 +970,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L22)
+[wasm/lib/detailed/encryption\_visitor.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L22)
 
 ***
 
@@ -994,7 +994,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/encryption\_visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/encryption_visitor.ts#L39)
+[wasm/lib/detailed/encryption\_visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/encryption_visitor.ts#L39)
 
 ***
 
@@ -1018,7 +1018,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L36)
+[wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L36)
 
 ***
 
@@ -1042,7 +1042,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L77)
+[wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L77)
 
 ***
 
@@ -1066,7 +1066,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L75)
+[wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L75)
 
 ***
 
@@ -1090,7 +1090,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L33)
+[wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L33)
 
 ***
 
@@ -1114,7 +1114,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L37)
+[wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L37)
 
 ***
 
@@ -1138,7 +1138,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L49)
+[wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L49)
 
 ***
 
@@ -1162,7 +1162,7 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L72)
+[wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L72)
 
 ***
 
@@ -1186,4 +1186,4 @@ You should not override this method
 
 #### Defined in
 
-[wasm/lib/detailed/visitor.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/visitor.ts#L44)
+[wasm/lib/detailed/visitor.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/ac0ea25b3e26f059ca8c3033877d3dc56983d37a/ts/wasm/lib/detailed/visitor.ts#L44)
