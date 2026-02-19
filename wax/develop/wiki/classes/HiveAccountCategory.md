@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/role\_category\_base.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/4ff8e9dab84260dfacc8ca1a0b7d0ea87bd96231/ts/wasm/lib/detailed/complex_operations/role_classes/role_category_base.ts#L15)
+[wasm/lib/detailed/complex\_operations/role\_classes/role\_category\_base.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/complex_operations/role_classes/role_category_base.ts#L15)
 
 ***
 
@@ -49,7 +49,7 @@ Category name. It should be unique and marked `as const` for proper type narrowi
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/4ff8e9dab84260dfacc8ca1a0b7d0ea87bd96231/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L23)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L23)
 
 ## Accessors
 
@@ -71,7 +71,7 @@ Indicates if any of the authority levels has changed since the last update.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/4ff8e9dab84260dfacc8ca1a0b7d0ea87bd96231/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L25)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L25)
 
 ## Methods
 
@@ -97,7 +97,7 @@ This function should return an array of operations that will modify the user acc
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/4ff8e9dab84260dfacc8ca1a0b7d0ea87bd96231/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L104)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L104)
 
 ***
 
@@ -129,4 +129,4 @@ Keys you return will have an impact on the role types supported by the account a
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/4ff8e9dab84260dfacc8ca1a0b7d0ea87bd96231/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L31)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/85fd5270526c5a18b82df1989bfd5ab402e6c9b5/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L31)
