@@ -1,6 +1,7 @@
 {
   "versions": [
     "develop",
+    "1.28.4-rc1",
     "bw-github-pages-docs-v2",
     "bw/normalize-version-format",
     "bw/update-wax-2.0.0",

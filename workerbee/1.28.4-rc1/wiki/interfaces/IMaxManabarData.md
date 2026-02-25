@@ -1,0 +1,49 @@
+[@hiveio/workerbee](../globals) / IMaxManabarData
+
+# Interface: IMaxManabarData
+
+## Extends
+
+- [`IManabarData`](./IManabarData)
+
+## Extended by
+
+- [`IManabarDataPercent`](./IManabarDataPercent)
+
+## Properties
+
+### currentMana
+
+> **currentMana**: `bigint`
+
+#### Inherited from
+
+[`IManabarData`](./IManabarData).[`currentMana`](./IManabarData#currentmana)
+
+#### Defined in
+
+[src/chain-observers/classifiers/account-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/chain-observers/classifiers/account-classifier.ts#L11)
+
+***
+
+### lastUpdateTime
+
+> **lastUpdateTime**: `Date`
+
+#### Inherited from
+
+[`IManabarData`](./IManabarData).[`lastUpdateTime`](./IManabarData#lastupdatetime)
+
+#### Defined in
+
+[src/chain-observers/classifiers/account-classifier.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/chain-observers/classifiers/account-classifier.ts#L12)
+
+***
+
+### max
+
+> **max**: `bigint`
+
+#### Defined in
+
+[src/chain-observers/classifiers/account-classifier.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/chain-observers/classifiers/account-classifier.ts#L16)
