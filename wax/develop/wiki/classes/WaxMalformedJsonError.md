@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/healthchecker/errors.ts#L39)
+[wasm/lib/detailed/healthchecker/errors.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/21b67519418f95a40db4adb4abd35a199db590ac/ts/wasm/lib/detailed/healthchecker/errors.ts#L39)
 
 ## Properties
 
@@ -92,7 +92,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/healthchecker/errors.ts#L29)
+[wasm/lib/detailed/healthchecker/errors.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/21b67519418f95a40db4adb4abd35a199db590ac/ts/wasm/lib/detailed/healthchecker/errors.ts#L29)
 
 ***
 
@@ -106,7 +106,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/healthchecker/errors.ts#L30)
+[wasm/lib/detailed/healthchecker/errors.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/21b67519418f95a40db4adb4abd35a199db590ac/ts/wasm/lib/detailed/healthchecker/errors.ts#L30)
 
 ***
 
