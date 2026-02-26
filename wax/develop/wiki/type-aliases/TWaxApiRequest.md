@@ -34,4 +34,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:1137](https://gitlab.syncad.com/hive/wax/-/blob/a42fdb500bc14c06485fccd0dc833631ac25faef/ts/wasm/lib/detailed/interfaces.ts#L1137)
+[wasm/lib/detailed/interfaces.ts:1137](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/interfaces.ts#L1137)

@@ -18,7 +18,7 @@ Options for the formatter
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/a42fdb500bc14c06485fccd0dc833631ac25faef/ts/wasm/lib/detailed/formatters/types.ts#L152)
+[wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/formatters/types.ts#L152)
 
 ## Methods
 
@@ -56,7 +56,7 @@ formatter.format(naiObject);
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/a42fdb500bc14c06485fccd0dc833631ac25faef/ts/wasm/lib/detailed/formatters/types.ts#L147)
+[wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/formatters/types.ts#L147)
 
 ***
 
@@ -94,4 +94,4 @@ formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/a42fdb500bc14c06485fccd0dc833631ac25faef/ts/wasm/lib/detailed/formatters/types.ts#L133)
+[wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/00bfff44d29ba8c012da43e0172222eab09f77bd/ts/wasm/lib/detailed/formatters/types.ts#L133)
