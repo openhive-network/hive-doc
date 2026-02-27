@@ -55,7 +55,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 });
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
 
 ## Properties
 
@@ -68,7 +68,7 @@ default endpoints for checkers.
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
 
 ***
 
@@ -80,7 +80,7 @@ minimal interval between checks in milliseconds (default: 10 seconds)
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
 
 ***
 
@@ -126,7 +126,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:45
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
 
 ***
 
@@ -186,7 +186,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:49
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
 
 ***
 
@@ -221,7 +221,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:44
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
 
 ## Methods
 
@@ -269,7 +269,7 @@ iterator for all registered endpoints
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
 
 ***
 
@@ -299,7 +299,7 @@ Type of the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
 
 ***
 
@@ -464,7 +464,7 @@ endpoint if found, undefined otherwise
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
 
 ***
 
@@ -499,7 +499,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:77
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
 
 ***
 
@@ -605,7 +605,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:78
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
 
 ***
 
@@ -633,7 +633,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:78
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
 
 ***
 
@@ -661,7 +661,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:78
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
 
 ***
 
@@ -869,7 +869,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 }, data => data.block?
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
 
 ***
 
@@ -931,7 +931,7 @@ Type of the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
 
 ***
 
@@ -1114,7 +1114,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 });
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
 
 ***
 
@@ -1146,7 +1146,7 @@ either true or false if api has been unregistered successfully
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
 
 ***
 
@@ -1170,7 +1170,7 @@ if true, clears unused endpoint urls from stats (defaults to true)
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
 
 ***
 
@@ -1198,7 +1198,7 @@ endpoint to unsubscribe from
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
 
 ***
 
@@ -1218,7 +1218,7 @@ Unsubscribes all the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/6d2b363a268310a39308191bcec492025211959a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
 
 ***
 
