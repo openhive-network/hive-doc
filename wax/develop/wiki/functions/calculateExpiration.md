@@ -20,4 +20,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/util/expiration\_parser.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/util/expiration_parser.ts#L21)
+[wasm/lib/detailed/util/expiration\_parser.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/15396aaf2f1d502cfb459bf2d76f175f28fc2dbb/ts/wasm/lib/detailed/util/expiration_parser.ts#L21)

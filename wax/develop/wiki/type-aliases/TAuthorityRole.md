@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/4c76a712db5507a1a63880e9ca0f4617ad452c98/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L4)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/15396aaf2f1d502cfb459bf2d76f175f28fc2dbb/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L4)
