@@ -24,4 +24,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/decorators/formatters.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/9029d1263221d0ea7ea780039263b009f4a52ffb/ts/wasm/lib/detailed/decorators/formatters.ts#L37)
+[wasm/lib/detailed/decorators/formatters.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/27e8d85750ebe2ffc934fa661b7cd2dc5242b01d/ts/wasm/lib/detailed/decorators/formatters.ts#L37)

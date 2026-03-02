@@ -12,4 +12,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/visitor.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/9029d1263221d0ea7ea780039263b009f4a52ffb/ts/wasm/lib/detailed/visitor.ts#L20)
+[wasm/lib/detailed/visitor.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/27e8d85750ebe2ffc934fa661b7cd2dc5242b01d/ts/wasm/lib/detailed/visitor.ts#L20)
