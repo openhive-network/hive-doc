@@ -18,7 +18,7 @@ Asset amount
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:594](https://gitlab.syncad.com/hive/wax/-/blob/e25b8c8d97e816ce4f4ff46288ec990cab9c8b9f/ts/wasm/lib/detailed/interfaces.ts#L594)
+[wasm/lib/detailed/interfaces.ts:594](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/interfaces.ts#L594)
 
 ***
 
@@ -36,4 +36,4 @@ Asset symbol
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:601](https://gitlab.syncad.com/hive/wax/-/blob/e25b8c8d97e816ce4f4ff46288ec990cab9c8b9f/ts/wasm/lib/detailed/interfaces.ts#L601)
+[wasm/lib/detailed/interfaces.ts:601](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/interfaces.ts#L601)

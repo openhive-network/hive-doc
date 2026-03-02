@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/e25b8c8d97e816ce4f4ff46288ec990cab9c8b9f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L28)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L28)
 
 ## Properties
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/e25b8c8d97e816ce4f4ff46288ec990cab9c8b9f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L29)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L29)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/e25b8c8d97e816ce4f4ff46288ec990cab9c8b9f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L30)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L30)
 
 ***
 
@@ -58,4 +58,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/e25b8c8d97e816ce4f4ff46288ec990cab9c8b9f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L31)
+[wasm/lib/detailed/hive\_apps\_operations/community.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L31)
