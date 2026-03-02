@@ -34,7 +34,7 @@ Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
 
 ***
 
@@ -50,7 +50,7 @@ Id of your custom hive apps operation
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/rc.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L13)
+[wasm/lib/detailed/hive\_apps\_operations/rc.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L13)
 
 ***
 
@@ -64,7 +64,7 @@ Id of your custom hive apps operation
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
 
 ## Methods
 
@@ -100,7 +100,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
 
 ***
 
@@ -146,7 +146,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/rc.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L27)
+[wasm/lib/detailed/hive\_apps\_operations/rc.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L27)
 
 ***
 
@@ -172,7 +172,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
 
 ***
 
@@ -211,4 +211,4 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/rc.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3997c7919fd81ba2e74d57d20d575f6f240bbd7b/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L53)
+[wasm/lib/detailed/hive\_apps\_operations/rc.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/bcf25065a2448e046a140eba3f1afc6bc46c42c4/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L53)
