@@ -16,4 +16,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/decorators/is\_public\_key.ts:1](https://gitlab.syncad.com/hive/wax/-/blob/488d98cc64c927c8f6d1c1a286593c07737d330f/ts/wasm/lib/detailed/decorators/is_public_key.ts#L1)
+[wasm/lib/detailed/decorators/is\_public\_key.ts:1](https://gitlab.syncad.com/hive/wax/-/blob/a510b47435a15d0d51739b35f2f02fbd490eb5ac/ts/wasm/lib/detailed/decorators/is_public_key.ts#L1)

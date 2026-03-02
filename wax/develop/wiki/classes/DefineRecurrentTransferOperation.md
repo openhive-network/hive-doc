@@ -43,7 +43,7 @@ Creates/updates a recurrent transfer in the currency Hive or HBD.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/488d98cc64c927c8f6d1c1a286593c07737d330f/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L108)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/a510b47435a15d0d51739b35f2f02fbd490eb5ac/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L108)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Creates/updates a recurrent transfer in the currency Hive or HBD.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/488d98cc64c927c8f6d1c1a286593c07737d330f/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/a510b47435a15d0d51739b35f2f02fbd490eb5ac/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
 
 ## Methods
 
@@ -83,4 +83,4 @@ Creates/updates a recurrent transfer in the currency Hive or HBD.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/488d98cc64c927c8f6d1c1a286593c07737d330f/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L64)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/a510b47435a15d0d51739b35f2f02fbd490eb5ac/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L64)
