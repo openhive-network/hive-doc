@@ -45,7 +45,7 @@ Checks if the authority has changed since the last update and it is possible to 
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/b9eda02561232b8c54701716102c1ca1d31152db/ts/wasm/lib/detailed/complex_operations/account_update.ts#L149)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/d0155bc41bf00e2a65caa3f1a1c6c869c9045a3e/ts/wasm/lib/detailed/complex_operations/account_update.ts#L149)
 
 ## Methods
 
@@ -66,7 +66,7 @@ Enforces the requirement for **owner** role authorization when modifying **activ
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/b9eda02561232b8c54701716102c1ca1d31152db/ts/wasm/lib/detailed/complex_operations/account_update.ts#L99)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/d0155bc41bf00e2a65caa3f1a1c6c869c9045a3e/ts/wasm/lib/detailed/complex_operations/account_update.ts#L99)
 
 ***
 
@@ -92,7 +92,7 @@ Enforces the requirement for **owner** role authorization when modifying **activ
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:161](https://gitlab.syncad.com/hive/wax/-/blob/b9eda02561232b8c54701716102c1ca1d31152db/ts/wasm/lib/detailed/complex_operations/account_update.ts#L161)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:161](https://gitlab.syncad.com/hive/wax/-/blob/d0155bc41bf00e2a65caa3f1a1c6c869c9045a3e/ts/wasm/lib/detailed/complex_operations/account_update.ts#L161)
 
 ***
 
@@ -122,7 +122,7 @@ Role class instance for the given role level
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/b9eda02561232b8c54701716102c1ca1d31152db/ts/wasm/lib/detailed/complex_operations/account_update.ts#L111)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/d0155bc41bf00e2a65caa3f1a1c6c869c9045a3e/ts/wasm/lib/detailed/complex_operations/account_update.ts#L111)
 
 ***
 
@@ -164,7 +164,7 @@ for(const role of operation.roles("hive"))
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/b9eda02561232b8c54701716102c1ca1d31152db/ts/wasm/lib/detailed/complex_operations/account_update.ts#L137)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/d0155bc41bf00e2a65caa3f1a1c6c869c9045a3e/ts/wasm/lib/detailed/complex_operations/account_update.ts#L137)
 
 ***
 
@@ -196,4 +196,4 @@ initialized account authority update operation
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/b9eda02561232b8c54701716102c1ca1d31152db/ts/wasm/lib/detailed/complex_operations/account_update.ts#L73)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/d0155bc41bf00e2a65caa3f1a1c6c869c9045a3e/ts/wasm/lib/detailed/complex_operations/account_update.ts#L73)
