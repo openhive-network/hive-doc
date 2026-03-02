@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/api/types/transaction.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/756549e1b43b1c234a88ee2a21906329309cae42/ts/wasm/lib/detailed/api/types/transaction.ts#L19)
+[wasm/lib/detailed/api/types/transaction.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/486732e232b12d15f13c5fb197ed213407a5ff04/ts/wasm/lib/detailed/api/types/transaction.ts#L19)

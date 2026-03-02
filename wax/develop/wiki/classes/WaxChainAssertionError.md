@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/756549e1b43b1c234a88ee2a21906329309cae42/ts/wasm/lib/detailed/errors.ts#L33)
+[wasm/lib/detailed/errors.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/486732e232b12d15f13c5fb197ed213407a5ff04/ts/wasm/lib/detailed/errors.ts#L33)
 
 ## Properties
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/756549e1b43b1c234a88ee2a21906329309cae42/ts/wasm/lib/detailed/errors.ts#L15)
+[wasm/lib/detailed/errors.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/486732e232b12d15f13c5fb197ed213407a5ff04/ts/wasm/lib/detailed/errors.ts#L15)
 
 ***
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/756549e1b43b1c234a88ee2a21906329309cae42/ts/wasm/lib/detailed/errors.ts#L14)
+[wasm/lib/detailed/errors.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/486732e232b12d15f13c5fb197ed213407a5ff04/ts/wasm/lib/detailed/errors.ts#L14)
 
 ***
 
