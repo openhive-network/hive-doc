@@ -26,7 +26,7 @@ Matches instance of a given class
 
 #### Defined in
 
-[wasm/lib/detailed/decorators/formatters.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/decorators/formatters.ts#L34)
+[wasm/lib/detailed/decorators/formatters.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/d77f7d9ae3137cbfe5284992334839fb76a6ea96/ts/wasm/lib/detailed/decorators/formatters.ts#L34)
 
 ***
 
@@ -38,7 +38,7 @@ Property to match. If not specified defaults to the formatter method name
 
 #### Defined in
 
-[wasm/lib/detailed/decorators/formatters.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/decorators/formatters.ts#L9)
+[wasm/lib/detailed/decorators/formatters.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/d77f7d9ae3137cbfe5284992334839fb76a6ea96/ts/wasm/lib/detailed/decorators/formatters.ts#L9)
 
 ***
 
@@ -51,7 +51,7 @@ Note: uses strict equality for value checking (`===`)
 
 #### Defined in
 
-[wasm/lib/detailed/decorators/formatters.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/decorators/formatters.ts#L17)
+[wasm/lib/detailed/decorators/formatters.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/d77f7d9ae3137cbfe5284992334839fb76a6ea96/ts/wasm/lib/detailed/decorators/formatters.ts#L17)
 
 ***
 
@@ -71,4 +71,4 @@ false
 
 #### Defined in
 
-[wasm/lib/detailed/decorators/formatters.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/decorators/formatters.ts#L27)
+[wasm/lib/detailed/decorators/formatters.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/d77f7d9ae3137cbfe5284992334839fb76a6ea96/ts/wasm/lib/detailed/decorators/formatters.ts#L27)

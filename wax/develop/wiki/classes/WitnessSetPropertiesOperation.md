@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L61)
+[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/d77f7d9ae3137cbfe5284992334839fb76a6ea96/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L61)
 
 ## Methods
 
@@ -54,4 +54,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/dc8566111239e22376ff0e8a7d89282600e749ea/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L89)
+[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/d77f7d9ae3137cbfe5284992334839fb76a6ea96/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L89)
