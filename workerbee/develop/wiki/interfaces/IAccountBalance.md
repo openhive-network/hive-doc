@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/account-classifier.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/account-classifier.ts#L30)
+[src/chain-observers/classifiers/account-classifier.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/5eab2cad232636d85f195a53901c1212e06f9bee/src/chain-observers/classifiers/account-classifier.ts#L30)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/account-classifier.ts:31](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/account-classifier.ts#L31)
+[src/chain-observers/classifiers/account-classifier.ts:31](https://gitlab.syncad.com/hive/workerbee/-/blob/5eab2cad232636d85f195a53901c1212e06f9bee/src/chain-observers/classifiers/account-classifier.ts#L31)
 
 ***
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/account-classifier.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/5a4fea5cf91e40d3722f05ff430c20a9f5a0ca12/src/chain-observers/classifiers/account-classifier.ts#L32)
+[src/chain-observers/classifiers/account-classifier.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/5eab2cad232636d85f195a53901c1212e06f9bee/src/chain-observers/classifiers/account-classifier.ts#L32)
