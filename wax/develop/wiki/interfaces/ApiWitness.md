@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L6)
+[wasm/lib/detailed/api/types/witness.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L6)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L4)
+[wasm/lib/detailed/api/types/witness.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L4)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L9)
+[wasm/lib/detailed/api/types/witness.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L9)
 
 ***
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L5)
+[wasm/lib/detailed/api/types/witness.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L5)
 
 ***
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L10)
+[wasm/lib/detailed/api/types/witness.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L10)
 
 ***
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L7)
+[wasm/lib/detailed/api/types/witness.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L7)
 
 ***
 
@@ -70,4 +70,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/witness.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/97fe32f224cb4c50d7e2c3ed61102e765b51f291/ts/wasm/lib/detailed/api/types/witness.ts#L8)
+[wasm/lib/detailed/api/types/witness.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/c81f4ddfcc09c9cbe9259623c4223689a6c91dec/ts/wasm/lib/detailed/api/types/witness.ts#L8)
