@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/chain\_api.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/chain_api.ts#L20)
+[wasm/lib/detailed/chain\_api.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/chain_api.ts#L20)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/chain\_api.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/chain_api.ts#L21)
+[wasm/lib/detailed/chain\_api.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/chain_api.ts#L21)
 
 ***
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/chain\_api.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/chain_api.ts#L19)
+[wasm/lib/detailed/chain\_api.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/chain_api.ts#L19)

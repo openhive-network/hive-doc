@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L41)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L41)
 
 ## Methods
 
@@ -54,4 +54,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L78)
+[wasm/lib/detailed/complex\_operations/update\_proposal.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L78)

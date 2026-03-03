@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L5)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L5)

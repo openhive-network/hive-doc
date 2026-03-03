@@ -26,7 +26,7 @@ The decrypted data as a string.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/extensions/signatures/index.ts#L53)
+[wasm/lib/detailed/extensions/signatures/index.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/extensions/signatures/index.ts#L53)
 
 ***
 
@@ -58,4 +58,4 @@ A string containing the encrypted data.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/0e4aeeeca5249d39fad7c907e5ee13fa59cbdbcb/ts/wasm/lib/detailed/extensions/signatures/index.ts#L45)
+[wasm/lib/detailed/extensions/signatures/index.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/3d9e92ef7ffb6ceca51559d5f5f47da01cc5382a/ts/wasm/lib/detailed/extensions/signatures/index.ts#L45)
