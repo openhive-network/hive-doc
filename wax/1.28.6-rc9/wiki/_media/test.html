@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wax Test</title>
+</head>
+<body id="waxbody">
+  <script type="importmap">
+    {
+      "imports": {
+        "../../dist/bundle/build_wasm/wax.web.js": "/wasm/dist/bundle/build_wasm/wax.web.js",
+        "../../dist/bundle/web.js": "/wasm/dist/bundle/web.js",
+        "./detailed/index.js": "/wasm/dist/bundle/detailed/index.js",
+        "./build_wasm/wax.web.js": "/wasm/dist/bundle//build_wasmwax.web.js",
+        "@hiveio/beekeeper": "/node_modules/@hiveio/beekeeper/dist/bundle/web.js"
+      }
+    }
+  </script>
+  <script type="module" src="/wasm/dist/assets/globals.js"></script>
+</body>
+</html>
