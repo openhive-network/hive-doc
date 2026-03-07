@@ -38,7 +38,7 @@ decrypted buffer
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/7c9dd6e99623bf9ec867a02302bb264768f325b1/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
+[wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/d87e89aad5fdcc560fa4110efcb202481a777bcd/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
 
 ***
 
@@ -82,7 +82,7 @@ base58 encrypted buffer
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/7c9dd6e99623bf9ec867a02302bb264768f325b1/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
+[wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/d87e89aad5fdcc560fa4110efcb202481a777bcd/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
 
 ***
 
@@ -114,4 +114,4 @@ signed data in hex format
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/7c9dd6e99623bf9ec867a02302bb264768f325b1/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)
+[wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/d87e89aad5fdcc560fa4110efcb202481a777bcd/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)
