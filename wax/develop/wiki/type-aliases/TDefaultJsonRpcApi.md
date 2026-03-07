@@ -28,4 +28,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:1222](https://gitlab.syncad.com/hive/wax/-/blob/264fec8889ac892885806cca161bd7eb801aa932/ts/wasm/lib/detailed/interfaces.ts#L1222)
+[wasm/lib/detailed/interfaces.ts:1222](https://gitlab.syncad.com/hive/wax/-/blob/4c877ca479fcacd83ac7ab496843ac6da6c5aed3/ts/wasm/lib/detailed/interfaces.ts#L1222)

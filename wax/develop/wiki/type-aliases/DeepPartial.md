@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/formatters/types.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/264fec8889ac892885806cca161bd7eb801aa932/ts/wasm/lib/detailed/formatters/types.ts#L5)
+[wasm/lib/detailed/formatters/types.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/4c877ca479fcacd83ac7ab496843ac6da6c5aed3/ts/wasm/lib/detailed/formatters/types.ts#L5)
