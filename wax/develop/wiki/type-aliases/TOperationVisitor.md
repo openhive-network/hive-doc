@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/visitor.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/eddd141013b270e0ed2945813c498579c1b2281a/ts/wasm/lib/detailed/visitor.ts#L14)
+[wasm/lib/detailed/visitor.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/visitor.ts#L14)

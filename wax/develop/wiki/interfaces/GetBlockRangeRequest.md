@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/block\_api/get\_block\_range.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/eddd141013b270e0ed2945813c498579c1b2281a/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L5)
+[wasm/lib/detailed/api/block\_api/get\_block\_range.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L5)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/block\_api/get\_block\_range.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/eddd141013b270e0ed2945813c498579c1b2281a/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L4)
+[wasm/lib/detailed/api/block\_api/get\_block\_range.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L4)
