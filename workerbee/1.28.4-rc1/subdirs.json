@@ -1,5 +1,6 @@
 {
   "subdirs": [
+    "manual",
     "wiki"
   ]
 }
