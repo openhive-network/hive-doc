@@ -58,7 +58,7 @@ undefined
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/formatters/types.ts#L22)
+[wasm/lib/detailed/formatters/types.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/formatters/types.ts#L22)
 
 ***
 
@@ -76,7 +76,7 @@ true
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/formatters/types.ts#L61)
+[wasm/lib/detailed/formatters/types.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/formatters/types.ts#L61)
 
 ***
 
@@ -98,4 +98,4 @@ true
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/formatters/types.ts#L48)
+[wasm/lib/detailed/formatters/types.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/formatters/types.ts#L48)

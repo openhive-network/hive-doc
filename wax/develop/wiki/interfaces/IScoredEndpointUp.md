@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
+[wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
 
 ***
 
@@ -30,7 +30,7 @@ Note: Latencies are listed in a way that the last element is the newest in histo
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L18)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L18)
 
 ***
 
@@ -40,7 +40,7 @@ Note: Latencies are listed in a way that the last element is the newest in histo
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L14)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L14)
 
 ***
 
@@ -50,4 +50,4 @@ Note: Latencies are listed in a way that the last element is the newest in histo
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L19)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L19)

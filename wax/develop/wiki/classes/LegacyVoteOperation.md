@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L12)
+[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L12)
 
 ## Properties
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L13)
+[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L13)
 
 ## Methods
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L21)
+[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L21)
 
 ***
 
@@ -100,4 +100,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L25)
+[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L25)

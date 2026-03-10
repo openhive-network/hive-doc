@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/block\_api/get\_block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/api/block_api/get_block.ts#L8)
+[wasm/lib/detailed/api/block\_api/get\_block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/api/block_api/get_block.ts#L8)

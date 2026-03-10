@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/util/request_helper.ts#L10)
+[wasm/lib/detailed/util/request\_helper.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/util/request_helper.ts#L10)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/util/request_helper.ts#L12)
+[wasm/lib/detailed/util/request\_helper.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/util/request_helper.ts#L12)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/util/request_helper.ts#L13)
+[wasm/lib/detailed/util/request\_helper.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/util/request_helper.ts#L13)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/util/request_helper.ts#L9)
+[wasm/lib/detailed/util/request\_helper.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/util/request_helper.ts#L9)
 
 ***
 
@@ -54,4 +54,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/6f77e6a5018400a71798848a9964355a19b11435/ts/wasm/lib/detailed/util/request_helper.ts#L11)
+[wasm/lib/detailed/util/request\_helper.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/4df764db1041fb4ace6f1db64e499ad28850b1d1/ts/wasm/lib/detailed/util/request_helper.ts#L11)
