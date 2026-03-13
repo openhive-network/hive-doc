@@ -26,13 +26,13 @@ The decrypted data as a string.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/extensions/signatures/index.ts#L53)
+[wasm/lib/detailed/extensions/signatures/index.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/extensions/signatures/index.ts#L54)
 
 ***
 
 ### encryptData()
 
-> **encryptData**(`buffer`, `recipient`): `Promise`\<`string`\>
+> **encryptData**(`buffer`, `recipient`, `nonce`?): `Promise`\<`string`\>
 
 Encrypts data
 
@@ -50,6 +50,12 @@ The string or binary buffer to encrypt.
 
 The public key of the recipient to encrypt the data for, or its account name - if supported by the signer.
 
+##### nonce?
+
+`number`
+
+optional nonce to be explicitly specified for encryption. If not provided, a random nonce will be generated.
+
 #### Returns
 
 `Promise`\<`string`\>
@@ -58,4 +64,4 @@ A string containing the encrypted data.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/extensions/signatures/index.ts#L45)
+[wasm/lib/detailed/extensions/signatures/index.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/extensions/signatures/index.ts#L46)

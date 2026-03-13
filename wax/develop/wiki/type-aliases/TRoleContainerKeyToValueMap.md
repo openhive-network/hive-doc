@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/complex_operations/account_update.ts#L29)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/complex_operations/account_update.ts#L29)

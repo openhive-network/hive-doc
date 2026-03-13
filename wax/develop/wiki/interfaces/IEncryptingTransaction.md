@@ -3,7 +3,7 @@
 # Interface: IEncryptingTransaction\<StopEncryptResult\>
 
 Same as [ITransaction](./ITransaction), but marks operations as encrypted using given keys, which will be encrypted upon
-[ITransaction.sign](./ITransactionBase#sign).
+ITransaction.sign.
 
 Note: We are not able to encrypt all operations.
 We are currently supporting:
@@ -51,4 +51,4 @@ current transaction instance
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:557](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L557)
+[wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L535)

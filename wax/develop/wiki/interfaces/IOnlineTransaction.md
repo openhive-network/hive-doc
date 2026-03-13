@@ -31,7 +31,7 @@ binary view metadata
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:376](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L376)
+[wasm/lib/detailed/interfaces.ts:375](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L375)
 
 ***
 
@@ -57,7 +57,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:293](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L293)
+[wasm/lib/detailed/interfaces.ts:293](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L293)
 
 ***
 
@@ -87,7 +87,7 @@ A set containing the account names that are impacted by the current transaction
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:284](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L284)
+[wasm/lib/detailed/interfaces.ts:284](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L284)
 
 ***
 
@@ -113,7 +113,7 @@ binary view metadata
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:385](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L385)
+[wasm/lib/detailed/interfaces.ts:384](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L384)
 
 ***
 
@@ -141,7 +141,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:304](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L304)
+[wasm/lib/detailed/interfaces.ts:304](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L304)
 
 ***
 
@@ -169,7 +169,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:273](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L273)
+[wasm/lib/detailed/interfaces.ts:273](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L273)
 
 ***
 
@@ -197,7 +197,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:342](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L342)
+[wasm/lib/detailed/interfaces.ts:342](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L342)
 
 ***
 
@@ -223,7 +223,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:362](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L362)
+[wasm/lib/detailed/interfaces.ts:361](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L361)
 
 ***
 
@@ -249,7 +249,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L192)
+[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L192)
 
 ***
 
@@ -275,7 +275,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:331](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L331)
+[wasm/lib/detailed/interfaces.ts:331](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L331)
 
 ***
 
@@ -299,7 +299,7 @@ protobuf transaction object
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:391](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L391)
+[wasm/lib/detailed/interfaces.ts:390](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L390)
 
 ## Methods
 
@@ -338,27 +338,27 @@ If you do not have a signature, create one using dedicated signature providers, 
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L209)
+[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L209)
 
 ***
 
 ### decrypt()
 
-> **decrypt**(`wallet`): [`transaction`](./transaction)
+> **decrypt**(`provider`): `Promise`\<[`transaction`](./transaction)\>
 
 Decrypts all underlying encrypted operations
 
 #### Parameters
 
-##### wallet
+##### provider
 
-[`ISignatureProvider`](./ISignatureProvider)
+[`IOnlineEncryptionProvider`](./IOnlineEncryptionProvider)
 
 unlocked wallet to be used for decryption
 
 #### Returns
 
-[`transaction`](./transaction)
+`Promise`\<[`transaction`](./transaction)\>
 
 protobuf transaction object
 
@@ -372,7 +372,7 @@ on any Wax API-related error including validation error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:353](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L353)
+[wasm/lib/detailed/interfaces.ts:353](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L353)
 
 ***
 
@@ -404,7 +404,7 @@ optional external transaction to be used for authority verification trace genera
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:585](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L585)
+[wasm/lib/detailed/interfaces.ts:563](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L563)
 
 ***
 
@@ -412,7 +412,7 @@ optional external transaction to be used for authority verification trace genera
 
 > **isSigned**(): `boolean`
 
-Checks if underlying transaction has been already signed at least one time (after [ITransaction.sign](./ITransactionBase#sign))
+Checks if underlying transaction has been already signed at least one time (after ITransaction.sign)
 
 #### Returns
 
@@ -426,7 +426,7 @@ either true or false based on the signatures amount
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L250)
+[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L250)
 
 ***
 
@@ -451,7 +451,7 @@ when any of supported checks failed.
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:575](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L575)
+[wasm/lib/detailed/interfaces.ts:553](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L553)
 
 ***
 
@@ -483,7 +483,7 @@ If you are implementing your transaction class and do not have operations to enc
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:322](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L322)
+[wasm/lib/detailed/interfaces.ts:322](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L322)
 
 ***
 
@@ -558,58 +558,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:471](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L471)
-
-***
-
-### ~~sign()~~
-
-> **sign**(`wallet`, `publicKey`): `string`
-
-Signs the transaction using given public key. Applies the transaction expiration time
-
-Encrypts operations if any were created using [IEncryptingTransaction](./IEncryptingTransaction) interface
-
-#### Parameters
-
-##### wallet
-
-[`ISignatureProvider`](./ISignatureProvider)
-
-unlocked wallet to be used for signing
-
-##### publicKey
-
-`string`
-
-publicKey for signing (should be available in the wallet)
-
-#### Returns
-
-`string`
-
-transaction signature signed using given key
-
-#### Throws
-
-on any Wax API-related error or no public key found in the unlocked wallet or wallet is locked
-
-#### Deprecated
-
-Use dedicated signature providers, such as:
-  - `@hiveio/wax-signers-beekeeper`
-  - `@hiveio/wax-signers-hb-auth`
-  - `@hiveio/wax-signers-metamask`
-  - `@hiveio/wax-signers-keychain`
-  - `@hiveio/wax-signers-peakvault`
-
-#### Inherited from
-
-[`ITransactionBase`](./ITransactionBase).[`sign`](./ITransactionBase#sign)
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:492](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L492)
+[wasm/lib/detailed/interfaces.ts:470](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L470)
 
 ***
 
@@ -620,7 +569,7 @@ Use dedicated signature providers, such as:
 Starts encryption chain
 
 Remember that in order to encrypt operations with given mainEncryptionKey and optional otherEncryptionKey
-you have to import those keys into the wallet passed to the [ITransaction.sign](./ITransactionBase#sign) method
+you have to import those keys into the wallet passed to the ITransaction.sign method
 
 #### Parameters
 
@@ -648,7 +597,7 @@ current transaction instance
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:413](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L413)
+[wasm/lib/detailed/interfaces.ts:412](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L412)
 
 ***
 
@@ -678,7 +627,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L243)
+[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L243)
 
 ***
 
@@ -704,7 +653,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:400](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L400)
+[wasm/lib/detailed/interfaces.ts:399](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L399)
 
 ***
 
@@ -733,7 +682,7 @@ optional flag to strip the transaction to unsigned form (without signature conta
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:420](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L420)
+[wasm/lib/detailed/interfaces.ts:419](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L419)
 
 ***
 
@@ -775,7 +724,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L232)
+[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L232)
 
 ***
 
@@ -801,7 +750,7 @@ on any Wax API-related error including validation error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:313](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L313)
+[wasm/lib/detailed/interfaces.ts:313](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L313)
 
 ***
 
@@ -825,4 +774,4 @@ on any Wax API-related error including validation error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:369](https://gitlab.syncad.com/hive/wax/-/blob/a753377a57ab669d290dcf9d780f2d4dcc64eb2b/ts/wasm/lib/detailed/interfaces.ts#L369)
+[wasm/lib/detailed/interfaces.ts:368](https://gitlab.syncad.com/hive/wax/-/blob/039c23e63fcfec43b8bc9d7809f25bdaff0540c8/ts/wasm/lib/detailed/interfaces.ts#L368)
