@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[src/utils/known-exchanges.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/5eab2cad232636d85f195a53901c1212e06f9bee/src/utils/known-exchanges.ts#L7)
+[src/utils/known-exchanges.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/utils/known-exchanges.ts#L7)
