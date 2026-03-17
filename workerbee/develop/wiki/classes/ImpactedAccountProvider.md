@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/impacted-account-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/impacted-account-provider.ts#L22)
+[src/chain-observers/providers/impacted-account-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/impacted-account-provider.ts#L22)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/impacted-account-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/impacted-account-provider.ts#L35)
+[src/chain-observers/providers/impacted-account-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/impacted-account-provider.ts#L35)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/impacted-account-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/impacted-account-provider.ts#L24)
+[src/chain-observers/providers/impacted-account-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/impacted-account-provider.ts#L24)
 
 ***
 
@@ -98,4 +98,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/impacted-account-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/impacted-account-provider.ts#L29)
+[src/chain-observers/providers/impacted-account-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/impacted-account-provider.ts#L29)

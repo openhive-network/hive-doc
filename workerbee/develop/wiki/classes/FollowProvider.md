@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/follow-provider.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/follow-provider.ts#L26)
+[src/chain-observers/providers/follow-provider.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/follow-provider.ts#L26)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/follow-provider.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/follow-provider.ts#L37)
+[src/chain-observers/providers/follow-provider.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/follow-provider.ts#L37)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/follow-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/follow-provider.ts#L28)
+[src/chain-observers/providers/follow-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/follow-provider.ts#L28)
 
 ***
 
@@ -98,4 +98,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/follow-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/follow-provider.ts#L33)
+[src/chain-observers/providers/follow-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/follow-provider.ts#L33)

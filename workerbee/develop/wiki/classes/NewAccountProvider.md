@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/new-account-provider.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/new-account-provider.ts#L27)
+[src/chain-observers/providers/new-account-provider.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/new-account-provider.ts#L27)
 
 ***
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/provider-base.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/provider-base.ts#L15)
+[src/chain-observers/providers/provider-base.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/provider-base.ts#L15)
 
 ***
 
@@ -82,4 +82,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/new-account-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/new-account-provider.ts#L23)
+[src/chain-observers/providers/new-account-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/new-account-provider.ts#L23)

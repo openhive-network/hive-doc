@@ -36,4 +36,4 @@
 
 ## Defined in
 
-[src/chain-observers/providers/new-account-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/41ad8704abfa46d261c1022b9a64765a6a654222/src/chain-observers/providers/new-account-provider.ts#L8)
+[src/chain-observers/providers/new-account-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/19e20d0bf0618b5ef6ee964950a2f1d8b02d03bd/src/chain-observers/providers/new-account-provider.ts#L8)
