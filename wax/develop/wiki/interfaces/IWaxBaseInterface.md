@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:583](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L583)
+[wasm/lib/detailed/interfaces.ts:583](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L583)
 
 ***
 
@@ -30,7 +30,7 @@ chain id in hex string format
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:593](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L593)
+[wasm/lib/detailed/interfaces.ts:593](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L593)
 
 ***
 
@@ -40,7 +40,7 @@ chain id in hex string format
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:585](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L585)
+[wasm/lib/detailed/interfaces.ts:585](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L585)
 
 ***
 
@@ -78,7 +78,7 @@ formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:586](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L586)
+[wasm/lib/detailed/interfaces.ts:586](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L586)
 
 ## Accessors
 
@@ -98,7 +98,7 @@ public key prefix
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:600](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L600)
+[wasm/lib/detailed/interfaces.ts:600](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L600)
 
 ***
 
@@ -116,7 +116,7 @@ Holds the protocol configuration for the current chain
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:652](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L652)
+[wasm/lib/detailed/interfaces.ts:652](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L652)
 
 ## Methods
 
@@ -158,7 +158,7 @@ on any Wax WASM related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1011](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1011)
+[wasm/lib/detailed/interfaces.ts:1011](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1011)
 
 ***
 
@@ -210,7 +210,7 @@ on any Wax WASM related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:983](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L983)
+[wasm/lib/detailed/interfaces.ts:983](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L983)
 
 ***
 
@@ -258,7 +258,7 @@ on any Wax WASM related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1034](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1034)
+[wasm/lib/detailed/interfaces.ts:1034](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1034)
 
 ***
 
@@ -310,7 +310,7 @@ on any Wax WASM related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1000](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1000)
+[wasm/lib/detailed/interfaces.ts:1000](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1000)
 
 ***
 
@@ -340,7 +340,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:915](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L915)
+[wasm/lib/detailed/interfaces.ts:915](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L915)
 
 ***
 
@@ -382,7 +382,7 @@ on any Wax WASM related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1022](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1022)
+[wasm/lib/detailed/interfaces.ts:1022](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1022)
 
 ***
 
@@ -412,7 +412,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:923](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L923)
+[wasm/lib/detailed/interfaces.ts:923](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L923)
 
 ***
 
@@ -442,7 +442,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:931](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L931)
+[wasm/lib/detailed/interfaces.ts:931](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L931)
 
 ***
 
@@ -472,7 +472,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1101](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1101)
+[wasm/lib/detailed/interfaces.ts:1101](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1101)
 
 ***
 
@@ -509,7 +509,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1091](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1091)
+[wasm/lib/detailed/interfaces.ts:1091](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1091)
 
 ***
 
@@ -539,7 +539,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1052](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1052)
+[wasm/lib/detailed/interfaces.ts:1052](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1052)
 
 ***
 
@@ -569,7 +569,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1063](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1063)
+[wasm/lib/detailed/interfaces.ts:1063](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1063)
 
 ***
 
@@ -593,7 +593,7 @@ protobuf transaction
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1041](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1041)
+[wasm/lib/detailed/interfaces.ts:1041](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1041)
 
 ***
 
@@ -633,7 +633,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1080](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1080)
+[wasm/lib/detailed/interfaces.ts:1080](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1080)
 
 ***
 
@@ -673,7 +673,7 @@ Use dedicated encryption providers, such as:
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:966](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L966)
+[wasm/lib/detailed/interfaces.ts:966](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L966)
 
 ***
 
@@ -693,7 +693,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:1107](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L1107)
+[wasm/lib/detailed/interfaces.ts:1107](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L1107)
 
 ***
 
@@ -751,7 +751,7 @@ Use dedicated encryption providers, such as:
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:950](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L950)
+[wasm/lib/detailed/interfaces.ts:950](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L950)
 
 ***
 
@@ -801,7 +801,7 @@ estimated interest value in HBD asset
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:687](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L687)
+[wasm/lib/detailed/interfaces.ts:687](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L687)
 
 ***
 
@@ -855,7 +855,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:675](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L675)
+[wasm/lib/detailed/interfaces.ts:675](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L675)
 
 ***
 
@@ -879,7 +879,7 @@ configuration options to extend
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:607](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L607)
+[wasm/lib/detailed/interfaces.ts:607](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L607)
 
 ***
 
@@ -905,7 +905,7 @@ asset data
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:660](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L660)
+[wasm/lib/detailed/interfaces.ts:660](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L660)
 
 ***
 
@@ -947,7 +947,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:905](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L905)
+[wasm/lib/detailed/interfaces.ts:905](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L905)
 
 ***
 
@@ -983,7 +983,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:880](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L880)
+[wasm/lib/detailed/interfaces.ts:880](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L880)
 
 ***
 
@@ -1001,7 +1001,7 @@ application version
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:647](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L647)
+[wasm/lib/detailed/interfaces.ts:647](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L647)
 
 ***
 
@@ -1045,7 +1045,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:811](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L811)
+[wasm/lib/detailed/interfaces.ts:811](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L811)
 
 ***
 
@@ -1085,7 +1085,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:717](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L717)
+[wasm/lib/detailed/interfaces.ts:717](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L717)
 
 ***
 
@@ -1125,7 +1125,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:762](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L762)
+[wasm/lib/detailed/interfaces.ts:762](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L762)
 
 ***
 
@@ -1167,7 +1167,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:858](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L858)
+[wasm/lib/detailed/interfaces.ts:858](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L858)
 
 ***
 
@@ -1211,7 +1211,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:794](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L794)
+[wasm/lib/detailed/interfaces.ts:794](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L794)
 
 ***
 
@@ -1251,7 +1251,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:702](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L702)
+[wasm/lib/detailed/interfaces.ts:702](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L702)
 
 ***
 
@@ -1291,7 +1291,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:747](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L747)
+[wasm/lib/detailed/interfaces.ts:747](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L747)
 
 ***
 
@@ -1333,7 +1333,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:868](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L868)
+[wasm/lib/detailed/interfaces.ts:868](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L868)
 
 ***
 
@@ -1375,7 +1375,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:848](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L848)
+[wasm/lib/detailed/interfaces.ts:848](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L848)
 
 ***
 
@@ -1404,7 +1404,7 @@ true if account name is valid, false otherwise
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:618](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L618)
+[wasm/lib/detailed/interfaces.ts:618](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L618)
 
 ***
 
@@ -1440,7 +1440,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:640](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L640)
+[wasm/lib/detailed/interfaces.ts:640](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L640)
 
 ***
 
@@ -1470,7 +1470,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:628](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L628)
+[wasm/lib/detailed/interfaces.ts:628](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L628)
 
 ***
 
@@ -1496,7 +1496,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:893](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L893)
+[wasm/lib/detailed/interfaces.ts:893](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L893)
 
 ***
 
@@ -1540,7 +1540,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:828](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L828)
+[wasm/lib/detailed/interfaces.ts:828](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L828)
 
 ***
 
@@ -1580,7 +1580,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:732](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L732)
+[wasm/lib/detailed/interfaces.ts:732](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L732)
 
 ***
 
@@ -1620,7 +1620,7 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:777](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L777)
+[wasm/lib/detailed/interfaces.ts:777](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L777)
 
 ***
 
@@ -1662,4 +1662,4 @@ on any Wax WASM-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:838](https://gitlab.syncad.com/hive/wax/-/blob/e9fb70eac31aed8b58a1df825a4448b5419380b0/ts/wasm/lib/detailed/interfaces.ts#L838)
+[wasm/lib/detailed/interfaces.ts:838](https://gitlab.syncad.com/hive/wax/-/blob/26d0b3cc1b072f1ae7841cbd656f3cb5b46a2347/ts/wasm/lib/detailed/interfaces.ts#L838)
