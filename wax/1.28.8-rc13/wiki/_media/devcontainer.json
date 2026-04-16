@@ -1,0 +1,38 @@
+{
+  "name": "Hive NodeJS & Typescript",
+  "image": "registry.gitlab.syncad.com/hive/common-ci-configuration/emsdk:4.0.22-6",
+  "containerUser": "emscripten",
+  //"runArgs": ["--network=host"],
+  "containerEnv": {
+     "DISPLAY": "host.docker.internal:0.0"
+  },
+
+  "portsAttributes": {
+    "8000-8080": {
+      "label": "Playwright test server, do not autoforward",
+      "onAutoForward": "ignore"
+    },
+    "30000-50000": {
+      "label": "Playwright test server, do not autoforward",
+      "onAutoForward": "ignore"
+    }
+  },
+
+  "mounts": [
+    {
+      "source": "${localEnv:HOME}/.gitconfig",
+      "target": "/home/emscripten/.gitconfig",
+      "type": "bind"
+    }
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-playwright.playwright",
+        "Vue.volar",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ]
+    }
+  }
+}
