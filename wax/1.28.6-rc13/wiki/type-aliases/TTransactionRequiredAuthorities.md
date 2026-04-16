@@ -1,0 +1,27 @@
+[@hiveio/wax](../globals) / TTransactionRequiredAuthorities
+
+# Type Alias: TTransactionRequiredAuthorities
+
+> **TTransactionRequiredAuthorities**: `object`
+
+## Type declaration
+
+### active
+
+> **active**: `Set`\<`string`\>
+
+### other
+
+> **other**: [`authority`](../interfaces/authority)[]
+
+### owner
+
+> **owner**: `Set`\<`string`\>
+
+### posting
+
+> **posting**: `Set`\<`string`\>
+
+## Defined in
+
+[wasm/lib/detailed/transaction.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/61b59eb33cef2e3d29c26bdc3d2ad2d1b64503d5/ts/wasm/lib/detailed/transaction.ts#L29)
