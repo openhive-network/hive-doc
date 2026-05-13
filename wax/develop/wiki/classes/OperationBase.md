@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/operation\_base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/b10fb3634b2c6002019e00cf7b4ee772cf9574d5/ts/wasm/lib/detailed/operation_base.ts#L9)
+[wasm/lib/detailed/operation\_base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/d9cc60231b9a80500cd52a97b0753d3f81a7f0f4/ts/wasm/lib/detailed/operation_base.ts#L9)
