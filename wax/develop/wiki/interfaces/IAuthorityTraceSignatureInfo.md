@@ -12,7 +12,7 @@ Holds data produced during authority verification process.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/d9cc60231b9a80500cd52a97b0753d3f81a7f0f4/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L114)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/5d389366db9685144effa67c5d23fd4e707cb7a8/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L114)
 
 ***
 
@@ -22,4 +22,4 @@ Holds data produced during authority verification process.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:113](https://gitlab.syncad.com/hive/wax/-/blob/d9cc60231b9a80500cd52a97b0753d3f81a7f0f4/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L113)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:113](https://gitlab.syncad.com/hive/wax/-/blob/5d389366db9685144effa67c5d23fd4e707cb7a8/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L113)
