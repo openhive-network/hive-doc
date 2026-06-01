@@ -51,4 +51,4 @@ current transaction instance
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/5d389366db9685144effa67c5d23fd4e707cb7a8/ts/wasm/lib/detailed/interfaces.ts#L535)
+[wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/37b929fac30d71c93427afd3ec599c60d179bc0e/ts/wasm/lib/detailed/interfaces.ts#L535)

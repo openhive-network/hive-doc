@@ -42,4 +42,4 @@ New url to set per API. Pass `undefined` to switch back to default endpoint URL 
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:1130](https://gitlab.syncad.com/hive/wax/-/blob/5d389366db9685144effa67c5d23fd4e707cb7a8/ts/wasm/lib/detailed/interfaces.ts#L1130)
+[wasm/lib/detailed/interfaces.ts:1130](https://gitlab.syncad.com/hive/wax/-/blob/37b929fac30d71c93427afd3ec599c60d179bc0e/ts/wasm/lib/detailed/interfaces.ts#L1130)
