@@ -16,4 +16,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/665d11ec095de0ca4cce9b09f2956299633ff5f4/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L30)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/76a3a4327657933350f6a0a928e0264779d31c6f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L30)

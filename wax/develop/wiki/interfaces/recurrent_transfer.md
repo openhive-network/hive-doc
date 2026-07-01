@@ -52,11 +52,13 @@ wasm/lib/proto/recurrent\_transfer.ts:35
 #### Param
 
 How many times the recurrent payment will be executed.
-                             Executions must be at least 2, if you set executions to 1 the recurrent transfer will not be executed.
+                             Executions must be at least 2 when creating a new recurrent transfer.
+                             Since HF 29 executions may be set to 1 when modifying an existing recurrent transfer
+                             (e.g. to update the amount or memo on the last remaining payment).
 
 #### Defined in
 
-wasm/lib/proto/recurrent\_transfer.ts:50
+wasm/lib/proto/recurrent\_transfer.ts:52
 
 ***
 
@@ -72,7 +74,7 @@ Extensions. Since HF 28 it may contain the 'pair_id'.
 
 #### Defined in
 
-wasm/lib/proto/recurrent\_transfer.ts:56
+wasm/lib/proto/recurrent\_transfer.ts:58
 
 ***
 
