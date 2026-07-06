@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/chain-observers/filters/filter-base.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/chain-observers/filters/filter-base.ts#L7)
+[src/chain-observers/filters/filter-base.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/filters/filter-base.ts#L7)
 
 ***
 
@@ -34,4 +34,4 @@
 
 #### Defined in
 
-[src/chain-observers/filters/filter-base.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/chain-observers/filters/filter-base.ts#L6)
+[src/chain-observers/filters/filter-base.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/filters/filter-base.ts#L6)

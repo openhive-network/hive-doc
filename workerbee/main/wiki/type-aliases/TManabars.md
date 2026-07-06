@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[src/chain-observers/classifiers/manabar-classifier.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/chain-observers/classifiers/manabar-classifier.ts#L9)
+[src/chain-observers/classifiers/manabar-classifier.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/classifiers/manabar-classifier.ts#L9)

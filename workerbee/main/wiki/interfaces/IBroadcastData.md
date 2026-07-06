@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/interfaces.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/interfaces.ts#L29)
+[src/interfaces.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/interfaces.ts#L29)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/interfaces.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/7c3c23177a79866fc4012a98ce8ff004a399f20c/src/interfaces.ts#L28)
+[src/interfaces.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/interfaces.ts#L28)
