@@ -5,6 +5,7 @@
     "bw-github-pages-docs-v2",
     "bw/normalize-version-format",
     "bw/update-wax-2.0.0",
+    "kmochocki/python-workerbee",
     "main"
   ]
 }
