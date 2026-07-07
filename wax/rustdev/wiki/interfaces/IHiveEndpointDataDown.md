@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
+[wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L70)
+[wasm/lib/detailed/healthchecker/endpoint.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L70)
 
 ***
 
@@ -38,4 +38,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/endpoint.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L69)
+[wasm/lib/detailed/healthchecker/endpoint.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L69)

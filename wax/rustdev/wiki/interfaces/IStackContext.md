@@ -16,7 +16,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L11)
+[wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L14)
+[wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L14)
 
 ***
 
@@ -36,7 +36,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L10)
+[wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L10)
 
 ***
 
@@ -46,7 +46,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L12)
+[wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L12)
 
 ***
 
@@ -56,7 +56,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L13)
+[wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L13)
 
 ***
 
@@ -66,7 +66,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L15)
+[wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L15)
 
 ***
 
@@ -76,4 +76,4 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/cxx_exception_data.ts#L16)
+[wasm/lib/detailed/cxx\_exception\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/cxx_exception_data.ts#L16)

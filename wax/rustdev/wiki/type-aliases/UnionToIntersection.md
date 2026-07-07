@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/complex\_operations/account\_update.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/complex_operations/account_update.ts#L16)
+[wasm/lib/detailed/complex\_operations/account\_update.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/complex_operations/account_update.ts#L16)

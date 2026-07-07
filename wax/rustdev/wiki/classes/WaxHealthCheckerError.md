@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/healthchecker/errors.ts#L6)
+[wasm/lib/detailed/healthchecker/errors.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/healthchecker/errors.ts#L6)
 
 ## Properties
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/healthchecker/errors.ts#L8)
+[wasm/lib/detailed/healthchecker/errors.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/healthchecker/errors.ts#L8)
 
 ***
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/errors.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/healthchecker/errors.ts#L9)
+[wasm/lib/detailed/healthchecker/errors.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/0f6f8338f71e43b820369dddf36bf10c0dff07ea/ts/wasm/lib/detailed/healthchecker/errors.ts#L9)
 
 ***
 
