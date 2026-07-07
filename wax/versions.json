@@ -19,6 +19,7 @@
     "bw/bump-wax-2.0.1",
     "bw/normalize-version-format",
     "main",
-    "master"
+    "master",
+    "rustdev"
   ]
 }
