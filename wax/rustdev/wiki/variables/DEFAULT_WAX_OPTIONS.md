@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/049f85d9638d2a49cf1cb4925c84302c0e33092f/ts/wasm/lib/detailed/base.ts#L9)
+[wasm/lib/detailed/base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/0576f9c39273a0db2a358391aca5efcfcf747017/ts/wasm/lib/detailed/base.ts#L9)
