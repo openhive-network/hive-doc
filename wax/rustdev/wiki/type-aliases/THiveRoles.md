@@ -24,4 +24,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L13)
+[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L13)

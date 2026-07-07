@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/operation\_base.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/operation_base.ts#L5)
+[wasm/lib/detailed/operation\_base.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/operation_base.ts#L5)

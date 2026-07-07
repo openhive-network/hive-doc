@@ -14,7 +14,7 @@ Stores data acquired during authority verification process associated to given p
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L147)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L147)
 
 ***
 
@@ -30,7 +30,7 @@ Stores data specific to the authority path chosen:
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:167](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L167)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:167](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L167)
 
 ***
 
@@ -43,7 +43,7 @@ Each array element can be specific to separate authority & signature needed to s
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L152)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L152)
 
 ***
 
@@ -58,7 +58,7 @@ Link to last element of [rootEntries](./IVerifyAuthorityTrace#rootentries) array
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:159](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L159)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:159](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L159)
 
 ***
 
@@ -70,4 +70,4 @@ Holds set of gathered information described by [TAuthorityEntryProcessingStatus]
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:171](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L171)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:171](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L171)

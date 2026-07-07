@@ -34,7 +34,7 @@ Raised when an account has insufficient balance for the requested operation.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L117)
+[wasm/lib/detailed/errors.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L117)
 
 ## Properties
 
@@ -90,7 +90,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L32)
+[wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L32)
 
 ***
 
@@ -170,7 +170,7 @@ Account whose balance was checked, if reported.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:126](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L126)
+[wasm/lib/detailed/errors.ts:126](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L126)
 
 ***
 
@@ -192,7 +192,7 @@ Hash identifying the specific C++ assertion site.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L56)
+[wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L56)
 
 ***
 
@@ -210,7 +210,7 @@ Balance actually available at the time of the assertion.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:123](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L123)
+[wasm/lib/detailed/errors.ts:123](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L123)
 
 ***
 
@@ -232,7 +232,7 @@ Origin of the assertion: `"protocol"` or `"chain"`.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L44)
+[wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L44)
 
 ***
 
@@ -254,7 +254,7 @@ Additional fields from the top-level C++ stack frame.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L53)
+[wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L53)
 
 ***
 
@@ -276,7 +276,7 @@ The value that failed the assertion.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L50)
+[wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L50)
 
 ***
 
@@ -298,7 +298,7 @@ Kind of the value that failed validation (e.g. `"account_name"`, `"asset"`, `"ba
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/41b28344431851b959580ac82b5070b6d0942175/ts/wasm/lib/detailed/errors.ts#L47)
+[wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/c7c19535f1105a18799f3f0145049aea26c3115d/ts/wasm/lib/detailed/errors.ts#L47)
 
 ## Methods
 
