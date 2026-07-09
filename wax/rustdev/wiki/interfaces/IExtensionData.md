@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/72e90cb15488eded663951a686cb6c56e922db2c/ts/wasm/lib/detailed/cxx_exception_data.ts#L26)
+[wasm/lib/detailed/cxx\_exception\_data.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/e5369bf65bfd6a23ffcbca12bad9f4631b50ef22/ts/wasm/lib/detailed/cxx_exception_data.ts#L26)
