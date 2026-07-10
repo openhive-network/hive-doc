@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/01139ad1e8636f968fe3751f59b69c3a0bb4bb0c/ts/wasm/lib/detailed/interfaces.ts#L28)
+[wasm/lib/detailed/interfaces.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/952b9ac718998aea1fbabc72521208d847bd37ab/ts/wasm/lib/detailed/interfaces.ts#L28)
