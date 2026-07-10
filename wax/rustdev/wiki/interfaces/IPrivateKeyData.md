@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:174](https://gitlab.syncad.com/hive/wax/-/blob/952b9ac718998aea1fbabc72521208d847bd37ab/ts/wasm/lib/detailed/interfaces.ts#L174)
+[wasm/lib/detailed/interfaces.ts:174](https://gitlab.syncad.com/hive/wax/-/blob/d8e85eb768717bf05a02245911e111f14fa2129f/ts/wasm/lib/detailed/interfaces.ts#L174)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:175](https://gitlab.syncad.com/hive/wax/-/blob/952b9ac718998aea1fbabc72521208d847bd37ab/ts/wasm/lib/detailed/interfaces.ts#L175)
+[wasm/lib/detailed/interfaces.ts:175](https://gitlab.syncad.com/hive/wax/-/blob/d8e85eb768717bf05a02245911e111f14fa2129f/ts/wasm/lib/detailed/interfaces.ts#L175)
