@@ -108,7 +108,7 @@ true
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/1a8317201e7664794ed5a6f35f3abf889e9f48ad/ts/wasm/lib/detailed/formatters/base.ts#L19)
+[wasm/lib/detailed/formatters/base.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/585bd23a3953610c42ddce371ab785679655d7e1/ts/wasm/lib/detailed/formatters/base.ts#L19)
 
 ## Properties
 
@@ -124,7 +124,7 @@ Options for the formatter
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/1a8317201e7664794ed5a6f35f3abf889e9f48ad/ts/wasm/lib/detailed/formatters/base.ts#L17)
+[wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/585bd23a3953610c42ddce371ab785679655d7e1/ts/wasm/lib/detailed/formatters/base.ts#L17)
 
 ## Methods
 
@@ -166,7 +166,7 @@ formatter.format(naiObject);
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/1a8317201e7664794ed5a6f35f3abf889e9f48ad/ts/wasm/lib/detailed/formatters/base.ts#L72)
+[wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/585bd23a3953610c42ddce371ab785679655d7e1/ts/wasm/lib/detailed/formatters/base.ts#L72)
 
 ***
 
@@ -194,7 +194,7 @@ formatter.format(naiObject);
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/1a8317201e7664794ed5a6f35f3abf889e9f48ad/ts/wasm/lib/detailed/formatters/base.ts#L27)
+[wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/585bd23a3953610c42ddce371ab785679655d7e1/ts/wasm/lib/detailed/formatters/base.ts#L27)
 
 ***
 
@@ -236,4 +236,4 @@ formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/1a8317201e7664794ed5a6f35f3abf889e9f48ad/ts/wasm/lib/detailed/formatters/base.ts#L76)
+[wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/585bd23a3953610c42ddce371ab785679655d7e1/ts/wasm/lib/detailed/formatters/base.ts#L76)
