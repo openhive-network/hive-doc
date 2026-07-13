@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/chain\_api\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/585bd23a3953610c42ddce371ab785679655d7e1/ts/wasm/lib/detailed/chain_api_data.ts#L12)
+[wasm/lib/detailed/chain\_api\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/chain_api_data.ts#L12)
