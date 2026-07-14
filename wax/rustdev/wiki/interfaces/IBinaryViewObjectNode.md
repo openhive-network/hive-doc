@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/interfaces.ts#L52)
+[wasm/lib/detailed/interfaces.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L52)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/interfaces.ts#L33)
+[wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L33)
 
 ***
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/interfaces.ts#L34)
+[wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L34)
 
 ***
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/interfaces.ts#L35)
+[wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L35)
 
 ***
 
@@ -66,7 +66,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/interfaces.ts#L51)
+[wasm/lib/detailed/interfaces.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L51)
 
 ***
 
@@ -76,4 +76,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/interfaces.ts#L53)
+[wasm/lib/detailed/interfaces.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L53)

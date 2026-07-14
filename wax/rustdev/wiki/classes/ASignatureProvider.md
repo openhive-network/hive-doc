@@ -40,7 +40,7 @@ Helper class encapsulating transaction signing flow. Derived class must implemen
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
 
 ***
 
@@ -70,4 +70,4 @@ resolves when the wallet finished signing (signature(s) appended internally)
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/dd7802d3411ef1a48993a053b4667ff7b4c56682/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L8)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L8)
