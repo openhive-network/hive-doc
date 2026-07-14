@@ -24,7 +24,7 @@ Chain id in hex string format
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L111)
+[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/6583c6e50fdb9e30d5d5fe7108307dbda4832ca5/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 ***
 
@@ -48,4 +48,4 @@ Note: When you don't have your WASM file served from the static directory (such 
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/55ba75ede797dcc748b7121c18c865c50e877fdd/ts/wasm/lib/detailed/interfaces.ts#L170)
+[wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/6583c6e50fdb9e30d5d5fe7108307dbda4832ca5/ts/wasm/lib/detailed/interfaces.ts#L170)
