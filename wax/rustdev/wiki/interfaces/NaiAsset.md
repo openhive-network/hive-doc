@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/asset.ts:2](https://gitlab.syncad.com/hive/wax/-/blob/91e524c19e634d1be57a3695af351d55611876c7/ts/wasm/lib/detailed/api/types/asset.ts#L2)
+[wasm/lib/detailed/api/types/asset.ts:2](https://gitlab.syncad.com/hive/wax/-/blob/296332e5da2d278371ae5dcea3694c4c9523c8db/ts/wasm/lib/detailed/api/types/asset.ts#L2)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/asset.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/91e524c19e634d1be57a3695af351d55611876c7/ts/wasm/lib/detailed/api/types/asset.ts#L4)
+[wasm/lib/detailed/api/types/asset.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/296332e5da2d278371ae5dcea3694c4c9523c8db/ts/wasm/lib/detailed/api/types/asset.ts#L4)
 
 ***
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/asset.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/91e524c19e634d1be57a3695af351d55611876c7/ts/wasm/lib/detailed/api/types/asset.ts#L3)
+[wasm/lib/detailed/api/types/asset.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/296332e5da2d278371ae5dcea3694c4c9523c8db/ts/wasm/lib/detailed/api/types/asset.ts#L3)
