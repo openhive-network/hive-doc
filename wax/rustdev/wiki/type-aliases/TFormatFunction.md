@@ -45,4 +45,4 @@ public transactionFormatter(source: DeepReadonly<ApiTransaction>, target: object
 
 ## Defined in
 
-[wasm/lib/detailed/formatters/types.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/f9076f6290ba7c6b37225351b81053eedc3620ac/ts/wasm/lib/detailed/formatters/types.ts#L114)
+[wasm/lib/detailed/formatters/types.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/236eeba6fb0d37ea350a8d4cc9d858df9237aa13/ts/wasm/lib/detailed/formatters/types.ts#L114)

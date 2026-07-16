@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f9076f6290ba7c6b37225351b81053eedc3620ac/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L8)
+[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/236eeba6fb0d37ea350a8d4cc9d858df9237aa13/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L8)

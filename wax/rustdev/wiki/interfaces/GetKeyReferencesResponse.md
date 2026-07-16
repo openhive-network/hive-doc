@@ -10,4 +10,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/account\_by\_key\_api/get\_key\_references.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f9076f6290ba7c6b37225351b81053eedc3620ac/ts/wasm/lib/detailed/api/account_by_key_api/get_key_references.ts#L8)
+[wasm/lib/detailed/api/account\_by\_key\_api/get\_key\_references.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/236eeba6fb0d37ea350a8d4cc9d858df9237aa13/ts/wasm/lib/detailed/api/account_by_key_api/get_key_references.ts#L8)
