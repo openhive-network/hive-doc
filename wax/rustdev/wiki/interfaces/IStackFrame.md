@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/21764f73ed0091d405f7e60622569bf2cfced3da/ts/wasm/lib/detailed/cxx_exception_data.ts#L20)
+[wasm/lib/detailed/cxx\_exception\_data.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/4093c103f681f1bfc67c286781ac1eb2167a44df/ts/wasm/lib/detailed/cxx_exception_data.ts#L20)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/21764f73ed0091d405f7e60622569bf2cfced3da/ts/wasm/lib/detailed/cxx_exception_data.ts#L22)
+[wasm/lib/detailed/cxx\_exception\_data.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/4093c103f681f1bfc67c286781ac1eb2167a44df/ts/wasm/lib/detailed/cxx_exception_data.ts#L22)
 
 ***
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/cxx\_exception\_data.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/21764f73ed0091d405f7e60622569bf2cfced3da/ts/wasm/lib/detailed/cxx_exception_data.ts#L21)
+[wasm/lib/detailed/cxx\_exception\_data.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/4093c103f681f1bfc67c286781ac1eb2167a44df/ts/wasm/lib/detailed/cxx_exception_data.ts#L21)
