@@ -30,4 +30,4 @@ public prop(value: Date): string {
 
 ## Defined in
 
-[wasm/lib/detailed/decorators/formatters.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/decorators/formatters.ts#L54)
+[wasm/lib/detailed/decorators/formatters.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/21764f73ed0091d405f7e60622569bf2cfced3da/ts/wasm/lib/detailed/decorators/formatters.ts#L54)

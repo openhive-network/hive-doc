@@ -34,7 +34,7 @@ Raised when a transport-level error occurs (timeout, connection refused, DNS fai
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/errors.ts#L17)
+[wasm/lib/detailed/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/21764f73ed0091d405f7e60622569bf2cfced3da/ts/wasm/lib/detailed/errors.ts#L17)
 
 ## Properties
 
