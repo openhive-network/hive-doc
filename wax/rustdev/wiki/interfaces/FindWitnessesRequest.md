@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/database\_api/find\_witnesses.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L5)
+[wasm/lib/detailed/api/database\_api/find\_witnesses.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L5)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/database\_api/find\_witnesses.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L4)
+[wasm/lib/detailed/api/database\_api/find\_witnesses.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L4)

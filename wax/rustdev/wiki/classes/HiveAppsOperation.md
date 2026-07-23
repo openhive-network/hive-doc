@@ -42,7 +42,7 @@ Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
 
 ***
 
@@ -54,7 +54,7 @@ Id of your custom hive apps operation
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L20)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L20)
 
 ***
 
@@ -64,7 +64,7 @@ Id of your custom hive apps operation
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
 
 ## Methods
 
@@ -96,7 +96,7 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
 
 ***
 
@@ -122,4 +122,4 @@ itself
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
+[wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)

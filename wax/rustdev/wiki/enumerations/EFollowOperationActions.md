@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L27)
+[wasm/lib/detailed/hive\_apps\_operations/follow.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L27)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L28)
+[wasm/lib/detailed/hive\_apps\_operations/follow.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L28)

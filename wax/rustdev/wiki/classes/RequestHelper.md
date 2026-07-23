@@ -44,4 +44,4 @@ HTTP Response code is not in range 200-399 (inclusive)
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/util/request_helper.ts#L114)
+[wasm/lib/detailed/util/request\_helper.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/6eb6afa1549899990efe840059f15e4a01129384/ts/wasm/lib/detailed/util/request_helper.ts#L114)
