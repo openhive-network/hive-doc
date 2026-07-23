@@ -10,4 +10,4 @@ Transaction id type
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:103](https://gitlab.syncad.com/hive/wax/-/blob/4dc0107e114c9130a129f46c06f31300a30477e4/ts/wasm/lib/detailed/interfaces.ts#L103)
+[wasm/lib/detailed/interfaces.ts:103](https://gitlab.syncad.com/hive/wax/-/blob/cf1b8623cd8b6b6da034e2b9ade4986eb9daf294/ts/wasm/lib/detailed/interfaces.ts#L103)
