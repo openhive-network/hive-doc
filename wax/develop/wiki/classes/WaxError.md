@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/4ae7e7867be88e1a233f1f1b235bffe9c40811f2/ts/wasm/lib/detailed/errors.ts#L7)
+[wasm/lib/detailed/errors.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/02d56f12bdde25ea29d8b1c19340e25bb82631db/ts/wasm/lib/detailed/errors.ts#L7)
 
 ## Properties
 
