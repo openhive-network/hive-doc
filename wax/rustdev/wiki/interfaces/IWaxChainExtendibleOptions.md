@@ -26,7 +26,7 @@ Endpoint for all of the API requests
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/1fc63ac730aab15b13447326199827fdd47aa0ad/ts/wasm/lib/detailed/interfaces.ts#L121)
+[wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/f8c239796453324edbbb55d04e905bf48869ce81/ts/wasm/lib/detailed/interfaces.ts#L121)
 
 ***
 
@@ -45,7 +45,7 @@ Set to 0 to disable timeout
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/1fc63ac730aab15b13447326199827fdd47aa0ad/ts/wasm/lib/detailed/interfaces.ts#L149)
+[wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f8c239796453324edbbb55d04e905bf48869ce81/ts/wasm/lib/detailed/interfaces.ts#L149)
 
 ***
 
@@ -61,7 +61,7 @@ Chain id in hex string format
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/1fc63ac730aab15b13447326199827fdd47aa0ad/ts/wasm/lib/detailed/interfaces.ts#L111)
+[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/f8c239796453324edbbb55d04e905bf48869ce81/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 ***
 
@@ -79,7 +79,7 @@ Endpoint for all of the REST API requests
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/1fc63ac730aab15b13447326199827fdd47aa0ad/ts/wasm/lib/detailed/interfaces.ts#L129)
+[wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/f8c239796453324edbbb55d04e905bf48869ce81/ts/wasm/lib/detailed/interfaces.ts#L129)
 
 ***
 
@@ -100,4 +100,4 @@ undefined
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/1fc63ac730aab15b13447326199827fdd47aa0ad/ts/wasm/lib/detailed/interfaces.ts#L140)
+[wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/f8c239796453324edbbb55d04e905bf48869ce81/ts/wasm/lib/detailed/interfaces.ts#L140)

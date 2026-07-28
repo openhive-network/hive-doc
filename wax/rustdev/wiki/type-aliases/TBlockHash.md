@@ -10,4 +10,4 @@ Block id type
 
 ## Defined in
 
-[wasm/lib/detailed/interfaces.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/1fc63ac730aab15b13447326199827fdd47aa0ad/ts/wasm/lib/detailed/interfaces.ts#L73)
+[wasm/lib/detailed/interfaces.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/f8c239796453324edbbb55d04e905bf48869ce81/ts/wasm/lib/detailed/interfaces.ts#L73)
