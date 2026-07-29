@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/network\_broadcast\_api/broadcast\_transaction.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/02d56f12bdde25ea29d8b1c19340e25bb82631db/ts/wasm/lib/detailed/api/network_broadcast_api/broadcast_transaction.ts#L5)
+[wasm/lib/detailed/api/network\_broadcast\_api/broadcast\_transaction.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/b690d16dc5e0be0956caedc1dff3610409600a11/ts/wasm/lib/detailed/api/network_broadcast_api/broadcast_transaction.ts#L5)
 
 ***
 
@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/network\_broadcast\_api/broadcast\_transaction.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/02d56f12bdde25ea29d8b1c19340e25bb82631db/ts/wasm/lib/detailed/api/network_broadcast_api/broadcast_transaction.ts#L4)
+[wasm/lib/detailed/api/network\_broadcast\_api/broadcast\_transaction.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/b690d16dc5e0be0956caedc1dff3610409600a11/ts/wasm/lib/detailed/api/network_broadcast_api/broadcast_transaction.ts#L4)

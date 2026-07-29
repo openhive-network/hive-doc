@@ -534,6 +534,28 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#wax.IHiveChainInterface.aclose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;aclose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wax.IHiveChainInterface.async_teardown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;async_teardown
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#wax.IHiveChainInterface.broadcast" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7293,6 +7315,28 @@
     <span class="md-ellipsis">
       
         <code class="doc-symbol doc-symbol-toc doc-symbol-attribute"></code>&nbsp;endpoint_url
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wax.interfaces.IHiveChainInterface.aclose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;aclose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wax.interfaces.IHiveChainInterface.async_teardown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;async_teardown
       
     </span>
   </a>
@@ -12895,6 +12939,28 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#wax.IHiveChainInterface.aclose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;aclose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wax.IHiveChainInterface.async_teardown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;async_teardown
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#wax.IHiveChainInterface.broadcast" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -19661,6 +19727,28 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#wax.interfaces.IHiveChainInterface.aclose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;aclose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wax.interfaces.IHiveChainInterface.async_teardown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        <code class="doc-symbol doc-symbol-toc doc-symbol-method"></code>&nbsp;async_teardown
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#wax.interfaces.IHiveChainInterface.broadcast" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -25250,7 +25338,7 @@
 
     <div class="doc doc-contents ">
             <p class="doc doc-class-bases">
-              Bases: <code><a class="autorefs autorefs-internal" title="            IWaxBaseInterface (wax.interfaces.IWaxBaseInterface)" href="#wax.interfaces.IWaxBaseInterface">IWaxBaseInterface</a></code>, <code><a class="autorefs autorefs-external" title="typing.Generic" href="https://docs.python.org/3/library/typing.html#typing.Generic">Generic</a>[<a class="autorefs autorefs-internal" title="            ApiCollectionT
+              Bases: <code><a class="autorefs autorefs-internal" title="            IWaxBaseInterface (wax.interfaces.IWaxBaseInterface)" href="#wax.interfaces.IWaxBaseInterface">IWaxBaseInterface</a></code>, <code><span title="beekeepy.interfaces.SelfContextSync">SelfContextSync</span></code>, <code><span title="beekeepy.interfaces.SelfContextAsync">SelfContextAsync</span></code>, <code><a class="autorefs autorefs-external" title="typing.Generic" href="https://docs.python.org/3/library/typing.html#typing.Generic">Generic</a>[<a class="autorefs autorefs-internal" title="            ApiCollectionT
 
 
   
@@ -25335,6 +25423,74 @@
 
 
 
+
+<div class="doc doc-object doc-function">
+
+
+<h4 id="wax.IHiveChainInterface.aclose" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>            <span class="doc doc-object-name doc-function-name">aclose</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-async"><code>async</code></small>
+  </span>
+
+<a href="#wax.IHiveChainInterface.aclose" class="headerlink" title="Permanent link">&para;</a></h4>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">aclose</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Close async API communication resources.</p>
+
+
+            <details class="mkdocstrings-source">
+              <summary>Source code in <code>wax/interfaces.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">780</span>
+<span class="normal">781</span>
+<span class="normal">782</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">aclose</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Close async API communication resources.&quot;&quot;&quot;</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h4 id="wax.IHiveChainInterface.async_teardown" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>            <span class="doc doc-object-name doc-function-name">async_teardown</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-async"><code>async</code></small>
+  </span>
+
+<a href="#wax.IHiveChainInterface.async_teardown" class="headerlink" title="Permanent link">&para;</a></h4>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">async_teardown</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Async version of teardown, useful when the API communication owns async resources.</p>
+
+
+            <details class="mkdocstrings-source">
+              <summary>Source code in <code>wax/interfaces.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">776</span>
+<span class="normal">777</span>
+<span class="normal">778</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">async_teardown</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Async version of teardown, useful when the API communication owns async resources.&quot;&quot;&quot;</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
 
 <div class="doc doc-object doc-function">
 
@@ -25446,16 +25602,7 @@ of the operation.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">790</span>
-<span class="normal">791</span>
-<span class="normal">792</span>
-<span class="normal">793</span>
-<span class="normal">794</span>
-<span class="normal">795</span>
-<span class="normal">796</span>
-<span class="normal">797</span>
-<span class="normal">798</span>
-<span class="normal">799</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">799</span>
 <span class="normal">800</span>
 <span class="normal">801</span>
 <span class="normal">802</span>
@@ -25463,7 +25610,16 @@ of the operation.</p>
 <span class="normal">804</span>
 <span class="normal">805</span>
 <span class="normal">806</span>
-<span class="normal">807</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">807</span>
+<span class="normal">808</span>
+<span class="normal">809</span>
+<span class="normal">810</span>
+<span class="normal">811</span>
+<span class="normal">812</span>
+<span class="normal">813</span>
+<span class="normal">814</span>
+<span class="normal">815</span>
+<span class="normal">816</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">broadcast</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">ITransaction</span> <span class="o">|</span> <span class="n">IOnlineTransaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Broadcast transaction to the selected during Wax Chain initialization Hive Node.</span>
@@ -25627,23 +25783,23 @@ of the operation.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">809</span>
-<span class="normal">810</span>
-<span class="normal">811</span>
-<span class="normal">812</span>
-<span class="normal">813</span>
-<span class="normal">814</span>
-<span class="normal">815</span>
-<span class="normal">816</span>
-<span class="normal">817</span>
-<span class="normal">818</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">818</span>
 <span class="normal">819</span>
 <span class="normal">820</span>
 <span class="normal">821</span>
 <span class="normal">822</span>
 <span class="normal">823</span>
 <span class="normal">824</span>
-<span class="normal">825</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">825</span>
+<span class="normal">826</span>
+<span class="normal">827</span>
+<span class="normal">828</span>
+<span class="normal">829</span>
+<span class="normal">830</span>
+<span class="normal">831</span>
+<span class="normal">832</span>
+<span class="normal">833</span>
+<span class="normal">834</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">collect_account_authorities</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">accounts</span><span class="p">:</span> <span class="n">AccountName</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">WaxAccountAuthorityInfo</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="n">WaxAccountAuthorityInfo</span><span class="p">]:</span>
@@ -25776,20 +25932,20 @@ of the operation.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">775</span>
-<span class="normal">776</span>
-<span class="normal">777</span>
-<span class="normal">778</span>
-<span class="normal">779</span>
-<span class="normal">780</span>
-<span class="normal">781</span>
-<span class="normal">782</span>
-<span class="normal">783</span>
-<span class="normal">784</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">784</span>
 <span class="normal">785</span>
 <span class="normal">786</span>
 <span class="normal">787</span>
-<span class="normal">788</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">788</span>
+<span class="normal">789</span>
+<span class="normal">790</span>
+<span class="normal">791</span>
+<span class="normal">792</span>
+<span class="normal">793</span>
+<span class="normal">794</span>
+<span class="normal">795</span>
+<span class="normal">796</span>
+<span class="normal">797</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">expiration</span><span class="p">:</span> <span class="n">TTimestamp</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IOnlineTransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Same as `IWaxBaseInterface.create_transaction_with_tapos` but pulls the reference block data from the remote.</span>
@@ -25924,8 +26080,7 @@ extended_chain = chain.extend_rest(ExtendedApiCollection)</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">747</span>
-<span class="normal">748</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">748</span>
 <span class="normal">749</span>
 <span class="normal">750</span>
 <span class="normal">751</span>
@@ -25946,7 +26101,8 @@ extended_chain = chain.extend_rest(ExtendedApiCollection)</p>
 <span class="normal">766</span>
 <span class="normal">767</span>
 <span class="normal">768</span>
-<span class="normal">769</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">769</span>
+<span class="normal">770</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">extend_rest</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">new_rest_api</span><span class="p">:</span> <span class="nb">type</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span><span class="p">]</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IHiveChainInterface</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span> <span class="o">|</span> <span class="n">ApiCollectionT</span><span class="p">]:</span>
@@ -26090,8 +26246,7 @@ extended_chain = chain.extends(ExtendedApiCollection)</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">723</span>
-<span class="normal">724</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">724</span>
 <span class="normal">725</span>
 <span class="normal">726</span>
 <span class="normal">727</span>
@@ -26112,7 +26267,8 @@ extended_chain = chain.extends(ExtendedApiCollection)</p>
 <span class="normal">742</span>
 <span class="normal">743</span>
 <span class="normal">744</span>
-<span class="normal">745</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">745</span>
+<span class="normal">746</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">extends</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">new_api</span><span class="p">:</span> <span class="nb">type</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span><span class="p">]</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IHiveChainInterface</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span> <span class="o">|</span> <span class="n">ApiCollectionT</span><span class="p">]:</span>
@@ -26163,9 +26319,9 @@ extended_chain = chain.extends(ExtendedApiCollection)</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">771</span>
-<span class="normal">772</span>
-<span class="normal">773</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">772</span>
+<span class="normal">773</span>
+<span class="normal">774</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">teardown</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Call when work with API communication is over.&quot;&quot;&quot;</span>
 </code></pre></div></td></tr></table></div>
@@ -26280,8 +26436,7 @@ It also scans the transaction for any potential private key leaks in operation c
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">252</span>
-<span class="normal">253</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">253</span>
 <span class="normal">254</span>
 <span class="normal">255</span>
 <span class="normal">256</span>
@@ -26291,7 +26446,8 @@ It also scans the transaction for any potential private key leaks in operation c
 <span class="normal">260</span>
 <span class="normal">261</span>
 <span class="normal">262</span>
-<span class="normal">263</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">263</span>
+<span class="normal">264</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">perform_on_chain_verification</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Performs on-chain verification of the transaction.</span>
@@ -26448,8 +26604,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">232</span>
-<span class="normal">233</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">233</span>
 <span class="normal">234</span>
 <span class="normal">235</span>
 <span class="normal">236</span>
@@ -26462,7 +26617,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">243</span>
 <span class="normal">244</span>
 <span class="normal">245</span>
-<span class="normal">246</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">246</span>
+<span class="normal">247</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">push_operation</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">operation</span><span class="p">:</span> <span class="n">WaxMetaOperation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Self</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Pushes given operation into the transaction (exactly to the list of operations).</span>
@@ -26860,8 +27016,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">567</span>
-<span class="normal">568</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">568</span>
 <span class="normal">569</span>
 <span class="normal">570</span>
 <span class="normal">571</span>
@@ -26880,7 +27035,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">584</span>
 <span class="normal">585</span>
 <span class="normal">586</span>
-<span class="normal">587</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">587</span>
+<span class="normal">588</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_account_hp</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">vests</span><span class="p">:</span> <span class="n">VestsNaiAssetConvertible</span><span class="p">,</span>
@@ -27074,8 +27230,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">499</span>
-<span class="normal">500</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">500</span>
 <span class="normal">501</span>
 <span class="normal">502</span>
 <span class="normal">503</span>
@@ -27106,7 +27261,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">528</span>
 <span class="normal">529</span>
 <span class="normal">530</span>
-<span class="normal">531</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">531</span>
+<span class="normal">532</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_current_manabar_value</span><span class="p">(</span>
     <span class="n">head_block_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">max_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">current_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">last_update_time</span><span class="p">:</span> <span class="nb">int</span>
@@ -27312,8 +27468,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">611</span>
-<span class="normal">612</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">612</span>
 <span class="normal">613</span>
 <span class="normal">614</span>
 <span class="normal">615</span>
@@ -27334,7 +27489,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">630</span>
 <span class="normal">631</span>
 <span class="normal">632</span>
-<span class="normal">633</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">633</span>
+<span class="normal">634</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_hp_apr</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">head_block_num</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
@@ -27520,8 +27676,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">533</span>
-<span class="normal">534</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">534</span>
 <span class="normal">535</span>
 <span class="normal">536</span>
 <span class="normal">537</span>
@@ -27552,7 +27707,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">562</span>
 <span class="normal">563</span>
 <span class="normal">564</span>
-<span class="normal">565</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">565</span>
+<span class="normal">566</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_manabar_full_regeneration_time</span><span class="p">(</span>
     <span class="n">head_block_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">max_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">current_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">last_update_time</span><span class="p">:</span> <span class="nb">int</span>
@@ -27752,8 +27908,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">589</span>
-<span class="normal">590</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">590</span>
 <span class="normal">591</span>
 <span class="normal">592</span>
 <span class="normal">593</span>
@@ -27772,7 +27927,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">606</span>
 <span class="normal">607</span>
 <span class="normal">608</span>
-<span class="normal">609</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">609</span>
+<span class="normal">610</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_witness_votes_hp</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
@@ -27908,8 +28064,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">660</span>
-<span class="normal">661</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">661</span>
 <span class="normal">662</span>
 <span class="normal">663</span>
 <span class="normal">664</span>
@@ -27921,7 +28076,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">670</span>
 <span class="normal">671</span>
 <span class="normal">672</span>
-<span class="normal">673</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">673</span>
+<span class="normal">674</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">JsonTransaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ITransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Creates transaction object from JSON transaction.</span>
@@ -28027,8 +28183,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">648</span>
-<span class="normal">649</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">649</span>
 <span class="normal">650</span>
 <span class="normal">651</span>
 <span class="normal">652</span>
@@ -28037,7 +28192,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">655</span>
 <span class="normal">656</span>
 <span class="normal">657</span>
-<span class="normal">658</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">658</span>
+<span class="normal">659</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction_from_proto</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">ProtoTransaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ITransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Creates transaction object from proto transaction.</span>
@@ -28156,8 +28312,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">635</span>
-<span class="normal">636</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">636</span>
 <span class="normal">637</span>
 <span class="normal">638</span>
 <span class="normal">639</span>
@@ -28167,7 +28322,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">643</span>
 <span class="normal">644</span>
 <span class="normal">645</span>
-<span class="normal">646</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">646</span>
+<span class="normal">647</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction_with_tapos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tapos_block_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">expiration</span><span class="p">:</span> <span class="n">TTimestamp</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ITransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Creates transaction object using basic information from chain.</span>
@@ -28368,8 +28524,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">349</span>
-<span class="normal">350</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">350</span>
 <span class="normal">351</span>
 <span class="normal">352</span>
 <span class="normal">353</span>
@@ -28396,7 +28551,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">374</span>
 <span class="normal">375</span>
 <span class="normal">376</span>
-<span class="normal">377</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">377</span>
+<span class="normal">378</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">estimate_hbd_interest</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">account_hbd_seconds</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
@@ -28654,8 +28810,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">323</span>
-<span class="normal">324</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">324</span>
 <span class="normal">325</span>
 <span class="normal">326</span>
 <span class="normal">327</span>
@@ -28678,7 +28833,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">344</span>
 <span class="normal">345</span>
 <span class="normal">346</span>
-<span class="normal">347</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">347</span>
+<span class="normal">348</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">estimate_hive_collateral</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">current_median_history_base</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span>
@@ -28829,8 +28985,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">307</span>
-<span class="normal">308</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">308</span>
 <span class="normal">309</span>
 <span class="normal">310</span>
 <span class="normal">311</span>
@@ -28843,7 +28998,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">318</span>
 <span class="normal">319</span>
 <span class="normal">320</span>
-<span class="normal">321</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">321</span>
+<span class="normal">322</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">get_operation_impacted_accounts</span><span class="p">(</span><span class="n">operation</span><span class="p">:</span> <span class="n">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">AccountName</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -28983,8 +29139,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">484</span>
-<span class="normal">485</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">485</span>
 <span class="normal">486</span>
 <span class="normal">487</span>
 <span class="normal">488</span>
@@ -28996,7 +29151,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">494</span>
 <span class="normal">495</span>
 <span class="normal">496</span>
-<span class="normal">497</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">497</span>
+<span class="normal">498</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">get_private_key_from_password</span><span class="p">(</span><span class="n">account</span><span class="p">:</span> <span class="n">AccountName</span><span class="p">,</span> <span class="n">role</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">password</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IPrivateKeyData</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -29162,8 +29318,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">454</span>
-<span class="normal">455</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">455</span>
 <span class="normal">456</span>
 <span class="normal">457</span>
 <span class="normal">458</span>
@@ -29177,7 +29332,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">466</span>
 <span class="normal">467</span>
 <span class="normal">468</span>
-<span class="normal">469</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">469</span>
+<span class="normal">470</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">get_public_key_from_signature</span><span class="p">(</span><span class="n">sig_digest</span><span class="p">:</span> <span class="n">Hex</span><span class="p">,</span> <span class="n">signature</span><span class="p">:</span> <span class="n">Signature</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">PublicKey</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -29370,8 +29526,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">416</span>
-<span class="normal">417</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">417</span>
 <span class="normal">418</span>
 <span class="normal">419</span>
 <span class="normal">420</span>
@@ -29387,7 +29542,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">430</span>
 <span class="normal">431</span>
 <span class="normal">432</span>
-<span class="normal">433</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">433</span>
+<span class="normal">434</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">hbd_to_hive</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">hbd</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span> <span class="n">base</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span> <span class="n">quote</span><span class="p">:</span> <span class="n">HiveNaiAssetConvertible</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NaiAsset</span><span class="p">:</span>
@@ -29582,8 +29738,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">435</span>
-<span class="normal">436</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">436</span>
 <span class="normal">437</span>
 <span class="normal">438</span>
 <span class="normal">439</span>
@@ -29599,7 +29754,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">449</span>
 <span class="normal">450</span>
 <span class="normal">451</span>
-<span class="normal">452</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">452</span>
+<span class="normal">453</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">hive_to_hbd</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">hive</span><span class="p">:</span> <span class="n">HiveNaiAssetConvertible</span><span class="p">,</span> <span class="n">base</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span> <span class="n">quote</span><span class="p">:</span> <span class="n">HiveNaiAssetConvertible</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NaiAsset</span><span class="p">:</span>
@@ -29710,8 +29866,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">294</span>
-<span class="normal">295</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">295</span>
 <span class="normal">296</span>
 <span class="normal">297</span>
 <span class="normal">298</span>
@@ -29721,7 +29876,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">302</span>
 <span class="normal">303</span>
 <span class="normal">304</span>
-<span class="normal">305</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">305</span>
+<span class="normal">306</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">is_valid_account_name</span><span class="p">(</span><span class="n">account_name</span><span class="p">:</span> <span class="n">AccountName</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -29919,8 +30075,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">675</span>
-<span class="normal">676</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">676</span>
 <span class="normal">677</span>
 <span class="normal">678</span>
 <span class="normal">679</span>
@@ -29940,7 +30095,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">693</span>
 <span class="normal">694</span>
 <span class="normal">695</span>
-<span class="normal">696</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">696</span>
+<span class="normal">697</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">scan_text_for_matching_private_keys</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">content</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
@@ -30018,8 +30174,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">471</span>
-<span class="normal">472</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">472</span>
 <span class="normal">473</span>
 <span class="normal">474</span>
 <span class="normal">475</span>
@@ -30029,7 +30184,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">479</span>
 <span class="normal">480</span>
 <span class="normal">481</span>
-<span class="normal">482</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">482</span>
+<span class="normal">483</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">suggest_brain_key</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">IBrainKeyData</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -30218,8 +30374,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">394</span>
-<span class="normal">395</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">395</span>
 <span class="normal">396</span>
 <span class="normal">397</span>
 <span class="normal">398</span>
@@ -30238,7 +30393,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">411</span>
 <span class="normal">412</span>
 <span class="normal">413</span>
-<span class="normal">414</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">414</span>
+<span class="normal">415</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">vests_to_hp</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">vests</span><span class="p">:</span> <span class="n">VestsNaiAssetConvertible</span><span class="p">,</span>
@@ -35785,7 +35941,7 @@ If you try to access them before calling the <code>init</code> method, an assert
   </span>
 
 <a href="#wax.cpp_python_bridge.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cpp_python_bridge.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cpp_python_bridge.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -35953,7 +36109,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_assets.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_assets.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_assets.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -36166,7 +36322,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_authority.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_authority.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_authority.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -36379,7 +36535,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_common.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_common.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_common.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -36475,7 +36631,7 @@ errors defaults to 'strict'.</p>
   </span>
 
 <a href="#wax.cython_modules_common.__pyx_capi__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;convert_binary_data_node_to_python&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(cpp::binary_data_node)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9cd8400</span><span class="o">&gt;</span><span class="p">}</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;convert_binary_data_node_to_python&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(cpp::binary_data_node)&quot;</span> <span class="n">at</span> <span class="mh">0x76a17978c8b0</span><span class="o">&gt;</span><span class="p">}</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -36624,7 +36780,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_crypto.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_crypto.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_crypto.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -36837,7 +36993,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_handles.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_handles.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_handles.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -36933,7 +37089,7 @@ errors defaults to 'strict'.</p>
   </span>
 
 <a href="#wax.cython_modules_handles.__pyx_capi__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;_create_wax_transaction&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *(PyObject *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9d832e0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_create_wax_operation&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *(PyObject *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9d833d0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_handle_deserialize_transaction&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *(PyObject *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9d83420</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_handle_deserialize_operation&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *(PyObject *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9d834c0</span><span class="o">&gt;</span><span class="p">}</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;_create_wax_transaction&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *(PyObject *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x76a179822cf0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_create_wax_operation&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *(PyObject *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x76a179831fd0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_handle_deserialize_transaction&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *(PyObject *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1798337e0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_handle_deserialize_operation&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *(PyObject *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a179830ef0</span><span class="o">&gt;</span><span class="p">}</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -37082,7 +37238,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_memo.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_memo.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_memo.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -37295,7 +37451,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_operations.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_operations.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_operations.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -37508,7 +37664,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_proto.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_proto.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_proto.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -37721,7 +37877,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_testing.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_testing.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_testing.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -37934,7 +38090,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_transactions.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_transactions.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_transactions.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -38030,7 +38186,7 @@ errors defaults to 'strict'.</p>
   </span>
 
 <a href="#wax.cython_modules_transactions.__pyx_capi__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;_tx_to_binary&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *, int, int)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4d60</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_to_json&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4db0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_to_legacy_json&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4e00</span><span class="o">&gt;</span><span class="p">}</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;_tx_to_binary&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *, int, int)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b0950</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_to_json&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b0e50</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_to_legacy_json&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b1c60</span><span class="o">&gt;</span><span class="p">}</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -38179,7 +38335,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_validation.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_validation.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_validation.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -38275,7 +38431,7 @@ errors defaults to 'strict'.</p>
   </span>
 
 <a href="#wax.cython_modules_validation.__pyx_capi__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;_op_impacted_accounts&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;std::vector&lt;std::string&gt;  (struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db41d0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_op_validate&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;void (struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4220</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_impacted_accounts&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;std::vector&lt;std::string&gt;  (struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4270</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_validate&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;void (struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db42c0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_id&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4310</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_sig_digest&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *, PyObject *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x7887a9db4360</span><span class="o">&gt;</span><span class="p">}</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="n">__pyx_capi__</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;_op_impacted_accounts&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;std::vector&lt;std::string&gt;  (struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b3bf0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_op_validate&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;void (struct __pyx_obj_22cython_modules_handles_WaxOperationHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b2f70</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_impacted_accounts&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;std::vector&lt;std::string&gt;  (struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b0540</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_validate&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;void (struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b1800</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_id&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b0bd0</span><span class="o">&gt;</span><span class="p">,</span> <span class="s1">&#39;_tx_sig_digest&#39;</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">capsule</span> <span class="nb">object</span> <span class="s2">&quot;PyObject *(struct __pyx_obj_22cython_modules_handles_WaxTransactionHandle *, PyObject *, int)&quot;</span> <span class="n">at</span> <span class="mh">0x76a1797b31f0</span><span class="o">&gt;</span><span class="p">}</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -38424,7 +38580,7 @@ dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
   </span>
 
 <a href="#wax.cython_modules_witness.__file__" class="headerlink" title="Permanent link">&para;</a></h4>
-<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/yV8xPzxKk/0/hive/wax/python/wax/wax/cython_modules_witness.cpython-314-x86_64-linux-gnu.so&#39;</span>
+<div class="doc-signature highlight"><pre><span></span><code><span class="vm">__file__</span> <span class="o">=</span> <span class="s1">&#39;/builds/MQ9am3W0k/0/hive/wax/python/wax/wax/cython_modules_witness.cpython-314-x86_64-linux-gnu.so&#39;</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -56632,9 +56788,9 @@ with the delegation details added to the body.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">45</span>
-<span class="normal">46</span>
-<span class="normal">47</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">get_hive_authority_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="n">AccountName</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">WaxAccountAuthorityInfo</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Get hive authority by account name.&quot;&quot;&quot;</span>
 </code></pre></div></td></tr></table></div>
@@ -56664,7 +56820,7 @@ with the delegation details added to the body.</p>
 
     <div class="doc doc-contents ">
             <p class="doc doc-class-bases">
-              Bases: <code><a class="autorefs autorefs-internal" title="            IWaxBaseInterface (wax.interfaces.IWaxBaseInterface)" href="#wax.interfaces.IWaxBaseInterface">IWaxBaseInterface</a></code>, <code><a class="autorefs autorefs-external" title="typing.Generic" href="https://docs.python.org/3/library/typing.html#typing.Generic">Generic</a>[<a class="autorefs autorefs-internal" title="            ApiCollectionT
+              Bases: <code><a class="autorefs autorefs-internal" title="            IWaxBaseInterface (wax.interfaces.IWaxBaseInterface)" href="#wax.interfaces.IWaxBaseInterface">IWaxBaseInterface</a></code>, <code><span title="beekeepy.interfaces.SelfContextSync">SelfContextSync</span></code>, <code><span title="beekeepy.interfaces.SelfContextAsync">SelfContextAsync</span></code>, <code><a class="autorefs autorefs-external" title="typing.Generic" href="https://docs.python.org/3/library/typing.html#typing.Generic">Generic</a>[<a class="autorefs autorefs-internal" title="            ApiCollectionT
 
 
   
@@ -56749,6 +56905,74 @@ with the delegation details added to the body.</p>
 
 
 
+
+<div class="doc doc-object doc-function">
+
+
+<h5 id="wax.interfaces.IHiveChainInterface.aclose" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>            <span class="doc doc-object-name doc-function-name">aclose</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-async"><code>async</code></small>
+  </span>
+
+<a href="#wax.interfaces.IHiveChainInterface.aclose" class="headerlink" title="Permanent link">&para;</a></h5>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">aclose</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Close async API communication resources.</p>
+
+
+            <details class="mkdocstrings-source">
+              <summary>Source code in <code>wax/interfaces.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">780</span>
+<span class="normal">781</span>
+<span class="normal">782</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">aclose</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Close async API communication resources.&quot;&quot;&quot;</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h5 id="wax.interfaces.IHiveChainInterface.async_teardown" class="doc doc-heading">
+<code class="doc-symbol doc-symbol-heading doc-symbol-method"></code>            <span class="doc doc-object-name doc-function-name">async_teardown</span>
+
+
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-abstractmethod"><code>abstractmethod</code></small>
+      <small class="doc doc-label doc-label-async"><code>async</code></small>
+  </span>
+
+<a href="#wax.interfaces.IHiveChainInterface.async_teardown" class="headerlink" title="Permanent link">&para;</a></h5>
+<div class="doc-signature highlight"><pre><span></span><code><span class="nf">async_teardown</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Async version of teardown, useful when the API communication owns async resources.</p>
+
+
+            <details class="mkdocstrings-source">
+              <summary>Source code in <code>wax/interfaces.py</code></summary>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">776</span>
+<span class="normal">777</span>
+<span class="normal">778</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">async_teardown</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Async version of teardown, useful when the API communication owns async resources.&quot;&quot;&quot;</span>
+</code></pre></div></td></tr></table></div>
+            </details>
+    </div>
+
+</div>
 
 <div class="doc doc-object doc-function">
 
@@ -56860,16 +57084,7 @@ of the operation.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">790</span>
-<span class="normal">791</span>
-<span class="normal">792</span>
-<span class="normal">793</span>
-<span class="normal">794</span>
-<span class="normal">795</span>
-<span class="normal">796</span>
-<span class="normal">797</span>
-<span class="normal">798</span>
-<span class="normal">799</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">799</span>
 <span class="normal">800</span>
 <span class="normal">801</span>
 <span class="normal">802</span>
@@ -56877,7 +57092,16 @@ of the operation.</p>
 <span class="normal">804</span>
 <span class="normal">805</span>
 <span class="normal">806</span>
-<span class="normal">807</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">807</span>
+<span class="normal">808</span>
+<span class="normal">809</span>
+<span class="normal">810</span>
+<span class="normal">811</span>
+<span class="normal">812</span>
+<span class="normal">813</span>
+<span class="normal">814</span>
+<span class="normal">815</span>
+<span class="normal">816</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">broadcast</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">ITransaction</span> <span class="o">|</span> <span class="n">IOnlineTransaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Broadcast transaction to the selected during Wax Chain initialization Hive Node.</span>
@@ -57041,23 +57265,23 @@ of the operation.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">809</span>
-<span class="normal">810</span>
-<span class="normal">811</span>
-<span class="normal">812</span>
-<span class="normal">813</span>
-<span class="normal">814</span>
-<span class="normal">815</span>
-<span class="normal">816</span>
-<span class="normal">817</span>
-<span class="normal">818</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">818</span>
 <span class="normal">819</span>
 <span class="normal">820</span>
 <span class="normal">821</span>
 <span class="normal">822</span>
 <span class="normal">823</span>
 <span class="normal">824</span>
-<span class="normal">825</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">825</span>
+<span class="normal">826</span>
+<span class="normal">827</span>
+<span class="normal">828</span>
+<span class="normal">829</span>
+<span class="normal">830</span>
+<span class="normal">831</span>
+<span class="normal">832</span>
+<span class="normal">833</span>
+<span class="normal">834</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">collect_account_authorities</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">accounts</span><span class="p">:</span> <span class="n">AccountName</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">WaxAccountAuthorityInfo</span> <span class="o">|</span> <span class="nb">list</span><span class="p">[</span><span class="n">WaxAccountAuthorityInfo</span><span class="p">]:</span>
@@ -57190,20 +57414,20 @@ of the operation.</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">775</span>
-<span class="normal">776</span>
-<span class="normal">777</span>
-<span class="normal">778</span>
-<span class="normal">779</span>
-<span class="normal">780</span>
-<span class="normal">781</span>
-<span class="normal">782</span>
-<span class="normal">783</span>
-<span class="normal">784</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">784</span>
 <span class="normal">785</span>
 <span class="normal">786</span>
 <span class="normal">787</span>
-<span class="normal">788</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">788</span>
+<span class="normal">789</span>
+<span class="normal">790</span>
+<span class="normal">791</span>
+<span class="normal">792</span>
+<span class="normal">793</span>
+<span class="normal">794</span>
+<span class="normal">795</span>
+<span class="normal">796</span>
+<span class="normal">797</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">expiration</span><span class="p">:</span> <span class="n">TTimestamp</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IOnlineTransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Same as `IWaxBaseInterface.create_transaction_with_tapos` but pulls the reference block data from the remote.</span>
@@ -57338,8 +57562,7 @@ extended_chain = chain.extend_rest(ExtendedApiCollection)</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">747</span>
-<span class="normal">748</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">748</span>
 <span class="normal">749</span>
 <span class="normal">750</span>
 <span class="normal">751</span>
@@ -57360,7 +57583,8 @@ extended_chain = chain.extend_rest(ExtendedApiCollection)</p>
 <span class="normal">766</span>
 <span class="normal">767</span>
 <span class="normal">768</span>
-<span class="normal">769</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">769</span>
+<span class="normal">770</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">extend_rest</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">new_rest_api</span><span class="p">:</span> <span class="nb">type</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span><span class="p">]</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IHiveChainInterface</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span> <span class="o">|</span> <span class="n">ApiCollectionT</span><span class="p">]:</span>
@@ -57504,8 +57728,7 @@ extended_chain = chain.extends(ExtendedApiCollection)</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">723</span>
-<span class="normal">724</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">724</span>
 <span class="normal">725</span>
 <span class="normal">726</span>
 <span class="normal">727</span>
@@ -57526,7 +57749,8 @@ extended_chain = chain.extends(ExtendedApiCollection)</p>
 <span class="normal">742</span>
 <span class="normal">743</span>
 <span class="normal">744</span>
-<span class="normal">745</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">745</span>
+<span class="normal">746</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">extends</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">new_api</span><span class="p">:</span> <span class="nb">type</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span><span class="p">]</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IHiveChainInterface</span><span class="p">[</span><span class="n">ExtendedApiCollectionT</span> <span class="o">|</span> <span class="n">ApiCollectionT</span><span class="p">]:</span>
@@ -57577,9 +57801,9 @@ extended_chain = chain.extends(ExtendedApiCollection)</p>
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">771</span>
-<span class="normal">772</span>
-<span class="normal">773</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">772</span>
+<span class="normal">773</span>
+<span class="normal">774</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">teardown</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Call when work with API communication is over.&quot;&quot;&quot;</span>
 </code></pre></div></td></tr></table></div>
@@ -57747,8 +57971,7 @@ It also scans the transaction for any potential private key leaks in operation c
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">252</span>
-<span class="normal">253</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">253</span>
 <span class="normal">254</span>
 <span class="normal">255</span>
 <span class="normal">256</span>
@@ -57758,7 +57981,8 @@ It also scans the transaction for any potential private key leaks in operation c
 <span class="normal">260</span>
 <span class="normal">261</span>
 <span class="normal">262</span>
-<span class="normal">263</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">263</span>
+<span class="normal">264</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">perform_on_chain_verification</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Performs on-chain verification of the transaction.</span>
@@ -57915,8 +58139,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">232</span>
-<span class="normal">233</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">233</span>
 <span class="normal">234</span>
 <span class="normal">235</span>
 <span class="normal">236</span>
@@ -57929,7 +58152,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">243</span>
 <span class="normal">244</span>
 <span class="normal">245</span>
-<span class="normal">246</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">246</span>
+<span class="normal">247</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">push_operation</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">operation</span><span class="p">:</span> <span class="n">WaxMetaOperation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Self</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Pushes given operation into the transaction (exactly to the list of operations).</span>
@@ -58570,8 +58794,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">161</span>
-<span class="normal">162</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">162</span>
 <span class="normal">163</span>
 <span class="normal">164</span>
 <span class="normal">165</span>
@@ -58580,7 +58803,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">168</span>
 <span class="normal">169</span>
 <span class="normal">170</span>
-<span class="normal">171</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">171</span>
+<span class="normal">172</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">add_signature</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">signature</span><span class="p">:</span> <span class="n">Signature</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Signature</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Adds your signature to the internal signatures list inside underlying transaction.</span>
@@ -58733,8 +58957,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">145</span>
-<span class="normal">146</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">146</span>
 <span class="normal">147</span>
 <span class="normal">148</span>
 <span class="normal">149</span>
@@ -58747,7 +58970,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">156</span>
 <span class="normal">157</span>
 <span class="normal">158</span>
-<span class="normal">159</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">159</span>
+<span class="normal">160</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">sign</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">wallet</span><span class="p">:</span> <span class="n">AsyncUnlockedWallet</span><span class="p">,</span> <span class="n">public_key</span><span class="p">:</span> <span class="n">PublicKey</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Signature</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Signs asynchronously the transaction using given public key. Applies the transaction expiration time.</span>
@@ -58836,8 +59060,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">194</span>
-<span class="normal">195</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">195</span>
 <span class="normal">196</span>
 <span class="normal">197</span>
 <span class="normal">198</span>
@@ -58846,7 +59069,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">201</span>
 <span class="normal">202</span>
 <span class="normal">203</span>
-<span class="normal">204</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">204</span>
+<span class="normal">205</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">to_api</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Converts the created transaction into the Hive API-form str.</span>
@@ -58941,8 +59165,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">218</span>
-<span class="normal">219</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">219</span>
 <span class="normal">220</span>
 <span class="normal">221</span>
 <span class="normal">222</span>
@@ -58951,7 +59174,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">225</span>
 <span class="normal">226</span>
 <span class="normal">227</span>
-<span class="normal">228</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">228</span>
+<span class="normal">229</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">to_api_json</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">JsonTransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Converts the created transaction into the Hive API-form JSON.</span>
@@ -59023,14 +59247,14 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">185</span>
-<span class="normal">186</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">186</span>
 <span class="normal">187</span>
 <span class="normal">188</span>
 <span class="normal">189</span>
 <span class="normal">190</span>
 <span class="normal">191</span>
-<span class="normal">192</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">192</span>
+<span class="normal">193</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">to_binary_form</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Hex</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Allows to serialize underlying transaction to HF26 specific binary form, then return it as hexstring.</span>
@@ -59112,8 +59336,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">206</span>
-<span class="normal">207</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">207</span>
 <span class="normal">208</span>
 <span class="normal">209</span>
 <span class="normal">210</span>
@@ -59122,7 +59345,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">213</span>
 <span class="normal">214</span>
 <span class="normal">215</span>
-<span class="normal">216</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">216</span>
+<span class="normal">217</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Any</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Converts the created transaction into the Hive API-form dict.</span>
@@ -59207,8 +59431,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">173</span>
-<span class="normal">174</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">174</span>
 <span class="normal">175</span>
 <span class="normal">176</span>
 <span class="normal">177</span>
@@ -59217,7 +59440,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">180</span>
 <span class="normal">181</span>
 <span class="normal">182</span>
-<span class="normal">183</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">183</span>
+<span class="normal">184</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">to_string</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Converts transaction object into the protobuf JSON string.</span>
@@ -59302,8 +59526,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">133</span>
-<span class="normal">134</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">134</span>
 <span class="normal">135</span>
 <span class="normal">136</span>
 <span class="normal">137</span>
@@ -59312,7 +59535,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">140</span>
 <span class="normal">141</span>
 <span class="normal">142</span>
-<span class="normal">143</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">143</span>
+<span class="normal">144</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">validate</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Validates current transaction.</span>
@@ -59706,8 +59930,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">567</span>
-<span class="normal">568</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">568</span>
 <span class="normal">569</span>
 <span class="normal">570</span>
 <span class="normal">571</span>
@@ -59726,7 +59949,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">584</span>
 <span class="normal">585</span>
 <span class="normal">586</span>
-<span class="normal">587</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">587</span>
+<span class="normal">588</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_account_hp</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">vests</span><span class="p">:</span> <span class="n">VestsNaiAssetConvertible</span><span class="p">,</span>
@@ -59920,8 +60144,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">499</span>
-<span class="normal">500</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">500</span>
 <span class="normal">501</span>
 <span class="normal">502</span>
 <span class="normal">503</span>
@@ -59952,7 +60175,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">528</span>
 <span class="normal">529</span>
 <span class="normal">530</span>
-<span class="normal">531</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">531</span>
+<span class="normal">532</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_current_manabar_value</span><span class="p">(</span>
     <span class="n">head_block_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">max_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">current_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">last_update_time</span><span class="p">:</span> <span class="nb">int</span>
@@ -60158,8 +60382,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">611</span>
-<span class="normal">612</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">612</span>
 <span class="normal">613</span>
 <span class="normal">614</span>
 <span class="normal">615</span>
@@ -60180,7 +60403,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">630</span>
 <span class="normal">631</span>
 <span class="normal">632</span>
-<span class="normal">633</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">633</span>
+<span class="normal">634</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_hp_apr</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">head_block_num</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
@@ -60366,8 +60590,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">533</span>
-<span class="normal">534</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">534</span>
 <span class="normal">535</span>
 <span class="normal">536</span>
 <span class="normal">537</span>
@@ -60398,7 +60621,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">562</span>
 <span class="normal">563</span>
 <span class="normal">564</span>
-<span class="normal">565</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">565</span>
+<span class="normal">566</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_manabar_full_regeneration_time</span><span class="p">(</span>
     <span class="n">head_block_time</span><span class="p">:</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">max_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">current_mana</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">last_update_time</span><span class="p">:</span> <span class="nb">int</span>
@@ -60598,8 +60822,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">589</span>
-<span class="normal">590</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">590</span>
 <span class="normal">591</span>
 <span class="normal">592</span>
 <span class="normal">593</span>
@@ -60618,7 +60841,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">606</span>
 <span class="normal">607</span>
 <span class="normal">608</span>
-<span class="normal">609</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">609</span>
+<span class="normal">610</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">calculate_witness_votes_hp</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">number</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
@@ -60754,8 +60978,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">660</span>
-<span class="normal">661</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">661</span>
 <span class="normal">662</span>
 <span class="normal">663</span>
 <span class="normal">664</span>
@@ -60767,7 +60990,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">670</span>
 <span class="normal">671</span>
 <span class="normal">672</span>
-<span class="normal">673</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">673</span>
+<span class="normal">674</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction_from_json</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">JsonTransaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ITransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Creates transaction object from JSON transaction.</span>
@@ -60873,8 +61097,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">648</span>
-<span class="normal">649</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">649</span>
 <span class="normal">650</span>
 <span class="normal">651</span>
 <span class="normal">652</span>
@@ -60883,7 +61106,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">655</span>
 <span class="normal">656</span>
 <span class="normal">657</span>
-<span class="normal">658</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">658</span>
+<span class="normal">659</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction_from_proto</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">transaction</span><span class="p">:</span> <span class="n">ProtoTransaction</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ITransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Creates transaction object from proto transaction.</span>
@@ -61002,8 +61226,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">635</span>
-<span class="normal">636</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">636</span>
 <span class="normal">637</span>
 <span class="normal">638</span>
 <span class="normal">639</span>
@@ -61013,7 +61236,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">643</span>
 <span class="normal">644</span>
 <span class="normal">645</span>
-<span class="normal">646</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">646</span>
+<span class="normal">647</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">create_transaction_with_tapos</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tapos_block_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">expiration</span><span class="p">:</span> <span class="n">TTimestamp</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ITransaction</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Creates transaction object using basic information from chain.</span>
@@ -61214,8 +61438,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">349</span>
-<span class="normal">350</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">350</span>
 <span class="normal">351</span>
 <span class="normal">352</span>
 <span class="normal">353</span>
@@ -61242,7 +61465,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">374</span>
 <span class="normal">375</span>
 <span class="normal">376</span>
-<span class="normal">377</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">377</span>
+<span class="normal">378</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">estimate_hbd_interest</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">account_hbd_seconds</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
@@ -61500,8 +61724,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">323</span>
-<span class="normal">324</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">324</span>
 <span class="normal">325</span>
 <span class="normal">326</span>
 <span class="normal">327</span>
@@ -61524,7 +61747,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">344</span>
 <span class="normal">345</span>
 <span class="normal">346</span>
-<span class="normal">347</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">347</span>
+<span class="normal">348</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">estimate_hive_collateral</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">current_median_history_base</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span>
@@ -61675,8 +61899,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">307</span>
-<span class="normal">308</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">308</span>
 <span class="normal">309</span>
 <span class="normal">310</span>
 <span class="normal">311</span>
@@ -61689,7 +61912,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">318</span>
 <span class="normal">319</span>
 <span class="normal">320</span>
-<span class="normal">321</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">321</span>
+<span class="normal">322</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">get_operation_impacted_accounts</span><span class="p">(</span><span class="n">operation</span><span class="p">:</span> <span class="n">Operation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="n">AccountName</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -61829,8 +62053,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">484</span>
-<span class="normal">485</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">485</span>
 <span class="normal">486</span>
 <span class="normal">487</span>
 <span class="normal">488</span>
@@ -61842,7 +62065,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">494</span>
 <span class="normal">495</span>
 <span class="normal">496</span>
-<span class="normal">497</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">497</span>
+<span class="normal">498</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">get_private_key_from_password</span><span class="p">(</span><span class="n">account</span><span class="p">:</span> <span class="n">AccountName</span><span class="p">,</span> <span class="n">role</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">password</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">IPrivateKeyData</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -62008,8 +62232,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">454</span>
-<span class="normal">455</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">455</span>
 <span class="normal">456</span>
 <span class="normal">457</span>
 <span class="normal">458</span>
@@ -62023,7 +62246,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">466</span>
 <span class="normal">467</span>
 <span class="normal">468</span>
-<span class="normal">469</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">469</span>
+<span class="normal">470</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">get_public_key_from_signature</span><span class="p">(</span><span class="n">sig_digest</span><span class="p">:</span> <span class="n">Hex</span><span class="p">,</span> <span class="n">signature</span><span class="p">:</span> <span class="n">Signature</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">PublicKey</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -62216,8 +62440,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">416</span>
-<span class="normal">417</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">417</span>
 <span class="normal">418</span>
 <span class="normal">419</span>
 <span class="normal">420</span>
@@ -62233,7 +62456,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">430</span>
 <span class="normal">431</span>
 <span class="normal">432</span>
-<span class="normal">433</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">433</span>
+<span class="normal">434</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">hbd_to_hive</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">hbd</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span> <span class="n">base</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span> <span class="n">quote</span><span class="p">:</span> <span class="n">HiveNaiAssetConvertible</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NaiAsset</span><span class="p">:</span>
@@ -62428,8 +62652,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">435</span>
-<span class="normal">436</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">436</span>
 <span class="normal">437</span>
 <span class="normal">438</span>
 <span class="normal">439</span>
@@ -62445,7 +62668,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">449</span>
 <span class="normal">450</span>
 <span class="normal">451</span>
-<span class="normal">452</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">452</span>
+<span class="normal">453</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">hive_to_hbd</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span> <span class="n">hive</span><span class="p">:</span> <span class="n">HiveNaiAssetConvertible</span><span class="p">,</span> <span class="n">base</span><span class="p">:</span> <span class="n">HbdNaiAssetConvertible</span><span class="p">,</span> <span class="n">quote</span><span class="p">:</span> <span class="n">HiveNaiAssetConvertible</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">NaiAsset</span><span class="p">:</span>
@@ -62556,8 +62780,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">294</span>
-<span class="normal">295</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">295</span>
 <span class="normal">296</span>
 <span class="normal">297</span>
 <span class="normal">298</span>
@@ -62567,7 +62790,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">302</span>
 <span class="normal">303</span>
 <span class="normal">304</span>
-<span class="normal">305</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">305</span>
+<span class="normal">306</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">is_valid_account_name</span><span class="p">(</span><span class="n">account_name</span><span class="p">:</span> <span class="n">AccountName</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -62765,8 +62989,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">675</span>
-<span class="normal">676</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">676</span>
 <span class="normal">677</span>
 <span class="normal">678</span>
 <span class="normal">679</span>
@@ -62786,7 +63009,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">693</span>
 <span class="normal">694</span>
 <span class="normal">695</span>
-<span class="normal">696</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">696</span>
+<span class="normal">697</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">scan_text_for_matching_private_keys</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">content</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
@@ -62864,8 +63088,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">471</span>
-<span class="normal">472</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">472</span>
 <span class="normal">473</span>
 <span class="normal">474</span>
 <span class="normal">475</span>
@@ -62875,7 +63098,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">479</span>
 <span class="normal">480</span>
 <span class="normal">481</span>
-<span class="normal">482</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
+<span class="normal">482</span>
+<span class="normal">483</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@staticmethod</span>
 <span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">suggest_brain_key</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">IBrainKeyData</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
@@ -63064,8 +63288,7 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 
             <details class="mkdocstrings-source">
               <summary>Source code in <code>wax/interfaces.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">394</span>
-<span class="normal">395</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">395</span>
 <span class="normal">396</span>
 <span class="normal">397</span>
 <span class="normal">398</span>
@@ -63084,7 +63307,8 @@ transaction.push_operation(vote_pb2.vote(voter="alice", author="bob", permlink="
 <span class="normal">411</span>
 <span class="normal">412</span>
 <span class="normal">413</span>
-<span class="normal">414</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
+<span class="normal">414</span>
+<span class="normal">415</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@abstractmethod</span>
 <span class="k">def</span><span class="w"> </span><span class="nf">vests_to_hp</span><span class="p">(</span>
     <span class="bp">self</span><span class="p">,</span>
     <span class="n">vests</span><span class="p">:</span> <span class="n">VestsNaiAssetConvertible</span><span class="p">,</span>
