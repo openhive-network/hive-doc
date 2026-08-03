@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/account.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/db295f8e82a137a3822e9542f58a85b82955019b/ts/wasm/lib/detailed/api/types/account.ts#L21)
+[wasm/lib/detailed/api/types/account.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/757251ddf452f76a66b9f57ea48faf16fdfc88d8/ts/wasm/lib/detailed/api/types/account.ts#L21)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/account.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/db295f8e82a137a3822e9542f58a85b82955019b/ts/wasm/lib/detailed/api/types/account.ts#L22)
+[wasm/lib/detailed/api/types/account.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/757251ddf452f76a66b9f57ea48faf16fdfc88d8/ts/wasm/lib/detailed/api/types/account.ts#L22)
 
 ***
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/account.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/db295f8e82a137a3822e9542f58a85b82955019b/ts/wasm/lib/detailed/api/types/account.ts#L20)
+[wasm/lib/detailed/api/types/account.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/757251ddf452f76a66b9f57ea48faf16fdfc88d8/ts/wasm/lib/detailed/api/types/account.ts#L20)
