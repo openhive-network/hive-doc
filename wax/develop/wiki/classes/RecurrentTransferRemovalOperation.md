@@ -34,7 +34,7 @@ When invoking this operation, the virtual operation fill_recurrent_transfer_oper
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:135](https://gitlab.syncad.com/hive/wax/-/blob/cd0f89e66e40516ad1e58d28a8969752979ad524/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L135)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:135](https://gitlab.syncad.com/hive/wax/-/blob/acdd2c4c92a50ea3a3dfab9aff324dec4091bc66/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L135)
 
 ## Properties
 
@@ -48,7 +48,7 @@ When invoking this operation, the virtual operation fill_recurrent_transfer_oper
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/cd0f89e66e40516ad1e58d28a8969752979ad524/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/acdd2c4c92a50ea3a3dfab9aff324dec4091bc66/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
 
 ## Methods
 
@@ -74,4 +74,4 @@ When invoking this operation, the virtual operation fill_recurrent_transfer_oper
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/cd0f89e66e40516ad1e58d28a8969752979ad524/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L121)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/acdd2c4c92a50ea3a3dfab9aff324dec4091bc66/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L121)
