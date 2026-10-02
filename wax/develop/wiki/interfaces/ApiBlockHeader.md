@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/04d25bba565373a140adda4374c468a3af6013f8/ts/wasm/lib/detailed/api/types/block.ts#L8)
+[wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/api/types/block.ts#L8)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/04d25bba565373a140adda4374c468a3af6013f8/ts/wasm/lib/detailed/api/types/block.ts#L4)
+[wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/api/types/block.ts#L4)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/04d25bba565373a140adda4374c468a3af6013f8/ts/wasm/lib/detailed/api/types/block.ts#L5)
+[wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/api/types/block.ts#L5)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/04d25bba565373a140adda4374c468a3af6013f8/ts/wasm/lib/detailed/api/types/block.ts#L7)
+[wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/api/types/block.ts#L7)
 
 ***
 
@@ -54,4 +54,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/04d25bba565373a140adda4374c468a3af6013f8/ts/wasm/lib/detailed/api/types/block.ts#L6)
+[wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/api/types/block.ts#L6)
