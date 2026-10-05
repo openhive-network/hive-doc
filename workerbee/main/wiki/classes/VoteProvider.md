@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/vote-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/providers/vote-provider.ts#L21)
+[src/chain-observers/providers/vote-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/vote-provider.ts#L21)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/vote-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/providers/vote-provider.ts#L32)
+[src/chain-observers/providers/vote-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/vote-provider.ts#L32)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/vote-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/providers/vote-provider.ts#L23)
+[src/chain-observers/providers/vote-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/vote-provider.ts#L23)
 
 ***
 
@@ -98,4 +98,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/vote-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/providers/vote-provider.ts#L28)
+[src/chain-observers/providers/vote-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/vote-provider.ts#L28)

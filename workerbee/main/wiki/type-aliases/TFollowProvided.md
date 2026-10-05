@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[src/chain-observers/providers/follow-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/7102bee5a92d018a9d6b843a050bb6ddedc77d63/src/chain-observers/providers/follow-provider.ts#L13)
+[src/chain-observers/providers/follow-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/follow-provider.ts#L13)
