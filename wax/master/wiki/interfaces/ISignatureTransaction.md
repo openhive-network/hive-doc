@@ -26,7 +26,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/interfaces.ts#L192)
+[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/interfaces.ts#L192)
 
 ## Methods
 
@@ -61,7 +61,7 @@ If you do not have a signature, create one using dedicated signature providers, 
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/interfaces.ts#L209)
+[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/interfaces.ts#L209)
 
 ***
 
@@ -69,7 +69,7 @@ If you do not have a signature, create one using dedicated signature providers, 
 
 > **isSigned**(): `boolean`
 
-Checks if underlying transaction has been already signed at least one time (after [ITransaction.sign](./ITransactionBase#sign))
+Checks if underlying transaction has been already signed at least one time (after ITransaction.sign)
 
 #### Returns
 
@@ -79,7 +79,7 @@ either true or false based on the signatures amount
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/interfaces.ts#L250)
+[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/interfaces.ts#L250)
 
 ***
 
@@ -107,7 +107,7 @@ If you are implementing your transaction class and do not have operations to enc
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:259](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/interfaces.ts#L259)
+[wasm/lib/detailed/interfaces.ts:259](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/interfaces.ts#L259)
 
 ***
 
@@ -133,7 +133,7 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/interfaces.ts#L243)
+[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/interfaces.ts#L243)
 
 ***
 
@@ -171,4 +171,4 @@ on any Wax API-related error
 
 #### Defined in
 
-[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/interfaces.ts#L232)
+[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/interfaces.ts#L232)

@@ -6,7 +6,7 @@
 
 ### decryptData()
 
-> **decryptData**(`content`, `key`, `anotherKey`?): `string`
+> **decryptData**(`content`, `key`, `anotherKey`?): `Promise`\<`string`\>
 
 Decrypts given data from a specific entity and returns the decrypted message
 
@@ -32,19 +32,19 @@ other public key to find the private key in the underlying container and decrypt
 
 #### Returns
 
-`string`
+`Promise`\<`string`\>
 
 decrypted buffer
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
+[wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
 
 ***
 
 ### encryptData()
 
-> **encryptData**(`content`, `key`, `anotherKey`?, `nonce`?): `string`
+> **encryptData**(`content`, `key`, `anotherKey`?, `nonce`?): `Promise`\<`string`\>
 
 Encrypts given data for a specific entity and returns the encrypted message
 
@@ -76,19 +76,19 @@ optional nonce to be explicitly specified for encryption
 
 #### Returns
 
-`string`
+`Promise`\<`string`\>
 
 base58 encrypted buffer
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
+[wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
 
 ***
 
 ### signDigest()
 
-> **signDigest**(`publicKey`, `sigDigest`): `string`
+> **signDigest**(`publicKey`, `sigDigest`): `Promise`\<`string`\>
 
 Signs a transaction by signing a digest of the transaction
 
@@ -108,10 +108,10 @@ digest of a transaction in hex format
 
 #### Returns
 
-`string`
+`Promise`\<`string`\>
 
 signed data in hex format
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)
+[wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)

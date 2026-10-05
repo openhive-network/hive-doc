@@ -16,7 +16,7 @@ Stores data specific to the authority path chosen:
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:134](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L134)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:134](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L134)
 
 ***
 
@@ -29,4 +29,4 @@ Can be empty when no matching signature has been found.
 
 #### Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:127](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L127)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:127](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L127)

@@ -55,13 +55,13 @@ The decrypted data as a string.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L38)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L38)
 
 ***
 
 ### encryptData()
 
-> `abstract` **encryptData**(`buffer`, `recipient`): `Promise`\<`string`\>
+> `abstract` **encryptData**(`buffer`, `recipient`, `nonce`?): `Promise`\<`string`\>
 
 Encrypts data
 
@@ -79,6 +79,12 @@ The string or binary buffer to encrypt.
 
 The public key of the recipient to encrypt the data for, or its account name - if supported by the signer.
 
+##### nonce?
+
+`number`
+
+optional nonce to be explicitly specified for encryption. If not provided, a random nonce will be generated.
+
 #### Returns
 
 `Promise`\<`string`\>
@@ -91,7 +97,7 @@ A string containing the encrypted data.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L35)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L35)
 
 ***
 
@@ -115,7 +121,7 @@ A string containing the encrypted data.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
 
 ***
 
@@ -145,4 +151,4 @@ resolves when the wallet finished signing (signature(s) appended internally)
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/c8db6b6b655b31b31fe50c9cb04cceca194bea2c/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L28)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/26348a5984cc39461ad63413e99f0ecf6f333c94/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L28)
