@@ -55,7 +55,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 });
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
 
 ## Properties
 
@@ -68,7 +68,7 @@ default endpoints for checkers.
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
 
 ***
 
@@ -80,7 +80,7 @@ minimal interval between checks in milliseconds (default: 10 seconds)
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
 
 ***
 
@@ -98,7 +98,7 @@ v13.4.0, v12.16.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:459
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:416
 
 ***
 
@@ -116,7 +116,7 @@ v13.4.0, v12.16.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:452
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:409
 
 ***
 
@@ -126,7 +126,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:45
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
 
 ***
 
@@ -176,7 +176,7 @@ v0.11.2
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:498
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:455
 
 ***
 
@@ -186,7 +186,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:49
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
 
 ***
 
@@ -205,7 +205,7 @@ v13.6.0, v12.17.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:445
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:402
 
 ## Accessors
 
@@ -221,7 +221,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:44
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
 
 ## Methods
 
@@ -253,7 +253,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:44
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:136
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:103
 
 ***
 
@@ -269,7 +269,7 @@ iterator for all registered endpoints
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
 
 ***
 
@@ -299,7 +299,7 @@ Type of the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
 
 ***
 
@@ -333,7 +333,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:597
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:633
 
 ***
 
@@ -403,7 +403,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:859
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:895
 
 ***
 
@@ -438,7 +438,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:922
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:958
 
 ***
 
@@ -464,7 +464,7 @@ endpoint if found, undefined otherwise
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
 
 ***
 
@@ -485,7 +485,7 @@ v1.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:774
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:810
 
 ***
 
@@ -499,7 +499,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:77
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
 
 ***
 
@@ -539,7 +539,7 @@ v3.2.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:868
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:904
 
 ***
 
@@ -577,7 +577,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:787
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:823
 
 ***
 
@@ -605,7 +605,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:78
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
 
 ***
 
@@ -633,7 +633,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:78
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
 
 ***
 
@@ -661,7 +661,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:78
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
 
 ***
 
@@ -710,7 +710,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:886
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:922
 
 ***
 
@@ -757,7 +757,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:902
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:938
 
 ***
 
@@ -813,7 +813,7 @@ v9.4.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:818
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:854
 
 ***
 
@@ -869,7 +869,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 }, data => data.block?
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
 
 ***
 
@@ -901,7 +901,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:758
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:794
 
 ***
 
@@ -931,7 +931,7 @@ Type of the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
 
 ***
 
@@ -1043,7 +1043,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:742
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:778
 
 ***
 
@@ -1074,7 +1074,7 @@ v0.3.5
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:768
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:804
 
 ***
 
@@ -1114,7 +1114,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 });
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
 
 ***
 
@@ -1146,7 +1146,7 @@ either true or false if api has been unregistered successfully
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
 
 ***
 
@@ -1170,7 +1170,7 @@ if true, clears unused endpoint urls from stats (defaults to true)
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
 
 ***
 
@@ -1198,7 +1198,7 @@ endpoint to unsubscribe from
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
 
 ***
 
@@ -1218,15 +1218,13 @@ Unsubscribes all the endpoint
 
 #### Defined in
 
-[wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
+[wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
 
 ***
 
 ### addAbortListener()
 
 > `static` **addAbortListener**(`signal`, `resource`): `Disposable`
-
-**`Experimental`**
 
 Listens once to the `abort` event on the provided `signal`.
 
@@ -1246,15 +1244,12 @@ Returns a disposable so that it may be unsubscribed from more easily.
 import { addAbortListener } from 'node:events';
 
 function example(signal) {
-  let disposable;
-  try {
-    signal.addEventListener('abort', (e) => e.stopImmediatePropagation());
-    disposable = addAbortListener(signal, (e) => {
-      // Do something when signal is aborted.
-    });
-  } finally {
-    disposable?.[Symbol.dispose]();
-  }
+  signal.addEventListener('abort', (e) => e.stopImmediatePropagation());
+  // addAbortListener() returns a disposable, so the `using` keyword ensures
+  // the abort listener is automatically removed when this scope exits.
+  using _ = addAbortListener(signal, (e) => {
+    // Do something when signal is aborted.
+  });
 }
 ```
 
@@ -1280,7 +1275,7 @@ v20.5.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:437
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:394
 
 ***
 
@@ -1333,7 +1328,7 @@ v15.2.0, v14.17.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:358
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:319
 
 ***
 
@@ -1383,55 +1378,79 @@ v19.9.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:387
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:348
 
 ***
 
-### ~~listenerCount()~~
+### listenerCount()
+
+#### Call Signature
 
 > `static` **listenerCount**(`emitter`, `eventName`): `number`
 
-A class method that returns the number of listeners for the given `eventName` registered on the given `emitter`.
+Returns the number of registered listeners for the event named `eventName`.
 
-```js
-import { EventEmitter, listenerCount } from 'node:events';
+For `EventEmitter`s this behaves exactly the same as calling `.listenerCount`
+on the emitter.
 
-const myEmitter = new EventEmitter();
-myEmitter.on('event', () => {});
-myEmitter.on('event', () => {});
-console.log(listenerCount(myEmitter, 'event'));
-// Prints: 2
-```
+For `EventTarget`s this is the only way to obtain the listener count. This can
+be useful for debugging and diagnostic purposes.
 
-#### Parameters
+##### Parameters
 
-##### emitter
+###### emitter
 
 `EventEmitter`\<`DefaultEventMap`\>
 
-The emitter to query
-
-##### eventName
-
-The event name
+###### eventName
 
 `string` | `symbol`
 
-#### Returns
+##### Returns
 
 `number`
 
-#### Since
+##### Since
 
 v0.9.12
 
-#### Deprecated
+##### Defined in
 
-Since v3.2.0 - Use `listenerCount` instead.
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:290
 
-#### Defined in
+#### Call Signature
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:330
+> `static` **listenerCount**(`emitter`, `eventName`): `number`
+
+Returns the number of registered listeners for the event named `eventName`.
+
+For `EventEmitter`s this behaves exactly the same as calling `.listenerCount`
+on the emitter.
+
+For `EventTarget`s this is the only way to obtain the listener count. This can
+be useful for debugging and diagnostic purposes.
+
+##### Parameters
+
+###### emitter
+
+`EventTarget`
+
+###### eventName
+
+`string`
+
+##### Returns
+
+`number`
+
+##### Since
+
+v0.9.12
+
+##### Defined in
+
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:291
 
 ***
 
@@ -1439,7 +1458,7 @@ node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:33
 
 #### Call Signature
 
-> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterator`\<`any`[], `any`, `any`\>
+> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterator`\<`any`[], `undefined`, `any`\>
 
 ```js
 import { on, EventEmitter } from 'node:events';
@@ -1534,7 +1553,7 @@ console.log('done'); // prints 'done'
 
 ##### Returns
 
-`AsyncIterator`\<`any`[], `any`, `any`\>
+`AsyncIterator`\<`any`[], `undefined`, `any`\>
 
 An `AsyncIterator` that iterates `eventName` events emitted by the `emitter`
 
@@ -1544,11 +1563,11 @@ v13.6.0, v12.16.0
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:303
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:270
 
 #### Call Signature
 
-> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterator`\<`any`[], `any`, `any`\>
+> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterator`\<`any`[], `undefined`, `any`\>
 
 ```js
 import { on, EventEmitter } from 'node:events';
@@ -1643,7 +1662,7 @@ console.log('done'); // prints 'done'
 
 ##### Returns
 
-`AsyncIterator`\<`any`[], `any`, `any`\>
+`AsyncIterator`\<`any`[], `undefined`, `any`\>
 
 An `AsyncIterator` that iterates `eventName` events emitted by the `emitter`
 
@@ -1653,7 +1672,7 @@ v13.6.0, v12.16.0
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:308
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:275
 
 ***
 
@@ -1764,7 +1783,7 @@ v11.13.0, v10.16.0
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:217
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:184
 
 #### Call Signature
 
@@ -1871,7 +1890,7 @@ v11.13.0, v10.16.0
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:222
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:189
 
 ***
 
@@ -1913,4 +1932,4 @@ v15.4.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.10.7/node\_modules/@types/node/events.d.ts:402
+node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:363

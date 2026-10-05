@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/complex_operations/comment.ts#L11)
+[wasm/lib/detailed/complex\_operations/comment.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/complex_operations/comment.ts#L11)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/complex_operations/comment.ts#L12)
+[wasm/lib/detailed/complex\_operations/comment.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/complex_operations/comment.ts#L12)
 
 ***
 
@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/7ee8901ece03d498789790336180e7eea192b904/ts/wasm/lib/detailed/complex_operations/comment.ts#L13)
+[wasm/lib/detailed/complex\_operations/comment.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/d92b84a376b436ab53a0a578937c2ec808a93917/ts/wasm/lib/detailed/complex_operations/comment.ts#L13)
