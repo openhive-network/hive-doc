@@ -8,7 +8,7 @@ There are two conditions that have to be fulfilled to do it:
    During an account creation, the account that created a new account is set as a recovery
    account by default, but it can be changed by the user (using operation change_recovery_account_operation).
    If the account was created by account temp, then a recovery account is empty and
-   it is set as a top witness – it is not good a recovery account.
+   it is set as a top witness - it is not good a recovery account.
    Note: it takes HIVE_OWNER_AUTH_RECOVERY_PERIOD (30 days) after sending change_recovery_account_operation.
    for the new recovery agent to become active. During that period the previous agent remains active for the account.
 2. The compromised owner authority is still recent.
@@ -72,7 +72,7 @@ wasm/lib/proto/request\_account\_recovery.ts:58
 
 #### Param
 
-The new owner authority – the public, not private key.
+The new owner authority - the public, not private key.
                                          The new authority should be satisfiable.
 
 #### Defined in

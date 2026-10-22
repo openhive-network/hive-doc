@@ -85,7 +85,7 @@ wasm/lib/proto/create\_claimed\_account.ts:37
 Account name.
                                    Valid account name may consist of many parts separated by a dot,
                                    total may have up to 16 characters, parts have to start from a letter,
-                                   may be followed by numbers, or “-“.
+                                   may be followed by numbers, or "-".
 
 #### Defined in
 
