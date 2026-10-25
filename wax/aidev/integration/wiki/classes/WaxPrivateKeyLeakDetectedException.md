@@ -44,7 +44,7 @@ also the account name and authority role related to such key.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/59823832759d54ebf4d6b3f71e072375d2a1ba37/ts/wasm/lib/detailed/errors.ts#L149)
+[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/83c99609b98a5a91268f69b4680570bf3dfaaaa0/ts/wasm/lib/detailed/errors.ts#L149)
 
 ## Properties
 
@@ -54,7 +54,7 @@ also the account name and authority role related to such key.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/59823832759d54ebf4d6b3f71e072375d2a1ba37/ts/wasm/lib/detailed/errors.ts#L149)
+[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/83c99609b98a5a91268f69b4680570bf3dfaaaa0/ts/wasm/lib/detailed/errors.ts#L149)
 
 ***
 
@@ -64,7 +64,7 @@ also the account name and authority role related to such key.
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/59823832759d54ebf4d6b3f71e072375d2a1ba37/ts/wasm/lib/detailed/errors.ts#L150)
+[wasm/lib/detailed/errors.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/83c99609b98a5a91268f69b4680570bf3dfaaaa0/ts/wasm/lib/detailed/errors.ts#L150)
 
 ***
 
@@ -88,7 +88,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.err
 
 #### Defined in
 
-[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/59823832759d54ebf4d6b3f71e072375d2a1ba37/ts/wasm/lib/detailed/errors.ts#L149)
+[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/83c99609b98a5a91268f69b4680570bf3dfaaaa0/ts/wasm/lib/detailed/errors.ts#L149)
 
 ***
 

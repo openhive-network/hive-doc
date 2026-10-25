@@ -24,4 +24,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/transaction.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/59823832759d54ebf4d6b3f71e072375d2a1ba37/ts/wasm/lib/detailed/transaction.ts#L29)
+[wasm/lib/detailed/transaction.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/83c99609b98a5a91268f69b4680570bf3dfaaaa0/ts/wasm/lib/detailed/transaction.ts#L29)
