@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/reblog-provider.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/reblog-provider.ts#L27)
+[src/chain-observers/providers/reblog-provider.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/reblog-provider.ts#L27)
 
 ## Methods
 
@@ -56,7 +56,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/reblog-provider.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/reblog-provider.ts#L38)
+[src/chain-observers/providers/reblog-provider.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/reblog-provider.ts#L38)
 
 ***
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/reblog-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/reblog-provider.ts#L29)
+[src/chain-observers/providers/reblog-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/reblog-provider.ts#L29)
 
 ***
 
@@ -98,4 +98,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/reblog-provider.ts:34](https://gitlab.syncad.com/hive/workerbee/-/blob/017dd9569e947ed6f75f63e66e578751d55fcb56/src/chain-observers/providers/reblog-provider.ts#L34)
+[src/chain-observers/providers/reblog-provider.ts:34](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/reblog-provider.ts#L34)
