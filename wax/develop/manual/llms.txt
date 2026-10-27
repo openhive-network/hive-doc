@@ -1,0 +1,85 @@
+﻿#  | Wax 📚
+
+> Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently three language implementations of the library: TypeScript, C++, and Python.
+
+- [Intro to Wax library](https://hive.pages.syncad.com/wax-doc/default/index.md): Intro to Wax library
+- [Thank You for Exploring Wax](https://hive.pages.syncad.com/wax-doc/default/closing-note.md): We hope this documentation has been helpful in your journey with the Wax library for Hive blockchain development. Your feedback and contributions are valuable to us!
+
+## Interface Reference
+
+- [Getting Started](https://hive.pages.syncad.com/wax-doc/default/interfaces/getting-started.md): Wax enables developers to read and write data on the Hive blockchain. This guide will help you get started with the Wax library.
+
+### Configuration
+
+- [Constructing a Wax interface](https://hive.pages.syncad.com/wax-doc/default/interfaces/config/init-general.md): The root Wax interface can be constructed using either default or custom configuration options. Custom options allow selecting a specific blockchain network (e.g.
+
+### Key generation
+
+- [Generating private keys](https://hive.pages.syncad.com/wax-doc/default/interfaces/key-generation/generate-key.md): Hive layer 1 keys can be generated via two methods:
+- [Hive Protocol: Transaction and Operations](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction-and-operation/index.md): Hive transactions, operations and their properties (i.e. assets) are represented using specific types and data structures defined inside the Hive Protocol library.
+
+### Asset manipulations
+
+- [NaiAsset objects](https://hive.pages.syncad.com/wax-doc/default/interfaces/asset-manipulations/construct-nai-asset.md): There are three asset types (token types) in Hive's layer 1 protocol: HIVE (liquid hive), VESTS (staked hive), and HBD (hive-backed dollars). All asset
+- [Asset creation function details](https://hive.pages.syncad.com/wax-doc/default/interfaces/asset-manipulations/generating-assets.md): There are two primary methods to generate hive, vests, or hbd, categorized based on the type of input they accept.
+- [Asset Conversions](https://hive.pages.syncad.com/wax-doc/default/interfaces/asset-manipulations/asset-convertions.md): Asset conversions are required for various Hive financial transactions. The @hiveio/wax library provides methods like VESTS to HP and HBD to Hive to facilitate these conversions.
+
+### Creating transactions
+
+- [Transactions](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/index.md): A ITransaction is an interface for building, signing, and validating transactions.
+- [Creating a Transaction](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/initialization.md): The code below shows how to create a new transaction, having TaPoS (reference block) data automatically fetched from the remote Hive API endpoint. This
+
+#### Working with Transaction
+
+- [Working with Transaction](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/working-with-transaction/index.md): Basic purpose of ITransaction interface is adding new operations to the (just created) transaction. Depending on complexity of given blockchain usage
+- [Pushing simple operation](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/working-with-transaction/pushing-simple-operation.md): If your case is to perform simple actions on your transaction or create a new transaction, you can use initialization with the wax base interface.
+- [Adding complex operations](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/working-with-transaction/pushing-complex-operation.md): Complex usage of ITransaction interface allows to:
+- [Reading transaction properties](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/working-with-transaction/reading-transaction-properites.md): The ITransaction interface also allows you to read your transaction properties like sig digest, id, etc.
+- [Working with Online Transaction](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/working-with-transaction/online-transaction.md): The Online Transaction class extends the standard ITransaction interface implementation by adding functionality that requires chain API access. This
+- [Binary representation of transaction](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/working-with-transaction/binary-view.md): The ITransaction interface also supports conversion to and from binary formats. This means you can easily serialize and deserialize transaction objects for efficient storage or deep analysis.
+- [Finalization](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/finalization.md): When the work with the transaction is ready, you now need to decide what you want to do with it next.
+- [Hive Apps Operations in Transaction interface](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/hive-apps-operations.md): The Hive blockchain enables advanced operations using . These operations are standardized and recognized by the Hive Ecosystem, such as Hivemind. This allows us to utilize advanced features that go beyond typical Hive blockchain operations.
+
+#### Example usage
+
+- [Example Transaction interface usage](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/example-usage/index.md): Once you know all the ITransaction interface functionality, let's look at an example of complete usage.
+- [Advanced usage](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/example-usage/advanced-usage.md): If you want to use the advanced features of the ITransaction interface you can initalize it using dedicated methods:
+
+#### Operation factories
+
+- [Comment-reply and Post operations](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/operations/comment.md): One of the complex operations supported by the Hive blockchain is the publishing of blog posts and replies (comments) to them. To simplify it, the Wax library provides specific helper operation factory classes: Blog Post Operation and Reply Operation.
+- [Using RecurrentTransfer](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/operations/recurrent-transfer.md): The Recurrent Transfer Operation allows for initiating, modifying, and removing recurrent transfers on the Hive blockchain.
+- [Using UpdateProposal](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/operations/update-proposal.md): The Update Proposal Operation allows for updating proposals on the Hive blockchain.
+- [Setting Witness Properties](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/operations/witness-set-properties.md): The Witness Set Properties Operation allows witnesses to update their properties on the Hive blockchain.
+- [Account authority update](https://hive.pages.syncad.com/wax-doc/default/interfaces/transaction/operations/account-update.md): Another troublesome operation offered by Hive Blockchain is dedicated to changing account authority. To simplify blockchain implementation, this operation
+
+### Encryption
+
+- [Encrypt buffer](https://hive.pages.syncad.com/wax-doc/default/interfaces/encryption/encrypt-buffer.md): The Wax library provides a robust set of tools for handling encryption and decryption within the Hive ecosystem. This includes both methods for direct encryption/decryption as well as using the ITransaction interface to handle encrypted operations.
+- [Encrypt operations](https://hive.pages.syncad.com/wax-doc/default/interfaces/encryption/encrypt-operations.md): Wax provides a simple interface for encrypting operation data within a transaction using the ITransaction interface. Operation encrypting allows to push operations in transparent way, just by pushing markers when to start and stop encryption.
+
+### Signers
+
+- [Signers](https://hive.pages.syncad.com/wax-doc/default/interfaces/signers/index.md): Wax allows users to securely sign transactions and messages using their private keys. This process ensures that only the rightful owner of the keys can authorize actions on their behalf, providing a robust layer of security for user accounts and assets.
+- [Beekeeper](https://hive.pages.syncad.com/wax-doc/default/interfaces/signers/beekeeper.md): Wax signer library extending transaction signing possibilities by a safe wallet - Beekeeper
+- [HB Auth](https://hive.pages.syncad.com/wax-doc/default/interfaces/signers/hb-auth.md): Wax signer library extending transaction signing possibilities by a 3rd party Web-only extension - hb-auth.
+- [MetaMask](https://hive.pages.syncad.com/wax-doc/default/interfaces/signers/metamask.md): Wax signer library extending transaction signing possibilities by the Hive Wallet - a 3rd party Web-only MetaMask extension snap
+- [Keychain](https://hive.pages.syncad.com/wax-doc/default/interfaces/signers/keychain.md): Wax signer library extending transaction signing possibilities by a 3rd party Web-only extension - Keychain
+- [PeakVault](https://hive.pages.syncad.com/wax-doc/default/interfaces/signers/peakvault.md): Wax signer library extending transaction signing possibilities by a 3rd party Web-only extension - Peak Vault
+
+### Manabars
+
+- [Manabar types](https://hive.pages.syncad.com/wax-doc/default/interfaces/manabars/what-are-manabars.md): The Hive blockchain employs a unique system to manage user activities, particularly when it comes to voting, content creation, and resource utilization. This system leverages "manabars," a visual representation of available resources, to ensure fair and efficient usage.
+- [Manabar calculations](https://hive.pages.syncad.com/wax-doc/default/interfaces/manabars/manabars-calculations.md): Manabars in the Hive ecosystem represent the available resources for different activities such as upvoting, downvoting, and resource credits (RC). Each type of manabar regenerates over time and is pivotal in understanding an account's capacity to perform these activities.
+
+### Formatters
+
+- [Preface](https://hive.pages.syncad.com/wax-doc/default/interfaces/formatters/preface.md): Operation formatters provide a mechanism for converting complex operation objects into human-readable text representations.
+- [Blockchain Data Formatters](https://hive.pages.syncad.com/wax-doc/default/interfaces/formatters/blockchain-formatters.md): Using Wax Formatters, you can format numbers represented as string, number, BigInt using formatNumber method
+- [Operation Formatters](https://hive.pages.syncad.com/wax-doc/default/interfaces/formatters/operation-formatters.md): Not implemented yet — planned for a future release.
+- [Extending formatter](https://hive.pages.syncad.com/wax-doc/default/interfaces/formatters/custom-formatters.md): Operation formatters may be easily extended for formatting other operation types and Hive-related structures using WaxFormattable TypeScript decorator.
+
+### API Support
+
+- [Using default APIs](https://hive.pages.syncad.com/wax-doc/default/interfaces/api/default-api.md): Wax provides an object-oriented interface for making and verifying API requests and responses. Hive API requests are arranged into various API categories:
+- [Extending Chain](https://hive.pages.syncad.com/wax-doc/default/interfaces/api/extend-api.md): When writing an advanced Hive blockchain application, you may want to add more APIs to the standard set of Wax methods. There is a feature in Wax called extend or extendRest (for REST API) allowing you to extend Wax Chain with fully-typed requests with full typization.
