@@ -42,6 +42,22 @@ data for the account retrieval
 
 HTTP Response code is not in range 200-399 (inclusive)
 
+#### Throws
+
+HTTP Response code is in range 200-399 (inclusive), but the response body is not a valid JSON
+
+#### Throws
+
+Request did not complete within the configured timeout
+
+#### Throws
+
+Request was aborted by the user agent
+
+#### Throws
+
+Request failed without receiving a response (e.g. network or CORS error)
+
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/c091b6f13236e165566ad66c9d063f4b80d4f4e4/ts/wasm/lib/detailed/util/request_helper.ts#L114)
+[wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/a2ac253cdc1bdaff9055a04de052c6d867c9dfdb/ts/wasm/lib/detailed/util/request_helper.ts#L125)
