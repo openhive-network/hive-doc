@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/feed-price-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/feed-price-provider.ts#L11)
+[src/chain-observers/providers/feed-price-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/feed-price-provider.ts#L11)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/feed-price-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/feed-price-provider.ts#L12)
+[src/chain-observers/providers/feed-price-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/feed-price-provider.ts#L12)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/feed-price-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/feed-price-provider.ts#L10)
+[src/chain-observers/providers/feed-price-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/feed-price-provider.ts#L10)
 
 ***
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/feed-price-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/feed-price-provider.ts#L9)
+[src/chain-observers/providers/feed-price-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/feed-price-provider.ts#L9)

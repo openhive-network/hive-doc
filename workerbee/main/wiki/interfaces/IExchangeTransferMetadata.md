@@ -10,7 +10,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/exchange-transfer-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/exchange-transfer-provider.ts#L12)
+[src/chain-observers/providers/exchange-transfer-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/exchange-transfer-provider.ts#L12)
 
 ***
 
@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/exchange-transfer-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/exchange-transfer-provider.ts#L13)
+[src/chain-observers/providers/exchange-transfer-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/exchange-transfer-provider.ts#L13)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/chain-observers/providers/exchange-transfer-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/exchange-transfer-provider.ts#L10)
+[src/chain-observers/providers/exchange-transfer-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/exchange-transfer-provider.ts#L10)
 
 ***
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/chain-observers/providers/exchange-transfer-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/fb60e1d5c2be40756d833b36480b9d3eabe9b5bc/src/chain-observers/providers/exchange-transfer-provider.ts#L11)
+[src/chain-observers/providers/exchange-transfer-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/providers/exchange-transfer-provider.ts#L11)
