@@ -1,0 +1,19 @@
+﻿#  | WorkerBee 📚
+
+> A powerful and flexible Hive automation library.
+
+- [Intro to WorkerBee library](https://hive.pages.syncad.com/workerbee-doc/default/index.md): Intro to WorkerBee library
+- [Documentation Overview](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/index.md): Welcome to the complete documentation for WorkerBee! This section provides comprehensive guides, examples, and references for building powerful blockchain applications.
+- [Thank You for Exploring WorkerBee](https://hive.pages.syncad.com/workerbee-doc/default/closing-note.md): We hope this documentation has been helpful in your journey with the WorkerBee library for Hive blockchain development. Your feedback and contributions are valuable to us!
+
+## Interface Reference
+
+- [Getting Started](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/getting-started.md): Welcome to WorkerBee, the powerful TypeScript library that makes building Hive blockchain bots as easy as writing regular web applications!
+- [Base Configuration](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/base-configuration.md): Configure WorkerBee for different environments and use cases.
+- [Filters & Conditions](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/filters.md): Filters are the core of WorkerBee's event system. They define when your observers should be triggered by evaluating blockchain conditions in real-time.
+- [Data Providers](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/providers.md): Data Providers are WorkerBee's powerful data transformation layer that intelligently gathers, processes, and normalizes blockchain data into clean, type-safe objects for your application.
+- [Common Patterns](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/patterns.md): Learn proven patterns and best practices for building robust WorkerBee applications. These patterns solve common challenges and provide reusable solutions.
+- [Past Data](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/past-data.md): WorkerBee provides a rich set of historical data that can be leveraged for various use cases, such as analytics, reporting, and machine learning. This section outlines how to access and utilize past data effectively.
+- [Core Architecture](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/core-architecture.md): WorkerBee is built on a sophisticated multi-layered architecture that ensures high performance, reliability, and ease of use. Understanding this architecture helps you leverage WorkerBee's full potential.
+- [Advanced Examples](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/examples.md): Explore sophisticated use cases and patterns with WorkerBee. These examples demonstrate real-world applications and advanced techniques.
+- [API Reference](https://hive.pages.syncad.com/workerbee-doc/default/interfaces/api-reference.md): For a complete TypeScript API reference for WorkerBee you can visit WorkerBee Wiki.
