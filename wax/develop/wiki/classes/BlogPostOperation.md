@@ -30,7 +30,7 @@ Same as the comment base, but requires user to set the category (parent permlink
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:337](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/comment.ts#L337)
+[wasm/lib/detailed/complex\_operations/comment.ts:337](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/comment.ts#L337)
 
 ## Properties
 
@@ -44,7 +44,7 @@ Same as the comment base, but requires user to set the category (parent permlink
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/comment.ts#L137)
+[wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/comment.ts#L137)
 
 ***
 
@@ -58,7 +58,7 @@ Same as the comment base, but requires user to set the category (parent permlink
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/comment.ts#L140)
+[wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/comment.ts#L140)
 
 ## Methods
 
@@ -84,7 +84,7 @@ Same as the comment base, but requires user to set the category (parent permlink
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/comment.ts#L149)
+[wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/comment.ts#L149)
 
 ***
 
@@ -124,4 +124,4 @@ if key already exists on the jsonmetadata object
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/comment.ts:267](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/comment.ts#L267)
+[wasm/lib/detailed/complex\_operations/comment.ts:267](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/comment.ts#L267)

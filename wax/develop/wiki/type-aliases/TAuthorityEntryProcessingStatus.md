@@ -8,4 +8,4 @@ Determines set of information collected during processing given authority path e
 
 ## Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L64)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L64)

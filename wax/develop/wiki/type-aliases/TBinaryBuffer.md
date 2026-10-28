@@ -6,4 +6,4 @@
 
 ## Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L20)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L20)

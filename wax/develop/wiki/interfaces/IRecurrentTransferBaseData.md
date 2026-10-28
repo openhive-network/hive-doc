@@ -17,7 +17,7 @@ Account to transfer asset from.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L12)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L12)
 
 ***
 
@@ -37,7 +37,7 @@ in order to update or remove the defined recurrent transfer.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L24)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L24)
 
 ***
 
@@ -49,4 +49,4 @@ Account to transfer asset to. Cannot set a transfer to yourself.
 
 #### Defined in
 
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/f68e445b3a1780a1df424245eacc448c7022dd77/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L16)
+[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L16)
