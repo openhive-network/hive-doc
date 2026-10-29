@@ -2,7 +2,7 @@
 
 # Interface: GetDynamicGlobalPropertiesResponse
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L5)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L5)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **available\_account\_subsidies**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L42)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L42)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **confidential\_hbd\_supply**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L19)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L19)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **confidential\_supply**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L15)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L15)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **content\_reward\_percent**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L48)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L48)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **current\_aslot**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L32)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L32)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **current\_hbd\_supply**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L17)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L17)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **current\_remove\_threshold**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L18)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L18)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **current\_supply**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L14)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L14)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **current\_witness**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L10)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L10)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **delegation\_return\_period**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L40)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L40)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **downvote\_pool\_percent**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L52)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L52)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **early\_voting\_seconds**: `string` \| `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L53)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L53)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **hbd\_interest\_rate**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L26)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L26)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **hbd\_print\_rate**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L27)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L27)
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **hbd\_start\_percent**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L44)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L44)
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **hbd\_stop\_percent**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L43)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L43)
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **head\_block\_id**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L8)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L8)
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **head\_block\_number**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L7)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L7)
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **id**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L6)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L6)
 
 ***
 
@@ -162,7 +162,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **init\_hbd\_supply**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L16)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L16)
 
 ***
 
@@ -170,7 +170,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **last\_budget\_time**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L47)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L47)
 
 ***
 
@@ -178,7 +178,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **last\_irreversible\_block\_num**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L35)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L35)
 
 ***
 
@@ -186,7 +186,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **max\_consecutive\_recurrent\_transfer\_failures**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L36)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L36)
 
 ***
 
@@ -194,7 +194,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **max\_open\_recurrent\_transfers**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L37)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L37)
 
 ***
 
@@ -202,7 +202,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **max\_recurrent\_transfer\_end\_date**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L38)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L38)
 
 ***
 
@@ -210,7 +210,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **maximum\_block\_size**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L28)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L28)
 
 ***
 
@@ -218,7 +218,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **mid\_voting\_seconds**: `string` \| `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L29)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L29)
 
 ***
 
@@ -226,7 +226,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **min\_recurrent\_transfers\_recurrence**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L30)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L30)
 
 ***
 
@@ -234,7 +234,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **next\_daily\_maintenance\_time**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L45)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L45)
 
 ***
 
@@ -242,7 +242,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **next\_maintenance\_time**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L46)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L46)
 
 ***
 
@@ -250,7 +250,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **num\_pow\_witnesses**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L12)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L12)
 
 ***
 
@@ -258,7 +258,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **participation\_count**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L34)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L34)
 
 ***
 
@@ -266,7 +266,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **pending\_rewarded\_vesting\_hive**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L25)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L25)
 
 ***
 
@@ -274,7 +274,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **pending\_rewarded\_vesting\_shares**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L24)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L24)
 
 ***
 
@@ -282,7 +282,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **recent\_slots\_filled**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L33)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L33)
 
 ***
 
@@ -290,7 +290,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > `optional` **required\_actions\_partition\_percent?**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L31)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L31)
 
 ***
 
@@ -298,7 +298,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **reverse\_auction\_seconds**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L41)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L41)
 
 ***
 
@@ -306,7 +306,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **smt\_creation\_fee**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L54)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L54)
 
 ***
 
@@ -314,7 +314,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > `optional` **sps\_fund\_percent?**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L50)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L50)
 
 ***
 
@@ -322,7 +322,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **sps\_interval\_ledger**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L51)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L51)
 
 ***
 
@@ -330,7 +330,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > `optional` **target\_votes\_per\_period?**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L39)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L39)
 
 ***
 
@@ -338,7 +338,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **time**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L9)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L9)
 
 ***
 
@@ -346,7 +346,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **total\_pow**: `string` \| `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L11)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L11)
 
 ***
 
@@ -354,7 +354,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **total\_reward\_fund\_hive**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L22)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L22)
 
 ***
 
@@ -362,7 +362,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **total\_reward\_shares2**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L23)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L23)
 
 ***
 
@@ -370,7 +370,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **total\_vesting\_fund\_hive**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L20)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L20)
 
 ***
 
@@ -378,7 +378,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **total\_vesting\_shares**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L21)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L21)
 
 ***
 
@@ -386,7 +386,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **vesting\_reward\_percent**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L49)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L49)
 
 ***
 
@@ -394,4 +394,4 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_propertie
 
 > **virtual\_supply**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L13)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L13)

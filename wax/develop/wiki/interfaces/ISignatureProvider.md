@@ -2,7 +2,7 @@
 
 # Interface: ISignatureProvider
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L4)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/index.ts#L4)
 
 ## Methods
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:4](https://gitlab.
 
 > **decryptData**(`content`, `key`, `anotherKey?`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
 
 Decrypts given data from a specific entity and returns the decrypted message
 
@@ -46,7 +46,7 @@ decrypted buffer
 
 > **encryptData**(`content`, `key`, `anotherKey?`, `nonce?`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
 
 Encrypts given data for a specific entity and returns the encrypted message
 
@@ -88,7 +88,7 @@ base58 encrypted buffer
 
 > **signDigest**(`publicKey`, `sigDigest`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)
 
 Signs a transaction by signing a digest of the transaction
 

@@ -4,7 +4,7 @@
 
 > **HiveApiTypes** = `object`
 
-Defined in: [wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L16)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/chain_api_data.ts#L16)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com
 
 > **account\_by\_key\_api**: `object`
 
-Defined in: [wasm/lib/detailed/chain\_api\_data.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L17)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/chain_api_data.ts#L17)
 
 #### get\_key\_references
 
@@ -32,7 +32,7 @@ Defined in: [wasm/lib/detailed/chain\_api\_data.ts:17](https://gitlab.syncad.com
 
 > **block\_api**: `object`
 
-Defined in: [wasm/lib/detailed/chain\_api\_data.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L51)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/chain_api_data.ts#L51)
 
 #### get\_block
 
@@ -76,7 +76,7 @@ Defined in: [wasm/lib/detailed/chain\_api\_data.ts:51](https://gitlab.syncad.com
 
 > **database\_api**: `object`
 
-Defined in: [wasm/lib/detailed/chain\_api\_data.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L23)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/chain_api_data.ts#L23)
 
 #### find\_accounts
 
@@ -144,7 +144,7 @@ Defined in: [wasm/lib/detailed/chain\_api\_data.ts:23](https://gitlab.syncad.com
 
 > **network\_broadcast\_api**: `object`
 
-Defined in: [wasm/lib/detailed/chain\_api\_data.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L45)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/chain_api_data.ts#L45)
 
 #### broadcast\_transaction
 
@@ -164,7 +164,7 @@ Defined in: [wasm/lib/detailed/chain\_api\_data.ts:45](https://gitlab.syncad.com
 
 > **rc\_api**: `object`
 
-Defined in: [wasm/lib/detailed/chain\_api\_data.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L65)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/chain_api_data.ts#L65)
 
 #### find\_rc\_accounts
 

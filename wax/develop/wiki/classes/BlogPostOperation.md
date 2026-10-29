@@ -2,7 +2,7 @@
 
 # Class: BlogPostOperation
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:336](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L336)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:336](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L336)
 
 Same as the comment base, but requires user to set the category (parent permlink) on the comment
 
@@ -16,7 +16,7 @@ Same as the comment base, but requires user to set the category (parent permlink
 
 > **new BlogPostOperation**(`data`): `BlogPostOperation`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:337](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L337)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:337](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L337)
 
 #### Parameters
 
@@ -38,7 +38,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:337](https://gitla
 
 > `protected` `readonly` **comment**: [`comment`](../interfaces/comment)
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L137)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L137)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitla
 
 > `protected` **jsonMetadata**: `Record`\<`string`, `any`\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L140)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L140)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitla
 
 > **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L149)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L149)
 
 **`Internal`**
 
@@ -86,7 +86,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitla
 
 > **pushMetadataProperty**(`keyOrObject`, `value?`): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:267](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L267)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:267](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L267)
 
 Assigns given object or sets given value on key in comment meta values
 

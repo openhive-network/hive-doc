@@ -4,4 +4,4 @@
 
 > **TBinaryBuffer** = `ArrayBufferLike` \| `ArrayBufferView` \| `Uint8Array`
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L20)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L20)

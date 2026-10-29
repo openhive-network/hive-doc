@@ -2,7 +2,7 @@
 
 # Interface: IBinaryViewScalarNode
 
-Defined in: [wasm/lib/detailed/interfaces.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L38)
+Defined in: [wasm/lib/detailed/interfaces.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L38)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:38](https://gitlab.syncad.com/hive/
 
 > **key**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L33)
+Defined in: [wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L33)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/
 
 > **offset**: `number`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L34)
+Defined in: [wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L34)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/
 
 > **size**: `number`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L35)
+Defined in: [wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L35)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/
 
 > **type**: `"scalar"`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L39)
+Defined in: [wasm/lib/detailed/interfaces.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L39)
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: [wasm/lib/detailed/interfaces.ts:39](https://gitlab.syncad.com/hive/
 
 > **value**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L40)
+Defined in: [wasm/lib/detailed/interfaces.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L40)

@@ -2,7 +2,7 @@
 
 # Class: HealthChecker
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L41)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L41)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:41](https://gitlab
 
 > **new HealthChecker**(`defaultEndpoints?`, `minimalCheckIntervalMs?`, `calculateScoresFunction?`): `HealthChecker`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
 
 Creates a new HealthChecker instance.
 
@@ -63,7 +63,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 });
 
 > `readonly` **defaultEndpoints**: readonly `string`[] \| `undefined` = `undefined`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
 
 default endpoints for checkers.
  If `undefined` (default) uses [DefaultJsonRpcEndpoints](./#defaultjsonrpcendpoints) for json rpc or [DefaultRestApiEndpoints](./#defaultrestapiendpoints) for rest api
@@ -74,7 +74,7 @@ default endpoints for checkers.
 
 > `readonly` **minimalCheckIntervalMs**: `number` = `INITIAL_CHECKER_INTERVAL_MS`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
 
 minimal interval between checks in milliseconds (default: 10 seconds)
 
@@ -116,7 +116,7 @@ v13.4.0, v12.16.0
 
 > `readonly` `static` **DefaultJsonRpcEndpoints**: readonly `string`[]
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
 
 ***
 
@@ -172,7 +172,7 @@ v0.11.2
 
 > `readonly` `static` **DefaultRestApiEndpoints**: readonly `string`[]
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
 
 ***
 
@@ -199,7 +199,7 @@ v13.6.0, v12.17.0
 
 > **get** **best**(): `string` \| `undefined`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
 
 ##### Returns
 
@@ -243,7 +243,7 @@ Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/ev
 
 > **\[iterator\]**(): `IterableIterator`\<[`IHiveEndpoint`](../interfaces/IHiveEndpoint)\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
 
 #### Returns
 
@@ -257,7 +257,7 @@ iterator for all registered endpoints
 
 > **addEndpointUrl**(`endpointUrl`, `type`): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
 
 Adds URL to endpoints matching given criteria
 
@@ -422,7 +422,7 @@ v6.0.0
 
 > **getEndpoint**(`id`): [`IHiveEndpoint`](../interfaces/IHiveEndpoint) \| `undefined`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
 
 Returns the endpoint by id if exists
 
@@ -465,7 +465,7 @@ v1.0.0
 
 > **list**(): [`TScoredEndpoint`](../type-aliases/TScoredEndpoint)[]
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
 
 #### Returns
 
@@ -555,7 +555,7 @@ v0.1.26
 
 > **off**\<`U`\>(`event`, `listener`): `this`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
 
 #### Type Parameters
 
@@ -583,7 +583,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab
 
 > **on**\<`U`\>(`event`, `listener`): `this`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
 
 #### Type Parameters
 
@@ -611,7 +611,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab
 
 > **once**\<`U`\>(`event`, `listener`): `this`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
 
 #### Type Parameters
 
@@ -791,7 +791,7 @@ v9.4.0
 
 > **register**\<`TFn`\>(`endpointToCheck`, `toSend`, `validator?`, `testOnEndpoints?`): [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
 
 Registers the checker to the healthcheck intervals
 
@@ -877,7 +877,7 @@ v0.1.26
 
 > **removeEndpointUrl**(`endpointUrl`, `type`): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
 
 Removes URL from endpoints matching given criteria
 
@@ -1046,7 +1046,7 @@ v0.3.5
 
 > **subscribe**(`endpointUrl`): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
 
 Subscribes to the given endpoint and notifies via EventEmitter when the endpoint is either down or back up
 
@@ -1084,7 +1084,7 @@ hc.register(chain.api.block_api.get_block, { block_num: 1 });
 
 > **unregister**(`api`, `clearUnusedEndpointUrlsFromStats?`): `boolean`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
 
 Unregisters the checker from the healthcheck intervals
 
@@ -1114,7 +1114,7 @@ either true or false if api has been unregistered successfully
 
 > **unregisterAll**(`clearUnusedEndpointUrlsFromStats?`): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
 
 Unregisters the checker from all of the healthcheck intervals
 
@@ -1136,7 +1136,7 @@ if true, clears unused endpoint urls from stats (defaults to true)
 
 > **unsubscribe**(`endpointUrl`): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
 
 Unsubscribes from the given endpoint
 
@@ -1162,7 +1162,7 @@ endpoint to unsubscribe from
 
 > **unsubscribeAll**(): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
 
 Unsubscribes all the endpoint
 

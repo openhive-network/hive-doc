@@ -2,7 +2,7 @@
 
 # Interface: WaxFormatter
 
-Defined in: [wasm/lib/detailed/formatters/waxify.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/waxify.ts#L21)
+Defined in: [wasm/lib/detailed/formatters/waxify.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/waxify.ts#L21)
 
 Classes implementing this interface denote that they are ready to handle tagged templates
 
@@ -20,7 +20,7 @@ Classes implementing this interface denote that they are ready to handle tagged 
 
 > `readonly` **options**: [`IWaxFormatterOptions`](./IWaxFormatterOptions)
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L17)
+Defined in: [wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L17)
 
 Options for the formatter
 
@@ -38,7 +38,7 @@ Options for the formatter
 
 > `protected` `readonly` **wax**: [`IWaxBaseInterface`](./IWaxBaseInterface)
 
-Defined in: [wasm/lib/detailed/formatters/waxify.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/waxify.ts#L25)
+Defined in: [wasm/lib/detailed/formatters/waxify.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/waxify.ts#L25)
 
 ## Methods
 
@@ -46,7 +46,7 @@ Defined in: [wasm/lib/detailed/formatters/waxify.ts:25](https://gitlab.syncad.co
 
 > **extend**(`formatterConstructor`, `options?`): `WaxFormatter`
 
-Defined in: [wasm/lib/detailed/formatters/waxify.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/waxify.ts#L87)
+Defined in: [wasm/lib/detailed/formatters/waxify.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/waxify.ts#L87)
 
 Allows users to extend the default wax formatter using custom user-defined formatters with [WaxFormattable](../functions/WaxFormattable)
 
@@ -248,7 +248,7 @@ extended formatter class
 
 > **format**\<`I`, `R`\>(`data`): `R`
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L72)
+Defined in: [wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L72)
 
 Formats given data based on formatter options
 
@@ -298,7 +298,7 @@ formatter.format(naiObject);
 
 > **formatNumber**(`amount`, `precision?`, `locales?`): `string`
 
-Defined in: [wasm/lib/detailed/formatters/waxify.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/waxify.ts#L60)
+Defined in: [wasm/lib/detailed/formatters/waxify.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/waxify.ts#L60)
 
 Formats numbers in given format
 
@@ -338,7 +338,7 @@ formatted number
 
 > `protected` **handleInstanceOf**(`source`, `target`, `property`): `any`
 
-Defined in: [wasm/lib/detailed/formatters/waxify.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/waxify.ts#L152)
+Defined in: [wasm/lib/detailed/formatters/waxify.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/waxify.ts#L152)
 
 **`Internal`**
 
@@ -366,7 +366,7 @@ Defined in: [wasm/lib/detailed/formatters/waxify.ts:152](https://gitlab.syncad.c
 
 > `protected` **handleProperty**(`source`, `target`, `property`): `any`
 
-Defined in: [wasm/lib/detailed/formatters/waxify.ts:171](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/waxify.ts#L171)
+Defined in: [wasm/lib/detailed/formatters/waxify.ts:171](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/waxify.ts#L171)
 
 **`Internal`**
 
@@ -398,7 +398,7 @@ Defined in: [wasm/lib/detailed/formatters/waxify.ts:171](https://gitlab.syncad.c
 
 > **waxify**(`strings`, ...`args`): `string`
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L76)
+Defined in: [wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L76)
 
 Formats given text based on arguments structure
 

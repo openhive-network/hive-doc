@@ -2,7 +2,7 @@
 
 # Class: ResourceCreditsOperationData
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L4)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L4)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:4](https://gitlab.sy
 
 > **new ResourceCreditsOperationData**(`from`, `rc`, `delegatees`): `ResourceCreditsOperationData`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L5)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L5)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:5](https://gitlab.sy
 
 > `readonly` **delegatees**: `string`[]
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L8)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L8)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:8](https://gitlab.sy
 
 > `readonly` **from**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L6)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L6)
 
 ***
 
@@ -52,4 +52,4 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:6](https://gitlab.sy
 
 > `readonly` **rc**: [`NaiAsset`](../interfaces/NaiAsset)
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L7)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L7)

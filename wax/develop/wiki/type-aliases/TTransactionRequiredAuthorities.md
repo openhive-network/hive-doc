@@ -4,7 +4,7 @@
 
 > **TTransactionRequiredAuthorities** = `object`
 
-Defined in: [wasm/lib/detailed/transaction.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/transaction.ts#L29)
+Defined in: [wasm/lib/detailed/transaction.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/transaction.ts#L29)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [wasm/lib/detailed/transaction.ts:29](https://gitlab.syncad.com/hive
 
 > **active**: `Set`\<`string`\>
 
-Defined in: [wasm/lib/detailed/transaction.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/transaction.ts#L31)
+Defined in: [wasm/lib/detailed/transaction.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/transaction.ts#L31)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [wasm/lib/detailed/transaction.ts:31](https://gitlab.syncad.com/hive
 
 > **other**: [`authority`](../interfaces/authority)[]
 
-Defined in: [wasm/lib/detailed/transaction.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/transaction.ts#L33)
+Defined in: [wasm/lib/detailed/transaction.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/transaction.ts#L33)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [wasm/lib/detailed/transaction.ts:33](https://gitlab.syncad.com/hive
 
 > **owner**: `Set`\<`string`\>
 
-Defined in: [wasm/lib/detailed/transaction.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/transaction.ts#L32)
+Defined in: [wasm/lib/detailed/transaction.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/transaction.ts#L32)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [wasm/lib/detailed/transaction.ts:32](https://gitlab.syncad.com/hive
 
 > **posting**: `Set`\<`string`\>
 
-Defined in: [wasm/lib/detailed/transaction.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/transaction.ts#L30)
+Defined in: [wasm/lib/detailed/transaction.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/transaction.ts#L30)

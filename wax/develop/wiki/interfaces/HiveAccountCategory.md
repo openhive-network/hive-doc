@@ -2,7 +2,7 @@
 
 # Interface: HiveAccountCategory
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L20)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L20)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **authorities**: `Readonly`\<`AuthType`\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/role\_category\_base.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/role_category_base.ts#L15)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/role\_category\_base.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/role_category_base.ts#L15)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/role\_category\
 
 > **category**: `"hive"`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L23)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L23)
 
 Category name. It should be unique and marked `as const` for proper type narrowing
 (See: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions)
@@ -43,7 +43,7 @@ Category name. It should be unique and marked `as const` for proper type narrowi
 
 > **get** **changed**(): `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L25)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L25)
 
 Indicates if any of the authority levels has changed since the last update.
 
@@ -61,7 +61,7 @@ Indicates if any of the authority levels has changed since the last update.
 
 > **finalize**(`_sink`): [`operation`](./operation)[]
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L104)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L104)
 
 This function should return an array of operations that will modify the user account roles.
 
@@ -85,7 +85,7 @@ This function should return an array of operations that will modify the user acc
 
 > **init**(`chain`, `account`): `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L31)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L31)
 
 This function is responsible for gathering authority types for the given account.
 It should return an object with keys as role names and values as authority objects.

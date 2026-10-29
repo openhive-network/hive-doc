@@ -2,7 +2,7 @@
 
 # Interface: ApiManabar
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/account.ts#L25)
+Defined in: [wasm/lib/detailed/api/types/account.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L25)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:25](https://gitlab.syncad.co
 
 > **current\_mana**: `string` \| `number`
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/account.ts#L26)
+Defined in: [wasm/lib/detailed/api/types/account.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L26)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:26](https://gitlab.syncad.co
 
 > **last\_update\_time**: `number`
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/account.ts#L27)
+Defined in: [wasm/lib/detailed/api/types/account.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L27)

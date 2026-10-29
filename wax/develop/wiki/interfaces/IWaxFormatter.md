@@ -2,7 +2,7 @@
 
 # Interface: IWaxFormatter
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:119](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L119)
+Defined in: [wasm/lib/detailed/formatters/types.ts:119](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L119)
 
 Classes implementing this interface denote that they are ready to handle tagged templates
 
@@ -16,7 +16,7 @@ Classes implementing this interface denote that they are ready to handle tagged 
 
 > `readonly` **options**: [`DeepReadonly`](../type-aliases/DeepReadonly)\<[`IWaxFormatterOptions`](./IWaxFormatterOptions)\>
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L152)
+Defined in: [wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L152)
 
 Options for the formatter
 
@@ -26,7 +26,7 @@ Options for the formatter
 
 > **format**\<`I`, `R`\>(`data`): `R`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L147)
+Defined in: [wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L147)
 
 Formats given data based on formatter options
 
@@ -68,7 +68,7 @@ formatter.format(naiObject);
 
 > **waxify**(`strings`, ...`args`): `string`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L133)
+Defined in: [wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L133)
 
 Formats given text based on arguments structure
 

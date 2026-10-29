@@ -2,7 +2,7 @@
 
 # Interface: IWaxExtendableFormatter
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:168](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L168)
+Defined in: [wasm/lib/detailed/formatters/types.ts:168](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L168)
 
 Classes implementing this interface denote that they are ready to handle tagged templates
 
@@ -16,7 +16,7 @@ Classes implementing this interface denote that they are ready to handle tagged 
 
 > `readonly` **options**: [`DeepReadonly`](../type-aliases/DeepReadonly)\<[`IWaxFormatterOptions`](./IWaxFormatterOptions)\>
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L152)
+Defined in: [wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L152)
 
 Options for the formatter
 
@@ -32,7 +32,7 @@ Options for the formatter
 
 > **extend**(`formatterConstructor`, `options?`): `IWaxExtendableFormatter`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L176)
+Defined in: [wasm/lib/detailed/formatters/types.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L176)
 
 Allows users to extend the default wax formatter using custom user-defined formatters with [WaxFormattable](../functions/WaxFormattable)
 
@@ -60,7 +60,7 @@ extended formatter class
 
 > **extend**(`options?`): `IWaxExtendableFormatter`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:184](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L184)
+Defined in: [wasm/lib/detailed/formatters/types.ts:184](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L184)
 
 Allows users to extend the default wax formatter using given options
 
@@ -84,7 +84,7 @@ extended formatter class
 
 > **format**\<`I`, `R`\>(`data`): `R`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L147)
+Defined in: [wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L147)
 
 Formats given data based on formatter options
 
@@ -130,7 +130,7 @@ formatter.format(naiObject);
 
 > **formatNumber**(`amount`, `precision?`, `locales?`): `string`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:195](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L195)
+Defined in: [wasm/lib/detailed/formatters/types.ts:195](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L195)
 
 Formats numbers in given format
 
@@ -166,7 +166,7 @@ formatted number
 
 > **waxify**(`strings`, ...`args`): `string`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L133)
+Defined in: [wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L133)
 
 Formats given text based on arguments structure
 

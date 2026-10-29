@@ -2,7 +2,7 @@
 
 # Class: WaxHealthCheckerValidatorFailedError\<T\>
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L15)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L15)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:15](https://gitlab.syncad
 
 > **new WaxHealthCheckerValidatorFailedError**\<`T`\>(`failedReason`, `apiEndpoint`, `request`, `response`): `WaxHealthCheckerValidatorFailedError`\<`T`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L16)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L16)
 
 #### Parameters
 
@@ -54,7 +54,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:16](https://gitlab.syncad
 
 > `readonly` **apiEndpoint**: [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L18)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L18)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **failedReason**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L17)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L17)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **request**: [`IRequestOptions`](../interfaces/IRequestOptions)
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L19)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L19)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:19](https://gitlab.syncad
 
 > `readonly` **response**: `Partial`\<[`IDetailedResponseData`](../interfaces/IDetailedResponseData)\<`T`\>\>
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L20)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L20)
 
 ***
 

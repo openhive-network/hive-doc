@@ -2,7 +2,7 @@
 
 # Interface: IStackContext
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L9)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L9)
 
 Parsed C++ exception data bridged from WASM. Pure data model — not an exception.
 
@@ -16,7 +16,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **file**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L11)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L11)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad
 
 > **hostname**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L14)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L14)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad
 
 > **level**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L10)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L10)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad
 
 > **line**: `number`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L12)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L12)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad
 
 > **method**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L13)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L13)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad
 
 > **thread\_name**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L15)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L15)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad
 
 > `optional` **timestamp?**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L16)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/cxx_exception_data.ts#L16)

@@ -2,7 +2,7 @@
 
 # Interface: ICommunityProps
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L49)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L49)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:49](https://g
 
 > `optional` **about?**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L63)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L63)
 
 Community about
 
@@ -26,7 +26,7 @@ Community about
 
 > `optional` **description?**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L87)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L87)
 
 Community description
 
@@ -42,7 +42,7 @@ Community description
 
 > `optional` **flag\_text?**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L95)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L95)
 
 Community rules
 
@@ -58,7 +58,7 @@ Community rules
 
 > `optional` **is\_nsfw?**: `boolean`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L71)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L71)
 
 Is Not Safe For Work
 
@@ -74,7 +74,7 @@ false
 
 > `optional` **lang?**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L79)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L79)
 
 Community language
 
@@ -90,6 +90,6 @@ ESupportedLanguages.ENGLISH
 
 > **title**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L55)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L55)
 
 Community title

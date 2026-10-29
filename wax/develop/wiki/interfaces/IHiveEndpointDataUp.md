@@ -2,7 +2,7 @@
 
 # Interface: IHiveEndpointDataUp
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L72)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L72)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:72](https://gitlab.sync
 
 > **endpointUrl**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.sync
 
 > **latency**: `number`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L74)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L74)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:74](https://gitlab.sync
 
 > **up**: `true`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L73)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L73)

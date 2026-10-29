@@ -2,7 +2,7 @@
 
 # Interface: DeepReadonlyArray\<T\>
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L15)
+Defined in: [wasm/lib/detailed/formatters/types.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L15)
 
 ## Extends
 

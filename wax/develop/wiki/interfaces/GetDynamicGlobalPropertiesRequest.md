@@ -2,4 +2,4 @@
 
 # Interface: GetDynamicGlobalPropertiesRequest
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L3)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_dynamic\_global\_properties.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_dynamic_global_properties.ts#L3)

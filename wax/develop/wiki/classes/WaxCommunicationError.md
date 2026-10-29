@@ -2,7 +2,7 @@
 
 # Class: WaxCommunicationError
 
-Defined in: [wasm/lib/detailed/errors.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L16)
+Defined in: [wasm/lib/detailed/errors.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L16)
 
 Raised when a transport-level error occurs (timeout, connection refused, DNS failure, etc.).
 
@@ -16,7 +16,7 @@ Raised when a transport-level error occurs (timeout, connection refused, DNS fai
 
 > **new WaxCommunicationError**(`message?`, `source?`): `WaxCommunicationError`
 
-Defined in: [wasm/lib/detailed/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L17)
+Defined in: [wasm/lib/detailed/errors.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L17)
 
 #### Parameters
 

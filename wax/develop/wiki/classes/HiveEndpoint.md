@@ -2,7 +2,7 @@
 
 # Class: HiveEndpoint
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L78)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L78)
 
 ## Implements
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:78](https://gitlab.sync
 
 > **new HiveEndpoint**(`checker`, `id`, `apiCallerId`, `paths`, `endpointUrls`, `caller`): `HiveEndpoint`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L86)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L86)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:86](https://gitlab.sync
 
 > `readonly` **apiCallerId**: [`EChainApiType`](../enumerations/EChainApiType)
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L89)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L89)
 
 #### Examples
 
@@ -74,7 +74,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:89](https://gitlab.sync
 
 > `readonly` **endpointUrls**: `Readonly`\<`Set`\<`string`\>\>
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:91](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L91)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:91](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L91)
 
 Endpoints that will be checked
 
@@ -88,7 +88,7 @@ Endpoints that will be checked
 
 > `readonly` **id**: `number`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:88](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L88)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:88](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L88)
 
 Unique identifier for this endpoint
 Can be used upon validationerror parsing to properly identify the endpoint
@@ -103,7 +103,7 @@ Can be used upon validationerror parsing to properly identify the endpoint
 
 > `readonly` **paths**: `string`[]
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:90](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L90)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:90](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L90)
 
 #### Examples
 
@@ -125,7 +125,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:90](https://gitlab.sync
 
 > **addEndpointUrl**(`endpointUrl`): `void`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L95)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:95](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L95)
 
 Adds new endpoint url to the list of urls to check
 
@@ -151,7 +151,7 @@ url to add
 
 > **list**(): [`THiveEndpointData`](../type-aliases/THiveEndpointData)[]
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L82)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L82)
 
 Lists sorted endpoint url statuses (latency in descending order)
 
@@ -169,7 +169,7 @@ Lists sorted endpoint url statuses (latency in descending order)
 
 > **performCheck**(): `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L108)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L108)
 
 #### Returns
 
@@ -181,7 +181,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:108](https://gitlab.syn
 
 > **removeEndpointUrl**(`endpointUrl`, `clearUnusedEndpointUrlsFromStats?`): `boolean`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L99)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L99)
 
 Removes endpoint url from the list of urls to check
 

@@ -2,7 +2,7 @@
 
 # Class: WaxInsufficientBalanceError
 
-Defined in: [wasm/lib/detailed/errors.ts:116](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L116)
+Defined in: [wasm/lib/detailed/errors.ts:116](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L116)
 
 Raised when an account has insufficient balance for the requested operation.
 
@@ -16,7 +16,7 @@ Raised when an account has insufficient balance for the requested operation.
 
 > **new WaxInsufficientBalanceError**(`raw`, `category?`): `WaxInsufficientBalanceError`
 
-Defined in: [wasm/lib/detailed/errors.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L117)
+Defined in: [wasm/lib/detailed/errors.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L117)
 
 #### Parameters
 
@@ -78,7 +78,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **raw**: [`CxxExceptionData`](./CxxExceptionData)
 
-Defined in: [wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L32)
+Defined in: [wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L32)
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ not capture any frames.
 
 > **get** **account**(): `string` \| `undefined`
 
-Defined in: [wasm/lib/detailed/errors.ts:126](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L126)
+Defined in: [wasm/lib/detailed/errors.ts:126](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L126)
 
 Account whose balance was checked, if reported.
 
@@ -142,7 +142,7 @@ Account whose balance was checked, if reported.
 
 > **get** **assertHash**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L56)
+Defined in: [wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L56)
 
 Hash identifying the specific C++ assertion site.
 
@@ -162,7 +162,7 @@ Hash identifying the specific C++ assertion site.
 
 > **get** **available**(): `unknown`
 
-Defined in: [wasm/lib/detailed/errors.ts:123](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L123)
+Defined in: [wasm/lib/detailed/errors.ts:123](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L123)
 
 Balance actually available at the time of the assertion.
 
@@ -178,7 +178,7 @@ Balance actually available at the time of the assertion.
 
 > **get** **category**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L44)
+Defined in: [wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L44)
 
 Origin of the assertion: `"protocol"` or `"chain"`.
 
@@ -198,7 +198,7 @@ Origin of the assertion: `"protocol"` or `"chain"`.
 
 > **get** **extras**(): `Record`\<`string`, `any`\>
 
-Defined in: [wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L53)
+Defined in: [wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L53)
 
 Additional fields from the top-level C++ stack frame.
 
@@ -218,7 +218,7 @@ Additional fields from the top-level C++ stack frame.
 
 > **get** **subject**(): `unknown`
 
-Defined in: [wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L50)
+Defined in: [wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L50)
 
 The value that failed the assertion.
 
@@ -238,7 +238,7 @@ The value that failed the assertion.
 
 > **get** **subjectType**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L47)
+Defined in: [wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L47)
 
 Kind of the value that failed validation (e.g. `"account_name"`, `"asset"`, `"balance"`).
 

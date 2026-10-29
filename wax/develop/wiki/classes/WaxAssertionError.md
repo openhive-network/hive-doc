@@ -2,7 +2,7 @@
 
 # Class: WaxAssertionError
 
-Defined in: [wasm/lib/detailed/errors.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L31)
+Defined in: [wasm/lib/detailed/errors.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L31)
 
 Base class for C++ assertion errors raised by the Hive protocol or chain layer.
 
@@ -30,7 +30,7 @@ as `WaxAssertionError` itself; callers can inspect `category`, `subjectType` and
 
 > **new WaxAssertionError**(`raw`, `category?`): `WaxAssertionError`
 
-Defined in: [wasm/lib/detailed/errors.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L35)
+Defined in: [wasm/lib/detailed/errors.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L35)
 
 #### Parameters
 
@@ -92,7 +92,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **raw**: [`CxxExceptionData`](./CxxExceptionData)
 
-Defined in: [wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L32)
+Defined in: [wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L32)
 
 ***
 
@@ -136,7 +136,7 @@ not capture any frames.
 
 > **get** **assertHash**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L56)
+Defined in: [wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L56)
 
 Hash identifying the specific C++ assertion site.
 
@@ -152,7 +152,7 @@ Hash identifying the specific C++ assertion site.
 
 > **get** **category**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L44)
+Defined in: [wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L44)
 
 Origin of the assertion: `"protocol"` or `"chain"`.
 
@@ -168,7 +168,7 @@ Origin of the assertion: `"protocol"` or `"chain"`.
 
 > **get** **extras**(): `Record`\<`string`, `any`\>
 
-Defined in: [wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L53)
+Defined in: [wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L53)
 
 Additional fields from the top-level C++ stack frame.
 
@@ -184,7 +184,7 @@ Additional fields from the top-level C++ stack frame.
 
 > **get** **subject**(): `unknown`
 
-Defined in: [wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L50)
+Defined in: [wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L50)
 
 The value that failed the assertion.
 
@@ -200,7 +200,7 @@ The value that failed the assertion.
 
 > **get** **subjectType**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L47)
+Defined in: [wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L47)
 
 Kind of the value that failed validation (e.g. `"account_name"`, `"asset"`, `"balance"`).
 

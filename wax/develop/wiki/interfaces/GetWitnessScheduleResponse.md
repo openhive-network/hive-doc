@@ -2,7 +2,7 @@
 
 # Interface: GetWitnessScheduleResponse
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L5)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L5)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:5](ht
 
 > **account\_subsidy\_rd**: `object`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L27)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L27)
 
 #### budget\_per\_time\_unit
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:27](h
 
 > **account\_subsidy\_witness\_rd**: `object`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L38)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L38)
 
 #### budget\_per\_time\_unit
 
@@ -90,7 +90,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:38](h
 
 > **current\_shuffled\_witnesses**: `string`[]
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L9)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L9)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:9](ht
 
 > **current\_virtual\_time**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L7)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L7)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:7](ht
 
 > **elected\_weight**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L11)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L11)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:11](h
 
 > **hardfork\_required\_witnesses**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L26)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L26)
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:26](h
 
 > **id**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L6)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L6)
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:6](ht
 
 > **majority\_version**: `string`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L22)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L22)
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:22](h
 
 > **max\_miner\_witnesses**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L24)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L24)
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:24](h
 
 > **max\_runner\_witnesses**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L25)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L25)
 
 ***
 
@@ -154,7 +154,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:25](h
 
 > **max\_voted\_witnesses**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L23)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L23)
 
 ***
 
@@ -162,7 +162,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:23](h
 
 > **median\_props**: `object`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L15)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L15)
 
 #### account\_creation\_fee
 
@@ -190,7 +190,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:15](h
 
 > **min\_witness\_account\_subsidy\_decay**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L49)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L49)
 
 ***
 
@@ -198,7 +198,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:49](h
 
 > **miner\_weight**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L13)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L13)
 
 ***
 
@@ -206,7 +206,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:13](h
 
 > **next\_shuffle\_block\_num**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L8)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L8)
 
 ***
 
@@ -214,7 +214,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:8](ht
 
 > **num\_scheduled\_witnesses**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L10)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L10)
 
 ***
 
@@ -222,7 +222,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:10](h
 
 > **timeshare\_weight**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L12)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L12)
 
 ***
 
@@ -230,4 +230,4 @@ Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:12](h
 
 > **witness\_pay\_normalization\_factor**: `number`
 
-Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L14)
+Defined in: [wasm/lib/detailed/api/database\_api/get\_witness\_schedule.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/get_witness_schedule.ts#L14)

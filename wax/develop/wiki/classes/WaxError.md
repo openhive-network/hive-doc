@@ -2,7 +2,7 @@
 
 # Class: WaxError
 
-Defined in: [wasm/lib/detailed/errors.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L6)
+Defined in: [wasm/lib/detailed/errors.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L6)
 
 ## Extends
 
@@ -24,7 +24,7 @@ Defined in: [wasm/lib/detailed/errors.ts:6](https://gitlab.syncad.com/hive/wax/-
 
 > **new WaxError**(`message?`, `source?`): `WaxError`
 
-Defined in: [wasm/lib/detailed/errors.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L7)
+Defined in: [wasm/lib/detailed/errors.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L7)
 
 #### Parameters
 

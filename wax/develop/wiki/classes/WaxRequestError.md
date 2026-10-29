@@ -2,7 +2,7 @@
 
 # Class: WaxRequestError\<T\>
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L26)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L26)
 
 ## Extends
 
@@ -28,7 +28,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:26](https://gitlab.syncad
 
 > **new WaxRequestError**\<`T`\>(`request`, `response`, `message?`, `source?`): `WaxRequestError`\<`T`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L28)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L28)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **request**: [`IRequestOptions`](../interfaces/IRequestOptions)
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L29)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L29)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:29](https://gitlab.syncad
 
 > `readonly` **response**: `Partial`\<[`IDetailedResponseData`](../interfaces/IDetailedResponseData)\<`T`\>\>
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/errors.ts#L30)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L30)
 
 ***
 

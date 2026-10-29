@@ -2,7 +2,7 @@
 
 # Interface: HiveRoleMemoKeyDefinition
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L5)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L5)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **level**: `"memo"`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/level\_base.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/level_base.ts#L10)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/level\_base.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/level_base.ts#L10)
 
 Role level name. It should be unique and marked `as const` for proper type narrowing
 (See: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions)
@@ -31,7 +31,7 @@ Role level name. It should be unique and marked `as const` for proper type narro
 
 > **get** **changed**(): `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L40)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L40)
 
 Checks if the key has changed since the last update.
 
@@ -53,7 +53,7 @@ This check does not rely on previous [set](./#set) call, but rather on compariso
 
 > **get** **isSet**(): `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L68)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L68)
 
 Checks if the memo key is set to the default value - null public key (`STM1111111111111111111111111111111114T1Anm`)
 
@@ -71,7 +71,7 @@ Either true or false depending on whether the public key is set or not.
 
 > **get** **value**(): `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L44)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L44)
 
 ##### Returns
 
@@ -87,7 +87,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **enforceModifications**(): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L31)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L31)
 
 Once called, will mark given role as modified, and effectively push its definition into final operation.
 
@@ -105,7 +105,7 @@ Once called, will mark given role as modified, and effectively push its definiti
 
 > **init**(`hiveAddressPrefix`, `publicKey`): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L22)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L22)
 
 #### Parameters
 
@@ -127,7 +127,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **reset**(): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L18)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L18)
 
 Resets the level to its initial state.
 
@@ -145,7 +145,7 @@ Resets the level to its initial state.
 
 > **set**(`publicKey`): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L54)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_memo\_key.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_memo_key.ts#L54)
 
 Sets the provided public key as the account memo key.
 

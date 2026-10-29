@@ -2,7 +2,7 @@
 
 # Interface: IWaxOptions
 
-Defined in: [wasm/lib/detailed/interfaces.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L152)
+Defined in: [wasm/lib/detailed/interfaces.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L152)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:152](https://gitlab.syncad.com/hive
 
 > **chainId**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L111)
+Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 Chain id in hex string format
 
@@ -32,7 +32,7 @@ Chain id in hex string format
 
 > `optional` **wasmLocation?**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L170)
+Defined in: [wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L170)
 
 The path to the WASM file. It can be a relative path or an absolute URL
 If not specified, the default path is used: "./build_wasm/wax.common.wasm" (may change if bundled)
