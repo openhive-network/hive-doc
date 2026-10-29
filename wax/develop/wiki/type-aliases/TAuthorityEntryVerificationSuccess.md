@@ -21,4 +21,4 @@ Determines set of information collected when given authority path entry has been
 
 ## Defined in
 
-[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L50)
+[wasm/lib/detailed/verify\_authority\_trace\_interface.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L50)

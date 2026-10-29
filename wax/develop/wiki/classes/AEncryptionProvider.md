@@ -55,7 +55,7 @@ The decrypted data as a string.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L38)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L38)
 
 ***
 
@@ -97,7 +97,7 @@ A string containing the encrypted data.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L35)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L35)
 
 ***
 
@@ -121,7 +121,7 @@ A string containing the encrypted data.
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
 
 ***
 
@@ -151,4 +151,4 @@ resolves when the wallet finished signing (signature(s) appended internally)
 
 #### Defined in
 
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L28)
+[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L28)

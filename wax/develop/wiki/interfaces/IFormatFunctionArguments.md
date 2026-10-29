@@ -18,7 +18,7 @@ Formatter options
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/formatters/types.ts#L71)
+[wasm/lib/detailed/formatters/types.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/formatters/types.ts#L71)
 
 ***
 
@@ -30,7 +30,7 @@ Source readonly unchanged input value for parsing raw data
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/formatters/types.ts#L79)
+[wasm/lib/detailed/formatters/types.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/formatters/types.ts#L79)
 
 ***
 
@@ -42,4 +42,4 @@ Target formatter data that might have been previously changed by other formatter
 
 #### Defined in
 
-[wasm/lib/detailed/formatters/types.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/cf6608b95d72b7ca1e7b50031e8dc670f196e613/ts/wasm/lib/detailed/formatters/types.ts#L86)
+[wasm/lib/detailed/formatters/types.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/formatters/types.ts#L86)
