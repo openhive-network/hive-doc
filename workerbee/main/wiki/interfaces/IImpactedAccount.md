@@ -2,6 +2,8 @@
 
 # Interface: IImpactedAccount
 
+Defined in: [src/chain-observers/classifiers/impacted-account-classifier.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/impacted-account-classifier.ts#L4)
+
 ## Extends
 
 - [`IOperationBaseData`](./IOperationBaseData)
@@ -12,20 +14,16 @@
 
 > **name**: `string`
 
-#### Defined in
-
-[src/chain-observers/classifiers/impacted-account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/impacted-account-classifier.ts#L5)
+Defined in: [src/chain-observers/classifiers/impacted-account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/impacted-account-classifier.ts#L5)
 
 ***
 
 ### operations
 
-> **operations**: `Iterable`\<[`IOperationTransactionPair`](./IOperationTransactionPair)\<`operation`\>, `any`, `any`\>
+> **operations**: `Iterable`\<[`IOperationTransactionPair`](./IOperationTransactionPair)\<`operation`\>\>
+
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/operation-classifier.ts#L11)
 
 #### Inherited from
 
 [`IOperationBaseData`](./IOperationBaseData).[`operations`](./IOperationBaseData#operations)
-
-#### Defined in
-
-[src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/operation-classifier.ts#L11)

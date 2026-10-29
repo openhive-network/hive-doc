@@ -2,11 +2,15 @@
 
 # Class: DataEvaluationContext
 
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L17)
+
 ## Constructors
 
-### new DataEvaluationContext()
+### Constructor
 
-> **new DataEvaluationContext**(`factory`): [`DataEvaluationContext`](./DataEvaluationContext)
+> **new DataEvaluationContext**(`factory`): `DataEvaluationContext`
+
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L24)
 
 #### Parameters
 
@@ -16,11 +20,7 @@
 
 #### Returns
 
-[`DataEvaluationContext`](./DataEvaluationContext)
-
-#### Defined in
-
-[src/chain-observers/factories/data-evaluation-context.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/factories/data-evaluation-context.ts#L24)
+`DataEvaluationContext`
 
 ## Methods
 
@@ -28,9 +28,13 @@
 
 > **accessStore**\<`Classifier`\>(`classifier`): `Classifier`\[`"storeType"`\] *extends* `void` ? `never` : `Classifier`\[`"storeType"`\]
 
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:92](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L92)
+
 #### Type Parameters
 
-• **Classifier** *extends* [`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>
+##### Classifier
+
+`Classifier` *extends* [`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>
 
 #### Parameters
 
@@ -42,15 +46,13 @@
 
 `Classifier`\[`"storeType"`\] *extends* `void` ? `never` : `Classifier`\[`"storeType"`\]
 
-#### Defined in
-
-[src/chain-observers/factories/data-evaluation-context.ts:92](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/factories/data-evaluation-context.ts#L92)
-
 ***
 
 ### addTiming()
 
 > **addTiming**(`name`, `time`): `void`
+
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L28)
 
 #### Parameters
 
@@ -66,19 +68,19 @@
 
 `void`
 
-#### Defined in
-
-[src/chain-observers/factories/data-evaluation-context.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/factories/data-evaluation-context.ts#L28)
-
 ***
 
 ### get()
 
 > **get**\<`Classifier`\>(`classifier`): `Promise`\<`Classifier`\[`"getType"`\] *extends* `void` ? `never` : `Classifier`\[`"getType"`\]\>
 
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L43)
+
 #### Type Parameters
 
-• **Classifier** *extends* [`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>
+##### Classifier
+
+`Classifier` *extends* [`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>
 
 #### Parameters
 
@@ -90,19 +92,19 @@
 
 `Promise`\<`Classifier`\[`"getType"`\] *extends* `void` ? `never` : `Classifier`\[`"getType"`\]\>
 
-#### Defined in
-
-[src/chain-observers/factories/data-evaluation-context.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/factories/data-evaluation-context.ts#L43)
-
 ***
 
 ### inject()
 
 > **inject**\<`T`\>(`classifier`, `collector`): `void`
 
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L32)
+
 #### Type Parameters
 
-• **T** *extends* `IEvaluationContextClass`\<[`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>\>
+##### T
+
+`T` *extends* `IEvaluationContextClass`\<[`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>\>
 
 #### Parameters
 
@@ -118,19 +120,19 @@
 
 `void`
 
-#### Defined in
-
-[src/chain-observers/factories/data-evaluation-context.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/factories/data-evaluation-context.ts#L32)
-
 ***
 
 ### query()
 
 > **query**\<`Classifier`\>(`classifier`, `collectorOptions`): `Promise`\<`Classifier`\[`"queryType"`\] *extends* `void` ? `never` : `Classifier`\[`"queryType"`\]\>
 
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:73](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L73)
+
 #### Type Parameters
 
-• **Classifier** *extends* [`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>
+##### Classifier
+
+`Classifier` *extends* [`CollectorClassifierBase`](./CollectorClassifierBase)\<`any`, `any`, `any`, `any`, `any`\>
 
 #### Parameters
 
@@ -145,7 +147,3 @@
 #### Returns
 
 `Promise`\<`Classifier`\[`"queryType"`\] *extends* `void` ? `never` : `Classifier`\[`"queryType"`\]\>
-
-#### Defined in
-
-[src/chain-observers/factories/data-evaluation-context.ts:73](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/factories/data-evaluation-context.ts#L73)

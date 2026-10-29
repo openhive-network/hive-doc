@@ -2,6 +2,8 @@
 
 # Interface: IHiveHPAssetDetailedBalance
 
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L23)
+
 ## Extends
 
 - [`IHiveAssetDetailedBalance`](./IHiveAssetDetailedBalance)
@@ -12,9 +14,7 @@
 
 > **delegated**: `asset`
 
-#### Defined in
-
-[src/chain-observers/classifiers/account-classifier.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/account-classifier.ts#L24)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L24)
 
 ***
 
@@ -22,13 +22,11 @@
 
 > **liquid**: `asset`
 
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L5)
+
 #### Inherited from
 
 [`IHiveAssetDetailedBalance`](./IHiveAssetDetailedBalance).[`liquid`](./IHiveAssetDetailedBalance#liquid)
-
-#### Defined in
-
-[src/chain-observers/classifiers/account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/account-classifier.ts#L5)
 
 ***
 
@@ -36,9 +34,7 @@
 
 > **poweringDown**: `asset`
 
-#### Defined in
-
-[src/chain-observers/classifiers/account-classifier.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/account-classifier.ts#L26)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L26)
 
 ***
 
@@ -46,9 +42,7 @@
 
 > **received**: `asset`
 
-#### Defined in
-
-[src/chain-observers/classifiers/account-classifier.ts:25](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/account-classifier.ts#L25)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:25](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L25)
 
 ***
 
@@ -56,13 +50,11 @@
 
 > **total**: `asset`
 
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L7)
+
 #### Inherited from
 
 [`IHiveAssetDetailedBalance`](./IHiveAssetDetailedBalance).[`total`](./IHiveAssetDetailedBalance#total)
-
-#### Defined in
-
-[src/chain-observers/classifiers/account-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/account-classifier.ts#L7)
 
 ***
 
@@ -70,10 +62,8 @@
 
 > **unclaimed**: `asset`
 
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L6)
+
 #### Inherited from
 
 [`IHiveAssetDetailedBalance`](./IHiveAssetDetailedBalance).[`unclaimed`](./IHiveAssetDetailedBalance#unclaimed)
-
-#### Defined in
-
-[src/chain-observers/classifiers/account-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/account-classifier.ts#L6)

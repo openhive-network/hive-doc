@@ -4,7 +4,9 @@
 
 > `const` **EAlarmType**: `object`
 
-## Type declaration
+Defined in: [src/chain-observers/providers/alarm-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/alarm-provider.ts#L9)
+
+## Type Declaration
 
 ### DECLINING\_VOTING\_RIGHTS
 
@@ -25,7 +27,3 @@
 ### RECOVERY\_ACCOUNT\_IS\_CHANGING
 
 > `readonly` **RECOVERY\_ACCOUNT\_IS\_CHANGING**: `3` = `3`
-
-## Defined in
-
-[src/chain-observers/providers/alarm-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/alarm-provider.ts#L9)

@@ -2,12 +2,12 @@
 
 # Type Alias: TMentionedAccountProvided\<TMentions\>
 
-> **TMentionedAccountProvided**\<`TMentions`\>: `{ [K in TMentions[number]]: WorkerBeeIterable<comment> }`
+> **TMentionedAccountProvided**\<`TMentions`\> = `{ [K in TMentions[number]]: WorkerBeeIterable<comment> }`
+
+Defined in: [src/chain-observers/providers/mention-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/mention-provider.ts#L8)
 
 ## Type Parameters
 
-• **TMentions** *extends* `TAccountName`[]
+### TMentions
 
-## Defined in
-
-[src/chain-observers/providers/mention-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/mention-provider.ts#L8)
+`TMentions` *extends* `TAccountName`[]

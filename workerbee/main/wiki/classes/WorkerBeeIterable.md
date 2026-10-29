@@ -2,6 +2,8 @@
 
 # Class: WorkerBeeIterable\<T\>
 
+Defined in: [src/types/iterator.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L15)
+
 Container that can be iterated over the elements of the collection.
 
 ## Examples
@@ -21,7 +23,9 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 ## Type Parameters
 
-• **T**
+### T
+
+`T`
 
 ## Implements
 
@@ -29,57 +33,53 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 ## Constructors
 
-### new WorkerBeeIterable()
+### Constructor
 
-> **new WorkerBeeIterable**\<`T`\>(`iterable`): [`WorkerBeeIterable`](./WorkerBeeIterable)\<`T`\>
+> **new WorkerBeeIterable**\<`T`\>(`iterable`): `WorkerBeeIterable`\<`T`\>
+
+Defined in: [src/types/iterator.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L18)
 
 #### Parameters
 
 ##### iterable
 
-`Iterable`\<`T`, `any`, `any`\>
+`Iterable`\<`T`\>
 
 #### Returns
 
-[`WorkerBeeIterable`](./WorkerBeeIterable)\<`T`\>
-
-#### Defined in
-
-[src/types/iterator.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L18)
+`WorkerBeeIterable`\<`T`\>
 
 ## Properties
 
 ### iterable
 
-> `protected` `readonly` **iterable**: `Iterable`\<`T`, `any`, `any`\>
+> `protected` `readonly` **iterable**: `Iterable`\<`T`\>
 
-#### Defined in
-
-[src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L16)
+Defined in: [src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L16)
 
 ## Methods
 
 ### \[iterator\]()
 
-> **\[iterator\]**(): `Iterator`\<`T`, `any`, `any`\>
+> **\[iterator\]**(): `Iterator`\<`T`\>
+
+Defined in: [src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L22)
 
 #### Returns
 
-`Iterator`\<`T`, `any`, `any`\>
+`Iterator`\<`T`\>
 
 #### Implementation of
 
 `Iterable.[iterator]`
-
-#### Defined in
-
-[src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L22)
 
 ***
 
 ### forEach()
 
 > **forEach**(`callbackfn`): `void`
+
+Defined in: [src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L30)
 
 #### Parameters
 
@@ -91,20 +91,14 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 `void`
 
-#### Defined in
-
-[src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L30)
-
 ***
 
 ### values()
 
-> **values**(): `Iterable`\<`T`, `any`, `any`\>
+> **values**(): `Iterable`\<`T`\>
+
+Defined in: [src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L26)
 
 #### Returns
 
-`Iterable`\<`T`, `any`, `any`\>
-
-#### Defined in
-
-[src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L26)
+`Iterable`\<`T`\>

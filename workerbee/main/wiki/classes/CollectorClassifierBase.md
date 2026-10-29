@@ -2,6 +2,8 @@
 
 # Class: CollectorClassifierBase\<TStore, TGetResult, TQueryResult, TQueryOptions, TOptions\>
 
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L14)
+
 ## Extended by
 
 - [`BlockHeaderClassifier`](./BlockHeaderClassifier)
@@ -20,25 +22,35 @@
 
 ## Type Parameters
 
-• **TStore** *extends* `Record`\<`string`, `any`\> = \{\}
+### TStore
 
-• **TGetResult** *extends* `void` \| `Record`\<`string`, `any`\> = `void`
+`TStore` *extends* `Record`\<`string`, `any`\> = \{ \}
 
-• **TQueryResult** *extends* `void` \| `Record`\<`string`, `any`\> = `void`
+### TGetResult
 
-• **TQueryOptions** *extends* `void` \| `Record`\<`string`, `any`\> = `void`
+`TGetResult` *extends* `void` \| `Record`\<`string`, `any`\> = `void`
 
-• **TOptions** *extends* `undefined` \| `Record`\<`string`, `any`\> = `undefined`
+### TQueryResult
+
+`TQueryResult` *extends* `void` \| `Record`\<`string`, `any`\> = `void`
+
+### TQueryOptions
+
+`TQueryOptions` *extends* `void` \| `Record`\<`string`, `any`\> = `void`
+
+### TOptions
+
+`TOptions` *extends* `undefined` \| `Record`\<`string`, `any`\> = `undefined`
 
 ## Constructors
 
-### new CollectorClassifierBase()
+### Constructor
 
-> **new CollectorClassifierBase**\<`TStore`, `TGetResult`, `TQueryResult`, `TQueryOptions`, `TOptions`\>(): [`CollectorClassifierBase`](./CollectorClassifierBase)\<`TStore`, `TGetResult`, `TQueryResult`, `TQueryOptions`, `TOptions`\>
+> **new CollectorClassifierBase**\<`TStore`, `TGetResult`, `TQueryResult`, `TQueryOptions`, `TOptions`\>(): `CollectorClassifierBase`\<`TStore`, `TGetResult`, `TQueryResult`, `TQueryOptions`, `TOptions`\>
 
 #### Returns
 
-[`CollectorClassifierBase`](./CollectorClassifierBase)\<`TStore`, `TGetResult`, `TQueryResult`, `TQueryOptions`, `TOptions`\>
+`CollectorClassifierBase`\<`TStore`, `TGetResult`, `TQueryResult`, `TQueryOptions`, `TOptions`\>
 
 ## Properties
 
@@ -46,9 +58,7 @@
 
 > **getType**: `TGetResult`
 
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
 
 ***
 
@@ -56,9 +66,7 @@
 
 > **optionsType**: `TOptions`
 
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
 
 ***
 
@@ -66,9 +74,7 @@
 
 > **queryOptionsType**: `TQueryOptions`
 
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
 
 ***
 
@@ -76,9 +82,7 @@
 
 > **queryType**: `TQueryResult`
 
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
 
 ***
 
@@ -86,6 +90,4 @@
 
 > **storeType**: `TStore`
 
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L30)

@@ -2,6 +2,8 @@
 
 # Interface: IInternalMarketCreateOperation
 
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L17)
+
 ## Extends
 
 - `IInternalMarketOperationBase`
@@ -12,9 +14,7 @@
 
 > **amountToSell**: `asset`
 
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L19)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L19)
 
 ***
 
@@ -22,9 +22,7 @@
 
 > **cancel**: `false`
 
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L18)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L18)
 
 ***
 
@@ -32,9 +30,7 @@
 
 > **exchangeRate**: `price`
 
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L21)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L21)
 
 ***
 
@@ -42,9 +38,7 @@
 
 > **expiration**: `Date`
 
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L22)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L22)
 
 ***
 
@@ -52,9 +46,7 @@
 
 > **filled**: `boolean`
 
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L20)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L20)
 
 ***
 
@@ -62,13 +54,11 @@
 
 > **orderId**: `number`
 
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L10)
+
 #### Inherited from
 
 `IInternalMarketOperationBase.orderId`
-
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L10)
 
 ***
 
@@ -76,10 +66,8 @@
 
 > **owner**: `string`
 
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/internal-market-provider.ts#L9)
+
 #### Inherited from
 
 `IInternalMarketOperationBase.owner`
-
-#### Defined in
-
-[src/chain-observers/providers/internal-market-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/providers/internal-market-provider.ts#L9)

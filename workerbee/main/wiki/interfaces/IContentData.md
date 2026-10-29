@@ -2,12 +2,12 @@
 
 # Interface: IContentData
 
+Defined in: [src/chain-observers/classifiers/content-metadata-classifier.ts:121](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/content-metadata-classifier.ts#L121)
+
 ## Properties
 
 ### contentData
 
-> **contentData**: `Record`\<`string`, [`TContentMetadataAuthorData`](../type-aliases/TContentMetadataAuthorData)\>
+> **contentData**: `Record`\<`TAccountName`, [`TContentMetadataAuthorData`](../type-aliases/TContentMetadataAuthorData)\>
 
-#### Defined in
-
-[src/chain-observers/classifiers/content-metadata-classifier.ts:122](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/content-metadata-classifier.ts#L122)
+Defined in: [src/chain-observers/classifiers/content-metadata-classifier.ts:122](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/content-metadata-classifier.ts#L122)

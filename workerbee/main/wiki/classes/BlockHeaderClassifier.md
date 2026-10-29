@@ -2,23 +2,25 @@
 
 # Class: BlockHeaderClassifier
 
+Defined in: [src/chain-observers/classifiers/block-header-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/block-header-classifier.ts#L10)
+
 ## Extends
 
-- [`CollectorClassifierBase`](./CollectorClassifierBase)\<`object`, [`IBlockHeaderData`](../interfaces/IBlockHeaderData)\>
+- [`CollectorClassifierBase`](./CollectorClassifierBase)\<\{ \}, [`IBlockHeaderData`](../interfaces/IBlockHeaderData)\>
 
 ## Constructors
 
-### new BlockHeaderClassifier()
+### Constructor
 
-> **new BlockHeaderClassifier**(): [`BlockHeaderClassifier`](./BlockHeaderClassifier)
+> **new BlockHeaderClassifier**(): `BlockHeaderClassifier`
 
 #### Returns
 
-[`BlockHeaderClassifier`](./BlockHeaderClassifier)
+`BlockHeaderClassifier`
 
 #### Inherited from
 
-[`CollectorClassifierBase`](./CollectorClassifierBase).[`constructor`](./CollectorClassifierBase#constructors)
+[`CollectorClassifierBase`](./CollectorClassifierBase).[`constructor`](./CollectorClassifierBase#constructor)
 
 ## Properties
 
@@ -26,13 +28,11 @@
 
 > **getType**: [`IBlockHeaderData`](../interfaces/IBlockHeaderData)
 
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
+
 #### Inherited from
 
 [`CollectorClassifierBase`](./CollectorClassifierBase).[`getType`](./CollectorClassifierBase#gettype)
-
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
 
 ***
 
@@ -40,13 +40,11 @@
 
 > **optionsType**: `undefined`
 
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
+
 #### Inherited from
 
 [`CollectorClassifierBase`](./CollectorClassifierBase).[`optionsType`](./CollectorClassifierBase#optionstype)
-
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
 
 ***
 
@@ -54,13 +52,11 @@
 
 > **queryOptionsType**: `void`
 
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
+
 #### Inherited from
 
 [`CollectorClassifierBase`](./CollectorClassifierBase).[`queryOptionsType`](./CollectorClassifierBase#queryoptionstype)
-
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
 
 ***
 
@@ -68,13 +64,11 @@
 
 > **queryType**: `void`
 
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
+
 #### Inherited from
 
 [`CollectorClassifierBase`](./CollectorClassifierBase).[`queryType`](./CollectorClassifierBase#querytype)
-
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
 
 ***
 
@@ -82,10 +76,8 @@
 
 > **storeType**: `object`
 
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
+
 #### Inherited from
 
 [`CollectorClassifierBase`](./CollectorClassifierBase).[`storeType`](./CollectorClassifierBase#storetype)
-
-#### Defined in
-
-[src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/collector-classifier-base.ts#L30)

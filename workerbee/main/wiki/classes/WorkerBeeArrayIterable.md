@@ -2,6 +2,8 @@
 
 # Class: WorkerBeeArrayIterable\<T\>
 
+Defined in: [src/types/iterator.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L36)
+
 Container that can be iterated over the elements of the collection.
 
 ## Examples
@@ -21,69 +23,67 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 ## Type Parameters
 
-• **T**
+### T
+
+`T`
 
 ## Constructors
 
-### new WorkerBeeArrayIterable()
+### Constructor
 
-> **new WorkerBeeArrayIterable**\<`T`\>(`array`): [`WorkerBeeArrayIterable`](./WorkerBeeArrayIterable)\<`T`\>
+> **new WorkerBeeArrayIterable**\<`T`\>(`array?`): `WorkerBeeArrayIterable`\<`T`\>
+
+Defined in: [src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L37)
 
 #### Parameters
 
-##### array
+##### array?
 
 `T`[] = `[]`
 
 #### Returns
 
-[`WorkerBeeArrayIterable`](./WorkerBeeArrayIterable)\<`T`\>
+`WorkerBeeArrayIterable`\<`T`\>
 
 #### Overrides
 
-[`WorkerBeeIterable`](./WorkerBeeIterable).[`constructor`](./WorkerBeeIterable#constructors)
-
-#### Defined in
-
-[src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L37)
+[`WorkerBeeIterable`](./WorkerBeeIterable).[`constructor`](./WorkerBeeIterable#constructor)
 
 ## Properties
 
 ### iterable
 
-> `protected` `readonly` **iterable**: `Iterable`\<`T`, `any`, `any`\>
+> `protected` `readonly` **iterable**: `Iterable`\<`T`\>
+
+Defined in: [src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L16)
 
 #### Inherited from
 
 [`WorkerBeeIterable`](./WorkerBeeIterable).[`iterable`](./WorkerBeeIterable#iterable)
 
-#### Defined in
-
-[src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L16)
-
 ## Methods
 
 ### \[iterator\]()
 
-> **\[iterator\]**(): `Iterator`\<`T`, `any`, `any`\>
+> **\[iterator\]**(): `Iterator`\<`T`\>
+
+Defined in: [src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L22)
 
 #### Returns
 
-`Iterator`\<`T`, `any`, `any`\>
+`Iterator`\<`T`\>
 
 #### Inherited from
 
-[`WorkerBeeIterable`](./WorkerBeeIterable).[`[iterator]`](WorkerBeeIterable.md#%5Biterator%5D)
-
-#### Defined in
-
-[src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L22)
+[`WorkerBeeIterable`](./WorkerBeeIterable).[`[iterator]`](WorkerBeeIterable.md#iterator)
 
 ***
 
 ### forEach()
 
 > **forEach**(`callbackfn`): `void`
+
+Defined in: [src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L30)
 
 #### Parameters
 
@@ -99,15 +99,13 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 [`WorkerBeeIterable`](./WorkerBeeIterable).[`forEach`](./WorkerBeeIterable#foreach)
 
-#### Defined in
-
-[src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L30)
-
 ***
 
 ### push()
 
 > **push**(`value`): `void`
+
+Defined in: [src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L41)
 
 #### Parameters
 
@@ -119,24 +117,18 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 `void`
 
-#### Defined in
-
-[src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L41)
-
 ***
 
 ### values()
 
-> **values**(): `Iterable`\<`T`, `any`, `any`\>
+> **values**(): `Iterable`\<`T`\>
+
+Defined in: [src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L26)
 
 #### Returns
 
-`Iterable`\<`T`, `any`, `any`\>
+`Iterable`\<`T`\>
 
 #### Inherited from
 
 [`WorkerBeeIterable`](./WorkerBeeIterable).[`values`](./WorkerBeeIterable#values)
-
-#### Defined in
-
-[src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L26)
