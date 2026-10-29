@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/classifiers/operation-classifier.ts#L11)
+[src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/operation-classifier.ts#L11)
 
 ***
 
@@ -390,4 +390,4 @@ Virtual operations:
 
 #### Defined in
 
-[src/chain-observers/classifiers/operation-classifier.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/chain-observers/classifiers/operation-classifier.ts#L15)
+[src/chain-observers/classifiers/operation-classifier.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/chain-observers/classifiers/operation-classifier.ts#L15)

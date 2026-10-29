@@ -45,7 +45,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/types/iterator.ts#L18)
+[src/types/iterator.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L18)
 
 ## Properties
 
@@ -55,7 +55,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/types/iterator.ts#L16)
+[src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L16)
 
 ## Methods
 
@@ -73,7 +73,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/types/iterator.ts#L22)
+[src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L22)
 
 ***
 
@@ -93,7 +93,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/types/iterator.ts#L30)
+[src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L30)
 
 ***
 
@@ -107,4 +107,4 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 #### Defined in
 
-[src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/2f7a27aae75211cc09d0f6d9a283eb08aad0f8bb/src/types/iterator.ts#L26)
+[src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/c28da04d4d4a1736a13afc5f6732f94e80f82cb1/src/types/iterator.ts#L26)
