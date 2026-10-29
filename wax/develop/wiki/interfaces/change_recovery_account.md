@@ -2,6 +2,8 @@
 
 # Interface: change\_recovery\_account
 
+Defined in: wasm/lib/proto/change\_recovery\_account.ts:17
+
 The operation change_recovery_account_operation allows a user to update their recovery account.
 It is important to keep it actual, because only a recovery account may create a request
 account recovery in case of compromised the owner authority.
@@ -18,11 +20,11 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account\_to\_recover**: `string`
 
+Defined in: wasm/lib/proto/change\_recovery\_account.ts:19
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/change\_recovery\_account.ts:19
+**account\_to\_recover**
 
 ***
 
@@ -30,11 +32,11 @@ wasm/lib/proto/change\_recovery\_account.ts:19
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/change\_recovery\_account.ts:23
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/change\_recovery\_account.ts:23
+**extensions**
 
 ***
 
@@ -42,8 +44,8 @@ wasm/lib/proto/change\_recovery\_account.ts:23
 
 > **new\_recovery\_account**: `string`
 
+Defined in: wasm/lib/proto/change\_recovery\_account.ts:21
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/change\_recovery\_account.ts:21
+**new\_recovery\_account**

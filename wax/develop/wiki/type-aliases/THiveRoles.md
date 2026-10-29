@@ -2,26 +2,38 @@
 
 # Type Alias: THiveRoles
 
-> **THiveRoles**: `object`
+> **THiveRoles** = `object`
 
-## Type declaration
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L13)
+
+## Properties
 
 ### active
 
-> **active**: [`HiveRoleAuthorityDefinition`](../classes/HiveRoleAuthorityDefinition)\<`"active"`\>
+> **active**: [`HiveRoleAuthorityDefinition`](../interfaces/HiveRoleAuthorityDefinition)\<`"active"`\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L14)
+
+***
 
 ### memo
 
-> **memo**: [`HiveRoleMemoKeyDefinition`](../classes/HiveRoleMemoKeyDefinition)
+> **memo**: [`HiveRoleMemoKeyDefinition`](../interfaces/HiveRoleMemoKeyDefinition)
+
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L17)
+
+***
 
 ### owner
 
-> **owner**: [`HiveRoleAuthorityDefinition`](../classes/HiveRoleAuthorityDefinition)\<`"owner"`\>
+> **owner**: [`HiveRoleAuthorityDefinition`](../interfaces/HiveRoleAuthorityDefinition)\<`"owner"`\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L15)
+
+***
 
 ### posting
 
-> **posting**: [`HiveRoleAuthorityDefinition`](../classes/HiveRoleAuthorityDefinition)\<`"posting"`\>
+> **posting**: [`HiveRoleAuthorityDefinition`](../interfaces/HiveRoleAuthorityDefinition)\<`"posting"`\>
 
-## Defined in
-
-[wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L13)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L16)

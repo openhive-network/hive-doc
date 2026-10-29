@@ -4,13 +4,19 @@
 
 > **fill\_order**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/fill\_order.ts:11
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`fill_order`](../interfaces/fill_order)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`fill_order`](../interfaces/fill_order)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`fill_order`](../interfaces/fill_order)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/fill\_order.ts:11

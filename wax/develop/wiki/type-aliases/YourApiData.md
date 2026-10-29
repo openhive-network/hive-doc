@@ -2,11 +2,19 @@
 
 # Type Alias: YourApiData\<YourTypes\>
 
-> **YourApiData**\<`YourTypes`\>: `{ readonly [P in keyof YourTypes]: YourTypes[P] extends object ? YourTypes[P] extends { params: infer ParamsType; responseArray: boolean; result: infer ResultType } ? (ParamsType extends undefined ? (...) : (params: ...) => ...) & { endpointUrl: any } & Omit<YourApiData<(...)>, keyof (...)> : YourTypes[P] extends { params: infer ParamsType; result: infer ResultType } ? (...) & { endpointUrl: any } & (...) : YourApiData<(...)> & { endpointUrl: any } : never }` & `object`
+> **YourApiData**\<`YourTypes`\> = `{ readonly [P in keyof YourTypes]: YourTypes[P] extends object ? YourTypes[P] extends { params: infer ParamsType; responseArray: boolean; result: infer ResultType } ? (ParamsType extends undefined ? (...) : (params: ...) => ...) & { endpointUrl: any } & Omit<YourApiData<(...)>, keyof (...)> : YourTypes[P] extends { params: infer ParamsType; result: infer ResultType } ? (...) & { endpointUrl: any } & (...) : YourApiData<(...)> & { endpointUrl: any } : never }` & `object`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1130](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1130)
 
 **`Internal`**
 
-## Type declaration
+## Type Parameters
+
+### YourTypes
+
+`YourTypes`
+
+## Type Declaration
 
 ### endpointUrl
 
@@ -30,16 +38,8 @@ New url to set per API. Pass `undefined` to switch back to default endpoint URL 
 
 ###### newUrl
 
-`undefined` | `string`
+`string` \| `undefined`
 
 ##### Returns
 
 `void`
-
-## Type Parameters
-
-• **YourTypes**
-
-## Defined in
-
-[wasm/lib/detailed/interfaces.ts:1130](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1130)

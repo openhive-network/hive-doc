@@ -1,6 +1,8 @@
 [@hiveio/wax](../globals) / OperationBase
 
-# Class: `abstract` OperationBase
+# Abstract Class: OperationBase
+
+Defined in: [wasm/lib/detailed/operation\_base.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/operation_base.ts#L8)
 
 ## Extended by
 
@@ -12,19 +14,21 @@
 
 ## Constructors
 
-### new OperationBase()
+### Constructor
 
-> **new OperationBase**(): [`OperationBase`](./OperationBase)
+> **new OperationBase**(): `OperationBase`
 
 #### Returns
 
-[`OperationBase`](./OperationBase)
+`OperationBase`
 
 ## Methods
 
 ### finalize()
 
-> `abstract` **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> `abstract` **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/operation\_base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/operation_base.ts#L9)
 
 #### Parameters
 
@@ -34,8 +38,4 @@
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
-
-#### Defined in
-
-[wasm/lib/detailed/operation\_base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/operation_base.ts#L9)
+`Iterable`\<[`operation`](../interfaces/operation)\>

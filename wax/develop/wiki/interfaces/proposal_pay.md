@@ -2,6 +2,8 @@
 
 # Interface: proposal\_pay
 
+Defined in: wasm/lib/proto/proposal\_pay.ts:11
+
 Related to create_proposal_operation.
 Generated during block processing during proposal maintenance in batches
 for each proposal that is chosen and receives funding.
@@ -12,27 +14,27 @@ for each proposal that is chosen and receives funding.
 
 > **payer**: `string`
 
+Defined in: wasm/lib/proto/proposal\_pay.ts:17
+
 #### Param
 
+**payer**
+
 treasury account, source of payment
-
-#### Defined in
-
-wasm/lib/proto/proposal\_pay.ts:17
 
 ***
 
 ### payment
 
-> **payment**: `undefined` \| [`asset`](./asset)
+> **payment**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/proposal\_pay.ts:19
 
 #### Param
 
+**payment**
+
 (HBD) paid amount
-
-#### Defined in
-
-wasm/lib/proto/proposal\_pay.ts:19
 
 ***
 
@@ -40,13 +42,13 @@ wasm/lib/proto/proposal\_pay.ts:19
 
 > **proposal\_id**: `number`
 
+Defined in: wasm/lib/proto/proposal\_pay.ts:13
+
 #### Param
 
+**proposal\_id**
+
 id of chosen proposal
-
-#### Defined in
-
-wasm/lib/proto/proposal\_pay.ts:13
 
 ***
 
@@ -54,10 +56,10 @@ wasm/lib/proto/proposal\_pay.ts:13
 
 > **receiver**: `string`
 
+Defined in: wasm/lib/proto/proposal\_pay.ts:15
+
 #### Param
 
+**receiver**
+
 account designated to receive funding (receiver of payment)
-
-#### Defined in
-
-wasm/lib/proto/proposal\_pay.ts:15

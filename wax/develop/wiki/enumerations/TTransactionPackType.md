@@ -2,15 +2,15 @@
 
 # Enumeration: TTransactionPackType
 
+Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/index.ts#L7)
+
 ## Enumeration Members
 
 ### HF\_26
 
 > **HF\_26**: `"hf26"`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/index.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/index.ts#L7)
 
 ***
 
@@ -18,6 +18,4 @@
 
 > **LEGACY**: `"legacy"`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/index.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/index.ts#L7)

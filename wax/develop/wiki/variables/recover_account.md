@@ -4,13 +4,19 @@
 
 > **recover\_account**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/recover\_account.ts:18
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`recover_account`](../interfaces/recover_account)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`recover_account`](../interfaces/recover_account)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`recover_account`](../interfaces/recover_account)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/recover\_account.ts:18

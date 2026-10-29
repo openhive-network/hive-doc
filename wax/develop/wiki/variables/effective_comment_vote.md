@@ -4,13 +4,19 @@
 
 > **effective\_comment\_vote**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/effective\_comment\_vote.ts:11
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`effective_comment_vote`](../interfaces/effective_comment_vote)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`effective_comment_vote`](../interfaces/effective_comment_vote)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`effective_comment_vote`](../interfaces/effective_comment_vote)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/effective\_comment\_vote.ts:11

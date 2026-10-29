@@ -2,6 +2,8 @@
 
 # Interface: IHiveEndpointDataBase
 
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L64)
+
 ## Extended by
 
 - [`IScoredEndpointUp`](./IScoredEndpointUp)
@@ -15,6 +17,4 @@
 
 > **endpointUrl**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)

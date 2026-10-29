@@ -2,6 +2,8 @@
 
 # Interface: ISignatureTransaction
 
+Defined in: [wasm/lib/detailed/interfaces.ts:184](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L184)
+
 ## Extended by
 
 - [`ITransactionBase`](./ITransactionBase)
@@ -14,6 +16,8 @@
 
 > **get** **sigDigest**(): `string`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L192)
+
 Generates digest of the transaction for signing (HF26 serialization form is used).
 
 ##### Throws
@@ -24,15 +28,13 @@ on any Wax API-related error
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L192)
-
 ## Methods
 
 ### addSignature()
 
 > **addSignature**(`signature`): `this`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L209)
 
 Adds your signature to the internal signatures array inside underlying transaction.
 
@@ -59,15 +61,13 @@ If you do not have a signature, create one using dedicated signature providers, 
   - `@hiveio/wax-signers-keychain`
   - `@hiveio/wax-signers-peakvault`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L209)
-
 ***
 
 ### isSigned()
 
 > **isSigned**(): `boolean`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L250)
 
 Checks if underlying transaction has been already signed at least one time (after ITransaction.sign)
 
@@ -77,15 +77,13 @@ Checks if underlying transaction has been already signed at least one time (afte
 
 either true or false based on the signatures amount
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L250)
-
 ***
 
 ### performOperationEncryption()?
 
 > `optional` **performOperationEncryption**(`provider`): `Promise`\<`void`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:259](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L259)
 
 **`Internal`**
 
@@ -105,15 +103,13 @@ If you are implementing your transaction class and do not have operations to enc
 
 `Promise`\<`void`\>
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:259](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L259)
-
 ***
 
 ### toApi()
 
 > **toApi**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L243)
 
 Converts the created transaction into the Hive API-form string
 
@@ -131,15 +127,13 @@ This must always return an L1 API transaction form, as signers do not support an
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L243)
-
 ***
 
 ### ~~toLegacyApi()~~
 
 > **toLegacyApi**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L232)
 
 Converts the created transaction into the Hive API-legacy form JSON string.
 
@@ -168,7 +162,3 @@ This must always return an L1 API transaction form, as signers do not support an
 on any Wax API-related error
 
 #### Deprecated
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L232)

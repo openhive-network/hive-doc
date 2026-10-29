@@ -2,11 +2,15 @@
 
 # Interface: IOnlineEncryptionProvider
 
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L37)
+
 ## Methods
 
 ### decryptData()
 
 > **decryptData**(`buffer`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L54)
 
 Decrypts data
 
@@ -24,15 +28,13 @@ The string to decrypt.
 
 The decrypted data as a string.
 
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/index.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/index.ts#L54)
-
 ***
 
 ### encryptData()
 
-> **encryptData**(`buffer`, `recipient`, `nonce`?): `Promise`\<`string`\>
+> **encryptData**(`buffer`, `recipient`, `nonce?`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L46)
 
 Encrypts data
 
@@ -40,9 +42,9 @@ Encrypts data
 
 ##### buffer
 
-The string or binary buffer to encrypt.
+`string` \| [`TBinaryBuffer`](../type-aliases/TBinaryBuffer)
 
-`string` | [`TBinaryBuffer`](../type-aliases/TBinaryBuffer)
+The string or binary buffer to encrypt.
 
 ##### recipient
 
@@ -61,7 +63,3 @@ optional nonce to be explicitly specified for encryption. If not provided, a ran
 `Promise`\<`string`\>
 
 A string containing the encrypted data.
-
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/index.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/index.ts#L46)

@@ -2,6 +2,8 @@
 
 # Interface: feed\_publish
 
+Defined in: wasm/lib/proto/feed\_publish.ts:13
+
 This is an operation for witnesses.
 The witnesses publish the exchange rate between Hive and HBD.
 Only the exchange rate published by the top 20 witnesses is used to define the exchange rate.
@@ -12,16 +14,16 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### exchange\_rate
 
-> **exchange\_rate**: `undefined` \| [`price`](./price)
+> **exchange\_rate**: [`price`](./price) \| `undefined`
+
+Defined in: wasm/lib/proto/feed\_publish.ts:20
 
 #### Param
 
+**exchange\_rate**
+
 How many HBD the 1 Hive should cost
                                Example: "base":"0.345 HBD","quote":"1.000 HIVE"
-
-#### Defined in
-
-wasm/lib/proto/feed\_publish.ts:20
 
 ***
 
@@ -29,10 +31,10 @@ wasm/lib/proto/feed\_publish.ts:20
 
 > **publisher**: `string`
 
+Defined in: wasm/lib/proto/feed\_publish.ts:15
+
 #### Param
 
+**publisher**
+
 The witness.
-
-#### Defined in
-
-wasm/lib/proto/feed\_publish.ts:15

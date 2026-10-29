@@ -2,6 +2,8 @@
 
 # Interface: convert
 
+Defined in: wasm/lib/proto/convert.ts:12
+
 This operation instructs the blockchain to start a conversion of HBD to Hive.
 The funds are deposited after 3.5 days.
 
@@ -11,15 +13,15 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### amount
 
-> **amount**: `undefined` \| [`asset`](./asset)
+> **amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/convert.ts:18
 
 #### Param
 
+**amount**
+
 Amount > 0, have to be in HBD.
-
-#### Defined in
-
-wasm/lib/proto/convert.ts:18
 
 ***
 
@@ -27,13 +29,13 @@ wasm/lib/proto/convert.ts:18
 
 > **owner**: `string`
 
+Defined in: wasm/lib/proto/convert.ts:14
+
 #### Param
 
+**owner**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/convert.ts:14
 
 ***
 
@@ -41,10 +43,10 @@ wasm/lib/proto/convert.ts:14
 
 > **requestid**: `number`
 
+Defined in: wasm/lib/proto/convert.ts:16
+
 #### Param
 
+**requestid**
+
 The number is given by a user. Should be unique for a user.
-
-#### Defined in
-
-wasm/lib/proto/convert.ts:16

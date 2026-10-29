@@ -2,6 +2,8 @@
 
 # Interface: witness\_set\_properties
 
+Defined in: wasm/lib/proto/witness\_set\_properties.ts:14
+
 This is an operation for witnesses.
 This is one of the two operations allowing to update witness properties (@see witness_update_operation).
 The whole list of properties is available here:
@@ -15,11 +17,11 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/witness\_set\_properties.ts:24
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/witness\_set\_properties.ts:24
+**extensions**
 
 ***
 
@@ -27,13 +29,13 @@ wasm/lib/proto/witness\_set\_properties.ts:24
 
 > **owner**: `string`
 
+Defined in: wasm/lib/proto/witness\_set\_properties.ts:16
+
 #### Param
 
+**owner**
+
 Witness account name.
-
-#### Defined in
-
-wasm/lib/proto/witness\_set\_properties.ts:16
 
 ***
 
@@ -41,16 +43,16 @@ wasm/lib/proto/witness\_set\_properties.ts:16
 
 > **props**: `object`
 
+Defined in: wasm/lib/proto/witness\_set\_properties.ts:22
+
 #### Index Signature
 
- \[`key`: `string`\]: `string`
+\[`key`: `string`\]: `string`
 
 #### Param
+
+**props**
 
 There are the following properties available in the {props}:
                                      account_creation_fee, account_subsidy_budget, account_subsidy_decay,
                                      maximum_block_size, hbd_interest_rate. hbd_exchange_rate, url and new_signing_key.
-
-#### Defined in
-
-wasm/lib/proto/witness\_set\_properties.ts:22

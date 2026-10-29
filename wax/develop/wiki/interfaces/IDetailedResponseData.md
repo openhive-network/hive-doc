@@ -2,9 +2,13 @@
 
 # Interface: IDetailedResponseData\<T\>
 
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L8)
+
 ## Type Parameters
 
-• **T** *extends* `object` \| `string` = `string`
+### T
+
+`T` *extends* `object` \| `string` = `string`
 
 ## Properties
 
@@ -12,9 +16,7 @@
 
 > **end**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/util/request\_helper.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/request_helper.ts#L10)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L10)
 
 ***
 
@@ -22,9 +24,7 @@
 
 > **headers**: `Headers`
 
-#### Defined in
-
-[wasm/lib/detailed/util/request\_helper.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/request_helper.ts#L12)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L12)
 
 ***
 
@@ -32,9 +32,7 @@
 
 > **response**: `T`
 
-#### Defined in
-
-[wasm/lib/detailed/util/request\_helper.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/request_helper.ts#L13)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L13)
 
 ***
 
@@ -42,9 +40,7 @@
 
 > **start**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/util/request\_helper.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/request_helper.ts#L9)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L9)
 
 ***
 
@@ -52,6 +48,4 @@
 
 > **status**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/util/request\_helper.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/request_helper.ts#L11)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L11)

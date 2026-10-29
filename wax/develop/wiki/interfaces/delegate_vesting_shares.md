@@ -2,6 +2,8 @@
 
 # Interface: delegate\_vesting\_shares
 
+Defined in: wasm/lib/proto/delegate\_vesting\_shares.ts:21
+
 The operation delegate_vesting_shares_operation allows to delegate an amount
 of { vesting_shares } to an { delegatee } account. The { vesting_shares } are still owned by { delegator },
 but the voting rights and resource credit are transferred.
@@ -22,13 +24,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **delegatee**: `string`
 
+Defined in: wasm/lib/proto/delegate\_vesting\_shares.ts:25
+
 #### Param
 
+**delegatee**
+
 The account receiving vesting shares.
-
-#### Defined in
-
-wasm/lib/proto/delegate\_vesting\_shares.ts:25
 
 ***
 
@@ -36,25 +38,25 @@ wasm/lib/proto/delegate\_vesting\_shares.ts:25
 
 > **delegator**: `string`
 
+Defined in: wasm/lib/proto/delegate\_vesting\_shares.ts:23
+
 #### Param
 
+**delegator**
+
 The account delegating vesting shares.
-
-#### Defined in
-
-wasm/lib/proto/delegate\_vesting\_shares.ts:23
 
 ***
 
 ### vesting\_shares
 
-> **vesting\_shares**: `undefined` \| [`asset`](./asset)
+> **vesting\_shares**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/delegate\_vesting\_shares.ts:30
 
 #### Param
 
+**vesting\_shares**
+
 The amount of vesting shares to be delegated.
                                 Minimal amount = 1/3 of the fee for creating a new account.
-
-#### Defined in
-
-wasm/lib/proto/delegate\_vesting\_shares.ts:30

@@ -2,6 +2,8 @@
 
 # Interface: escrow\_approved
 
+Defined in: wasm/lib/proto/escrow\_approved.ts:11
+
 Related to escrow_approve_operation.
 Generated when both agent and to accounts approved pending escrow transfer (agent receives fee).
 
@@ -15,13 +17,13 @@ escrow_rejected
 
 > **agent**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approved.ts:17
+
 #### Param
 
+**agent**
+
 user that is an agent of pending escrow transfer (receiver of fee)
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approved.ts:17
 
 ***
 
@@ -29,27 +31,27 @@ wasm/lib/proto/escrow\_approved.ts:17
 
 > **escrow\_id**: `number`
 
+Defined in: wasm/lib/proto/escrow\_approved.ts:19
+
 #### Param
 
+**escrow\_id**
+
 id of escrow transfer
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approved.ts:19
 
 ***
 
 ### fee
 
-> **fee**: `undefined` \| [`asset`](./asset)
+> **fee**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/escrow\_approved.ts:21
 
 #### Param
 
+**fee**
+
 (HIVE of HBD) fee paid to agent
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approved.ts:21
 
 ***
 
@@ -57,13 +59,13 @@ wasm/lib/proto/escrow\_approved.ts:21
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approved.ts:13
+
 #### Param
 
+**from\_account**
+
 user that initiated escrow transfer
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approved.ts:13
 
 ***
 
@@ -71,10 +73,10 @@ wasm/lib/proto/escrow\_approved.ts:13
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approved.ts:15
+
 #### Param
 
+**to\_account**
+
 user that is target of pending escrow transfer
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approved.ts:15

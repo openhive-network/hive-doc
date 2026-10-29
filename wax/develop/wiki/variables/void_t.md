@@ -4,13 +4,19 @@
 
 > **void\_t**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/future\_extensions.ts:5
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`void_t`](../interfaces/void_t)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`_`): [`void_t`](../interfaces/void_t)
+
 #### Parameters
 
 ##### \_
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`_`): [`void_t`](../interfaces/void_t)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`_`): `unknown`
+
 #### Parameters
 
 ##### \_
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/future\_extensions.ts:5

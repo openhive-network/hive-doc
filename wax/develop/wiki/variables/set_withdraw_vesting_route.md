@@ -4,13 +4,19 @@
 
 > **set\_withdraw\_vesting\_route**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/set\_withdraw\_vesting\_route.ts:16
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`set_withdraw_vesting_route`](../interfaces/set_withdraw_vesting_route)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`set_withdraw_vesting_route`](../interfaces/set_withdraw_vesting_route)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`set_withdraw_vesting_route`](../interfaces/set_withdraw_vesting_route)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/set\_withdraw\_vesting\_route.ts:16

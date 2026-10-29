@@ -2,6 +2,8 @@
 
 # Interface: account\_witness\_vote
 
+Defined in: wasm/lib/proto/account\_witness\_vote.ts:18
+
 A user may vote for a witness directly using an operation:
 account_witness_vote_operation or indirectly using the proxy - operation:  account_witness_proxy_operation.
 All accounts with a Hive Power (also called Vesting Fund Shares or VESTS) can vote for up to 30 witnesses,
@@ -20,11 +22,11 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/account\_witness\_vote.ts:20
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_witness\_vote.ts:20
+**account**
 
 ***
 
@@ -32,13 +34,13 @@ wasm/lib/proto/account\_witness\_vote.ts:20
 
 > **approve**: `boolean`
 
+Defined in: wasm/lib/proto/account\_witness\_vote.ts:24
+
 #### Param
 
+**approve**
+
 To vote for the witness, the approve = true. To remove the vote, the approve = false.
-
-#### Defined in
-
-wasm/lib/proto/account\_witness\_vote.ts:24
 
 ***
 
@@ -46,10 +48,10 @@ wasm/lib/proto/account\_witness\_vote.ts:24
 
 > **witness**: `string`
 
+Defined in: wasm/lib/proto/account\_witness\_vote.ts:22
+
 #### Param
 
+**witness**
+
 Witness account.
-
-#### Defined in
-
-wasm/lib/proto/account\_witness\_vote.ts:22

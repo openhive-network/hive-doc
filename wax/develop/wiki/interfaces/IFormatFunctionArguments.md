@@ -2,23 +2,27 @@
 
 # Interface: IFormatFunctionArguments\<TSource, TTarget\>
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L64)
+
 ## Type Parameters
 
-• **TSource** = `object`
+### TSource
 
-• **TTarget** = `any`
+`TSource` = `object`
+
+### TTarget
+
+`TTarget` = `any`
 
 ## Properties
 
 ### options
 
-> `readonly` **options**: [`DeepReadonlyObject`](../type-aliases/DeepReadonlyObject)\<[`IWaxFormatterOptions`](./IWaxFormatterOptions)\>
+> `readonly` **options**: [`DeepReadonly`](../type-aliases/DeepReadonly)\<[`IWaxFormatterOptions`](./IWaxFormatterOptions)\>
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L71)
 
 Formatter options
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L71)
 
 ***
 
@@ -26,11 +30,9 @@ Formatter options
 
 > `readonly` **source**: [`DeepReadonly`](../type-aliases/DeepReadonly)\<`TSource`\>
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L79)
+
 Source readonly unchanged input value for parsing raw data
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L79)
 
 ***
 
@@ -38,8 +40,6 @@ Source readonly unchanged input value for parsing raw data
 
 > **target**: `TTarget`
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L86)
+
 Target formatter data that might have been previously changed by other formatters
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L86)

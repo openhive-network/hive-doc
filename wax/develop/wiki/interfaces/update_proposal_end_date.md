@@ -2,12 +2,12 @@
 
 # Interface: update\_proposal\_end\_date
 
+Defined in: wasm/lib/proto/update\_proposal.ts:7
+
 ## Properties
 
 ### end\_date
 
 > **end\_date**: `string`
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:8
+Defined in: wasm/lib/proto/update\_proposal.ts:8

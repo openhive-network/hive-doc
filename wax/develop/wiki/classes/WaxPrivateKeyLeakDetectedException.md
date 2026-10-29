@@ -2,6 +2,8 @@
 
 # Class: WaxPrivateKeyLeakDetectedException
 
+Defined in: [wasm/lib/detailed/errors.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L148)
+
 Thrown when a private key leak is detected in the transaction.
 To avoid additional privacy leaks in the messaging, reported error contains only a **public key** matching to detected private one like
 also the account name and authority role related to such key.
@@ -12,9 +14,11 @@ also the account name and authority role related to such key.
 
 ## Constructors
 
-### new WaxPrivateKeyLeakDetectedException()
+### Constructor
 
-> **new WaxPrivateKeyLeakDetectedException**(`msg`, `matchingPublicKey`, `account`, `authorityRole`): [`WaxPrivateKeyLeakDetectedException`](./WaxPrivateKeyLeakDetectedException)
+> **new WaxPrivateKeyLeakDetectedException**(`msg`, `matchingPublicKey`, `account`, `authorityRole`): `WaxPrivateKeyLeakDetectedException`
+
+Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L149)
 
 #### Parameters
 
@@ -36,15 +40,11 @@ also the account name and authority role related to such key.
 
 #### Returns
 
-[`WaxPrivateKeyLeakDetectedException`](./WaxPrivateKeyLeakDetectedException)
+`WaxPrivateKeyLeakDetectedException`
 
 #### Overrides
 
-[`WaxError`](./WaxError).[`constructor`](./WaxError#constructors)
-
-#### Defined in
-
-[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/errors.ts#L149)
+[`WaxError`](./WaxError).[`constructor`](./WaxError#constructor)
 
 ## Properties
 
@@ -52,9 +52,7 @@ also the account name and authority role related to such key.
 
 > `readonly` **account**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/errors.ts#L149)
+Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L149)
 
 ***
 
@@ -62,23 +60,19 @@ also the account name and authority role related to such key.
 
 > `readonly` **authorityRole**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/errors.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/errors.ts#L150)
+Defined in: [wasm/lib/detailed/errors.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L150)
 
 ***
 
 ### cause?
 
-> `optional` **cause**: `unknown`
+> `optional` **cause?**: `unknown`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2022.error.d.ts:24
 
 #### Inherited from
 
 [`WaxError`](./WaxError).[`cause`](./WaxError#cause)
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.error.d.ts:26
 
 ***
 
@@ -86,9 +80,7 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.err
 
 > `readonly` **matchingPublicKey**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/errors.ts#L149)
+Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/errors.ts#L149)
 
 ***
 
@@ -96,13 +88,11 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.err
 
 > **message**: `string`
 
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1075
+
 #### Inherited from
 
 [`WaxError`](./WaxError).[`message`](./WaxError#message)
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1077
 
 ***
 
@@ -110,33 +100,31 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 > **name**: `string`
 
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1074
+
 #### Inherited from
 
 [`WaxError`](./WaxError).[`name`](./WaxError#name)
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 ***
 
 ### stack?
 
-> `optional` **stack**: `string`
+> `optional` **stack?**: `string`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 #### Inherited from
 
 [`WaxError`](./WaxError).[`stack`](./WaxError#stack)
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 ***
 
 ### stackTraceLimit
 
 > `static` **stackTraceLimit**: `number`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/globals.d.ts:68
 
 The `Error.stackTraceLimit` property specifies the number of stack frames
 collected by a stack trace (whether generated by `new Error().stack` or
@@ -152,15 +140,13 @@ not capture any frames.
 
 [`WaxError`](./WaxError).[`stackTraceLimit`](./WaxError#stacktracelimit)
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/globals.d.ts:68
-
 ## Methods
 
 ### captureStackTrace()
 
-> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
+> `static` **captureStackTrace**(`targetObject`, `constructorOpt?`): `void`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/globals.d.ts:52
 
 Creates a `.stack` property on `targetObject`, which when accessed returns
 a string representing the location in the code at which
@@ -224,15 +210,13 @@ a();
 
 [`WaxError`](./WaxError).[`captureStackTrace`](./WaxError#capturestacktrace)
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/globals.d.ts:52
-
 ***
 
 ### prepareStackTrace()
 
 > `static` **prepareStackTrace**(`err`, `stackTraces`): `any`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/globals.d.ts:56
 
 #### Parameters
 
@@ -255,7 +239,3 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 #### Inherited from
 
 [`WaxError`](./WaxError).[`prepareStackTrace`](./WaxError#preparestacktrace)
-
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/globals.d.ts:56

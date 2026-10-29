@@ -2,6 +2,8 @@
 
 # Interface: fill\_transfer\_from\_savings
 
+Defined in: wasm/lib/proto/fill\_transfer\_from\_savings.ts:11
+
 Related to transfer_from_savings_operation.
 Generated during block processing after savings withdraw time has passed and requested amount
 was transfered from savings to liquid balance.
@@ -10,15 +12,15 @@ was transfered from savings to liquid balance.
 
 ### amount
 
-> **amount**: `undefined` \| [`asset`](./asset)
+> **amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/fill\_transfer\_from\_savings.ts:17
 
 #### Param
 
+**amount**
+
 (HIVE or HBD) funds transfered from savings
-
-#### Defined in
-
-wasm/lib/proto/fill\_transfer\_from\_savings.ts:17
 
 ***
 
@@ -26,13 +28,13 @@ wasm/lib/proto/fill\_transfer\_from\_savings.ts:17
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/fill\_transfer\_from\_savings.ts:13
+
 #### Param
 
+**from\_account**
+
 user that initiated transfer from savings
-
-#### Defined in
-
-wasm/lib/proto/fill\_transfer\_from\_savings.ts:13
 
 ***
 
@@ -40,13 +42,13 @@ wasm/lib/proto/fill\_transfer\_from\_savings.ts:13
 
 > **memo**: `string`
 
+Defined in: wasm/lib/proto/fill\_transfer\_from\_savings.ts:23
+
 #### Param
 
+**memo**
+
 memo attached to transfer request
-
-#### Defined in
-
-wasm/lib/proto/fill\_transfer\_from\_savings.ts:23
 
 ***
 
@@ -54,13 +56,13 @@ wasm/lib/proto/fill\_transfer\_from\_savings.ts:23
 
 > **request\_id**: `number`
 
+Defined in: wasm/lib/proto/fill\_transfer\_from\_savings.ts:21
+
 #### Param
 
+**request\_id**
+
 id of transfer request
-
-#### Defined in
-
-wasm/lib/proto/fill\_transfer\_from\_savings.ts:21
 
 ***
 
@@ -68,10 +70,10 @@ wasm/lib/proto/fill\_transfer\_from\_savings.ts:21
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/fill\_transfer\_from\_savings.ts:15
+
 #### Param
 
+**to\_account**
+
 user that was specified to receive funds (receiver of amount)
-
-#### Defined in
-
-wasm/lib/proto/fill\_transfer\_from\_savings.ts:15

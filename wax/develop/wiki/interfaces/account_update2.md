@@ -2,6 +2,8 @@
 
 # Interface: account\_update2
 
+Defined in: wasm/lib/proto/account\_update2.ts:39
+
 There are two operations that allow updating an account data: account_update_operation and account_update2_operation.
 Operations account_update_operation and account_update2_operation share a limit of allowed updates
 of the owner authority  - two executions per 60 minutes (HIVE_OWNER_UPDATE_LIMIT) - meaning each of them
@@ -45,28 +47,28 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/account\_update2.ts:41
+
 #### Param
 
+**account**
+
 Account name, it cannot be updated.
-
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:41
 
 ***
 
 ### active?
 
-> `optional` **active**: [`authority`](./authority)
+> `optional` **active?**: [`authority`](./authority)
+
+Defined in: wasm/lib/proto/account\_update2.ts:54
 
 #### Param
 
+**active**
+
 Optional. In order to update the {active}, the active authority is required.
                             If a user provides a new authority, the old one will be deleted.
-
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:54
 
 ***
 
@@ -74,11 +76,11 @@ wasm/lib/proto/account\_update2.ts:54
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/account\_update2.ts:79
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:79
+**extensions**
 
 ***
 
@@ -86,59 +88,59 @@ wasm/lib/proto/account\_update2.ts:79
 
 > **json\_metadata**: `string`
 
+Defined in: wasm/lib/proto/account\_update2.ts:72
+
 #### Param
 
+**json\_metadata**
+
 json_string; In order to update the {json_metadata}, the active authority is required.
-
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:72
 
 ***
 
 ### memo\_key?
 
-> `optional` **memo\_key**: `string`
+> `optional` **memo\_key?**: `string`
+
+Defined in: wasm/lib/proto/account\_update2.ts:68
 
 #### Param
 
+**memo\_key**
+
 Optional. In order to update the {memo_key}, the active authority is required.
                            If a user provides a new key, the old one will be deleted.
-
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:68
 
 ***
 
 ### owner?
 
-> `optional` **owner**: [`authority`](./authority)
+> `optional` **owner?**: [`authority`](./authority)
+
+Defined in: wasm/lib/proto/account\_update2.ts:47
 
 #### Param
+
+**owner**
 
 Optional. In order to update the {owner}, the owner authority is required.
                            It may be changed 2 times per hour.
                            If a user provides a new authority, the old one will be deleted.
 
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:47
-
 ***
 
 ### posting?
 
-> `optional` **posting**: [`authority`](./authority)
+> `optional` **posting?**: [`authority`](./authority)
+
+Defined in: wasm/lib/proto/account\_update2.ts:61
 
 #### Param
 
+**posting**
+
 Optional. In order to update the {posting}, the active authority is required.
                              If a user provides a new authority, the old one will be deleted.
-
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:61
 
 ***
 
@@ -146,11 +148,11 @@ wasm/lib/proto/account\_update2.ts:61
 
 > **posting\_json\_metadata**: `string`
 
+Defined in: wasm/lib/proto/account\_update2.ts:77
+
 #### Param
+
+**posting\_json\_metadata**
 
 json_string; In order to update the { posting_json_metadata },
                                         the posting authority is required.
-
-#### Defined in
-
-wasm/lib/proto/account\_update2.ts:77

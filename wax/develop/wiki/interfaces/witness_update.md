@@ -2,6 +2,8 @@
 
 # Interface: witness\_update
 
+Defined in: wasm/lib/proto/witness\_update.ts:16
+
 The operation witness_update_operation may be used to become a new witness or to update witness properties.
 There are two operations that allow to update witness properties witness_update_operation and witness_set_properties_operation.
 In order to update witness properties it is recommended to use witness_set_properties_operation.
@@ -16,28 +18,28 @@ should be created.
 
 > **block\_signing\_key**: `string`
 
+Defined in: wasm/lib/proto/witness\_update.ts:22
+
 #### Param
 
+**block\_signing\_key**
+
 Public block signing key.
-
-#### Defined in
-
-wasm/lib/proto/witness\_update.ts:22
 
 ***
 
 ### fee
 
-> **fee**: `undefined` \| [`asset`](./asset)
+> **fee**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/witness\_update.ts:31
 
 #### Param
 
+**fee**
+
 The asset is validated (the format should be correct and should be expressed in Hive),
                      but the fee is currently ignored.
-
-#### Defined in
-
-wasm/lib/proto/witness\_update.ts:31
 
 ***
 
@@ -45,25 +47,25 @@ wasm/lib/proto/witness\_update.ts:31
 
 > **owner**: `string`
 
+Defined in: wasm/lib/proto/witness\_update.ts:18
+
 #### Param
 
+**owner**
+
 The witness who wants to update properties or a user who wants to become a witness.
-
-#### Defined in
-
-wasm/lib/proto/witness\_update.ts:18
 
 ***
 
 ### props
 
-> **props**: `undefined` \| [`legacy_chain_properties`](./legacy_chain_properties)
+> **props**: [`legacy_chain_properties`](./legacy_chain_properties) \| `undefined`
+
+Defined in: wasm/lib/proto/witness\_update.ts:24
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/witness\_update.ts:24
+**props**
 
 ***
 
@@ -71,10 +73,10 @@ wasm/lib/proto/witness\_update.ts:24
 
 > **url**: `string`
 
+Defined in: wasm/lib/proto/witness\_update.ts:20
+
 #### Param
 
+**url**
+
 url to information about witness.
-
-#### Defined in
-
-wasm/lib/proto/witness\_update.ts:20

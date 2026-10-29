@@ -2,11 +2,15 @@
 
 # Interface: ISignatureProvider
 
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L4)
+
 ## Methods
 
 ### decryptData()
 
-> **decryptData**(`content`, `key`, `anotherKey`?): `Promise`\<`string`\>
+> **decryptData**(`content`, `key`, `anotherKey?`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
 
 Decrypts given data from a specific entity and returns the decrypted message
 
@@ -36,15 +40,13 @@ other public key to find the private key in the underlying container and decrypt
 
 decrypted buffer
 
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/index.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/index.ts#L34)
-
 ***
 
 ### encryptData()
 
-> **encryptData**(`content`, `key`, `anotherKey`?, `nonce`?): `Promise`\<`string`\>
+> **encryptData**(`content`, `key`, `anotherKey?`, `nonce?`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
 
 Encrypts given data for a specific entity and returns the encrypted message
 
@@ -80,15 +82,13 @@ optional nonce to be explicitly specified for encryption
 
 base58 encrypted buffer
 
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/index.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/index.ts#L24)
-
 ***
 
 ### signDigest()
 
 > **signDigest**(`publicKey`, `sigDigest`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)
 
 Signs a transaction by signing a digest of the transaction
 
@@ -111,7 +111,3 @@ digest of a transaction in hex format
 `Promise`\<`string`\>
 
 signed data in hex format
-
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/index.ts#L13)

@@ -4,13 +4,19 @@
 
 > **legacy\_chain\_properties**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/legacy\_chain\_properties.ts:11
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`legacy_chain_properties`](../interfaces/legacy_chain_properties)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`legacy_chain_properties`](../interfaces/legacy_chain_properties)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`legacy_chain_properties`](../interfaces/legacy_chain_properties)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/legacy\_chain\_properties.ts:11

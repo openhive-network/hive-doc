@@ -2,6 +2,8 @@
 
 # Interface: ITransactionBase
 
+Defined in: [wasm/lib/detailed/interfaces.ts:262](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L262)
+
 ## Extends
 
 - [`ISignatureTransaction`](./ISignatureTransaction)
@@ -19,6 +21,8 @@
 
 > **get** **binaryViewMetadata**(): [`IBinaryViewOutputData`](./IBinaryViewOutputData)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:375](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L375)
+
 Retrieves transaction binary view packed "AST" data (in same form as in the block_log)
 
 ##### Returns
@@ -27,10 +31,6 @@ Retrieves transaction binary view packed "AST" data (in same form as in the bloc
 
 binary view metadata
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:375](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L375)
-
 ***
 
 ### id
@@ -38,6 +38,8 @@ binary view metadata
 #### Get Signature
 
 > **get** **id**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:293](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L293)
 
 Generates id of the transaction (HF26 serialization form is used).
 
@@ -49,10 +51,6 @@ on any Wax API-related error
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:293](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L293)
-
 ***
 
 ### impactedAccounts
@@ -60,6 +58,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **impactedAccounts**(): `Set`\<`string`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:284](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L284)
 
 Retrieves the set of account names (not authorities!) that are impacted by a whole transaction.
 
@@ -75,10 +75,6 @@ on any Wax WASM-related error
 
 A set containing the account names that are impacted by the current transaction
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:284](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L284)
-
 ***
 
 ### legacy\_binaryViewMetadata
@@ -86,6 +82,8 @@ A set containing the account names that are impacted by the current transaction
 #### Get Signature
 
 > **get** **legacy\_binaryViewMetadata**(): [`IBinaryViewOutputData`](./IBinaryViewOutputData)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:384](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L384)
 
 Retrieves transaction binary view packed "AST" data (in same form as in the block_log) (legacy serialization form is used).
 
@@ -97,10 +95,6 @@ Retrieves transaction binary view packed "AST" data (in same form as in the bloc
 
 binary view metadata
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:384](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L384)
-
 ***
 
 ### legacy\_id
@@ -108,6 +102,8 @@ binary view metadata
 #### Get Signature
 
 > **get** **legacy\_id**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:304](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L304)
 
 Generates id of the transaction (legacy serialization form is used).
 
@@ -121,10 +117,6 @@ on any Wax API-related error
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:304](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L304)
-
 ***
 
 ### legacy\_sigDigest
@@ -132,6 +124,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **legacy\_sigDigest**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:273](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L273)
 
 Generates digest of the transaction for signing (legacy serialization form is used).
 
@@ -145,10 +139,6 @@ on any Wax API-related error
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:273](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L273)
-
 ***
 
 ### legacy\_signatureKeys
@@ -156,6 +146,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **legacy\_signatureKeys**(): `string`[]
+
+Defined in: [wasm/lib/detailed/interfaces.ts:342](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L342)
 
 Returns signature keys from the transaction signatures (legacy serialization form is used).
 
@@ -169,10 +161,6 @@ on any Wax API-related error
 
 `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:342](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L342)
-
 ***
 
 ### requiredAuthorities
@@ -180,6 +168,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **requiredAuthorities**(): [`TTransactionRequiredAuthorities`](../type-aliases/TTransactionRequiredAuthorities)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:361](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L361)
 
 Returns required authority accounts from the transaction
 
@@ -191,10 +181,6 @@ on any Wax API-related error
 
 [`TTransactionRequiredAuthorities`](../type-aliases/TTransactionRequiredAuthorities)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:361](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L361)
-
 ***
 
 ### sigDigest
@@ -202,6 +188,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **sigDigest**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L192)
 
 Generates digest of the transaction for signing (HF26 serialization form is used).
 
@@ -217,10 +205,6 @@ on any Wax API-related error
 
 [`ISignatureTransaction`](./ISignatureTransaction).[`sigDigest`](./ISignatureTransaction#sigdigest)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:192](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L192)
-
 ***
 
 ### signatureKeys
@@ -228,6 +212,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **signatureKeys**(): `string`[]
+
+Defined in: [wasm/lib/detailed/interfaces.ts:331](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L331)
 
 Returns signature keys from the transaction signatures
 
@@ -239,10 +225,6 @@ on any Wax API-related error
 
 `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:331](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L331)
-
 ***
 
 ### transaction
@@ -250,6 +232,8 @@ on any Wax API-related error
 #### Get Signature
 
 > **get** **transaction**(): [`transaction`](./transaction)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:390](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L390)
 
 Fills up constructed transaction object basing on preconfigured TAPOS. Also applies the transaction expiration time.
 
@@ -259,15 +243,13 @@ Fills up constructed transaction object basing on preconfigured TAPOS. Also appl
 
 protobuf transaction object
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:390](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L390)
-
 ## Methods
 
 ### addSignature()
 
 > **addSignature**(`signature`): `this`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L209)
 
 Adds your signature to the internal signatures array inside underlying transaction.
 
@@ -298,15 +280,13 @@ If you do not have a signature, create one using dedicated signature providers, 
 
 [`ISignatureTransaction`](./ISignatureTransaction).[`addSignature`](./ISignatureTransaction#addsignature)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L209)
-
 ***
 
 ### decrypt()
 
 > **decrypt**(`provider`): `Promise`\<[`transaction`](./transaction)\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:353](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L353)
 
 Decrypts all underlying encrypted operations
 
@@ -328,15 +308,13 @@ protobuf transaction object
 
 on any Wax API-related error including validation error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:353](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L353)
-
 ***
 
 ### isSigned()
 
 > **isSigned**(): `boolean`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L250)
 
 Checks if underlying transaction has been already signed at least one time (after ITransaction.sign)
 
@@ -350,15 +328,13 @@ either true or false based on the signatures amount
 
 [`ISignatureTransaction`](./ISignatureTransaction).[`isSigned`](./ISignatureTransaction#issigned)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:250](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L250)
-
 ***
 
 ### performOperationEncryption()
 
 > **performOperationEncryption**(`provider`): `Promise`\<`void`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:322](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L322)
 
 **`Internal`**
 
@@ -382,15 +358,13 @@ If you are implementing your transaction class and do not have operations to enc
 
 [`ISignatureTransaction`](./ISignatureTransaction).[`performOperationEncryption`](./ISignatureTransaction#performoperationencryption)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:322](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L322)
-
 ***
 
 ### pushOperation()
 
 > **pushOperation**(`op`): `this`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:470](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L470)
 
 Pushes given operation to the operations array in the transaction
 This can also add **multiple** operations to the transaction using a straightforward complex operation interface.
@@ -401,10 +375,10 @@ We provide a standard set of factories with our implementation, but you can also
 
 ##### op
 
+[`operation`](./operation) \| [`OperationBase`](../classes/OperationBase)
+
 operation to append to the transaction (can be hive apps operation)
 or Class instance for a complex operation that will produce operations including given params
-
-[`operation`](./operation) | [`OperationBase`](../classes/OperationBase)
 
 #### Returns
 
@@ -429,6 +403,8 @@ current transaction instance
 
 #### Examples
 
+**Building blog post**
+
 ```typescript
  tx.pushOperation(new BlogPostOperation({
    category: "test-category",
@@ -440,6 +416,8 @@ current transaction instance
    description: "Post with category"
  }));
 ```
+
+**Building recurrent transfer with pair id and automatically generated removal**
 
 ```typescript
  tx.pushOperation(new DefineRecurrentTransferOperation({
@@ -453,15 +431,13 @@ current transaction instance
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:470](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L470)
-
 ***
 
 ### startEncrypt()
 
-> **startEncrypt**(`mainEncryptionKey`, `otherEncryptionKey`?): [`ITransactionBase`](./ITransactionBase) & [`IEncryptingTransaction`](./IEncryptingTransaction)\<[`ITransactionBase`](./ITransactionBase)\>
+> **startEncrypt**(`mainEncryptionKey`, `otherEncryptionKey?`): `ITransactionBase` & [`IEncryptingTransaction`](./IEncryptingTransaction)\<`ITransactionBase`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:412](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L412)
 
 Starts encryption chain
 
@@ -484,19 +460,17 @@ Optional second key to encrypt operations
 
 #### Returns
 
-[`ITransactionBase`](./ITransactionBase) & [`IEncryptingTransaction`](./IEncryptingTransaction)\<[`ITransactionBase`](./ITransactionBase)\>
+`ITransactionBase` & [`IEncryptingTransaction`](./IEncryptingTransaction)\<`ITransactionBase`\>
 
 current transaction instance
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:412](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L412)
 
 ***
 
 ### toApi()
 
 > **toApi**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L243)
 
 Converts the created transaction into the Hive API-form string
 
@@ -518,15 +492,13 @@ on any Wax API-related error
 
 [`ISignatureTransaction`](./ISignatureTransaction).[`toApi`](./ISignatureTransaction#toapi)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:243](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L243)
-
 ***
 
 ### toApiJson()
 
 > **toApiJson**(): [`ApiTransaction`](../type-aliases/ApiTransaction)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:399](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L399)
 
 Converts the created transaction into the Hive API-form JSON
 
@@ -540,15 +512,13 @@ transaction in Hive API-form
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:399](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L399)
-
 ***
 
 ### toBinaryForm()
 
-> **toBinaryForm**(`stripToUnsignedTransaction`?): `string`
+> **toBinaryForm**(`stripToUnsignedTransaction?`): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:419](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L419)
 
 Allows to serialize underlying transaction to HF26 specific binary form, then return it as hexstring.
 
@@ -565,15 +535,13 @@ optional flag to strip the transaction to unsigned form (without signature conta
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:419](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L419)
-
 ***
 
 ### ~~toLegacyApi()~~
 
 > **toLegacyApi**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L232)
 
 Converts the created transaction into the Hive API-legacy form JSON string.
 
@@ -607,15 +575,13 @@ on any Wax API-related error
 
 [`ISignatureTransaction`](./ISignatureTransaction).[`toLegacyApi`](./ISignatureTransaction#tolegacyapi)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:232](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L232)
-
 ***
 
 ### toString()
 
 > **toString**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:313](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L313)
 
 Converts transaction object into the protobuf JSON string
 
@@ -629,15 +595,13 @@ protobuf JSON string
 
 on any Wax API-related error including validation error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:313](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L313)
-
 ***
 
 ### validate()
 
 > **validate**(): `void`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:368](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L368)
 
 Validates current transaction. Throws on error
 
@@ -648,7 +612,3 @@ Validates current transaction. Throws on error
 #### Throws
 
 on any Wax API-related error including validation error
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:368](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L368)

@@ -2,15 +2,15 @@
 
 # Interface: asset
 
+Defined in: wasm/lib/proto/asset.ts:5
+
 ## Properties
 
 ### amount
 
 > **amount**: `string`
 
-#### Defined in
-
-wasm/lib/proto/asset.ts:6
+Defined in: wasm/lib/proto/asset.ts:6
 
 ***
 
@@ -18,9 +18,7 @@ wasm/lib/proto/asset.ts:6
 
 > **nai**: `string`
 
-#### Defined in
-
-wasm/lib/proto/asset.ts:8
+Defined in: wasm/lib/proto/asset.ts:8
 
 ***
 
@@ -28,6 +26,4 @@ wasm/lib/proto/asset.ts:8
 
 > **precision**: `number`
 
-#### Defined in
-
-wasm/lib/proto/asset.ts:7
+Defined in: wasm/lib/proto/asset.ts:7

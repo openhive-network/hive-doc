@@ -2,6 +2,8 @@
 
 # Interface: hardfork
 
+Defined in: wasm/lib/proto/hardfork.ts:9
+
 Related to block processing.
 Generated during block processing every time new hardfork is activated. Many related vops can follow.
 
@@ -11,10 +13,10 @@ Generated during block processing every time new hardfork is activated. Many rel
 
 > **hardfork\_id**: `number`
 
+Defined in: wasm/lib/proto/hardfork.ts:11
+
 #### Param
 
+**hardfork\_id**
+
 number of hardfork
-
-#### Defined in
-
-wasm/lib/proto/hardfork.ts:11

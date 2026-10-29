@@ -2,15 +2,21 @@
 
 # Interface: IWaxFormatterDecoratorOptions\<T\>
 
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/decorators/formatters.ts#L3)
+
 ## Type Parameters
 
-• **T** = `any`
+### T
+
+`T` = `any`
 
 ## Properties
 
-### matchInstanceOf()?
+### matchInstanceOf?
 
-> `optional` **matchInstanceOf**: (...`args`) => `T`
+> `optional` **matchInstanceOf?**: (...`args`) => `T`
+
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/decorators/formatters.ts#L34)
 
 Matches instance of a given class
 
@@ -24,51 +30,41 @@ Matches instance of a given class
 
 `T`
 
-#### Defined in
-
-[wasm/lib/detailed/decorators/formatters.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/decorators/formatters.ts#L34)
-
 ***
 
 ### matchProperty?
 
-> `optional` **matchProperty**: `string`
+> `optional` **matchProperty?**: `string`
+
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/decorators/formatters.ts#L9)
 
 Property to match. If not specified defaults to the formatter method name
-
-#### Defined in
-
-[wasm/lib/detailed/decorators/formatters.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/decorators/formatters.ts#L9)
 
 ***
 
 ### matchValue?
 
-> `optional` **matchValue**: `any`
+> `optional` **matchValue?**: `any`
+
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/decorators/formatters.ts#L17)
 
 Optional value to match on the property.
 Note: uses strict equality for value checking (`===`)
-
-#### Defined in
-
-[wasm/lib/detailed/decorators/formatters.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/decorators/formatters.ts#L17)
 
 ***
 
 ### requireDefined?
 
-> `optional` **requireDefined**: `boolean`
+> `optional` **requireDefined?**: `boolean`
+
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/decorators/formatters.ts#L27)
 
 Optional value to require property value to be defined (!== undefined)
 
-Note: Does not work with [matchInstanceOf](./IWaxFormatterDecoratorOptions#matchinstanceof)
+Note: Does not work with [matchInstanceOf](./#matchinstanceof)
 
 #### Default
 
 ```ts
 false
 ```
-
-#### Defined in
-
-[wasm/lib/detailed/decorators/formatters.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/decorators/formatters.ts#L27)

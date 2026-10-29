@@ -2,6 +2,8 @@
 
 # Interface: IArticle
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:130](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L130)
+
 ## Extends
 
 - `Omit`\<[`ICommentData`](./ICommentData), `"jsonMetadata"` \| `"permlink"` \| `"parentAuthor"` \| `"parentPermlink"`\>
@@ -10,7 +12,9 @@
 
 ### allowCurationRewards?
 
-> `optional` **allowCurationRewards**: `boolean`
+> `optional` **allowCurationRewards?**: `boolean`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L100)
 
 Allow or disallow curation rewards for the post.
 Setting this property will create an additional comment_options operation.
@@ -23,17 +27,15 @@ true
 
 #### Inherited from
 
-`Omit.allowCurationRewards`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L100)
+[`ICommentData`](./ICommentData).[`allowCurationRewards`](./ICommentData#allowcurationrewards)
 
 ***
 
 ### allowVotes?
 
-> `optional` **allowVotes**: `boolean`
+> `optional` **allowVotes?**: `boolean`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L107)
 
 Allow or disallow votes for the post.
 Setting this property will create an additional comment_options operation.
@@ -46,27 +48,21 @@ true
 
 #### Inherited from
 
-`Omit.allowVotes`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L107)
+[`ICommentData`](./ICommentData).[`allowVotes`](./ICommentData#allowvotes)
 
 ***
 
 ### alternativeAuthor?
 
-> `optional` **alternativeAuthor**: `string`
+> `optional` **alternativeAuthor?**: `string`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L82)
 
 The alternative author of the post.
 
 #### Inherited from
 
-`Omit.alternativeAuthor`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L82)
+[`ICommentData`](./ICommentData).[`alternativeAuthor`](./ICommentData#alternativeauthor)
 
 ***
 
@@ -74,33 +70,29 @@ The alternative author of the post.
 
 > **author**: `string`
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L32)
+
 Account name, the author of the post or the comment.
 **It cannot be modified**
 
 #### Inherited from
 
-`Omit.author`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L32)
+[`ICommentData`](./ICommentData).[`author`](./ICommentData#author)
 
 ***
 
 ### beneficiaries?
 
-> `optional` **beneficiaries**: [`beneficiary_route_type`](./beneficiary_route_type)[]
+> `optional` **beneficiaries?**: [`beneficiary_route_type`](./beneficiary_route_type)[]
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:92](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L92)
 
 The beneficiaries of the post including account and the weight.
 Setting this property will create an additional comment_options operation.
 
 #### Inherited from
 
-`Omit.beneficiaries`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:92](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L92)
+[`ICommentData`](./ICommentData).[`beneficiaries`](./ICommentData#beneficiaries)
 
 ***
 
@@ -108,16 +100,14 @@ Setting this property will create an additional comment_options operation.
 
 > **body**: `string`
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L37)
+
 The content of the post or the comment.
 **It may be modified**.
 
 #### Inherited from
 
-`Omit.body`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L37)
+[`ICommentData`](./ICommentData).[`body`](./ICommentData#body)
 
 ***
 
@@ -125,31 +115,29 @@ The content of the post or the comment.
 
 > **category**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:131](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L131)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:131](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L131)
 
 ***
 
 ### description?
 
-> `optional` **description**: `string`
+> `optional` **description?**: `string`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L70)
 
 The description of the post.
 
 #### Inherited from
 
-`Omit.description`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L70)
+[`ICommentData`](./ICommentData).[`description`](./ICommentData#description)
 
 ***
 
 ### format?
 
-> `optional` **format**: [`ECommentFormat`](../enumerations/ECommentFormat)
+> `optional` **format?**: [`ECommentFormat`](../enumerations/ECommentFormat)
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L66)
 
 The format of the comment.
 Currently supported formats are: html, markdown, markdown+html.
@@ -160,59 +148,51 @@ Currently supported formats are: html, markdown, markdown+html.
 
 #### Inherited from
 
-`Omit.format`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L66)
+[`ICommentData`](./ICommentData).[`format`](./ICommentData#format)
 
 ***
 
 ### images?
 
-> `optional` **images**: `string`[]
+> `optional` **images?**: `string`[]
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L78)
 
 The images in the post.
 
 #### Inherited from
 
-`Omit.images`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L78)
+[`ICommentData`](./ICommentData).[`images`](./ICommentData#images)
 
 ***
 
 ### jsonMetadata?
 
-> `optional` **jsonMetadata**: `object`
+> `optional` **jsonMetadata?**: `object`
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:132](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L132)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:132](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L132)
 
 ***
 
 ### links?
 
-> `optional` **links**: `string`[]
+> `optional` **links?**: `string`[]
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L74)
 
 The links in the post.
 
 #### Inherited from
 
-`Omit.links`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L74)
+[`ICommentData`](./ICommentData).[`links`](./ICommentData#links)
 
 ***
 
 ### maxAcceptedPayout?
 
-> `optional` **maxAcceptedPayout**: [`TNaiAssetSource`](../type-aliases/TNaiAssetSource)
+> `optional` **maxAcceptedPayout?**: [`TNaiAssetSource`](../type-aliases/TNaiAssetSource)
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L121)
 
 The maximum accepted payout for the post.
 Setting this property will create an additional comment_options operation.
@@ -225,17 +205,15 @@ Setting this property will create an additional comment_options operation.
 
 #### Inherited from
 
-`Omit.maxAcceptedPayout`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L121)
+[`ICommentData`](./ICommentData).[`maxAcceptedPayout`](./ICommentData#maxacceptedpayout)
 
 ***
 
 ### percentHbd?
 
-> `optional` **percentHbd**: `number`
+> `optional` **percentHbd?**: `number`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L114)
 
 The percentage of the HBD reward.
 Setting this property will create an additional comment_options operation.
@@ -248,37 +226,29 @@ Setting this property will create an additional comment_options operation.
 
 #### Inherited from
 
-`Omit.percentHbd`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L114)
+[`ICommentData`](./ICommentData).[`percentHbd`](./ICommentData#percenthbd)
 
 ***
 
 ### permlink?
 
-> `optional` **permlink**: `string`
+> `optional` **permlink?**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L133)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L133)
 
 ***
 
 ### tags?
 
-> `optional` **tags**: `string`[]
+> `optional` **tags?**: `string`[]
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L86)
 
 The tags of the post.
 
 #### Inherited from
 
-`Omit.tags`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L86)
+[`ICommentData`](./ICommentData).[`tags`](./ICommentData#tags)
 
 ***
 
@@ -286,13 +256,11 @@ The tags of the post.
 
 > **title**: `string`
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L58)
+
 The title of the submitted post, in case of the comment, is often empty.
 **It may be modified**.
 
 #### Inherited from
 
-`Omit.title`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L58)
+[`ICommentData`](./ICommentData).[`title`](./ICommentData#title)

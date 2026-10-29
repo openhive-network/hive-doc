@@ -4,13 +4,19 @@
 
 > **transfer\_to\_vesting\_completed**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/transfer\_to\_vesting\_completed.ts:13
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`transfer_to_vesting_completed`](../interfaces/transfer_to_vesting_completed)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`transfer_to_vesting_completed`](../interfaces/transfer_to_vesting_completed)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`transfer_to_vesting_completed`](../interfaces/transfer_to_vesting_completed)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/transfer\_to\_vesting\_completed.ts:13

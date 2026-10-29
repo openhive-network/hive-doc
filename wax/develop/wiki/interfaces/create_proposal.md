@@ -2,6 +2,8 @@
 
 # Interface: create\_proposal
 
+Defined in: wasm/lib/proto/create\_proposal.ts:19
+
 There is a Decentralized Hive Fund (DHF) on the Hive.
 Users may submit proposals for funding and if the proposal receives enough votes, it will be funded.
 In order to create a proposal user should create a post first and then marked it as
@@ -19,23 +21,23 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **creator**: `string`
 
+Defined in: wasm/lib/proto/create\_proposal.ts:21
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:21
+**creator**
 
 ***
 
 ### daily\_pay
 
-> **daily\_pay**: `undefined` \| [`asset`](./asset)
+> **daily\_pay**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/create\_proposal.ts:29
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:29
+**daily\_pay**
 
 ***
 
@@ -43,11 +45,11 @@ wasm/lib/proto/create\_proposal.ts:29
 
 > **end\_date**: `string`
 
+Defined in: wasm/lib/proto/create\_proposal.ts:27
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:27
+**end\_date**
 
 ***
 
@@ -55,11 +57,11 @@ wasm/lib/proto/create\_proposal.ts:27
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/create\_proposal.ts:37
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:37
+**extensions**
 
 ***
 
@@ -67,11 +69,11 @@ wasm/lib/proto/create\_proposal.ts:37
 
 > **permlink**: `string`
 
+Defined in: wasm/lib/proto/create\_proposal.ts:35
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:35
+**permlink**
 
 ***
 
@@ -79,11 +81,11 @@ wasm/lib/proto/create\_proposal.ts:35
 
 > **receiver**: `string`
 
+Defined in: wasm/lib/proto/create\_proposal.ts:23
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:23
+**receiver**
 
 ***
 
@@ -91,11 +93,11 @@ wasm/lib/proto/create\_proposal.ts:23
 
 > **start\_date**: `string`
 
+Defined in: wasm/lib/proto/create\_proposal.ts:25
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:25
+**start\_date**
 
 ***
 
@@ -103,8 +105,8 @@ wasm/lib/proto/create\_proposal.ts:25
 
 > **subject**: `string`
 
+Defined in: wasm/lib/proto/create\_proposal.ts:33
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_proposal.ts:33
+**subject**

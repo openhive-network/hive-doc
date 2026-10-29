@@ -2,6 +2,8 @@
 
 # Interface: comment\_options
 
+Defined in: wasm/lib/proto/comment\_options.ts:28
+
 The operation comment_options_operation allows to set properties regarding payouts,
 rewards or beneficiaries (using {extensions}) for comments.
 If the operation: comment_options_operation is done by one of the frontends,
@@ -16,15 +18,15 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **allow\_curation\_rewards**: `boolean`
 
+Defined in: wasm/lib/proto/comment\_options.ts:62
+
 #### Param
+
+**allow\_curation\_rewards**
 
 The flag that allows to decide whether the voters for the comment should
                                        receive the curation rewards. Rewards return to the reward fund.
                                        Default value: allow_curation_rewards = true.
-
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:62
 
 ***
 
@@ -32,14 +34,14 @@ wasm/lib/proto/comment\_options.ts:62
 
 > **allow\_votes**: `boolean`
 
+Defined in: wasm/lib/proto/comment\_options.ts:56
+
 #### Param
+
+**allow\_votes**
 
 The flag that allows to decide whether the comment may receive a vote.
                             Default value: allow_votes = true.
-
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:56
 
 ***
 
@@ -47,13 +49,13 @@ wasm/lib/proto/comment\_options.ts:56
 
 > **author**: `string`
 
+Defined in: wasm/lib/proto/comment\_options.ts:30
+
 #### Param
 
+**author**
+
 Account name, the author of the comment.
-
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:30
 
 ***
 
@@ -61,7 +63,11 @@ wasm/lib/proto/comment\_options.ts:30
 
 > **extensions**: [`comment_options_extension`](./comment_options_extension)[]
 
+Defined in: wasm/lib/proto/comment\_options.ts:73
+
 #### Param
+
+**extensions**
 
 It may contain the list of the beneficiaries,
                                                 the accounts that should receive the author reward.
@@ -72,26 +78,22 @@ It may contain the list of the beneficiaries,
                                                 The allowed range of the weight is from 0 to 10000 (0 - 100%).
                                                 The beneficiaries should be listed in alphabetical order, no duplicates.
 
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:73
-
 ***
 
 ### max\_accepted\_payout
 
-> **max\_accepted\_payout**: `undefined` \| [`asset`](./asset)
+> **max\_accepted\_payout**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/comment\_options.ts:38
 
 #### Param
+
+**max\_accepted\_payout**
 
 The maximum value of payout in HBD.
                                      Default value: max_accepted_payout = asset( 1000000000, HBD_SYMBOL ).
                                      The allowed value should be less than the default value.
                                      If max_accepted_payout = 0, then voters and authors will not receive the payout.
-
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:38
 
 ***
 
@@ -99,7 +101,11 @@ wasm/lib/proto/comment\_options.ts:38
 
 > **percent\_hbd**: `number`
 
+Defined in: wasm/lib/proto/comment\_options.ts:51
+
 #### Param
+
+**percent\_hbd**
 
 By default the author reward is paid 50% HP and 50 % HBD.
                               In some rare situations, instead of HBD, the Hive may be paid.
@@ -110,16 +116,10 @@ By default the author reward is paid 50% HP and 50 % HBD.
                               The allowed value should be less than the default value.
                               This is the only parameter that can be modified after the comment receives any vote.
 
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:51
-
 ***
 
 ### permlink
 
 > **permlink**: `string`
 
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:31
+Defined in: wasm/lib/proto/comment\_options.ts:31

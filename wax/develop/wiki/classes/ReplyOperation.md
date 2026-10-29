@@ -2,6 +2,8 @@
 
 # Class: ReplyOperation
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:316](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L316)
+
 Same as the comment base, but requires parentAuthor and parentPermlink to be set
 
 ## Extends
@@ -10,9 +12,11 @@ Same as the comment base, but requires parentAuthor and parentPermlink to be set
 
 ## Constructors
 
-### new ReplyOperation()
+### Constructor
 
-> **new ReplyOperation**(`data`): [`ReplyOperation`](./ReplyOperation)
+> **new ReplyOperation**(`data`): `ReplyOperation`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:317](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L317)
 
 #### Parameters
 
@@ -22,15 +26,11 @@ Same as the comment base, but requires parentAuthor and parentPermlink to be set
 
 #### Returns
 
-[`ReplyOperation`](./ReplyOperation)
+`ReplyOperation`
 
 #### Overrides
 
 `CommentOperation.constructor`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:317](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L317)
 
 ## Properties
 
@@ -38,13 +38,11 @@ Same as the comment base, but requires parentAuthor and parentPermlink to be set
 
 > `protected` `readonly` **comment**: [`comment`](../interfaces/comment)
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L137)
+
 #### Inherited from
 
 `CommentOperation.comment`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L137)
 
 ***
 
@@ -52,19 +50,19 @@ Same as the comment base, but requires parentAuthor and parentPermlink to be set
 
 > `protected` **jsonMetadata**: `Record`\<`string`, `any`\>
 
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L140)
+
 #### Inherited from
 
 `CommentOperation.jsonMetadata`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L140)
 
 ## Methods
 
 ### finalize()
 
-> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L149)
 
 **`Internal`**
 
@@ -76,21 +74,19 @@ Same as the comment base, but requires parentAuthor and parentPermlink to be set
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Inherited from
 
 `CommentOperation.finalize`
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L149)
-
 ***
 
 ### pushMetadataProperty()
 
-> **pushMetadataProperty**(`keyOrObject`, `value`?): `this`
+> **pushMetadataProperty**(`keyOrObject`, `value?`): `this`
+
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:267](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/comment.ts#L267)
 
 Assigns given object or sets given value on key in comment meta values
 
@@ -98,9 +94,9 @@ Assigns given object or sets given value on key in comment meta values
 
 ##### keyOrObject
 
-key to set the value on or the entire object of key-value pairs to assign to the json metadata object
+`string` \| `object`
 
-`string` | `object`
+key to set the value on or the entire object of key-value pairs to assign to the json metadata object
 
 ##### value?
 
@@ -121,7 +117,3 @@ if key already exists on the jsonmetadata object
 #### Inherited from
 
 `CommentOperation.pushMetadataProperty`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/comment.ts:267](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/comment.ts#L267)

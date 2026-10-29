@@ -4,6 +4,4 @@
 
 > **HiveApiTypes**: [`HiveApiTypes`](../type-aliases/HiveApiTypes)
 
-## Defined in
-
-[wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/chain_api_data.ts#L16)
+Defined in: [wasm/lib/detailed/chain\_api\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/chain_api_data.ts#L16)

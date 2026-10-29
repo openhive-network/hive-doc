@@ -2,6 +2,8 @@
 
 # Interface: IWaxBaseInterface
 
+Defined in: [wasm/lib/detailed/interfaces.ts:582](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L582)
+
 ## Extended by
 
 - [`IHiveChainInterface`](./IHiveChainInterface)
@@ -12,9 +14,7 @@
 
 > `readonly` **ASSETS**: `Readonly`\<`Record`\<[`EAssetName`](../enumerations/EAssetName), [`NaiAsset`](./NaiAsset)\>\>
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:583](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L583)
+Defined in: [wasm/lib/detailed/interfaces.ts:583](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L583)
 
 ***
 
@@ -22,15 +22,13 @@
 
 > `readonly` **chainId**: `string`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:593](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L593)
+
 Retrieves the chain id. Defined in the Wax base / chain creator functions
 
 #### Returns
 
 chain id in hex string format
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:593](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L593)
 
 ***
 
@@ -38,15 +36,15 @@ chain id in hex string format
 
 > `readonly` **formatter**: [`IWaxExtendableFormatter`](./IWaxExtendableFormatter)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:585](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L585)
+Defined in: [wasm/lib/detailed/interfaces.ts:585](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L585)
 
 ***
 
-### waxify()
+### waxify
 
 > `readonly` **waxify**: (`strings`, ...`args`) => `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:586](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L586)
 
 Formats given text based on arguments structure
 
@@ -72,13 +70,11 @@ formatted data
 
 #### Example
 
+**Formatting data**
+
 ```typescript
 formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 ```
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:586](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L586)
 
 ## Accessors
 
@@ -88,6 +84,8 @@ formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 
 > **get** **addressPrefix**(): `string`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:600](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L600)
+
 Retrieves the public key address prefix
 
 ##### Returns
@@ -95,10 +93,6 @@ Retrieves the public key address prefix
 `string`
 
 public key prefix
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:600](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L600)
 
 ***
 
@@ -108,21 +102,21 @@ public key prefix
 
 > **get** **config**(): [`IChainConfig`](./IChainConfig)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:652](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L652)
+
 Holds the protocol configuration for the current chain
 
 ##### Returns
 
 [`IChainConfig`](./IChainConfig)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:652](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L652)
-
 ## Methods
 
 ### calculateAccountHp()
 
 > **calculateAccountHp**(`vests`, `totalVestingFundHive`, `totalVestingShares`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1011](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1011)
 
 Calculates account HP based on given vests, total vesting fund HIVE and total vesting shares
 
@@ -156,15 +150,13 @@ HP in nai form
 
 on any Wax WASM related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1011](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1011)
-
 ***
 
 ### calculateCurrentManabarValue()
 
 > **calculateCurrentManabarValue**(`now`, `maxMana`, `currentMana`, `lastUpdateTime`): [`IManabarData`](./IManabarData)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:983](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L983)
 
 Calculates current manabar value for Hive account based on given arguments
 
@@ -208,15 +200,13 @@ Manabar data
 
 on any Wax WASM related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:983](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L983)
-
 ***
 
 ### calculateHpApr()
 
 > **calculateHpApr**(`headBlockNum`, `vestingRewardPercent`, `virtualSupply`, `totalVestingFundHive`): `number`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1034](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1034)
 
 Calculate current HP APR
 
@@ -256,15 +246,13 @@ HP APR percent with 2 decimals
 
 on any Wax WASM related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1034](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1034)
-
 ***
 
 ### calculateManabarFullRegenerationTime()
 
 > **calculateManabarFullRegenerationTime**(`now`, `maxMana`, `currentMana`, `lastUpdateTime`): `number`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1000](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1000)
 
 Calculates full regeneration time of the manabar value for Hive account based on given arguments
 
@@ -308,15 +296,13 @@ Full regeneration timestamp (in seconds)
 
 on any Wax WASM related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1000](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1000)
-
 ***
 
 ### calculatePublicKey()
 
 > **calculatePublicKey**(`wifPrivateKey`): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:915](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L915)
 
 Calculates the public key from a given private key in WIF format
 
@@ -338,15 +324,13 @@ Public key in WIF format (including prefix)
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:915](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L915)
-
 ***
 
 ### calculateWitnessVotesHp()
 
 > **calculateWitnessVotesHp**(`votes`, `totalVestingFundHive`, `totalVestingShares`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1022](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1022)
 
 Calculates witness votes HP based on given votes (expressed in VESTS), total vesting fund HIVE and total vesting shares
 
@@ -380,15 +364,13 @@ HP in nai form
 
 on any Wax WASM related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1022](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1022)
-
 ***
 
 ### convertRawPrivateKeyToWif()
 
 > **convertRawPrivateKeyToWif**(`rawPrivateKey`): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:923](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L923)
 
 Allows to convert raw private key to WIF format.
 
@@ -410,15 +392,13 @@ WIF formatted private key
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:923](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L923)
-
 ***
 
 ### convertRawPublicKeyToWif()
 
 > **convertRawPublicKeyToWif**(`rawPublicKey`): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:931](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L931)
 
 Allows to convert raw public key to WIF format.
 
@@ -440,15 +420,13 @@ WIF formatted public key (including prefix)
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:931](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L931)
-
 ***
 
 ### convertTransactionFromBinaryForm()
 
 > **convertTransactionFromBinaryForm**(`transaction`): [`ApiTransaction`](../type-aliases/ApiTransaction)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1101](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1101)
 
 Converts given transaction from HF26 specific binary form to Hive API-form JSON
 
@@ -470,15 +448,13 @@ transaction in Hive API-form JSON
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1101](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1101)
-
 ***
 
 ### convertTransactionToBinaryForm()
 
-> **convertTransactionToBinaryForm**(`transaction`, `stripToUnsignedTransaction`?): `string`
+> **convertTransactionToBinaryForm**(`transaction`, `stripToUnsignedTransaction?`): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1091](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1091)
 
 Converts given transaction from Hive API-form JSON to HF26 specific binary form
 
@@ -507,15 +483,13 @@ transaction in hexstring
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1091](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1091)
-
 ***
 
 ### createTransactionFromJson()
 
 > **createTransactionFromJson**(`transactionData`): [`ITransaction`](./ITransaction)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1052](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1052)
 
 Converts Hive API-form transaction in JSON form to our transaction
 
@@ -523,9 +497,9 @@ Converts Hive API-form transaction in JSON form to our transaction
 
 ##### transactionData
 
-transaction data to be converted
+`string` \| `object` \| [`ApiTransaction`](../type-aliases/ApiTransaction)
 
-`string` | `object` | [`ApiTransaction`](../type-aliases/ApiTransaction)
+transaction data to be converted
 
 #### Returns
 
@@ -536,10 +510,6 @@ transaction containing ready to sign transaction (or to convert to protobuf stru
 #### Throws
 
 on any Wax API-related error
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1052](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1052)
 
 ***
 
@@ -547,15 +517,17 @@ on any Wax API-related error
 
 > **createTransactionFromLegacyJson**(`transactionData`): [`ITransaction`](./ITransaction)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:1063](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1063)
+
 Converts Hive API-form transaction in legacy JSON form to our transaction
 
 #### Parameters
 
 ##### transactionData
 
-transaction data to be converted
+`string` \| `object` \| [`LegacyApiTransaction`](../type-aliases/LegacyApiTransaction)
 
-`string` | `object` | [`LegacyApiTransaction`](../type-aliases/LegacyApiTransaction)
+transaction data to be converted
 
 #### Returns
 
@@ -567,15 +539,13 @@ transaction containing ready to sign transaction (or to convert to protobuf stru
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1063](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1063)
-
 ***
 
 ### createTransactionFromProto()
 
 > **createTransactionFromProto**(`protoTransaction`): [`ITransaction`](./ITransaction)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1041](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1041)
 
 Constructs a new Transaction object with ready protobuf transaction
 
@@ -591,15 +561,13 @@ protobuf transaction
 
 [`ITransaction`](./ITransaction)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1041](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1041)
-
 ***
 
 ### createTransactionWithTaPoS()
 
-> **createTransactionWithTaPoS**(`taposBlockId`, `expirationTime`?): [`ITransaction`](./ITransaction)
+> **createTransactionWithTaPoS**(`taposBlockId`, `expirationTime?`): [`ITransaction`](./ITransaction)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1080](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1080)
 
 Constructs a new Transaction object with given data
 
@@ -631,15 +599,13 @@ ready to use transaction interface allowing to fill transaction with its content
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1080](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1080)
-
 ***
 
 ### ~~decrypt()~~
 
 > **decrypt**(`wallet`, `encrypted`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:966](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L966)
 
 Decrypts given data from the encrypted string in `#encrypted` format
 
@@ -671,15 +637,13 @@ Use dedicated encryption providers, such as:
   - `@hiveio/wax-signers-keychain`
   - `@hiveio/wax-signers-peakvault`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:966](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L966)
-
 ***
 
 ### delete()
 
 > **delete**(): `void`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:1107](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1107)
 
 Deletes the created wax proto_protocol instance
 
@@ -691,15 +655,13 @@ Deletes the created wax proto_protocol instance
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:1107](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1107)
-
 ***
 
 ### ~~encrypt()~~
 
-> **encrypt**(`wallet`, `content`, `mainEncryptionKey`, `otherEncryptionKey`?, `nonce`?): `Promise`\<`string`\>
+> **encrypt**(`wallet`, `content`, `mainEncryptionKey`, `otherEncryptionKey?`, `nonce?`): `Promise`\<`string`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:950](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L950)
 
 Encrypts given data using two keys and dumps result to the encrypted string in `#encrypted` format
 
@@ -749,15 +711,13 @@ Use dedicated encryption providers, such as:
   - `@hiveio/wax-signers-keychain`
   - `@hiveio/wax-signers-peakvault`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:950](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L950)
-
 ***
 
 ### estimateHbdInterest()
 
 > **estimateHbdInterest**(`accountHdbSeconds`, `hbdBalance`, `lastCompoundingDate`, `now`, `interestRate`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:687](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L687)
 
 Allows to estimate HBD interest value based on given parameters
 
@@ -799,15 +759,13 @@ interest rate in percent basis points (0-10000). It can be received from `hbd_in
 
 estimated interest value in HBD asset
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:687](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L687)
-
 ***
 
 ### estimateHiveCollateral()
 
 > **estimateHiveCollateral**(`currentMedianHistoryBase`, `currentMedianHistoryQuote`, `currentMinHistoryBase`, `currentMinHistoryQuote`, `hbdAmountToGet`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:675](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L675)
 
 Estimate hive collateral
 
@@ -853,15 +811,13 @@ value in HIVE asset
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:675](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L675)
-
 ***
 
 ### extendConfig()
 
-> **extendConfig**(`config`): [`IWaxBaseInterface`](./IWaxBaseInterface)
+> **extendConfig**(`config`): `IWaxBaseInterface`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:607](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L607)
 
 Extends the current wax base instance with your custom options, creating a copy of the current instance with altered config.
 
@@ -875,17 +831,15 @@ configuration options to extend
 
 #### Returns
 
-[`IWaxBaseInterface`](./IWaxBaseInterface)
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:607](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L607)
+`IWaxBaseInterface`
 
 ***
 
 ### getAsset()
 
 > **getAsset**(`nai`): [`IHiveAssetData`](./IHiveAssetData)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:660](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L660)
 
 Retrieves asset amount and symbol from the api data
 
@@ -903,15 +857,13 @@ API asset
 
 asset data
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:660](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L660)
-
 ***
 
 ### getPrivateKeyFromPassword()
 
 > **getPrivateKeyFromPassword**(`account`, `role`, `password`): [`IPrivateKeyData`](./IPrivateKeyData)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:905](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L905)
 
 Derives private key for a given role from so-called Master Password
 
@@ -945,15 +897,13 @@ Generated private key along with the associated public key in WIF format
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:905](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L905)
-
 ***
 
 ### getPublicKeyFromSignature()
 
 > **getPublicKeyFromSignature**(`sigDigest`, `signature`): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:880](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L880)
 
 Retrieves the public key in wif format from the given sig digest and signature in hexadecimal format
 
@@ -981,15 +931,13 @@ public key used in the signature
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:880](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L880)
-
 ***
 
 ### getVersion()
 
 > **getVersion**(): `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:647](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L647)
 
 Retrieves the bundled package version string
 
@@ -999,20 +947,18 @@ Retrieves the bundled package version string
 
 application version
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:647](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L647)
-
 ***
 
 ### ~~hbd()~~
 
 > **hbd**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:811](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L811)
+
 Retrieves HBD in nai form with given amount
 
 Note: This function only accepts integer values.
-If you want to pass fractional number values, use [hbdCoins](./IWaxBaseInterface#hbdcoins) instead.
+If you want to pass fractional number values, use [hbdCoins](./#hbdcoins) instead.
 This function copies the input value to the output `amount` property without any conversion - adds just a `nai` id.
 
 #### Parameters
@@ -1037,15 +983,11 @@ Input: `10000`, `"10000000000000000"`, `BigInt("10000000000000000")`
 
 #### Deprecated
 
-Use [hbdSatoshis](./IWaxBaseInterface#hbdsatoshis) or [hbdCoins](./IWaxBaseInterface#hbdcoins) instead
+Use [hbdSatoshis](./#hbdsatoshis) or [hbdCoins](./#hbdcoins) instead
 
 #### Throws
 
 on any Wax WASM-related error
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:811](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L811)
 
 ***
 
@@ -1053,11 +995,13 @@ on any Wax WASM-related error
 
 > **hbdCoins**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:717](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L717)
+
 Retrieves HBD in nai form with given amount
 
 Note: This function works with precision and only accepts JS Double-precision floating-point format (IEEE 754),
 which does not support numbers greater than 2^53 - 1 or less than -(2^53 - 1).
-If you want to pass large number values, use [hbdSatoshis](./IWaxBaseInterface#hbdsatoshis) instead.
+If you want to pass large number values, use [hbdSatoshis](./#hbdsatoshis) instead.
 
 #### Parameters
 
@@ -1083,20 +1027,18 @@ Inputs: `1000`, `1000.2`, `1000.300`
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:717](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L717)
-
 ***
 
 ### hbdSatoshis()
 
 > **hbdSatoshis**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:762](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L762)
+
 Retrieves HBD in nai form with given amount
 
 Note: This function only accepts integer values.
-If you want to pass fractional number values, use [hbdCoins](./IWaxBaseInterface#hbdcoins) instead.
+If you want to pass fractional number values, use [hbdCoins](./#hbdcoins) instead.
 This function copies the input value to the output `amount` property without any conversion - adds just a `nai` id.
 
 #### Parameters
@@ -1123,15 +1065,13 @@ Input: `10000`, `"10000000000000000"`, `BigInt("10000000000000000")`
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:762](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L762)
-
 ***
 
 ### hbdToHive()
 
 > **hbdToHive**(`hbd`, `base`, `quote`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:858](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L858)
 
 Converts HBD to HIVE in nai form
 
@@ -1165,20 +1105,18 @@ HIVE in nai form
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:858](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L858)
-
 ***
 
 ### ~~hive()~~
 
 > **hive**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:794](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L794)
+
 Retrieves HIVE in nai form with given amount
 
 Note: This function only accepts integer values.
-If you want to pass fractional number values, use [hiveCoins](./IWaxBaseInterface#hivecoins) instead.
+If you want to pass fractional number values, use [hiveCoins](./#hivecoins) instead.
 This function copies the input value to the output `amount` property without any conversion - adds just a `nai` id.
 
 #### Parameters
@@ -1203,15 +1141,11 @@ Input: `10000`, `"10000000000000000"`, `BigInt("10000000000000000")`
 
 #### Deprecated
 
-Use [hiveSatoshis](./IWaxBaseInterface#hivesatoshis) or [hiveCoins](./IWaxBaseInterface#hivecoins) instead
+Use [hiveSatoshis](./#hivesatoshis) or [hiveCoins](./#hivecoins) instead
 
 #### Throws
 
 on any Wax WASM-related error
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:794](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L794)
 
 ***
 
@@ -1219,11 +1153,13 @@ on any Wax WASM-related error
 
 > **hiveCoins**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:702](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L702)
+
 Retrieves HIVE in nai form with given amount
 
 Note: This function works with precision and only accepts JS Double-precision floating-point format (IEEE 754),
 which does not support numbers greater than 2^53 - 1 or less than -(2^53 - 1).
-If you want to pass large number values, use [hiveSatoshis](./IWaxBaseInterface#hivesatoshis) instead.
+If you want to pass large number values, use [hiveSatoshis](./#hivesatoshis) instead.
 
 #### Parameters
 
@@ -1249,20 +1185,18 @@ Inputs: `1000`, `1000.2`, `1000.300`
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:702](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L702)
-
 ***
 
 ### hiveSatoshis()
 
 > **hiveSatoshis**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:747](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L747)
+
 Retrieves HIVE in nai form with given amount
 
 Note: This function only accepts integer values.
-If you want to pass fractional number values, use [hiveCoins](./IWaxBaseInterface#hivecoins) instead.
+If you want to pass fractional number values, use [hiveCoins](./#hivecoins) instead.
 This function copies the input value to the output `amount` property without any conversion - adds just a `nai` id.
 
 #### Parameters
@@ -1289,15 +1223,13 @@ Input: `10000`, `"10000000000000000"`, `BigInt("10000000000000000")`
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:747](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L747)
-
 ***
 
 ### hiveToHbd()
 
 > **hiveToHbd**(`amount`, `base`, `quote`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:868](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L868)
 
 Converts given amount of HIVE asset to HBD (nai form)
 
@@ -1331,15 +1263,13 @@ HBD in nai form
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:868](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L868)
-
 ***
 
 ### hpToVests()
 
 > **hpToVests**(`hive`, `totalVestingFundHive`, `totalVestingShares`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:848](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L848)
 
 Converts HP to VESTS in nai form
 
@@ -1373,20 +1303,18 @@ VESTS in nai form
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:848](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L848)
-
 ***
 
 ### isValidAccountName()
 
 > **isValidAccountName**(`name`): `boolean`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:618](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L618)
+
 Check if given account name is valid, which means it follows given rules:
 - Names must comply with RFC 1035 grammar
 - All letters must be lowercase
-- Length is between (inclusive) HIVE_MIN_ACCOUNT_NAME_LENGTH and HIVE_MAX_ACCOUNT_NAME_LENGTH. See: [config](./IWaxBaseInterface#config)
+- Length is between (inclusive) HIVE_MIN_ACCOUNT_NAME_LENGTH and HIVE_MAX_ACCOUNT_NAME_LENGTH. See: [config](./#config)
 
 #### Parameters
 
@@ -1402,15 +1330,13 @@ account name to be checked
 
 true if account name is valid, false otherwise
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:618](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L618)
-
 ***
 
 ### operationBinaryViewMetadata()
 
-> **operationBinaryViewMetadata**(`operation`, `isHf26Serialization`?): [`IBinaryViewOutputData`](./IBinaryViewOutputData)
+> **operationBinaryViewMetadata**(`operation`, `isHf26Serialization?`): [`IBinaryViewOutputData`](./IBinaryViewOutputData)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:640](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L640)
 
 Retrieves given operation binary view packed "AST" data (in same form as in the block_log)
 
@@ -1418,9 +1344,9 @@ Retrieves given operation binary view packed "AST" data (in same form as in the 
 
 ##### operation
 
-The operation object which could be either a protobuf operation or operation returned from the Hive Nodes API
+[`operation`](./operation) \| [`ApiOperation`](./ApiOperation)
 
-[`operation`](./operation) | [`ApiOperation`](./ApiOperation)
+The operation object which could be either a protobuf operation or operation returned from the Hive Nodes API
 
 ##### isHf26Serialization?
 
@@ -1438,15 +1364,13 @@ binary view metadata
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:640](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L640)
-
 ***
 
 ### operationGetImpactedAccounts()
 
 > **operationGetImpactedAccounts**(`operation`): `Set`\<`string`\>
+
+Defined in: [wasm/lib/detailed/interfaces.ts:628](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L628)
 
 Retrieves the set of account names (not authorities!) that are impacted by a given operation.
 
@@ -1454,9 +1378,9 @@ Retrieves the set of account names (not authorities!) that are impacted by a giv
 
 ##### operation
 
-The operation object which could be either a protobuf operation or operation returned from the Hive Nodes API
+[`operation`](./operation) \| [`ApiOperation`](./ApiOperation)
 
-[`operation`](./operation) | [`ApiOperation`](./ApiOperation)
+The operation object which could be either a protobuf operation or operation returned from the Hive Nodes API
 
 #### Returns
 
@@ -1468,15 +1392,13 @@ A set containing the account names that are impacted by the given operation.
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:628](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L628)
-
 ***
 
 ### suggestBrainKey()
 
 > **suggestBrainKey**(): [`IBrainKeyData`](./IBrainKeyData)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:893](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L893)
 
 Suggests a safe brain key to use for creating your account.
 Returns a brain key and the corresponding private key and public key.
@@ -1494,20 +1416,18 @@ Brain key data
 
 on any Wax API-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:893](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L893)
-
 ***
 
 ### ~~vests()~~
 
 > **vests**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:828](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L828)
+
 Retrieves VESTS in nai form with given amount
 
 Note: This function only accepts integer values.
-If you want to pass fractional number values, use [vestsCoins](./IWaxBaseInterface#vestscoins) instead.
+If you want to pass fractional number values, use [vestsCoins](./#vestscoins) instead.
 This function copies the input value to the output `amount` property without any conversion - adds just a `nai` id.
 
 #### Parameters
@@ -1532,15 +1452,11 @@ Input: `10000`, `"10000000000000000"`, `BigInt("10000000000000000")`
 
 #### Deprecated
 
-Use [vestsSatoshis](./IWaxBaseInterface#vestssatoshis) or [vestsCoins](./IWaxBaseInterface#vestscoins) instead
+Use [vestsSatoshis](./#vestssatoshis) or [vestsCoins](./#vestscoins) instead
 
 #### Throws
 
 on any Wax WASM-related error
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:828](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L828)
 
 ***
 
@@ -1548,11 +1464,13 @@ on any Wax WASM-related error
 
 > **vestsCoins**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:732](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L732)
+
 Retrieves VESTS in nai form with given amount
 
 Note: This function works with precision and only accepts JS Double-precision floating-point format (IEEE 754),
 which does not support numbers greater than 2^53 - 1 or less than -(2^53 - 1).
-If you want to pass large number values, use [vestsSatoshis](./IWaxBaseInterface#vestssatoshis) instead.
+If you want to pass large number values, use [vestsSatoshis](./#vestssatoshis) instead.
 
 #### Parameters
 
@@ -1578,20 +1496,18 @@ Inputs: `1000`, `1000.2`, `1000.300`, `1000.000005`
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:732](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L732)
-
 ***
 
 ### vestsSatoshis()
 
 > **vestsSatoshis**(`amount`): [`NaiAsset`](./NaiAsset)
 
+Defined in: [wasm/lib/detailed/interfaces.ts:777](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L777)
+
 Retrieves VESTS in nai form with given amount
 
 Note: This function only accepts integer values.
-If you want to pass fractional number values, use [vestsCoins](./IWaxBaseInterface#vestscoins) instead.
+If you want to pass fractional number values, use [vestsCoins](./#vestscoins) instead.
 This function copies the input value to the output `amount` property without any conversion - adds just a `nai` id.
 
 #### Parameters
@@ -1618,15 +1534,13 @@ Input: `10000`, `"10000000000000000"`, `BigInt("10000000000000000")`
 
 on any Wax WASM-related error
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:777](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L777)
-
 ***
 
 ### vestsToHp()
 
 > **vestsToHp**(`vests`, `totalVestingFundHive`, `totalVestingShares`): [`NaiAsset`](./NaiAsset)
+
+Defined in: [wasm/lib/detailed/interfaces.ts:838](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L838)
 
 Converts VESTS to HP in nai form
 
@@ -1659,7 +1573,3 @@ HP in nai form
 #### Throws
 
 on any Wax WASM-related error
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:838](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L838)

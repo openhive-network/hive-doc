@@ -2,17 +2,21 @@
 
 # Interface: DeepReadonlyArray\<T\>
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L15)
+
 ## Extends
 
 - `ReadonlyArray`\<[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>\>
 
 ## Type Parameters
 
-• **T**
+### T
+
+`T`
 
 ## Indexable
 
- \[`n`: `number`\]: [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> \[`n`: `number`\]: [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
 
 ## Properties
 
@@ -20,129 +24,127 @@
 
 > `readonly` **\[unscopables\]**: `object`
 
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:105
+
 Is an object whose properties have the value 'true'
 when they will be absent when used in a 'with' statement.
 
 #### Index Signature
 
- \[`key`: `number`\]: `undefined` \| `boolean`
+\[`key`: `number`\]: `boolean` \| `undefined`
+
+#### \[iterator\]?
+
+> `optional` **\[iterator\]?**: `boolean`
 
 #### \[unscopables\]?
 
-> `readonly` `optional` **\[unscopables\]**: `boolean`
+> `readonly` `optional` **\[unscopables\]?**: `boolean`
 
 Is an object whose properties have the value 'true'
 when they will be absent when used in a 'with' statement.
 
-#### length?
-
-> `readonly` `optional` **length**: `boolean`
-
-Gets the length of the array. This is a number one higher than the highest element defined in an array.
-
-#### \[iterator\]?
-
-> `optional` **\[iterator\]**
-
 #### at?
 
-> `optional` **at**
+> `optional` **at?**: `boolean`
 
 #### concat?
 
-> `optional` **concat**
+> `optional` **concat?**: `boolean`
 
 #### entries?
 
-> `optional` **entries**
+> `optional` **entries?**: `boolean`
 
 #### every?
 
-> `optional` **every**
+> `optional` **every?**: `boolean`
 
 #### filter?
 
-> `optional` **filter**
+> `optional` **filter?**: `boolean`
 
 #### find?
 
-> `optional` **find**
+> `optional` **find?**: `boolean`
 
 #### findIndex?
 
-> `optional` **findIndex**
+> `optional` **findIndex?**: `boolean`
 
 #### flat?
 
-> `optional` **flat**
+> `optional` **flat?**: `boolean`
 
 #### flatMap?
 
-> `optional` **flatMap**
+> `optional` **flatMap?**: `boolean`
 
 #### forEach?
 
-> `optional` **forEach**
+> `optional` **forEach?**: `boolean`
 
 #### includes?
 
-> `optional` **includes**
+> `optional` **includes?**: `boolean`
 
 #### indexOf?
 
-> `optional` **indexOf**
+> `optional` **indexOf?**: `boolean`
 
 #### join?
 
-> `optional` **join**
+> `optional` **join?**: `boolean`
 
 #### keys?
 
-> `optional` **keys**
+> `optional` **keys?**: `boolean`
 
 #### lastIndexOf?
 
-> `optional` **lastIndexOf**
+> `optional` **lastIndexOf?**: `boolean`
+
+#### length?
+
+> `readonly` `optional` **length?**: `boolean`
+
+Gets the length of the array. This is a number one higher than the highest element defined in an array.
 
 #### map?
 
-> `optional` **map**
+> `optional` **map?**: `boolean`
 
 #### reduce?
 
-> `optional` **reduce**
+> `optional` **reduce?**: `boolean`
 
 #### reduceRight?
 
-> `optional` **reduceRight**
+> `optional` **reduceRight?**: `boolean`
 
 #### slice?
 
-> `optional` **slice**
+> `optional` **slice?**: `boolean`
 
 #### some?
 
-> `optional` **some**
+> `optional` **some?**: `boolean`
 
 #### toLocaleString?
 
-> `optional` **toLocaleString**
+> `optional` **toLocaleString?**: `boolean`
 
 #### toString?
 
-> `optional` **toString**
+> `optional` **toString?**: `boolean`
 
 #### values?
 
-> `optional` **values**
+> `optional` **values?**: `boolean`
 
 #### Inherited from
 
 `ReadonlyArray.[unscopables]`
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:107
 
 ***
 
@@ -150,21 +152,21 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.sym
 
 > `readonly` **length**: `number`
 
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1193
+
 Gets the length of the array. This is a number one higher than the highest element defined in an array.
 
 #### Inherited from
 
 `ReadonlyArray.length`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1192
-
 ## Methods
 
 ### \[iterator\]()
 
 > **\[iterator\]**(): `ArrayIterator`\<[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>\>
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:112
 
 Iterator of values in the array.
 
@@ -176,15 +178,13 @@ Iterator of values in the array.
 
 `ReadonlyArray.[iterator]`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:114
-
 ***
 
 ### at()
 
-> **at**(`index`): `undefined` \| [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> **at**(`index`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\> \| `undefined`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2022.array.d.ts:30
 
 Returns the item located at the specified index.
 
@@ -198,15 +198,11 @@ The zero-based index of the desired code unit. A negative index will count back 
 
 #### Returns
 
-`undefined` \| [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\> \| `undefined`
 
 #### Inherited from
 
 `ReadonlyArray.at`
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.array.d.ts:32
 
 ***
 
@@ -215,6 +211,8 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2022.arr
 #### Call Signature
 
 > **concat**(...`items`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1206
 
 Combines two or more arrays.
 
@@ -234,13 +232,11 @@ Additional items to add to the end of array1.
 
 `ReadonlyArray.concat`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1205
-
 #### Call Signature
 
 > **concat**(...`items`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1211
 
 Combines two or more arrays.
 
@@ -260,29 +256,23 @@ Additional items to add to the end of array1.
 
 `ReadonlyArray.concat`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1210
-
 ***
 
 ### entries()
 
-> **entries**(): `ArrayIterator`\<[`number`, [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>]\>
+> **entries**(): `ArrayIterator`\<\[`number`, [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>\]\>
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:117
 
 Returns an iterable of key, value pairs for every entry in the array
 
 #### Returns
 
-`ArrayIterator`\<[`number`, [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>]\>
+`ArrayIterator`\<\[`number`, [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>\]\>
 
 #### Inherited from
 
 `ReadonlyArray.entries`
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:119
 
 ***
 
@@ -290,13 +280,17 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.ite
 
 #### Call Signature
 
-> **every**\<`S`\>(`predicate`, `thisArg`?): `this is readonly S[]`
+> **every**\<`S`\>(`predicate`, `thisArg?`): `this is readonly S[]`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1243
 
 Determines whether all the members of an array satisfy the specified test.
 
 ##### Type Parameters
 
-• **S**
+###### S
+
+`S`
 
 ##### Parameters
 
@@ -323,13 +317,11 @@ If thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.every`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1242
-
 #### Call Signature
 
-> **every**(`predicate`, `thisArg`?): `boolean`
+> **every**(`predicate`, `thisArg?`): `boolean`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1252
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -358,23 +350,23 @@ If thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.every`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1251
-
 ***
 
 ### filter()
 
 #### Call Signature
 
-> **filter**\<`S`\>(`predicate`, `thisArg`?): `S`[]
+> **filter**\<`S`\>(`predicate`, `thisArg?`): `S`[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1279
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
 ##### Type Parameters
 
-• **S**
+###### S
+
+`S`
 
 ##### Parameters
 
@@ -398,13 +390,11 @@ An object to which the this keyword can refer in the predicate function. If this
 
 `ReadonlyArray.filter`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1278
-
 #### Call Signature
 
-> **filter**(`predicate`, `thisArg`?): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>[]
+> **filter**(`predicate`, `thisArg?`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1285
 
 Returns the elements of an array that meet the condition specified in a callback function.
 
@@ -430,24 +420,24 @@ An object to which the this keyword can refer in the predicate function. If this
 
 `ReadonlyArray.filter`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1284
-
 ***
 
 ### find()
 
 #### Call Signature
 
-> **find**\<`S`\>(`predicate`, `thisArg`?): `undefined` \| `S`
+> **find**\<`S`\>(`predicate`, `thisArg?`): `S` \| `undefined`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:350
 
 Returns the value of the first element in the array where predicate is true, and undefined
 otherwise.
 
 ##### Type Parameters
 
-• **S**
+###### S
+
+`S`
 
 ##### Parameters
 
@@ -468,19 +458,17 @@ predicate. If it is not provided, undefined is used instead.
 
 ##### Returns
 
-`undefined` \| `S`
+`S` \| `undefined`
 
 ##### Inherited from
 
 `ReadonlyArray.find`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:352
-
 #### Call Signature
 
-> **find**(`predicate`, `thisArg`?): `undefined` \| [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> **find**(`predicate`, `thisArg?`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\> \| `undefined`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:351
 
 ##### Parameters
 
@@ -494,21 +482,19 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.cor
 
 ##### Returns
 
-`undefined` \| [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\> \| `undefined`
 
 ##### Inherited from
 
 `ReadonlyArray.find`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:353
-
 ***
 
 ### findIndex()
 
-> **findIndex**(`predicate`, `thisArg`?): `number`
+> **findIndex**(`predicate`, `thisArg?`): `number`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:362
 
 Returns the index of the first element in the array where predicate is true, and -1
 otherwise.
@@ -538,24 +524,26 @@ predicate. If it is not provided, undefined is used instead.
 
 `ReadonlyArray.findIndex`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:364
-
 ***
 
 ### flat()
 
-> **flat**\<`A`, `D`\>(`this`, `depth`?): `FlatArray`\<`A`, `D`\>[]
+> **flat**\<`A`, `D`\>(`this`, `depth?`): `FlatArray`\<`A`, `D`\>[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2019.array.d.ts:45
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the
 specified depth.
 
 #### Type Parameters
 
-• **A**
+##### A
 
-• **D** *extends* `number` = `1`
+`A`
+
+##### D
+
+`D` *extends* `number` = `1`
 
 #### Parameters
 
@@ -577,15 +565,13 @@ The maximum recursion depth
 
 `ReadonlyArray.flat`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2019.array.d.ts:47
-
 ***
 
 ### flatMap()
 
-> **flatMap**\<`U`, `This`\>(`callback`, `thisArg`?): `U`[]
+> **flatMap**\<`U`, `This`\>(`callback`, `thisArg?`): `U`[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2019.array.d.ts:34
 
 Calls a defined callback function on each element of an array. Then, flattens the result into
 a new array.
@@ -593,9 +579,13 @@ This is identical to a map followed by flat with depth 1.
 
 #### Type Parameters
 
-• **U**
+##### U
 
-• **This** = `undefined`
+`U`
+
+##### This
+
+`This` = `undefined`
 
 #### Parameters
 
@@ -621,15 +611,13 @@ thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.flatMap`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2019.array.d.ts:36
-
 ***
 
 ### forEach()
 
-> **forEach**(`callbackfn`, `thisArg`?): `void`
+> **forEach**(`callbackfn`, `thisArg?`): `void`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1267
 
 Performs the specified action for each element in an array.
 
@@ -655,15 +643,13 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 `ReadonlyArray.forEach`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1266
-
 ***
 
 ### includes()
 
-> **includes**(`searchElement`, `fromIndex`?): `boolean`
+> **includes**(`searchElement`, `fromIndex?`): `boolean`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2016.array.include.d.ts:32
 
 Determines whether an array includes a certain element, returning true or false as appropriate.
 
@@ -671,7 +657,7 @@ Determines whether an array includes a certain element, returning true or false 
 
 ##### searchElement
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 The element to search for.
 
@@ -689,15 +675,13 @@ The position in this array at which to begin searching for searchElement.
 
 `ReadonlyArray.includes`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2016.array.include.d.ts:34
-
 ***
 
 ### indexOf()
 
-> **indexOf**(`searchElement`, `fromIndex`?): `number`
+> **indexOf**(`searchElement`, `fromIndex?`): `number`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1228
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -705,7 +689,7 @@ Returns the index of the first occurrence of a value in an array.
 
 ##### searchElement
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 The value to locate in the array.
 
@@ -723,15 +707,13 @@ The array index at which to begin the search. If fromIndex is omitted, the searc
 
 `ReadonlyArray.indexOf`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1227
-
 ***
 
 ### join()
 
-> **join**(`separator`?): `string`
+> **join**(`separator?`): `string`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1216
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -751,15 +733,13 @@ A string used to separate one element of an array from the next in the resulting
 
 `ReadonlyArray.join`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1215
-
 ***
 
 ### keys()
 
 > **keys**(): `ArrayIterator`\<`number`\>
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:122
 
 Returns an iterable of keys in the array
 
@@ -771,15 +751,13 @@ Returns an iterable of keys in the array
 
 `ReadonlyArray.keys`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:124
-
 ***
 
 ### lastIndexOf()
 
-> **lastIndexOf**(`searchElement`, `fromIndex`?): `number`
+> **lastIndexOf**(`searchElement`, `fromIndex?`): `number`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1234
 
 Returns the index of the last occurrence of a specified value in an array.
 
@@ -787,7 +765,7 @@ Returns the index of the last occurrence of a specified value in an array.
 
 ##### searchElement
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 The value to locate in the array.
 
@@ -805,21 +783,21 @@ The array index at which to begin the search. If fromIndex is omitted, the searc
 
 `ReadonlyArray.lastIndexOf`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1233
-
 ***
 
 ### map()
 
-> **map**\<`U`\>(`callbackfn`, `thisArg`?): `U`[]
+> **map**\<`U`\>(`callbackfn`, `thisArg?`): `U`[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1273
 
 Calls a defined callback function on each element of an array, and returns an array that contains the results.
 
 #### Type Parameters
 
-• **U**
+##### U
+
+`U`
 
 #### Parameters
 
@@ -843,17 +821,15 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 `ReadonlyArray.map`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1272
-
 ***
 
 ### reduce()
 
 #### Call Signature
 
-> **reduce**(`callbackfn`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> **reduce**(`callbackfn`): [`DeepReadonly`](../type-aliases/DeepReadonly)
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1291
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -861,57 +837,55 @@ Calls the specified callback function for all the elements in an array. The retu
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)
 
 A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.
 
 ##### Returns
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ##### Inherited from
 
 `ReadonlyArray.reduce`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1290
-
 #### Call Signature
 
-> **reduce**(`callbackfn`, `initialValue`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> **reduce**(`callbackfn`, `initialValue`): [`DeepReadonly`](../type-aliases/DeepReadonly)
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1292
 
 ##### Parameters
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ###### initialValue
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ##### Returns
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ##### Inherited from
 
 `ReadonlyArray.reduce`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1291
-
 #### Call Signature
 
 > **reduce**\<`U`\>(`callbackfn`, `initialValue`): `U`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1298
 
 Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
 ##### Type Parameters
 
-• **U**
+###### U
+
+`U`
 
 ##### Parameters
 
@@ -934,10 +908,6 @@ If initialValue is specified, it is used as the initial value to start the accum
 ##### Inherited from
 
 `ReadonlyArray.reduce`
-
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1297
 
 ***
 
@@ -945,7 +915,9 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 #### Call Signature
 
-> **reduceRight**(`callbackfn`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> **reduceRight**(`callbackfn`): [`DeepReadonly`](../type-aliases/DeepReadonly)
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1304
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
@@ -953,57 +925,55 @@ Calls the specified callback function for all the elements in an array, in desce
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)
 
 A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.
 
 ##### Returns
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ##### Inherited from
 
 `ReadonlyArray.reduceRight`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1303
-
 #### Call Signature
 
-> **reduceRight**(`callbackfn`, `initialValue`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+> **reduceRight**(`callbackfn`, `initialValue`): [`DeepReadonly`](../type-aliases/DeepReadonly)
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1305
 
 ##### Parameters
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ###### initialValue
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ##### Returns
 
-[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>
+[`DeepReadonly`](../type-aliases/DeepReadonly)
 
 ##### Inherited from
 
 `ReadonlyArray.reduceRight`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1304
-
 #### Call Signature
 
 > **reduceRight**\<`U`\>(`callbackfn`, `initialValue`): `U`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1311
 
 Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 
 ##### Type Parameters
 
-• **U**
+###### U
+
+`U`
 
 ##### Parameters
 
@@ -1027,15 +997,13 @@ If initialValue is specified, it is used as the initial value to start the accum
 
 `ReadonlyArray.reduceRight`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1310
-
 ***
 
 ### slice()
 
-> **slice**(`start`?, `end`?): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>[]
+> **slice**(`start?`, `end?`): [`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>[]
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1222
 
 Returns a section of an array.
 
@@ -1061,15 +1029,13 @@ The end of the specified portion of the array. This is exclusive of the element 
 
 `ReadonlyArray.slice`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1221
-
 ***
 
 ### some()
 
-> **some**(`predicate`, `thisArg`?): `boolean`
+> **some**(`predicate`, `thisArg?`): `boolean`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1261
 
 Determines whether the specified callback function returns true for any element of an array.
 
@@ -1098,10 +1064,6 @@ If thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.some`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1260
-
 ***
 
 ### toLocaleString()
@@ -1109,6 +1071,8 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 #### Call Signature
 
 > **toLocaleString**(): `string`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1201
 
 Returns a string representation of an array. The elements are converted to string using their toLocaleString methods.
 
@@ -1120,19 +1084,17 @@ Returns a string representation of an array. The elements are converted to strin
 
 `ReadonlyArray.toLocaleString`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1200
-
 #### Call Signature
 
-> **toLocaleString**(`locales`, `options`?): `string`
+> **toLocaleString**(`locales`, `options?`): `string`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:364
 
 ##### Parameters
 
 ###### locales
 
-`string` | `string`[]
+`string` \| `string`[]
 
 ###### options?
 
@@ -1146,15 +1108,13 @@ node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1
 
 `ReadonlyArray.toLocaleString`
 
-##### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.core.d.ts:366
-
 ***
 
 ### toString()
 
 > **toString**(): `string`
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es5.d.ts:1197
 
 Returns a string representation of an array.
 
@@ -1166,15 +1126,13 @@ Returns a string representation of an array.
 
 `ReadonlyArray.toString`
 
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es5.d.ts:1196
-
 ***
 
 ### values()
 
 > **values**(): `ArrayIterator`\<[`DeepReadonly`](../type-aliases/DeepReadonly)\<`T`\>\>
+
+Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:127
 
 Returns an iterable of values in the array
 
@@ -1185,7 +1143,3 @@ Returns an iterable of values in the array
 #### Inherited from
 
 `ReadonlyArray.values`
-
-#### Defined in
-
-node\_modules/.pnpm/typescript@5.7.3/node\_modules/typescript/lib/lib.es2015.iterable.d.ts:129

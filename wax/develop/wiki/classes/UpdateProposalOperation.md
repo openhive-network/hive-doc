@@ -2,15 +2,19 @@
 
 # Class: UpdateProposalOperation
 
+Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L38)
+
 ## Extends
 
 - [`OperationBase`](./OperationBase)
 
 ## Constructors
 
-### new UpdateProposalOperation()
+### Constructor
 
-> **new UpdateProposalOperation**(`props`): [`UpdateProposalOperation`](./UpdateProposalOperation)
+> **new UpdateProposalOperation**(`props`): `UpdateProposalOperation`
+
+Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L41)
 
 #### Parameters
 
@@ -20,21 +24,19 @@
 
 #### Returns
 
-[`UpdateProposalOperation`](./UpdateProposalOperation)
+`UpdateProposalOperation`
 
 #### Overrides
 
-[`OperationBase`](./OperationBase).[`constructor`](./OperationBase#constructors)
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L41)
+[`OperationBase`](./OperationBase).[`constructor`](./OperationBase#constructor)
 
 ## Methods
 
 ### finalize()
 
-> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L78)
 
 **`Internal`**
 
@@ -46,12 +48,8 @@
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Overrides
 
 [`OperationBase`](./OperationBase).[`finalize`](./OperationBase#finalize)
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/update\_proposal.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L78)

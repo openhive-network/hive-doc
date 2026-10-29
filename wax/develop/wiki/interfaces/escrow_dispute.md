@@ -2,6 +2,8 @@
 
 # Interface: escrow\_dispute
 
+Defined in: wasm/lib/proto/escrow\_dispute.ts:11
+
 The operation  escrow_dispute_operation is used to raise the dispute. It may be used by { from } or { to } accounts.
 If there is a dispute, only {agent} may release the funds.
 
@@ -13,13 +15,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **agent**: `string`
 
+Defined in: wasm/lib/proto/escrow\_dispute.ts:17
+
 #### Param
 
+**agent**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_dispute.ts:17
 
 ***
 
@@ -27,13 +29,13 @@ wasm/lib/proto/escrow\_dispute.ts:17
 
 > **escrow\_id**: `number`
 
+Defined in: wasm/lib/proto/escrow\_dispute.ts:21
+
 #### Param
 
+**escrow\_id**
+
 Escrow identifier.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_dispute.ts:21
 
 ***
 
@@ -41,13 +43,13 @@ wasm/lib/proto/escrow\_dispute.ts:21
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/escrow\_dispute.ts:13
+
 #### Param
 
+**from\_account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_dispute.ts:13
 
 ***
 
@@ -55,13 +57,13 @@ wasm/lib/proto/escrow\_dispute.ts:13
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/escrow\_dispute.ts:15
+
 #### Param
 
+**to\_account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_dispute.ts:15
 
 ***
 
@@ -69,10 +71,10 @@ wasm/lib/proto/escrow\_dispute.ts:15
 
 > **who**: `string`
 
+Defined in: wasm/lib/proto/escrow\_dispute.ts:19
+
 #### Param
 
+**who**
+
 Account name. Either {to} or {agent}.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_dispute.ts:19

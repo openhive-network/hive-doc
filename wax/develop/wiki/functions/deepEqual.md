@@ -4,6 +4,8 @@
 
 > **deepEqual**(`obj1`, `obj2`): `boolean`
 
+Defined in: [wasm/lib/detailed/util/equal.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/equal.ts#L4)
+
 ## Parameters
 
 ### obj1
@@ -17,7 +19,3 @@
 ## Returns
 
 `boolean`
-
-## Defined in
-
-[wasm/lib/detailed/util/equal.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/equal.ts#L4)

@@ -2,6 +2,8 @@
 
 # Interface: IWaxFormatter
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:119](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L119)
+
 Classes implementing this interface denote that they are ready to handle tagged templates
 
 ## Extended by
@@ -12,13 +14,11 @@ Classes implementing this interface denote that they are ready to handle tagged 
 
 ### options
 
-> `readonly` **options**: [`DeepReadonlyObject`](../type-aliases/DeepReadonlyObject)\<[`IWaxFormatterOptions`](./IWaxFormatterOptions)\>
+> `readonly` **options**: [`DeepReadonly`](../type-aliases/DeepReadonly)\<[`IWaxFormatterOptions`](./IWaxFormatterOptions)\>
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L152)
 
 Options for the formatter
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L152)
 
 ## Methods
 
@@ -26,13 +26,19 @@ Options for the formatter
 
 > **format**\<`I`, `R`\>(`data`): `R`
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L147)
+
 Formats given data based on formatter options
 
 #### Type Parameters
 
-• **I** = `any`
+##### I
 
-• **R** = `any`
+`I` = `any`
+
+##### R
+
+`R` = `any`
 
 #### Parameters
 
@@ -50,19 +56,19 @@ formatted data
 
 #### Example
 
+**Formatting data**
+
 ```typescript
 formatter.format(naiObject);
 ```
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:147](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L147)
 
 ***
 
 ### waxify()
 
 > **waxify**(`strings`, ...`args`): `string`
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L133)
 
 Formats given text based on arguments structure
 
@@ -88,10 +94,8 @@ formatted data
 
 #### Example
 
+**Formatting data**
+
 ```typescript
 formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 ```
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L133)

@@ -4,13 +4,19 @@
 
 > **vesting\_shares\_split**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/vesting\_shares\_split.ts:12
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`vesting_shares_split`](../interfaces/vesting_shares_split)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`vesting_shares_split`](../interfaces/vesting_shares_split)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`vesting_shares_split`](../interfaces/vesting_shares_split)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/vesting\_shares\_split.ts:12

@@ -2,6 +2,8 @@
 
 # Interface: curation\_reward
 
+Defined in: wasm/lib/proto/curation\_reward.ts:12
+
 Related to comment_operation and comment_vote_operation.
 Generated during block processing after cashout time passes and comment is eligible for rewards (nonzero reward).
 Note: the reward is a fragment of curators' portion of comment reward depending on share of particular curator in overall
@@ -13,13 +15,13 @@ curation power for the comment. Only generated when nonzero.
 
 > **author**: `string`
 
+Defined in: wasm/lib/proto/curation\_reward.ts:20
+
 #### Param
 
+**author**
+
 author of curated comment
-
-#### Defined in
-
-wasm/lib/proto/curation\_reward.ts:20
 
 ***
 
@@ -27,13 +29,13 @@ wasm/lib/proto/curation\_reward.ts:20
 
 > **curator**: `string`
 
+Defined in: wasm/lib/proto/curation\_reward.ts:14
+
 #### Param
 
+**curator**
+
 user that curated the comment (receiver of reward)
-
-#### Defined in
-
-wasm/lib/proto/curation\_reward.ts:14
 
 ***
 
@@ -41,13 +43,13 @@ wasm/lib/proto/curation\_reward.ts:14
 
 > **payout\_must\_be\_claimed**: `boolean`
 
+Defined in: wasm/lib/proto/curation\_reward.ts:24
+
 #### Param
 
+**payout\_must\_be\_claimed**
+
 true if payouts require use of claim_reward_balance_operation
-
-#### Defined in
-
-wasm/lib/proto/curation\_reward.ts:24
 
 ***
 
@@ -55,24 +57,24 @@ wasm/lib/proto/curation\_reward.ts:24
 
 > **permlink**: `string`
 
+Defined in: wasm/lib/proto/curation\_reward.ts:22
+
 #### Param
 
+**permlink**
+
 permlink of curated comment
-
-#### Defined in
-
-wasm/lib/proto/curation\_reward.ts:22
 
 ***
 
 ### reward
 
-> **reward**: `undefined` \| [`asset`](./asset)
+> **reward**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/curation\_reward.ts:16
 
 #### Param
 
+**reward**
+
 (VESTS) curation reward
-
-#### Defined in
-
-wasm/lib/proto/curation\_reward.ts:16

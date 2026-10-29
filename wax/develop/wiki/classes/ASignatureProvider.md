@@ -1,6 +1,8 @@
 [@hiveio/wax](../globals) / ASignatureProvider
 
-# Class: `abstract` ASignatureProvider
+# Abstract Class: ASignatureProvider
+
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L7)
 
 Helper class encapsulating transaction signing flow. Derived class must implement signature generation logic.
 
@@ -14,19 +16,21 @@ Helper class encapsulating transaction signing flow. Derived class must implemen
 
 ## Constructors
 
-### new ASignatureProvider()
+### Constructor
 
-> **new ASignatureProvider**(): [`ASignatureProvider`](./ASignatureProvider)
+> **new ASignatureProvider**(): `ASignatureProvider`
 
 #### Returns
 
-[`ASignatureProvider`](./ASignatureProvider)
+`ASignatureProvider`
 
 ## Methods
 
 ### generateSignatures()
 
 > `abstract` `protected` **generateSignatures**(`transaction`): `Promise`\<`string`[]\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
 
 #### Parameters
 
@@ -38,15 +42,13 @@ Helper class encapsulating transaction signing flow. Derived class must implemen
 
 `Promise`\<`string`[]\>
 
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
-
 ***
 
 ### signTransaction()
 
 > **signTransaction**(`transaction`): `Promise`\<`void`\>
+
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L8)
 
 Signs a transaction by signing a digest of the transaction
 
@@ -67,7 +69,3 @@ resolves when the wallet finished signing (signature(s) appended internally)
 #### Implementation of
 
 [`IOnlineSignatureProvider`](../interfaces/IOnlineSignatureProvider).[`signTransaction`](../interfaces/IOnlineSignatureProvider#signtransaction)
-
-#### Defined in
-
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L8)

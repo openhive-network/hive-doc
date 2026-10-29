@@ -2,11 +2,15 @@
 
 # Class: CxxExceptionData
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L29)
+
 ## Constructors
 
-### new CxxExceptionData()
+### Constructor
 
-> **new CxxExceptionData**(`assertHash`, `code`, `message`, `name`, `stack`, `extension`): [`CxxExceptionData`](./CxxExceptionData)
+> **new CxxExceptionData**(`assertHash`, `code`, `message`, `name`, `stack`, `extension`): `CxxExceptionData`
+
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L30)
 
 #### Parameters
 
@@ -36,11 +40,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 #### Returns
 
-[`CxxExceptionData`](./CxxExceptionData)
-
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L30)
+`CxxExceptionData`
 
 ## Properties
 
@@ -48,9 +48,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > `readonly` **assertHash**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L31)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L31)
 
 ***
 
@@ -58,9 +56,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > `readonly` **code**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L32)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L32)
 
 ***
 
@@ -68,9 +64,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > `readonly` **extension**: [`IExtensionData`](../interfaces/IExtensionData)
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L36)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L36)
 
 ***
 
@@ -78,9 +72,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > `readonly` **message**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L33)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L33)
 
 ***
 
@@ -88,9 +80,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > `readonly` **name**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L34)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L34)
 
 ***
 
@@ -98,9 +88,7 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > `readonly` **stack**: readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L35)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L35)
 
 ## Accessors
 
@@ -110,15 +98,13 @@ readonly [`IStackFrame`](../interfaces/IStackFrame)[]
 
 > **get** **category**(): `string`
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L40)
+
 Origin of the assertion: `"protocol"`, `"chain"`, or `"unknown"`.
 
 ##### Returns
 
 `string`
-
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L40)
 
 ***
 
@@ -128,15 +114,13 @@ Origin of the assertion: `"protocol"`, `"chain"`, or `"unknown"`.
 
 > **get** **extras**(): `Record`\<`string`, `any`\>
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L68)
+
 Additional fields from the top-level C++ stack frame.
 
 ##### Returns
 
 `Record`\<`string`, `any`\>
-
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L68)
 
 ***
 
@@ -146,15 +130,13 @@ Additional fields from the top-level C++ stack frame.
 
 > **get** **subject**(): `unknown`
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L63)
+
 The value that failed the assertion (e.g. the invalid account name).
 
 ##### Returns
 
 `unknown`
-
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L63)
 
 ***
 
@@ -164,6 +146,8 @@ The value that failed the assertion (e.g. the invalid account name).
 
 > **get** **subjectType**(): `string`
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L54)
+
 Kind of the value that failed validation (e.g. `"account_name"`, `"asset"`, `"balance"`).
 Returns `"none"` when the top frame does not carry a subject, `"any"` when a subject is
 present but no specific subject_type was recorded.
@@ -172,15 +156,13 @@ present but no specific subject_type was recorded.
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L54)
-
 ## Methods
 
 ### formattedMessage()
 
-> **formattedMessage**(`categoryOverride`?): `string`
+> **formattedMessage**(`categoryOverride?`): `string`
+
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L72)
 
 #### Parameters
 
@@ -192,20 +174,14 @@ present but no specific subject_type was recorded.
 
 `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L72)
-
 ***
 
 ### toString()
 
 > **toString**(): `string`
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:90](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L90)
+
 #### Returns
 
 `string`
-
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:90](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L90)

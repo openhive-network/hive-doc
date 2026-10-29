@@ -2,6 +2,8 @@
 
 # Interface: ApiBlock
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L11)
+
 ## Extends
 
 - [`ApiBlockHeader`](./ApiBlockHeader)
@@ -12,9 +14,7 @@
 
 > **block\_id**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L14)
+Defined in: [wasm/lib/detailed/api/types/block.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L14)
 
 ***
 
@@ -22,13 +22,11 @@
 
 > **extensions**: `object`[]
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L8)
+
 #### Inherited from
 
 [`ApiBlockHeader`](./ApiBlockHeader).[`extensions`](./ApiBlockHeader#extensions)
-
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L8)
 
 ***
 
@@ -36,13 +34,11 @@
 
 > **previous**: `string`
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L4)
+
 #### Inherited from
 
 [`ApiBlockHeader`](./ApiBlockHeader).[`previous`](./ApiBlockHeader#previous)
-
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L4)
 
 ***
 
@@ -50,9 +46,7 @@
 
 > **signing\_key**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L15)
+Defined in: [wasm/lib/detailed/api/types/block.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L15)
 
 ***
 
@@ -60,13 +54,11 @@
 
 > **timestamp**: `string`
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L5)
+
 #### Inherited from
 
 [`ApiBlockHeader`](./ApiBlockHeader).[`timestamp`](./ApiBlockHeader#timestamp)
-
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L5)
 
 ***
 
@@ -74,9 +66,7 @@
 
 > **transaction\_ids**: `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L16)
+Defined in: [wasm/lib/detailed/api/types/block.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L16)
 
 ***
 
@@ -84,13 +74,11 @@
 
 > **transaction\_merkle\_root**: `string`
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L7)
+
 #### Inherited from
 
 [`ApiBlockHeader`](./ApiBlockHeader).[`transaction_merkle_root`](./ApiBlockHeader#transaction_merkle_root)
-
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L7)
 
 ***
 
@@ -98,9 +86,7 @@
 
 > **transactions**: [`ApiTransaction`](../type-aliases/ApiTransaction)[]
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L13)
+Defined in: [wasm/lib/detailed/api/types/block.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L13)
 
 ***
 
@@ -108,13 +94,11 @@
 
 > **witness**: `string`
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L6)
+
 #### Inherited from
 
 [`ApiBlockHeader`](./ApiBlockHeader).[`witness`](./ApiBlockHeader#witness)
-
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L6)
 
 ***
 
@@ -122,6 +106,4 @@
 
 > **witness\_signature**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L12)
+Defined in: [wasm/lib/detailed/api/types/block.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L12)

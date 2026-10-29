@@ -2,6 +2,8 @@
 
 # Interface: IEncryptingTransaction\<StopEncryptResult\>
 
+Defined in: [wasm/lib/detailed/interfaces.ts:527](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L527)
+
 Same as [ITransaction](./ITransaction), but marks operations as encrypted using given keys, which will be encrypted upon
 ITransaction.sign.
 
@@ -15,6 +17,8 @@ We are currently supporting:
 - Encryption of `memo` in recurrent_transfer operation
 
 ## Example
+
+**Base encrypting transaction usage**
 
 ```typescript
 const tx = await waxFoundation.createTransaction();
@@ -31,13 +35,17 @@ tx.startEncrypt(myPublicKey).pushOperation({
 
 ## Type Parameters
 
-• **StopEncryptResult** *extends* [`ITransactionBase`](./ITransactionBase)
+### StopEncryptResult
+
+`StopEncryptResult` *extends* [`ITransactionBase`](./ITransactionBase)
 
 ## Methods
 
 ### stopEncrypt()
 
 > **stopEncrypt**(): `StopEncryptResult`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L535)
 
 Stops encryption chain
 
@@ -48,7 +56,3 @@ Note: This call is optional if you are not going to push any other decrypted ope
 `StopEncryptResult`
 
 current transaction instance
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L535)

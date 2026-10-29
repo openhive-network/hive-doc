@@ -2,6 +2,8 @@
 
 # Interface: request\_account\_recovery
 
+Defined in: wasm/lib/proto/request\_account\_recovery.ts:42
+
 In case of the compromised owner authority, a user may recover it.
 There are two conditions that have to be fulfilled to do it:
 1. A user should have an actual recovery account.
@@ -42,13 +44,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account\_to\_recover**: `string`
 
+Defined in: wasm/lib/proto/request\_account\_recovery.ts:49
+
 #### Param
 
+**account\_to\_recover**
+
 The account to be recovered.
-
-#### Defined in
-
-wasm/lib/proto/request\_account\_recovery.ts:49
 
 ***
 
@@ -56,28 +58,28 @@ wasm/lib/proto/request\_account\_recovery.ts:49
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/request\_account\_recovery.ts:58
+
 #### Param
 
+**extensions**
+
 Not currently used.
-
-#### Defined in
-
-wasm/lib/proto/request\_account\_recovery.ts:58
 
 ***
 
 ### new\_owner\_authority
 
-> **new\_owner\_authority**: `undefined` \| [`authority`](./authority)
+> **new\_owner\_authority**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/request\_account\_recovery.ts:54
 
 #### Param
 
+**new\_owner\_authority**
+
 The new owner authority - the public, not private key.
                                          The new authority should be satisfiable.
-
-#### Defined in
-
-wasm/lib/proto/request\_account\_recovery.ts:54
 
 ***
 
@@ -85,11 +87,11 @@ wasm/lib/proto/request\_account\_recovery.ts:54
 
 > **recovery\_account**: `string`
 
+Defined in: wasm/lib/proto/request\_account\_recovery.ts:47
+
 #### Param
+
+**recovery\_account**
 
 The account that may create a request for account recovery.
                                    It is important to keep it actual.
-
-#### Defined in
-
-wasm/lib/proto/request\_account\_recovery.ts:47

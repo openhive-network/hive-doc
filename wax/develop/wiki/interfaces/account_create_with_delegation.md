@@ -2,6 +2,8 @@
 
 # Interface: account\_create\_with\_delegation
 
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:13
+
 Deprecated.
 
 Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operations/41_account_create_with_delegation.md?ref_type=heads
@@ -10,11 +12,9 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### active
 
-> **active**: `undefined` \| [`authority`](./authority)
+> **active**: [`authority`](./authority) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:19
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:19
 
 ***
 
@@ -22,19 +22,15 @@ wasm/lib/proto/account\_create\_with\_delegation.ts:19
 
 > **creator**: `string`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:16
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:16
 
 ***
 
 ### delegation
 
-> **delegation**: `undefined` \| [`asset`](./asset)
+> **delegation**: [`asset`](./asset) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:15
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:15
 
 ***
 
@@ -42,19 +38,15 @@ wasm/lib/proto/account\_create\_with\_delegation.ts:15
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:23
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:23
 
 ***
 
 ### fee
 
-> **fee**: `undefined` \| [`asset`](./asset)
+> **fee**: [`asset`](./asset) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:14
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:14
 
 ***
 
@@ -62,9 +54,7 @@ wasm/lib/proto/account\_create\_with\_delegation.ts:14
 
 > **json\_metadata**: `string`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:22
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:22
 
 ***
 
@@ -72,9 +62,7 @@ wasm/lib/proto/account\_create\_with\_delegation.ts:22
 
 > **memo\_key**: `string`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:21
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:21
 
 ***
 
@@ -82,26 +70,20 @@ wasm/lib/proto/account\_create\_with\_delegation.ts:21
 
 > **new\_account\_name**: `string`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:17
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:17
 
 ***
 
 ### owner
 
-> **owner**: `undefined` \| [`authority`](./authority)
+> **owner**: [`authority`](./authority) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:18
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:18
 
 ***
 
 ### posting
 
-> **posting**: `undefined` \| [`authority`](./authority)
+> **posting**: [`authority`](./authority) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/account\_create\_with\_delegation.ts:20
+Defined in: wasm/lib/proto/account\_create\_with\_delegation.ts:20

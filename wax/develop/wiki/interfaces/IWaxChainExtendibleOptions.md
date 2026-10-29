@@ -2,6 +2,8 @@
 
 # Interface: IWaxChainExtendibleOptions
 
+Defined in: [wasm/lib/detailed/interfaces.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L114)
+
 ## Extends
 
 - [`IWaxBaseExtendibleOptions`](./IWaxBaseExtendibleOptions)
@@ -16,6 +18,8 @@
 
 > **apiEndpoint**: `string`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L121)
+
 Endpoint for all of the API requests
 
 #### Default
@@ -24,15 +28,13 @@ Endpoint for all of the API requests
 "https://api.hive.blog/"
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L121)
-
 ***
 
 ### apiTimeout
 
 > **apiTimeout**: `number`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L149)
 
 Timeout for all of the API requests in milliseconds.
 Set to 0 to disable timeout
@@ -43,15 +45,13 @@ Set to 0 to disable timeout
 2_000
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L149)
-
 ***
 
 ### chainId
 
 > **chainId**: `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 Chain id in hex string format
 
@@ -59,15 +59,13 @@ Chain id in hex string format
 
 [`IWaxBaseExtendibleOptions`](./IWaxBaseExtendibleOptions).[`chainId`](./IWaxBaseExtendibleOptions#chainid)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L111)
-
 ***
 
 ### restApiEndpoint
 
 > **restApiEndpoint**: `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L129)
 
 Endpoint for all of the REST API requests
 
@@ -77,15 +75,13 @@ Endpoint for all of the REST API requests
 "https://api.syncad.com"
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L129)
-
 ***
 
 ### waxApiCaller?
 
-> `optional` **waxApiCaller**: `string`
+> `optional` **waxApiCaller?**: `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L140)
 
 X-Wax-Api-Caller header value for all requests (both API and REST API).
 This header is used to identify the application making requests to the server.
@@ -97,7 +93,3 @@ This setting is global for the entire chain configuration and cannot be overridd
 ```ts
 undefined
 ```
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L140)

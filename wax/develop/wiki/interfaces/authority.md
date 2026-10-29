@@ -2,19 +2,19 @@
 
 # Interface: authority
 
+Defined in: wasm/lib/proto/authority.ts:5
+
 ## Properties
 
 ### account\_auths
 
 > **account\_auths**: `object`
 
+Defined in: wasm/lib/proto/authority.ts:7
+
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-wasm/lib/proto/authority.ts:7
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -22,13 +22,11 @@ wasm/lib/proto/authority.ts:7
 
 > **key\_auths**: `object`
 
+Defined in: wasm/lib/proto/authority.ts:8
+
 #### Index Signature
 
- \[`key`: `string`\]: `number`
-
-#### Defined in
-
-wasm/lib/proto/authority.ts:8
+\[`key`: `string`\]: `number`
 
 ***
 
@@ -36,6 +34,4 @@ wasm/lib/proto/authority.ts:8
 
 > **weight\_threshold**: `number`
 
-#### Defined in
-
-wasm/lib/proto/authority.ts:6
+Defined in: wasm/lib/proto/authority.ts:6

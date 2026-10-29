@@ -2,6 +2,8 @@
 
 # Interface: custom
 
+Defined in: wasm/lib/proto/custom.ts:11
+
 There are the following custom operations: custom_operation, custom_json_operation and custom_binary (currently is disabled).
 The operation: custom_operation provides a generic way to add higher level protocols on top of witness consensus operations.
 
@@ -13,11 +15,11 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **data**: `string`
 
+Defined in: wasm/lib/proto/custom.ts:17
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/custom.ts:17
+**data**
 
 ***
 
@@ -25,11 +27,11 @@ wasm/lib/proto/custom.ts:17
 
 > **id**: `number`
 
+Defined in: wasm/lib/proto/custom.ts:15
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/custom.ts:15
+**id**
 
 ***
 
@@ -37,8 +39,8 @@ wasm/lib/proto/custom.ts:15
 
 > **required\_auths**: `string`[]
 
+Defined in: wasm/lib/proto/custom.ts:13
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/custom.ts:13
+**required\_auths**

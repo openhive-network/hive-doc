@@ -2,6 +2,8 @@
 
 # Interface: limit\_order\_create2
 
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:15
+
 This operation creates a limit order and matches it against existing open orders.
 It is similar to limit_order_create except it serializes the price rather than calculating it from other fields.
 It allows to sell Hive and buy HBD or sell HBD and buy Hive.
@@ -13,25 +15,25 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### amount\_to\_sell
 
-> **amount\_to\_sell**: `undefined` \| [`asset`](./asset)
+> **amount\_to\_sell**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:21
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/limit\_order\_create2.ts:21
+**amount\_to\_sell**
 
 ***
 
 ### exchange\_rate
 
-> **exchange\_rate**: `undefined` \| [`price`](./price)
+> **exchange\_rate**: [`price`](./price) \| `undefined`
+
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:31
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/limit\_order\_create2.ts:31
+**exchange\_rate**
 
 ***
 
@@ -39,11 +41,11 @@ wasm/lib/proto/limit\_order\_create2.ts:31
 
 > **expiration**: `string`
 
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:35
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/limit\_order\_create2.ts:35
+**expiration**
 
 ***
 
@@ -51,15 +53,15 @@ wasm/lib/proto/limit\_order\_create2.ts:35
 
 > **fill\_or\_kill**: `boolean`
 
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:29
+
 #### Param
+
+**fill\_or\_kill**
 
 If fill_or_kill = true, then the operation is executed immediately
                              or it fails (the operation is not added to the block).
                              If fill_or_kill = false, then the order is valid till {expiration}.
-
-#### Defined in
-
-wasm/lib/proto/limit\_order\_create2.ts:29
 
 ***
 
@@ -67,13 +69,13 @@ wasm/lib/proto/limit\_order\_create2.ts:29
 
 > **orderid**: `number`
 
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:19
+
 #### Param
 
+**orderid**
+
 an ID assigned by owner, must be unique.
-
-#### Defined in
-
-wasm/lib/proto/limit\_order\_create2.ts:19
 
 ***
 
@@ -81,8 +83,8 @@ wasm/lib/proto/limit\_order\_create2.ts:19
 
 > **owner**: `string`
 
+Defined in: wasm/lib/proto/limit\_order\_create2.ts:17
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/limit\_order\_create2.ts:17
+**owner**

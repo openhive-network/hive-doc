@@ -2,6 +2,8 @@
 
 # Interface: update\_proposal\_votes
 
+Defined in: wasm/lib/proto/update\_proposal\_votes.ts:20
+
 A user may vote for proposals directly using an operation: update_proposal_votes_operation,
 or indirectly using the proxy - operation:  account_witness_proxy_operation.
 A user may vote for proposals submitted by the other users.
@@ -21,14 +23,14 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **approve**: `boolean`
 
+Defined in: wasm/lib/proto/update\_proposal\_votes.ts:29
+
 #### Param
+
+**approve**
 
 To vote for the proposal, the approve = true.
                         To remove the vote, the approve = false.
-
-#### Defined in
-
-wasm/lib/proto/update\_proposal\_votes.ts:29
 
 ***
 
@@ -36,11 +38,11 @@ wasm/lib/proto/update\_proposal\_votes.ts:29
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/update\_proposal\_votes.ts:31
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal\_votes.ts:31
+**extensions**
 
 ***
 
@@ -48,13 +50,13 @@ wasm/lib/proto/update\_proposal\_votes.ts:31
 
 > **proposal\_ids**: `string`[]
 
+Defined in: wasm/lib/proto/update\_proposal\_votes.ts:24
+
 #### Param
 
+**proposal\_ids**
+
 IDs of proposals to vote for/against. Before HF28 nonexisting IDs are ignored from HF28 they trigger an error.
-
-#### Defined in
-
-wasm/lib/proto/update\_proposal\_votes.ts:24
 
 ***
 
@@ -62,10 +64,10 @@ wasm/lib/proto/update\_proposal\_votes.ts:24
 
 > **voter**: `string`
 
+Defined in: wasm/lib/proto/update\_proposal\_votes.ts:22
+
 #### Param
 
+**voter**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/update\_proposal\_votes.ts:22

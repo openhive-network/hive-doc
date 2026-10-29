@@ -2,6 +2,8 @@
 
 # Interface: create\_claimed\_account
 
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:14
+
 The operation create_claimed_account_operation may be used by the user who has the token.
 Pending claimed accounts (see claim_account_operation).
 After executing the operation create_claimed_account_operation, a new account is created.
@@ -12,13 +14,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### active
 
-> **active**: `undefined` \| [`authority`](./authority)
+> **active**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:29
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:29
+**active**
 
 ***
 
@@ -26,13 +28,13 @@ wasm/lib/proto/create\_claimed\_account.ts:29
 
 > **creator**: `string`
 
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:16
+
 #### Param
 
+**creator**
+
 An account who create a new account.
-
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:16
 
 ***
 
@@ -40,13 +42,13 @@ wasm/lib/proto/create\_claimed\_account.ts:16
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:41
+
 #### Param
 
+**extensions**
+
 Not currently used.
-
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:41
 
 ***
 
@@ -54,13 +56,13 @@ wasm/lib/proto/create\_claimed\_account.ts:41
 
 > **json\_metadata**: `string`
 
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:39
+
 #### Param
 
+**json\_metadata**
+
 Json string.
-
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:39
 
 ***
 
@@ -68,11 +70,11 @@ wasm/lib/proto/create\_claimed\_account.ts:39
 
 > **memo\_key**: `string`
 
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:37
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:37
+**memo\_key**
 
 ***
 
@@ -80,37 +82,37 @@ wasm/lib/proto/create\_claimed\_account.ts:37
 
 > **new\_account\_name**: `string`
 
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:23
+
 #### Param
+
+**new\_account\_name**
 
 Account name.
                                    Valid account name may consist of many parts separated by a dot,
                                    total may have up to 16 characters, parts have to start from a letter,
                                    may be followed by numbers, or "-".
 
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:23
-
 ***
 
 ### owner
 
-> **owner**: `undefined` \| [`authority`](./authority)
+> **owner**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:25
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:25
+**owner**
 
 ***
 
 ### posting
 
-> **posting**: `undefined` \| [`authority`](./authority)
+> **posting**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/create\_claimed\_account.ts:33
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/create\_claimed\_account.ts:33
+**posting**

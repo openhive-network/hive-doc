@@ -4,13 +4,19 @@
 
 > **delegate\_vesting\_shares**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/delegate\_vesting\_shares.ts:21
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`delegate_vesting_shares`](../interfaces/delegate_vesting_shares)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`delegate_vesting_shares`](../interfaces/delegate_vesting_shares)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`delegate_vesting_shares`](../interfaces/delegate_vesting_shares)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/delegate\_vesting\_shares.ts:21

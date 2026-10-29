@@ -2,30 +2,6 @@
 
 # Type Alias: TDefaultJsonRpcApi
 
-> **TDefaultJsonRpcApi**: `Readonly`\<`object`\>
+> **TDefaultJsonRpcApi** = `Readonly`\<\{ `account_by_key_api`: [`JsonRpcApiData`](./JsonRpcApiData)\<`"account_by_key_api"`\>; `block_api`: [`JsonRpcApiData`](./JsonRpcApiData)\<`"block_api"`\>; `database_api`: [`JsonRpcApiData`](./JsonRpcApiData)\<`"database_api"`\>; `network_broadcast_api`: [`JsonRpcApiData`](./JsonRpcApiData)\<`"network_broadcast_api"`\>; `rc_api`: [`JsonRpcApiData`](./JsonRpcApiData)\<`"rc_api"`\>; \}\>
 
-## Type declaration
-
-### account\_by\_key\_api
-
-> **account\_by\_key\_api**: [`JsonRpcApiData`](./JsonRpcApiData)\<`"account_by_key_api"`\>
-
-### block\_api
-
-> **block\_api**: [`JsonRpcApiData`](./JsonRpcApiData)\<`"block_api"`\>
-
-### database\_api
-
-> **database\_api**: [`JsonRpcApiData`](./JsonRpcApiData)\<`"database_api"`\>
-
-### network\_broadcast\_api
-
-> **network\_broadcast\_api**: [`JsonRpcApiData`](./JsonRpcApiData)\<`"network_broadcast_api"`\>
-
-### rc\_api
-
-> **rc\_api**: [`JsonRpcApiData`](./JsonRpcApiData)\<`"rc_api"`\>
-
-## Defined in
-
-[wasm/lib/detailed/interfaces.ts:1200](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L1200)
+Defined in: [wasm/lib/detailed/interfaces.ts:1200](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L1200)

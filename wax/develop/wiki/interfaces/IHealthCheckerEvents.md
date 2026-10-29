@@ -2,11 +2,15 @@
 
 # Interface: IHealthCheckerEvents
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L32)
+
 ## Properties
 
-### data()
+### data
 
 > **data**: (`endpoints`) => `void` \| `Promise`\<`void`\>
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L36)
 
 #### Parameters
 
@@ -18,15 +22,13 @@
 
 `void` \| `Promise`\<`void`\>
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L36)
-
 ***
 
-### error()
+### error
 
 > **error**: (`error`) => `void` \| `Promise`\<`void`\>
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L37)
 
 #### Parameters
 
@@ -38,16 +40,14 @@
 
 `void` \| `Promise`\<`void`\>
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L37)
-
 ***
 
-### newbest()
+### newbest
 
 > **newbest**: (`endpoint`) => `void` \| `Promise`\<`void`\>
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L33)
+
 #### Parameters
 
 ##### endpoint
@@ -58,16 +58,14 @@
 
 `void` \| `Promise`\<`void`\>
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L33)
-
 ***
 
-### newdown()
+### newdown
 
 > **newdown**: (`endpoint`) => `void` \| `Promise`\<`void`\>
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L35)
+
 #### Parameters
 
 ##### endpoint
@@ -78,16 +76,14 @@
 
 `void` \| `Promise`\<`void`\>
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L35)
-
 ***
 
-### newup()
+### newup
 
 > **newup**: (`endpoint`) => `void` \| `Promise`\<`void`\>
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L34)
+
 #### Parameters
 
 ##### endpoint
@@ -98,26 +94,20 @@
 
 `void` \| `Promise`\<`void`\>
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L34)
-
 ***
 
-### validationerror()
+### validationerror
 
 > **validationerror**: (`error`) => `void` \| `Promise`\<`void`\>
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L38)
 
 #### Parameters
 
 ##### error
 
-[`WaxHealthCheckerValidatorFailedError`](../classes/WaxHealthCheckerValidatorFailedError)\<`string`\>
+[`WaxHealthCheckerValidatorFailedError`](../classes/WaxHealthCheckerValidatorFailedError)
 
 #### Returns
 
 `void` \| `Promise`\<`void`\>
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L38)

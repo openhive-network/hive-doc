@@ -2,6 +2,8 @@
 
 # Interface: withdraw\_vesting
 
+Defined in: wasm/lib/proto/withdraw\_vesting.ts:20
+
 This operation converts Hive Power (also called Vesting Fund Shares or VESTS) into HIVE.
 At any given point in time an account can be withdrawing from their vesting shares.
 A user may change the number of shares they wish to cash out at any time between 0 and their total vesting stake.
@@ -21,24 +23,24 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/withdraw\_vesting.ts:22
+
 #### Param
 
+**account**
+
 The account the funds are coming from.
-
-#### Defined in
-
-wasm/lib/proto/withdraw\_vesting.ts:22
 
 ***
 
 ### vesting\_shares
 
-> **vesting\_shares**: `undefined` \| [`asset`](./asset)
+> **vesting\_shares**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/withdraw\_vesting.ts:24
 
 #### Param
 
+**vesting\_shares**
+
 Amount of VESTS (HP)
-
-#### Defined in
-
-wasm/lib/proto/withdraw\_vesting.ts:24

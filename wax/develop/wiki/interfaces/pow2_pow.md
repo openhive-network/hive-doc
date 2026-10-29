@@ -2,15 +2,15 @@
 
 # Interface: pow2\_pow
 
+Defined in: wasm/lib/proto/pow2.ts:12
+
 ## Properties
 
 ### input
 
-> **input**: `undefined` \| [`pow2_input`](./pow2_input)
+> **input**: [`pow2_input`](./pow2_input) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:13
+Defined in: wasm/lib/proto/pow2.ts:13
 
 ***
 
@@ -18,6 +18,4 @@ wasm/lib/proto/pow2.ts:13
 
 > **pow\_summary**: `number`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:14
+Defined in: wasm/lib/proto/pow2.ts:14

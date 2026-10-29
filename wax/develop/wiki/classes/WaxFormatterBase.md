@@ -1,12 +1,14 @@
 [@hiveio/wax](../globals) / WaxFormatterBase
 
-# Class: `abstract` WaxFormatterBase
+# Abstract Class: WaxFormatterBase
+
+Defined in: [wasm/lib/detailed/formatters/base.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L16)
 
 Classes implementing this interface denote that they are ready to handle tagged templates
 
 ## Extended by
 
-- [`WaxFormatter`](./WaxFormatter)
+- [`WaxFormatter`](../interfaces/WaxFormatter)
 
 ## Implements
 
@@ -14,19 +16,21 @@ Classes implementing this interface denote that they are ready to handle tagged 
 
 ## Constructors
 
-### new WaxFormatterBase()
+### Constructor
 
-> **new WaxFormatterBase**(`options`?): [`WaxFormatterBase`](./WaxFormatterBase)
+> **new WaxFormatterBase**(`options?`): `WaxFormatterBase`
+
+Defined in: [wasm/lib/detailed/formatters/base.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L19)
 
 #### Parameters
 
 ##### options?
 
-###### asset
+###### asset?
 
-\{`appendTokenName`: `boolean`;`displayAsNai`: `boolean`;`formatAmount`: `boolean`;`locales`: `string` \| (`undefined` \| `string`)[]; \}
+\{ `appendTokenName?`: `boolean`; `displayAsNai?`: `boolean`; `formatAmount?`: `boolean`; `locales?`: `string` \| (`string` \| `undefined`)[]; \}
 
-###### asset.appendTokenName
+###### asset.appendTokenName?
 
 `boolean`
 
@@ -38,7 +42,7 @@ Appends token name after asset amount (e.g. `1.100 HIVE`)
 true
 ```
 
-###### asset.displayAsNai
+###### asset.displayAsNai?
 
 `boolean`
 
@@ -50,7 +54,7 @@ Displays assets in NAI form instead of the human-readable form
 false
 ```
 
-###### asset.formatAmount
+###### asset.formatAmount?
 
 `boolean`
 
@@ -62,9 +66,9 @@ Formats the output amount in human-readable format based on current localization
 true
 ```
 
-###### asset.locales
+###### asset.locales?
 
-`string` \| (`undefined` \| `string`)[]
+`string` \| (`string` \| `undefined`)[]
 
 Locales to be used when formatting the amount of the asset (defaults to the currently used locale by the user)
 
@@ -74,7 +78,7 @@ Locales to be used when formatting the amount of the asset (defaults to the curr
 undefined
 ```
 
-###### createDefaultFormatters
+###### createDefaultFormatters?
 
 `boolean`
 
@@ -86,11 +90,11 @@ Initializes formatter class with default wax formatters
 true
 ```
 
-###### transaction
+###### transaction?
 
-\{`displayAsId`: `boolean`; \}
+\{ `displayAsId?`: `boolean`; \}
 
-###### transaction.displayAsId
+###### transaction.displayAsId?
 
 `boolean`
 
@@ -104,11 +108,7 @@ true
 
 #### Returns
 
-[`WaxFormatterBase`](./WaxFormatterBase)
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/base.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/base.ts#L19)
+`WaxFormatterBase`
 
 ## Properties
 
@@ -116,15 +116,13 @@ true
 
 > `readonly` **options**: [`IWaxFormatterOptions`](../interfaces/IWaxFormatterOptions)
 
+Defined in: [wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L17)
+
 Options for the formatter
 
 #### Implementation of
 
 [`IWaxFormatter`](../interfaces/IWaxFormatter).[`options`](../interfaces/IWaxFormatter#options)
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/base.ts#L17)
 
 ## Methods
 
@@ -132,13 +130,19 @@ Options for the formatter
 
 > **format**\<`I`, `R`\>(`data`): `R`
 
+Defined in: [wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L72)
+
 Formats given data based on formatter options
 
 #### Type Parameters
 
-• **I** = `any`
+##### I
 
-• **R** = `any`
+`I` = `any`
+
+##### R
+
+`R` = `any`
 
 #### Parameters
 
@@ -156,6 +160,8 @@ formatted data
 
 #### Example
 
+**Formatting data**
+
 ```typescript
 formatter.format(naiObject);
 ```
@@ -164,15 +170,13 @@ formatter.format(naiObject);
 
 [`IWaxFormatter`](../interfaces/IWaxFormatter).[`format`](../interfaces/IWaxFormatter#format)
 
-#### Defined in
-
-[wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/base.ts#L72)
-
 ***
 
 ### handleProperty()
 
 > `abstract` `protected` **handleProperty**(`source`, `target`, `property`): `any`
+
+Defined in: [wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L27)
 
 #### Parameters
 
@@ -192,15 +196,13 @@ formatter.format(naiObject);
 
 `any`
 
-#### Defined in
-
-[wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/base.ts#L27)
-
 ***
 
 ### waxify()
 
 > **waxify**(`strings`, ...`args`): `string`
+
+Defined in: [wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/base.ts#L76)
 
 Formats given text based on arguments structure
 
@@ -226,6 +228,8 @@ formatted data
 
 #### Example
 
+**Formatting data**
+
 ```typescript
 formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 ```
@@ -233,7 +237,3 @@ formatter.waxify`Hello, ${"alice"}! My account value is ${naiObject}`
 #### Implementation of
 
 [`IWaxFormatter`](../interfaces/IWaxFormatter).[`waxify`](../interfaces/IWaxFormatter#waxify)
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/base.ts#L76)

@@ -2,15 +2,19 @@
 
 # Class: WitnessSetPropertiesOperation
 
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L53)
+
 ## Extends
 
 - [`OperationBase`](./OperationBase)
 
 ## Constructors
 
-### new WitnessSetPropertiesOperation()
+### Constructor
 
-> **new WitnessSetPropertiesOperation**(`data`): [`WitnessSetPropertiesOperation`](./WitnessSetPropertiesOperation)
+> **new WitnessSetPropertiesOperation**(`data`): `WitnessSetPropertiesOperation`
+
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L61)
 
 #### Parameters
 
@@ -20,21 +24,19 @@
 
 #### Returns
 
-[`WitnessSetPropertiesOperation`](./WitnessSetPropertiesOperation)
+`WitnessSetPropertiesOperation`
 
 #### Overrides
 
-[`OperationBase`](./OperationBase).[`constructor`](./OperationBase#constructors)
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L61)
+[`OperationBase`](./OperationBase).[`constructor`](./OperationBase#constructor)
 
 ## Methods
 
 ### finalize()
 
-> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L89)
 
 **`Internal`**
 
@@ -46,12 +48,8 @@
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Overrides
 
 [`OperationBase`](./OperationBase).[`finalize`](./OperationBase#finalize)
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L89)

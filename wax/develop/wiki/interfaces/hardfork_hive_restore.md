@@ -2,6 +2,8 @@
 
 # Interface: hardfork\_hive\_restore
 
+Defined in: wasm/lib/proto/hardfork\_hive\_restore.ts:13
+
 Related to hardfork 24.
 Generated for every account that was excluded from HF23 airdrop but won appeal.
 Note: the late airdrop did not apply properly since HIVE that the accounts should receive did not account for
@@ -17,41 +19,41 @@ hardfork_hive
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/hardfork\_hive\_restore.ts:15
+
 #### Param
 
+**account**
+
 account to receive late airdrop (receiver of funds)
-
-#### Defined in
-
-wasm/lib/proto/hardfork\_hive\_restore.ts:15
 
 ***
 
 ### hbd\_transferred
 
-> **hbd\_transferred**: `undefined` \| [`asset`](./asset)
+> **hbd\_transferred**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/hardfork\_hive\_restore.ts:19
 
 #### Param
 
+**hbd\_transferred**
+
 (HBD) part of airdrop (equals related hardfork_hive_operation.hbd_transferred)
-
-#### Defined in
-
-wasm/lib/proto/hardfork\_hive\_restore.ts:19
 
 ***
 
 ### hive\_transferred
 
-> **hive\_transferred**: `undefined` \| [`asset`](./asset)
+> **hive\_transferred**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/hardfork\_hive\_restore.ts:23
 
 #### Param
 
+**hive\_transferred**
+
 (HIVE) part of airdrop (equals related hardfork_hive_operation.hive_transferred)
-
-#### Defined in
-
-wasm/lib/proto/hardfork\_hive\_restore.ts:23
 
 ***
 
@@ -59,10 +61,10 @@ wasm/lib/proto/hardfork\_hive\_restore.ts:23
 
 > **treasury**: `string`
 
+Defined in: wasm/lib/proto/hardfork\_hive\_restore.ts:17
+
 #### Param
 
+**treasury**
+
 treasury, source of late airdrop
-
-#### Defined in
-
-wasm/lib/proto/hardfork\_hive\_restore.ts:17

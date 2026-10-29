@@ -2,11 +2,15 @@
 
 # Class: ReblogOperationData
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L4)
+
 ## Constructors
 
-### new ReblogOperationData()
+### Constructor
 
-> **new ReblogOperationData**(`account`, `author`, `permlink`): [`ReblogOperationData`](./ReblogOperationData)
+> **new ReblogOperationData**(`account`, `author`, `permlink`): `ReblogOperationData`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L5)
 
 #### Parameters
 
@@ -24,11 +28,7 @@
 
 #### Returns
 
-[`ReblogOperationData`](./ReblogOperationData)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L5)
+`ReblogOperationData`
 
 ## Properties
 
@@ -36,9 +36,7 @@
 
 > `readonly` **account**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L6)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L6)
 
 ***
 
@@ -46,9 +44,7 @@
 
 > `readonly` **author**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L7)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L7)
 
 ***
 
@@ -56,6 +52,4 @@
 
 > `readonly` **permlink**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L8)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L8)

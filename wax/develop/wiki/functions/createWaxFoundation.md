@@ -2,7 +2,9 @@
 
 # Function: createWaxFoundation()
 
-> **createWaxFoundation**(`options`?): `Promise`\<[`IWaxBaseInterface`](../interfaces/IWaxBaseInterface)\>
+> **createWaxFoundation**(`options?`): `Promise`\<[`IWaxBaseInterface`](../interfaces/IWaxBaseInterface)\>
+
+Defined in: [wasm/lib/index.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/index.ts#L82)
 
 Creates a Wax Hive base instance
 
@@ -23,7 +25,3 @@ Wax Hive Base API Instance
 ## Throws
 
 on any Wax API-related error
-
-## Defined in
-
-[wasm/lib/index.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/index.ts#L82)

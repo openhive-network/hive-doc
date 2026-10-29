@@ -2,6 +2,8 @@
 
 # Interface: ApiBlockHeader
 
+Defined in: [wasm/lib/detailed/api/types/block.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L3)
+
 ## Extended by
 
 - [`ApiBlock`](./ApiBlock)
@@ -12,9 +14,7 @@
 
 > **extensions**: `object`[]
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L8)
+Defined in: [wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L8)
 
 ***
 
@@ -22,9 +22,7 @@
 
 > **previous**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L4)
+Defined in: [wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L4)
 
 ***
 
@@ -32,9 +30,7 @@
 
 > **timestamp**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L5)
+Defined in: [wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L5)
 
 ***
 
@@ -42,9 +38,7 @@
 
 > **transaction\_merkle\_root**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L7)
 
 ***
 
@@ -52,6 +46,4 @@
 
 > **witness**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/block.ts#L6)
+Defined in: [wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/block.ts#L6)

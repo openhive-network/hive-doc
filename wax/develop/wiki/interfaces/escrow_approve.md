@@ -2,6 +2,8 @@
 
 # Interface: escrow\_approve
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:15
+
 The operation escrow_approve_operation is used to approve the escrow.
 The approval should be done by { to } and by the { agent }.
 The escrow approval is irreversible.
@@ -17,13 +19,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **agent**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:21
+
 #### Param
 
+**agent**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approve.ts:21
 
 ***
 
@@ -31,13 +33,13 @@ wasm/lib/proto/escrow\_approve.ts:21
 
 > **approve**: `boolean`
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:27
+
 #### Param
 
+**approve**
+
 approve = true; (approve = false explicitly rejects the escrow)
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approve.ts:27
 
 ***
 
@@ -45,13 +47,13 @@ wasm/lib/proto/escrow\_approve.ts:27
 
 > **escrow\_id**: `number`
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:25
+
 #### Param
 
+**escrow\_id**
+
 Escrow identifier.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approve.ts:25
 
 ***
 
@@ -59,13 +61,13 @@ wasm/lib/proto/escrow\_approve.ts:25
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:17
+
 #### Param
 
+**from\_account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approve.ts:17
 
 ***
 
@@ -73,13 +75,13 @@ wasm/lib/proto/escrow\_approve.ts:17
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:19
+
 #### Param
 
+**to\_account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approve.ts:19
 
 ***
 
@@ -87,10 +89,10 @@ wasm/lib/proto/escrow\_approve.ts:19
 
 > **who**: `string`
 
+Defined in: wasm/lib/proto/escrow\_approve.ts:23
+
 #### Param
 
+**who**
+
 Account name. Either {to} or {agent}.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_approve.ts:23

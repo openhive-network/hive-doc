@@ -2,15 +2,15 @@
 
 # Interface: beneficiary\_route\_type
 
+Defined in: wasm/lib/proto/comment\_options.ts:6
+
 ## Properties
 
 ### account
 
 > **account**: `string`
 
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:7
+Defined in: wasm/lib/proto/comment\_options.ts:7
 
 ***
 
@@ -18,6 +18,4 @@ wasm/lib/proto/comment\_options.ts:7
 
 > **weight**: `number`
 
-#### Defined in
-
-wasm/lib/proto/comment\_options.ts:8
+Defined in: wasm/lib/proto/comment\_options.ts:8

@@ -2,6 +2,8 @@
 
 # Interface: transfer
 
+Defined in: wasm/lib/proto/transfer.ts:15
+
 ## Brief
 
 Transfers any liquid asset (nonvesting) from one account to another.
@@ -16,9 +18,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### amount
 
-> **amount**: `undefined` \| [`asset`](./asset)
+> **amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/transfer.ts:21
 
 #### Param
+
+**amount**
 
 The amount of asset to transfer from
 
@@ -30,23 +36,19 @@ from_account to
 
 to_account, the allowed currency: HIVE and HBD.
 
-#### Defined in
-
-wasm/lib/proto/transfer.ts:21
-
 ***
 
 ### from
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/transfer.ts:17
+
 #### Param
 
+**from\_account**
+
 The account the funds are coming from.
-
-#### Defined in
-
-wasm/lib/proto/transfer.ts:17
 
 ***
 
@@ -54,13 +56,13 @@ wasm/lib/proto/transfer.ts:17
 
 > **memo**: `string`
 
+Defined in: wasm/lib/proto/transfer.ts:25
+
 #### Param
 
+**memo**
+
 The memo is plain-text, any encryption on the memo is up to a higher level protocol, must be shorter than 2048.
-
-#### Defined in
-
-wasm/lib/proto/transfer.ts:25
 
 ***
 
@@ -68,10 +70,10 @@ wasm/lib/proto/transfer.ts:25
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/transfer.ts:19
+
 #### Param
 
+**to\_account**
+
 The account the funds are going to.
-
-#### Defined in
-
-wasm/lib/proto/transfer.ts:19

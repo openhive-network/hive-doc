@@ -2,8 +2,6 @@
 
 # Type Alias: TBinaryBuffer
 
-> **TBinaryBuffer**: `ArrayBufferLike` \| `ArrayBufferView` \| `Uint8Array`
+> **TBinaryBuffer** = `ArrayBufferLike` \| `ArrayBufferView` \| `Uint8Array`
 
-## Defined in
-
-[wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L20)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L20)

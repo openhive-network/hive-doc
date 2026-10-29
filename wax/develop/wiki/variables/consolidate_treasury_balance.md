@@ -4,13 +4,19 @@
 
 > **consolidate\_treasury\_balance**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/consolidate\_treasury\_balance.ts:12
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`consolidate_treasury_balance`](../interfaces/consolidate_treasury_balance)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`consolidate_treasury_balance`](../interfaces/consolidate_treasury_balance)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`consolidate_treasury_balance`](../interfaces/consolidate_treasury_balance)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/consolidate\_treasury\_balance.ts:12

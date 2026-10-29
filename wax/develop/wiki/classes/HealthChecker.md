@@ -2,15 +2,19 @@
 
 # Class: HealthChecker
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L41)
+
 ## Extends
 
 - `EventEmitter`
 
 ## Constructors
 
-### new HealthChecker()
+### Constructor
 
-> **new HealthChecker**(`defaultEndpoints`?, `minimalCheckIntervalMs`?, `calculateScoresFunction`?): [`HealthChecker`](./HealthChecker)
+> **new HealthChecker**(`defaultEndpoints?`, `minimalCheckIntervalMs?`, `calculateScoresFunction?`): `HealthChecker`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
 
 Creates a new HealthChecker instance.
 
@@ -21,7 +25,7 @@ Creates a new HealthChecker instance.
 readonly `string`[] = `undefined`
 
 default endpoints for checkers.
- If `undefined` (default) uses [DefaultJsonRpcEndpoints](./HealthChecker#defaultjsonrpcendpoints) for json rpc or [DefaultRestApiEndpoints](./HealthChecker#defaultrestapiendpoints) for rest api
+ If `undefined` (default) uses [DefaultJsonRpcEndpoints](./#defaultjsonrpcendpoints) for json rpc or [DefaultRestApiEndpoints](./#defaultrestapiendpoints) for rest api
 
 ##### minimalCheckIntervalMs?
 
@@ -37,7 +41,7 @@ function to calculate scores (default: defaultCalcScores)
 
 #### Returns
 
-[`HealthChecker`](./HealthChecker)
+`HealthChecker`
 
 #### Example
 
@@ -53,22 +57,16 @@ hc.on("error", error => { console.error(error); });
 hc.register(chain.api.block_api.get_block, { block_num: 1 });
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L148)
-
 ## Properties
 
 ### defaultEndpoints
 
-> `readonly` **defaultEndpoints**: `undefined` \| readonly `string`[] = `undefined`
+> `readonly` **defaultEndpoints**: readonly `string`[] \| `undefined` = `undefined`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
 
 default endpoints for checkers.
- If `undefined` (default) uses [DefaultJsonRpcEndpoints](./HealthChecker#defaultjsonrpcendpoints) for json rpc or [DefaultRestApiEndpoints](./HealthChecker#defaultrestapiendpoints) for rest api
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L149)
+ If `undefined` (default) uses [DefaultJsonRpcEndpoints](./#defaultjsonrpcendpoints) for json rpc or [DefaultRestApiEndpoints](./#defaultrestapiendpoints) for rest api
 
 ***
 
@@ -76,17 +74,17 @@ default endpoints for checkers.
 
 > `readonly` **minimalCheckIntervalMs**: `number` = `INITIAL_CHECKER_INTERVAL_MS`
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
+
 minimal interval between checks in milliseconds (default: 10 seconds)
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L150)
 
 ***
 
 ### captureRejections
 
 > `static` **captureRejections**: `boolean`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:416
 
 Value: [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Boolean_type)
 
@@ -96,15 +94,13 @@ Change the default `captureRejections` option on all new `EventEmitter` objects.
 
 v13.4.0, v12.16.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:416
-
 ***
 
 ### captureRejectionSymbol
 
-> `readonly` `static` **captureRejectionSymbol**: *typeof* [`captureRejectionSymbol`](./HealthChecker#capturerejectionsymbol)
+> `readonly` `static` **captureRejectionSymbol**: *typeof* [`captureRejectionSymbol`](./#capturerejectionsymbol)
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:409
 
 Value: `Symbol.for('nodejs.rejection')`
 
@@ -114,25 +110,21 @@ See how to write a custom `rejection handler`.
 
 v13.4.0, v12.16.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:409
-
 ***
 
 ### DefaultJsonRpcEndpoints
 
 > `readonly` `static` **DefaultJsonRpcEndpoints**: readonly `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:80](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L80)
 
 ***
 
 ### defaultMaxListeners
 
 > `static` **defaultMaxListeners**: `number`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:455
 
 By default, a maximum of `10` listeners can be registered for any single
 event. This limit can be changed for individual `EventEmitter` instances
@@ -174,25 +166,21 @@ Its `name` property is set to `'MaxListenersExceededWarning'`.
 
 v0.11.2
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:455
-
 ***
 
 ### DefaultRestApiEndpoints
 
 > `readonly` `static` **DefaultRestApiEndpoints**: readonly `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:84](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L84)
 
 ***
 
 ### errorMonitor
 
-> `readonly` `static` **errorMonitor**: *typeof* [`errorMonitor`](./HealthChecker#errormonitor)
+> `readonly` `static` **errorMonitor**: *typeof* [`errorMonitor`](./#errormonitor)
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:402
 
 This symbol shall be used to install a listener for only monitoring `'error'` events. Listeners installed using this symbol are called before the regular `'error'` listeners are called.
 
@@ -203,25 +191,19 @@ regular `'error'` listener is installed.
 
 v13.6.0, v12.17.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:402
-
 ## Accessors
 
 ### best
 
 #### Get Signature
 
-> **get** **best**(): `undefined` \| `string`
+> **get** **best**(): `string` \| `undefined`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
 
 ##### Returns
 
-`undefined` \| `string`
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L72)
+`string` \| `undefined`
 
 ## Methods
 
@@ -229,9 +211,13 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:40
 
 > `optional` **\[captureRejectionSymbol\]**\<`K`\>(`error`, `event`, ...`args`): `void`
 
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:103
+
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
@@ -241,7 +227,7 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:40
 
 ##### event
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ##### args
 
@@ -251,31 +237,27 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:40
 
 `void`
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:103
-
 ***
 
 ### \[iterator\]()
 
-> **\[iterator\]**(): `IterableIterator`\<[`IHiveEndpoint`](../interfaces/IHiveEndpoint), `any`, `any`\>
+> **\[iterator\]**(): `IterableIterator`\<[`IHiveEndpoint`](../interfaces/IHiveEndpoint)\>
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
 
 #### Returns
 
-`IterableIterator`\<[`IHiveEndpoint`](../interfaces/IHiveEndpoint), `any`, `any`\>
+`IterableIterator`\<[`IHiveEndpoint`](../interfaces/IHiveEndpoint)\>
 
 iterator for all registered endpoints
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L176)
 
 ***
 
 ### addEndpointUrl()
 
 > **addEndpointUrl**(`endpointUrl`, `type`): `void`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
 
 Adds URL to endpoints matching given criteria
 
@@ -297,27 +279,27 @@ Type of the endpoint
 
 `void`
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:94](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L94)
-
 ***
 
 ### addListener()
 
 > **addListener**\<`K`\>(`eventName`, `listener`): `this`
 
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:633
+
 Alias for `emitter.on(eventName, listener)`.
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ##### listener
 
@@ -331,15 +313,13 @@ Alias for `emitter.on(eventName, listener)`.
 
 v0.1.26
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:633
-
 ***
 
 ### emit()
 
 > **emit**\<`K`\>(`eventName`, ...`args`): `boolean`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:895
 
 Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
 to each.
@@ -381,13 +361,15 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ##### args
 
@@ -401,15 +383,13 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 v0.1.26
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:895
-
 ***
 
 ### eventNames()
 
 > **eventNames**(): (`string` \| `symbol`)[]
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:958
 
 Returns an array listing the events for which the emitter has registered
 listeners. The values in the array are strings or `Symbol`s.
@@ -436,15 +416,13 @@ console.log(myEE.eventNames());
 
 v6.0.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:958
-
 ***
 
 ### getEndpoint()
 
-> **getEndpoint**(`id`): `undefined` \| [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
+> **getEndpoint**(`id`): [`IHiveEndpoint`](../interfaces/IHiveEndpoint) \| `undefined`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
 
 Returns the endpoint by id if exists
 
@@ -458,13 +436,9 @@ Id of the endpoint
 
 #### Returns
 
-`undefined` \| [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
+[`IHiveEndpoint`](../interfaces/IHiveEndpoint) \| `undefined`
 
 endpoint if found, undefined otherwise
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:169](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L169)
 
 ***
 
@@ -472,8 +446,10 @@ endpoint if found, undefined otherwise
 
 > **getMaxListeners**(): `number`
 
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:810
+
 Returns the current max listener value for the `EventEmitter` which is either
-set by `emitter.setMaxListeners(n)` or defaults to [EventEmitter.defaultMaxListeners](./HealthChecker#defaultmaxlisteners).
+set by `emitter.setMaxListeners(n)` or defaults to [EventEmitter.defaultMaxListeners](./#defaultmaxlisteners).
 
 #### Returns
 
@@ -483,29 +459,25 @@ set by `emitter.setMaxListeners(n)` or defaults to [EventEmitter.defaultMaxListe
 
 v1.0.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:810
-
 ***
 
 ### list()
 
 > **list**(): [`TScoredEndpoint`](../type-aliases/TScoredEndpoint)[]
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
+
 #### Returns
 
 [`TScoredEndpoint`](../type-aliases/TScoredEndpoint)[]
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L76)
 
 ***
 
 ### listenerCount()
 
-> **listenerCount**\<`K`\>(`eventName`, `listener`?): `number`
+> **listenerCount**\<`K`\>(`eventName`, `listener?`): `number`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:904
 
 Returns the number of listeners listening for the event named `eventName`.
 If `listener` is provided, it will return how many times the listener is found
@@ -513,15 +485,17 @@ in the list of the listeners of the event.
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-The name of the event being listened for
+`string` \| `symbol`
 
-`string` | `symbol`
+The name of the event being listened for
 
 ##### listener?
 
@@ -537,15 +511,13 @@ The event handler function
 
 v3.2.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:904
-
 ***
 
 ### listeners()
 
 > **listeners**\<`K`\>(`eventName`): `Function`[]
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:823
 
 Returns a copy of the array of listeners for the event named `eventName`.
 
@@ -559,13 +531,15 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 #### Returns
 
@@ -575,19 +549,19 @@ console.log(util.inspect(server.listeners('connection')));
 
 v0.1.26
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:823
-
 ***
 
 ### off()
 
 > **off**\<`U`\>(`event`, `listener`): `this`
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
+
 #### Type Parameters
 
-• **U** *extends* keyof [`IHealthCheckerEvents`](../interfaces/IHealthCheckerEvents)
+##### U
+
+`U` *extends* keyof [`IHealthCheckerEvents`](../interfaces/IHealthCheckerEvents)
 
 #### Parameters
 
@@ -602,10 +576,6 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:82
 #### Returns
 
 `this`
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L50)
 
 ***
 
@@ -613,9 +583,13 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:82
 
 > **on**\<`U`\>(`event`, `listener`): `this`
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
+
 #### Type Parameters
 
-• **U** *extends* keyof [`IHealthCheckerEvents`](../interfaces/IHealthCheckerEvents)
+##### U
+
+`U` *extends* keyof [`IHealthCheckerEvents`](../interfaces/IHealthCheckerEvents)
 
 #### Parameters
 
@@ -630,10 +604,6 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:82
 #### Returns
 
 `this`
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L42)
 
 ***
 
@@ -641,9 +611,13 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:82
 
 > **once**\<`U`\>(`event`, `listener`): `this`
 
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
+
 #### Type Parameters
 
-• **U** *extends* keyof [`IHealthCheckerEvents`](../interfaces/IHealthCheckerEvents)
+##### U
+
+`U` *extends* keyof [`IHealthCheckerEvents`](../interfaces/IHealthCheckerEvents)
 
 #### Parameters
 
@@ -659,15 +633,13 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:82
 
 `this`
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L46)
-
 ***
 
 ### prependListener()
 
 > **prependListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:922
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
@@ -684,15 +656,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-The name of the event.
+`string` \| `symbol`
 
-`string` | `symbol`
+The name of the event.
 
 ##### listener
 
@@ -708,15 +682,13 @@ The callback function
 
 v6.0.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:922
-
 ***
 
 ### prependOnceListener()
 
 > **prependOnceListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:938
 
 Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
@@ -731,15 +703,17 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-The name of the event.
+`string` \| `symbol`
 
-`string` | `symbol`
+The name of the event.
 
 ##### listener
 
@@ -755,15 +729,13 @@ The callback function
 
 v6.0.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:938
-
 ***
 
 ### rawListeners()
 
 > **rawListeners**\<`K`\>(`eventName`): `Function`[]
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:854
 
 Returns a copy of the array of listeners for the event named `eventName`,
 including any wrappers (such as those created by `.once()`).
@@ -795,13 +767,15 @@ emitter.emit('log');
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 #### Returns
 
@@ -811,21 +785,21 @@ emitter.emit('log');
 
 v9.4.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:854
-
 ***
 
 ### register()
 
-> **register**\<`TFn`\>(`endpointToCheck`, `toSend`, `validator`?, `testOnEndpoints`?): [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
+> **register**\<`TFn`\>(`endpointToCheck`, `toSend`, `validator?`, `testOnEndpoints?`): [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
 
 Registers the checker to the healthcheck intervals
 
 #### Type Parameters
 
-• **TFn** *extends* (...`args`) => `any`
+##### TFn
+
+`TFn` *extends* (...`args`) => `any`
 
 #### Parameters
 
@@ -851,7 +825,7 @@ optional validator for fields. Return true to pass validation and string to fail
 
 `string`[]
 
-explicit list of endpoints. If not provided defaults to [defaultEndpoints](./HealthChecker#defaultendpoints)
+explicit list of endpoints. If not provided defaults to [defaultEndpoints](./#defaultendpoints)
 
 #### Returns
 
@@ -867,15 +841,13 @@ const hc = new wax.HealthChecker();
 hc.register(chain.api.block_api.get_block, { block_num: 1 }, data => data.block?.previous === "0000000000000000000000000000000000000000", ["api.openhive.network"]);
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:197](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L197)
-
 ***
 
 ### removeAllListeners()
 
-> **removeAllListeners**(`eventName`?): `this`
+> **removeAllListeners**(`eventName?`): `this`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:794
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -889,7 +861,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ##### eventName?
 
-`string` | `symbol`
+`string` \| `symbol`
 
 #### Returns
 
@@ -899,15 +871,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 v0.1.26
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:794
-
 ***
 
 ### removeEndpointUrl()
 
 > **removeEndpointUrl**(`endpointUrl`, `type`): `void`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
 
 Removes URL from endpoints matching given criteria
 
@@ -929,15 +899,13 @@ Type of the endpoint
 
 `void`
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L105)
-
 ***
 
 ### removeListener()
 
 > **removeListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:778
 
 Removes the specified `listener` from the listener array for the event named `eventName`.
 
@@ -1021,13 +989,15 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Type Parameters
 
-• **K**
+##### K
+
+`K`
 
 #### Parameters
 
 ##### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ##### listener
 
@@ -1041,15 +1011,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 v0.1.26
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:778
-
 ***
 
 ### setMaxListeners()
 
 > **setMaxListeners**(`n`): `this`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:804
 
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
@@ -1072,15 +1040,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 v0.3.5
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:804
-
 ***
 
 ### subscribe()
 
 > **subscribe**(`endpointUrl`): `void`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
 
 Subscribes to the given endpoint and notifies via EventEmitter when the endpoint is either down or back up
 
@@ -1112,15 +1078,13 @@ hc.on("error", error => { console.error(error); });
 hc.register(chain.api.block_api.get_block, { block_num: 1 });
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:339](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L339)
-
 ***
 
 ### unregister()
 
-> **unregister**(`api`, `clearUnusedEndpointUrlsFromStats`?): `boolean`
+> **unregister**(`api`, `clearUnusedEndpointUrlsFromStats?`): `boolean`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
 
 Unregisters the checker from the healthcheck intervals
 
@@ -1144,15 +1108,13 @@ if true, clears unused endpoint urls from stats (defaults to true)
 
 either true or false if api has been unregistered successfully
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L290)
-
 ***
 
 ### unregisterAll()
 
-> **unregisterAll**(`clearUnusedEndpointUrlsFromStats`?): `void`
+> **unregisterAll**(`clearUnusedEndpointUrlsFromStats?`): `void`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
 
 Unregisters the checker from all of the healthcheck intervals
 
@@ -1168,15 +1130,13 @@ if true, clears unused endpoint urls from stats (defaults to true)
 
 `void`
 
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:310](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L310)
-
 ***
 
 ### unsubscribe()
 
 > **unsubscribe**(`endpointUrl`): `void`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
 
 Unsubscribes from the given endpoint
 
@@ -1194,17 +1154,15 @@ endpoint to unsubscribe from
 
 #### See
 
-[subscribe](./HealthChecker#subscribe)
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:363](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L363)
+[subscribe](./#subscribe)
 
 ***
 
 ### unsubscribeAll()
 
 > **unsubscribeAll**(): `void`
+
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
 
 Unsubscribes all the endpoint
 
@@ -1214,17 +1172,15 @@ Unsubscribes all the endpoint
 
 #### See
 
-[subscribe](./HealthChecker#subscribe)
-
-#### Defined in
-
-[wasm/lib/detailed/healthchecker/healthchecker.ts:379](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L379)
+[subscribe](./#subscribe)
 
 ***
 
 ### addAbortListener()
 
 > `static` **addAbortListener**(`signal`, `resource`): `Disposable`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:394
 
 Listens once to the `abort` event on the provided `signal`.
 
@@ -1273,15 +1229,13 @@ Disposable that removes the `abort` listener.
 
 v20.5.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:394
-
 ***
 
 ### getEventListeners()
 
 > `static` **getEventListeners**(`emitter`, `name`): `Function`[]
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:319
 
 Returns a copy of the array of listeners for the event named `eventName`.
 
@@ -1312,11 +1266,11 @@ import { getEventListeners, EventEmitter } from 'node:events';
 
 ##### emitter
 
-`EventTarget` | `EventEmitter`\<`DefaultEventMap`\>
+`EventTarget` \| `EventEmitter`\<`DefaultEventMap`\>
 
 ##### name
 
-`string` | `symbol`
+`string` \| `symbol`
 
 #### Returns
 
@@ -1326,15 +1280,13 @@ import { getEventListeners, EventEmitter } from 'node:events';
 
 v15.2.0, v14.17.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:319
-
 ***
 
 ### getMaxListeners()
 
 > `static` **getMaxListeners**(`emitter`): `number`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:348
 
 Returns the currently set max amount of listeners.
 
@@ -1366,7 +1318,7 @@ import { getMaxListeners, setMaxListeners, EventEmitter } from 'node:events';
 
 ##### emitter
 
-`EventTarget` | `EventEmitter`\<`DefaultEventMap`\>
+`EventTarget` \| `EventEmitter`\<`DefaultEventMap`\>
 
 #### Returns
 
@@ -1376,10 +1328,6 @@ import { getMaxListeners, setMaxListeners, EventEmitter } from 'node:events';
 
 v19.9.0
 
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:348
-
 ***
 
 ### listenerCount()
@@ -1388,6 +1336,8 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:34
 
 > `static` **listenerCount**(`emitter`, `eventName`): `number`
 
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:290
+
 Returns the number of registered listeners for the event named `eventName`.
 
 For `EventEmitter`s this behaves exactly the same as calling `.listenerCount`
@@ -1400,11 +1350,11 @@ be useful for debugging and diagnostic purposes.
 
 ###### emitter
 
-`EventEmitter`\<`DefaultEventMap`\>
+`EventEmitter`
 
 ###### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ##### Returns
 
@@ -1414,13 +1364,11 @@ be useful for debugging and diagnostic purposes.
 
 v0.9.12
 
-##### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:290
-
 #### Call Signature
 
 > `static` **listenerCount**(`emitter`, `eventName`): `number`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:291
 
 Returns the number of registered listeners for the event named `eventName`.
 
@@ -1447,10 +1395,6 @@ be useful for debugging and diagnostic purposes.
 ##### Since
 
 v0.9.12
-
-##### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:291
 
 ***
 
@@ -1458,7 +1402,9 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:29
 
 #### Call Signature
 
-> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterator`\<`any`[], `undefined`, `any`\>
+> `static` **on**(`emitter`, `eventName`, `options?`): `AsyncIterator`\<`any`[]\>
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:270
 
 ```js
 import { on, EventEmitter } from 'node:events';
@@ -1541,11 +1487,11 @@ console.log('done'); // prints 'done'
 
 ###### emitter
 
-`EventEmitter`\<`DefaultEventMap`\>
+`EventEmitter`
 
 ###### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ###### options?
 
@@ -1553,7 +1499,7 @@ console.log('done'); // prints 'done'
 
 ##### Returns
 
-`AsyncIterator`\<`any`[], `undefined`, `any`\>
+`AsyncIterator`\<`any`[]\>
 
 An `AsyncIterator` that iterates `eventName` events emitted by the `emitter`
 
@@ -1561,13 +1507,11 @@ An `AsyncIterator` that iterates `eventName` events emitted by the `emitter`
 
 v13.6.0, v12.16.0
 
-##### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:270
-
 #### Call Signature
 
-> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterator`\<`any`[], `undefined`, `any`\>
+> `static` **on**(`emitter`, `eventName`, `options?`): `AsyncIterator`\<`any`[]\>
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:275
 
 ```js
 import { on, EventEmitter } from 'node:events';
@@ -1662,17 +1606,13 @@ console.log('done'); // prints 'done'
 
 ##### Returns
 
-`AsyncIterator`\<`any`[], `undefined`, `any`\>
+`AsyncIterator`\<`any`[]\>
 
 An `AsyncIterator` that iterates `eventName` events emitted by the `emitter`
 
 ##### Since
 
 v13.6.0, v12.16.0
-
-##### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:275
 
 ***
 
@@ -1680,7 +1620,9 @@ node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:27
 
 #### Call Signature
 
-> `static` **once**(`emitter`, `eventName`, `options`?): `Promise`\<`any`[]\>
+> `static` **once**(`emitter`, `eventName`, `options?`): `Promise`\<`any`[]\>
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:184
 
 Creates a `Promise` that is fulfilled when the `EventEmitter` emits the given
 event or that is rejected if the `EventEmitter` emits `'error'` while waiting.
@@ -1763,11 +1705,11 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 ###### emitter
 
-`EventEmitter`\<`DefaultEventMap`\>
+`EventEmitter`
 
 ###### eventName
 
-`string` | `symbol`
+`string` \| `symbol`
 
 ###### options?
 
@@ -1781,13 +1723,11 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 v11.13.0, v10.16.0
 
-##### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:184
-
 #### Call Signature
 
-> `static` **once**(`emitter`, `eventName`, `options`?): `Promise`\<`any`[]\>
+> `static` **once**(`emitter`, `eventName`, `options?`): `Promise`\<`any`[]\>
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:189
 
 Creates a `Promise` that is fulfilled when the `EventEmitter` emits the given
 event or that is rejected if the `EventEmitter` emits `'error'` while waiting.
@@ -1888,15 +1828,13 @@ ee.emit('foo'); // Prints: Waiting for the event was canceled!
 
 v11.13.0, v10.16.0
 
-##### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:189
-
 ***
 
 ### setMaxListeners()
 
-> `static` **setMaxListeners**(`n`?, ...`eventTargets`?): `void`
+> `static` **setMaxListeners**(`n?`, ...`eventTargets`): `void`
+
+Defined in: node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:363
 
 ```js
 import { setMaxListeners, EventEmitter } from 'node:events';
@@ -1915,7 +1853,7 @@ setMaxListeners(5, target, emitter);
 
 A non-negative number. The maximum number of listeners per `EventTarget` event.
 
-##### eventTargets?
+##### eventTargets
 
 ...(`EventTarget` \| `EventEmitter`\<`DefaultEventMap`\>)[]
 
@@ -1929,7 +1867,3 @@ objects.
 #### Since
 
 v15.4.0
-
-#### Defined in
-
-node\_modules/.pnpm/@types+node@24.19.1/node\_modules/@types/node/events.d.ts:363

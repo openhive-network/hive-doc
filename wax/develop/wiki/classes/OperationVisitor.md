@@ -2,13 +2,17 @@
 
 # Class: OperationVisitor\<R\>
 
+Defined in: [wasm/lib/detailed/visitor.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L22)
+
 ## Extended by
 
 - [`EncryptionVisitor`](./EncryptionVisitor)
 
 ## Type Parameters
 
-• **R** = `void`
+### R
+
+`R` = `void`
 
 ## Implements
 
@@ -16,19 +20,21 @@
 
 ## Constructors
 
-### new OperationVisitor()
+### Constructor
 
-> **new OperationVisitor**\<`R`\>(): [`OperationVisitor`](./OperationVisitor)\<`R`\>
+> **new OperationVisitor**\<`R`\>(): `OperationVisitor`\<`R`\>
 
 #### Returns
 
-[`OperationVisitor`](./OperationVisitor)\<`R`\>
+`OperationVisitor`\<`R`\>
 
 ## Methods
 
 ### accept()
 
 > `readonly` **accept**(`op`): [`NoOverride`](../type-aliases/NoOverride) & `void` \| `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L26)
 
 You should not override this method
 
@@ -42,15 +48,13 @@ You should not override this method
 
 [`NoOverride`](../type-aliases/NoOverride) & `void` \| `R`
 
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L26)
-
 ***
 
 ### account\_create\_operation()?
 
 > `optional` **account\_create\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L42)
 
 #### Parameters
 
@@ -64,17 +68,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.account_create_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L42)
+[`operation`](../interfaces/operation).[`account_create_operation`](../interfaces/operation#account_create_operation)
 
 ***
 
 ### account\_create\_with\_delegation\_operation()?
 
 > `optional` **account\_create\_with\_delegation\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L71)
 
 #### Parameters
 
@@ -88,17 +90,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.account_create_with_delegation_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L71)
+[`operation`](../interfaces/operation).[`account_create_with_delegation_operation`](../interfaces/operation#account_create_with_delegation_operation)
 
 ***
 
 ### account\_update\_operation()?
 
 > `optional` **account\_update\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L43)
 
 #### Parameters
 
@@ -112,17 +112,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.account_update_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L43)
+[`operation`](../interfaces/operation).[`account_update_operation`](../interfaces/operation#account_update_operation)
 
 ***
 
 ### account\_update2\_operation()?
 
 > `optional` **account\_update2\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L73)
 
 #### Parameters
 
@@ -136,17 +134,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.account_update2_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L73)
+[`operation`](../interfaces/operation).[`account_update2_operation`](../interfaces/operation#account_update2_operation)
 
 ***
 
 ### account\_witness\_proxy\_operation()?
 
 > `optional` **account\_witness\_proxy\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L46)
 
 #### Parameters
 
@@ -160,17 +156,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.account_witness_proxy_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L46)
+[`operation`](../interfaces/operation).[`account_witness_proxy_operation`](../interfaces/operation#account_witness_proxy_operation)
 
 ***
 
 ### account\_witness\_vote\_operation()?
 
 > `optional` **account\_witness\_vote\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L45)
 
 #### Parameters
 
@@ -184,17 +178,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.account_witness_vote_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L45)
+[`operation`](../interfaces/operation).[`account_witness_vote_operation`](../interfaces/operation#account_witness_vote_operation)
 
 ***
 
 ### cancel\_transfer\_from\_savings\_operation()?
 
 > `optional` **cancel\_transfer\_from\_savings\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L67)
 
 #### Parameters
 
@@ -208,17 +200,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.cancel_transfer_from_savings_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L67)
+[`operation`](../interfaces/operation).[`cancel_transfer_from_savings_operation`](../interfaces/operation#cancel_transfer_from_savings_operation)
 
 ***
 
 ### change\_recovery\_account\_operation()?
 
 > `optional` **change\_recovery\_account\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L59)
 
 #### Parameters
 
@@ -232,17 +222,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.change_recovery_account_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L59)
+[`operation`](../interfaces/operation).[`change_recovery_account_operation`](../interfaces/operation#change_recovery_account_operation)
 
 ***
 
 ### claim\_account\_operation()?
 
 > `optional` **claim\_account\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L55)
 
 #### Parameters
 
@@ -256,17 +244,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.claim_account_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L55)
+[`operation`](../interfaces/operation).[`claim_account_operation`](../interfaces/operation#claim_account_operation)
 
 ***
 
 ### claim\_reward\_balance\_operation()?
 
 > `optional` **claim\_reward\_balance\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L69)
 
 #### Parameters
 
@@ -280,17 +266,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.claim_reward_balance_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L69)
+[`operation`](../interfaces/operation).[`claim_reward_balance_operation`](../interfaces/operation#claim_reward_balance_operation)
 
 ***
 
 ### collateralized\_convert\_operation()?
 
 > `optional` **collateralized\_convert\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L78)
 
 #### Parameters
 
@@ -304,17 +288,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.collateralized_convert_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L78)
+[`operation`](../interfaces/operation).[`collateralized_convert_operation`](../interfaces/operation#collateralized_convert_operation)
 
 ***
 
 ### comment\_operation()?
 
 > `optional` **comment\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L34)
 
 #### Parameters
 
@@ -328,17 +310,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.comment_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L34)
+[`operation`](../interfaces/operation).[`comment_operation`](../interfaces/operation#comment_operation)
 
 ***
 
 ### comment\_options\_operation()?
 
 > `optional` **comment\_options\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L52)
 
 #### Parameters
 
@@ -352,17 +332,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.comment_options_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L52)
+[`operation`](../interfaces/operation).[`comment_options_operation`](../interfaces/operation#comment_options_operation)
 
 ***
 
 ### convert\_operation()?
 
 > `optional` **convert\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L41)
 
 #### Parameters
 
@@ -376,17 +354,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.convert_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L41)
+[`operation`](../interfaces/operation).[`convert_operation`](../interfaces/operation#convert_operation)
 
 ***
 
 ### create\_claimed\_account\_operation()?
 
 > `optional` **create\_claimed\_account\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L56)
 
 #### Parameters
 
@@ -400,17 +376,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.create_claimed_account_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L56)
+[`operation`](../interfaces/operation).[`create_claimed_account_operation`](../interfaces/operation#create_claimed_account_operation)
 
 ***
 
 ### create\_proposal\_operation()?
 
 > `optional` **create\_proposal\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L74)
 
 #### Parameters
 
@@ -424,17 +398,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.create_proposal_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L74)
+[`operation`](../interfaces/operation).[`create_proposal_operation`](../interfaces/operation#create_proposal_operation)
 
 ***
 
 ### custom\_json\_operation()?
 
 > `optional` **custom\_json\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L51)
 
 #### Parameters
 
@@ -448,17 +420,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.custom_json_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L51)
+[`operation`](../interfaces/operation).[`custom_json_operation`](../interfaces/operation#custom_json_operation)
 
 ***
 
 ### custom\_operation()?
 
 > `optional` **custom\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L48)
 
 #### Parameters
 
@@ -472,17 +442,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.custom_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L48)
+[`operation`](../interfaces/operation).[`custom_operation`](../interfaces/operation#custom_operation)
 
 ***
 
 ### decline\_voting\_rights\_operation()?
 
 > `optional` **decline\_voting\_rights\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L68)
 
 #### Parameters
 
@@ -496,17 +464,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.decline_voting_rights_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L68)
+[`operation`](../interfaces/operation).[`decline_voting_rights_operation`](../interfaces/operation#decline_voting_rights_operation)
 
 ***
 
 ### delegate\_vesting\_shares\_operation()?
 
 > `optional` **delegate\_vesting\_shares\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L70)
 
 #### Parameters
 
@@ -520,17 +486,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.delegate_vesting_shares_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L70)
+[`operation`](../interfaces/operation).[`delegate_vesting_shares_operation`](../interfaces/operation#delegate_vesting_shares_operation)
 
 ***
 
 ### delete\_comment\_operation()?
 
 > `optional` **delete\_comment\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L50)
 
 #### Parameters
 
@@ -544,17 +508,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.delete_comment_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L50)
+[`operation`](../interfaces/operation).[`delete_comment_operation`](../interfaces/operation#delete_comment_operation)
 
 ***
 
 ### escrow\_approve\_operation()?
 
 > `optional` **escrow\_approve\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L64)
 
 #### Parameters
 
@@ -568,17 +530,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.escrow_approve_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L64)
+[`operation`](../interfaces/operation).[`escrow_approve_operation`](../interfaces/operation#escrow_approve_operation)
 
 ***
 
 ### escrow\_dispute\_operation()?
 
 > `optional` **escrow\_dispute\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L61)
 
 #### Parameters
 
@@ -592,17 +552,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.escrow_dispute_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L61)
+[`operation`](../interfaces/operation).[`escrow_dispute_operation`](../interfaces/operation#escrow_dispute_operation)
 
 ***
 
 ### escrow\_release\_operation()?
 
 > `optional` **escrow\_release\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L62)
 
 #### Parameters
 
@@ -616,17 +574,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.escrow_release_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L62)
+[`operation`](../interfaces/operation).[`escrow_release_operation`](../interfaces/operation#escrow_release_operation)
 
 ***
 
 ### escrow\_transfer\_operation()?
 
 > `optional` **escrow\_transfer\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L60)
 
 #### Parameters
 
@@ -640,17 +596,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.escrow_transfer_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L60)
+[`operation`](../interfaces/operation).[`escrow_transfer_operation`](../interfaces/operation#escrow_transfer_operation)
 
 ***
 
 ### feed\_publish\_operation()?
 
 > `optional` **feed\_publish\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L40)
 
 #### Parameters
 
@@ -664,17 +618,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.feed_publish_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L40)
+[`operation`](../interfaces/operation).[`feed_publish_operation`](../interfaces/operation#feed_publish_operation)
 
 ***
 
 ### limit\_order\_cancel\_operation()?
 
 > `optional` **limit\_order\_cancel\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L39)
 
 #### Parameters
 
@@ -688,17 +640,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.limit_order_cancel_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L39)
+[`operation`](../interfaces/operation).[`limit_order_cancel_operation`](../interfaces/operation#limit_order_cancel_operation)
 
 ***
 
 ### limit\_order\_create\_operation()?
 
 > `optional` **limit\_order\_create\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L38)
 
 #### Parameters
 
@@ -712,17 +662,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.limit_order_create_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L38)
+[`operation`](../interfaces/operation).[`limit_order_create_operation`](../interfaces/operation#limit_order_create_operation)
 
 ***
 
 ### limit\_order\_create2\_operation()?
 
 > `optional` **limit\_order\_create2\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L54)
 
 #### Parameters
 
@@ -736,17 +684,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.limit_order_create2_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L54)
+[`operation`](../interfaces/operation).[`limit_order_create2_operation`](../interfaces/operation#limit_order_create2_operation)
 
 ***
 
 ### pow\_operation()?
 
 > `optional` **pow\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L47)
 
 #### Parameters
 
@@ -760,17 +706,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.pow_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L47)
+[`operation`](../interfaces/operation).[`pow_operation`](../interfaces/operation#pow_operation)
 
 ***
 
 ### pow2\_operation()?
 
 > `optional` **pow2\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L63)
 
 #### Parameters
 
@@ -784,17 +728,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.pow2_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L63)
+[`operation`](../interfaces/operation).[`pow2_operation`](../interfaces/operation#pow2_operation)
 
 ***
 
 ### recover\_account\_operation()?
 
 > `optional` **recover\_account\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L58)
 
 #### Parameters
 
@@ -808,17 +750,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.recover_account_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L58)
+[`operation`](../interfaces/operation).[`recover_account_operation`](../interfaces/operation#recover_account_operation)
 
 ***
 
 ### recurrent\_transfer\_operation()?
 
 > `optional` **recurrent\_transfer\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L79)
 
 #### Parameters
 
@@ -832,17 +772,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.recurrent_transfer_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L79)
+[`operation`](../interfaces/operation).[`recurrent_transfer_operation`](../interfaces/operation#recurrent_transfer_operation)
 
 ***
 
 ### remove\_proposal\_operation()?
 
 > `optional` **remove\_proposal\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L76)
 
 #### Parameters
 
@@ -856,17 +794,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.remove_proposal_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L76)
+[`operation`](../interfaces/operation).[`remove_proposal_operation`](../interfaces/operation#remove_proposal_operation)
 
 ***
 
 ### request\_account\_recovery\_operation()?
 
 > `optional` **request\_account\_recovery\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L57)
 
 #### Parameters
 
@@ -880,17 +816,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.request_account_recovery_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L57)
+[`operation`](../interfaces/operation).[`request_account_recovery_operation`](../interfaces/operation#request_account_recovery_operation)
 
 ***
 
 ### set\_withdraw\_vesting\_route\_operation()?
 
 > `optional` **set\_withdraw\_vesting\_route\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L53)
 
 #### Parameters
 
@@ -904,17 +838,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.set_withdraw_vesting_route_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L53)
+[`operation`](../interfaces/operation).[`set_withdraw_vesting_route_operation`](../interfaces/operation#set_withdraw_vesting_route_operation)
 
 ***
 
 ### transfer\_from\_savings\_operation()?
 
 > `optional` **transfer\_from\_savings\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L66)
 
 #### Parameters
 
@@ -928,17 +860,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.transfer_from_savings_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L66)
+[`operation`](../interfaces/operation).[`transfer_from_savings_operation`](../interfaces/operation#transfer_from_savings_operation)
 
 ***
 
 ### transfer\_operation()?
 
 > `optional` **transfer\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L35)
 
 #### Parameters
 
@@ -952,17 +882,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.transfer_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L35)
+[`operation`](../interfaces/operation).[`transfer_operation`](../interfaces/operation#transfer_operation)
 
 ***
 
 ### transfer\_to\_savings\_operation()?
 
 > `optional` **transfer\_to\_savings\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L65)
 
 #### Parameters
 
@@ -976,17 +904,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.transfer_to_savings_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L65)
+[`operation`](../interfaces/operation).[`transfer_to_savings_operation`](../interfaces/operation#transfer_to_savings_operation)
 
 ***
 
 ### transfer\_to\_vesting\_operation()?
 
 > `optional` **transfer\_to\_vesting\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L36)
 
 #### Parameters
 
@@ -1000,17 +926,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.transfer_to_vesting_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L36)
+[`operation`](../interfaces/operation).[`transfer_to_vesting_operation`](../interfaces/operation#transfer_to_vesting_operation)
 
 ***
 
 ### update\_proposal\_operation()?
 
 > `optional` **update\_proposal\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L77)
 
 #### Parameters
 
@@ -1024,17 +948,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.update_proposal_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L77)
+[`operation`](../interfaces/operation).[`update_proposal_operation`](../interfaces/operation#update_proposal_operation)
 
 ***
 
 ### update\_proposal\_votes\_operation()?
 
 > `optional` **update\_proposal\_votes\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L75)
 
 #### Parameters
 
@@ -1048,17 +970,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.update_proposal_votes_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L75)
+[`operation`](../interfaces/operation).[`update_proposal_votes_operation`](../interfaces/operation#update_proposal_votes_operation)
 
 ***
 
 ### vote\_operation()?
 
 > `optional` **vote\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L33)
 
 #### Parameters
 
@@ -1072,17 +992,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.vote_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L33)
+[`operation`](../interfaces/operation).[`vote_operation`](../interfaces/operation#vote_operation)
 
 ***
 
 ### withdraw\_vesting\_operation()?
 
 > `optional` **withdraw\_vesting\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L37)
 
 #### Parameters
 
@@ -1096,17 +1014,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.withdraw_vesting_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L37)
+[`operation`](../interfaces/operation).[`withdraw_vesting_operation`](../interfaces/operation#withdraw_vesting_operation)
 
 ***
 
 ### witness\_block\_approve\_operation()?
 
 > `optional` **witness\_block\_approve\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L49)
 
 #### Parameters
 
@@ -1120,17 +1036,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.witness_block_approve_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L49)
+[`operation`](../interfaces/operation).[`witness_block_approve_operation`](../interfaces/operation#witness_block_approve_operation)
 
 ***
 
 ### witness\_set\_properties\_operation()?
 
 > `optional` **witness\_set\_properties\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L72)
 
 #### Parameters
 
@@ -1144,17 +1058,15 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.witness_set_properties_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L72)
+[`operation`](../interfaces/operation).[`witness_set_properties_operation`](../interfaces/operation#witness_set_properties_operation)
 
 ***
 
 ### witness\_update\_operation()?
 
 > `optional` **witness\_update\_operation**(`op`): `R`
+
+Defined in: [wasm/lib/detailed/visitor.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L44)
 
 #### Parameters
 
@@ -1168,8 +1080,4 @@ You should not override this method
 
 #### Implementation of
 
-`TOperationVisitor.witness_update_operation`
-
-#### Defined in
-
-[wasm/lib/detailed/visitor.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L44)
+[`operation`](../interfaces/operation).[`witness_update_operation`](../interfaces/operation#witness_update_operation)

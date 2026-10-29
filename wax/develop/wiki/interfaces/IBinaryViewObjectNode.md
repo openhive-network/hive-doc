@@ -2,6 +2,8 @@
 
 # Interface: IBinaryViewObjectNode
 
+Defined in: [wasm/lib/detailed/interfaces.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L50)
+
 ## Extends
 
 - [`IBinaryViewBaseNode`](./IBinaryViewBaseNode)
@@ -12,9 +14,7 @@
 
 > **children**: [`IBinaryViewNode`](../type-aliases/IBinaryViewNode)[]
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L52)
+Defined in: [wasm/lib/detailed/interfaces.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L52)
 
 ***
 
@@ -22,13 +22,11 @@
 
 > **key**: `string`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L33)
+
 #### Inherited from
 
 [`IBinaryViewBaseNode`](./IBinaryViewBaseNode).[`key`](./IBinaryViewBaseNode#key)
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L33)
 
 ***
 
@@ -36,13 +34,11 @@
 
 > **offset**: `number`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L34)
+
 #### Inherited from
 
 [`IBinaryViewBaseNode`](./IBinaryViewBaseNode).[`offset`](./IBinaryViewBaseNode#offset)
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L34)
 
 ***
 
@@ -50,13 +46,11 @@
 
 > **size**: `number`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L35)
+
 #### Inherited from
 
 [`IBinaryViewBaseNode`](./IBinaryViewBaseNode).[`size`](./IBinaryViewBaseNode#size)
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L35)
 
 ***
 
@@ -64,16 +58,12 @@
 
 > **type**: `"object"`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L51)
+Defined in: [wasm/lib/detailed/interfaces.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L51)
 
 ***
 
 ### value?
 
-> `optional` **value**: `string`
+> `optional` **value?**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L53)
+Defined in: [wasm/lib/detailed/interfaces.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L53)

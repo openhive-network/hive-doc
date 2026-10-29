@@ -2,6 +2,8 @@
 
 # Interface: producer\_missed
 
+Defined in: wasm/lib/proto/producer\_missed.ts:10
+
 Related to block processing.
 Generated during block processing when witness failed to produce his block on time.
 
@@ -15,10 +17,10 @@ shutdown_witness
 
 > **producer**: `string`
 
+Defined in: wasm/lib/proto/producer\_missed.ts:12
+
 #### Param
 
+**producer**
+
 witness that failed to produce his block on time
-
-#### Defined in
-
-wasm/lib/proto/producer\_missed.ts:12

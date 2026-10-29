@@ -2,15 +2,15 @@
 
 # Interface: equihash\_proof
 
+Defined in: wasm/lib/proto/pow2.ts:17
+
 ## Properties
 
 ### inputs
 
 > **inputs**: `number`[]
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:21
+Defined in: wasm/lib/proto/pow2.ts:21
 
 ***
 
@@ -18,9 +18,7 @@ wasm/lib/proto/pow2.ts:21
 
 > **k**: `number`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:19
+Defined in: wasm/lib/proto/pow2.ts:19
 
 ***
 
@@ -28,9 +26,7 @@ wasm/lib/proto/pow2.ts:19
 
 > **n**: `number`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:18
+Defined in: wasm/lib/proto/pow2.ts:18
 
 ***
 
@@ -38,6 +34,4 @@ wasm/lib/proto/pow2.ts:18
 
 > **seed**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:20
+Defined in: wasm/lib/proto/pow2.ts:20

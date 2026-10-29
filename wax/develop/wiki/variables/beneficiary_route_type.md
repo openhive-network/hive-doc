@@ -4,13 +4,19 @@
 
 > **beneficiary\_route\_type**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/comment\_options.ts:6
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`beneficiary_route_type`](../interfaces/beneficiary_route_type)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`beneficiary_route_type`](../interfaces/beneficiary_route_type)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`beneficiary_route_type`](../interfaces/beneficiary_route_type)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/comment\_options.ts:6

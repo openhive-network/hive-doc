@@ -2,6 +2,8 @@
 
 # Interface: price
 
+Defined in: wasm/lib/proto/price.ts:17
+
 Represents quotation of the relative value of asset against another asset.
 Similar to 'currency pair' used to determine value of currencies.
 
@@ -16,27 +18,27 @@ can determine value of EUR against USD.
 
 ### base
 
-> **base**: `undefined` \| [`asset`](./asset)
+> **base**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/price.ts:22
 
 #### Param
 
+**base**
+
 Represents a value of the price object to be expressed relatively to quote asset.
                       Cannot have amount == 0 if you want to build valid price.
-
-#### Defined in
-
-wasm/lib/proto/price.ts:22
 
 ***
 
 ### quote
 
-> **quote**: `undefined` \| [`asset`](./asset)
+> **quote**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/price.ts:26
 
 #### Param
 
+**quote**
+
 represents an relative asset. Cannot have amount == 0, otherwise asertion fail.
-
-#### Defined in
-
-wasm/lib/proto/price.ts:26

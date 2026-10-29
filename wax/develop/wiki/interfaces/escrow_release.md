@@ -2,6 +2,8 @@
 
 # Interface: escrow\_release
 
+Defined in: wasm/lib/proto/escrow\_release.ts:16
+
 The operation is used to release the funds of the escrow.
 The escrow may be released by { from }, { to } or { agent } - depending on the following conditions:
 If there is no dispute and escrow has not expired, either party can release funds to the other.
@@ -17,13 +19,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **agent**: `string`
 
+Defined in: wasm/lib/proto/escrow\_release.ts:22
+
 #### Param
 
+**agent**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:22
 
 ***
 
@@ -31,13 +33,13 @@ wasm/lib/proto/escrow\_release.ts:22
 
 > **escrow\_id**: `number`
 
+Defined in: wasm/lib/proto/escrow\_release.ts:28
+
 #### Param
 
+**escrow\_id**
+
 Escrow indicator.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:28
 
 ***
 
@@ -45,41 +47,41 @@ wasm/lib/proto/escrow\_release.ts:28
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/escrow\_release.ts:18
+
 #### Param
 
+**from\_account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:18
 
 ***
 
 ### hbd\_amount
 
-> **hbd\_amount**: `undefined` \| [`asset`](./asset)
+> **hbd\_amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/escrow\_release.ts:30
 
 #### Param
 
+**hbd\_amount**
+
 The amount of HBD to release.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:30
 
 ***
 
 ### hive\_amount
 
-> **hive\_amount**: `undefined` \| [`asset`](./asset)
+> **hive\_amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/escrow\_release.ts:34
 
 #### Param
 
+**hive\_amount**
+
 The amount of HIVE to release.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:34
 
 ***
 
@@ -87,13 +89,13 @@ wasm/lib/proto/escrow\_release.ts:34
 
 > **receiver**: `string`
 
+Defined in: wasm/lib/proto/escrow\_release.ts:26
+
 #### Param
 
+**receiver**
+
 The account that should receive funds (might be {from}, might be {to}).
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:26
 
 ***
 
@@ -101,13 +103,13 @@ wasm/lib/proto/escrow\_release.ts:26
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/escrow\_release.ts:20
+
 #### Param
 
+**to\_account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:20
 
 ***
 
@@ -115,10 +117,10 @@ wasm/lib/proto/escrow\_release.ts:20
 
 > **who**: `string`
 
+Defined in: wasm/lib/proto/escrow\_release.ts:24
+
 #### Param
 
+**who**
+
 The account that is attempting to release the funds.
-
-#### Defined in
-
-wasm/lib/proto/escrow\_release.ts:24

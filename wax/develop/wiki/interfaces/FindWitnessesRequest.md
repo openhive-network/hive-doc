@@ -2,15 +2,15 @@
 
 # Interface: FindWitnessesRequest
 
+Defined in: [wasm/lib/detailed/api/database\_api/find\_witnesses.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L3)
+
 ## Properties
 
 ### delayed\_votes\_active
 
 > **delayed\_votes\_active**: `boolean`
 
-#### Defined in
-
-[wasm/lib/detailed/api/database\_api/find\_witnesses.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L5)
+Defined in: [wasm/lib/detailed/api/database\_api/find\_witnesses.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L5)
 
 ***
 
@@ -18,6 +18,4 @@
 
 > **owners**: `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/api/database\_api/find\_witnesses.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L4)
+Defined in: [wasm/lib/detailed/api/database\_api/find\_witnesses.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/find_witnesses.ts#L4)

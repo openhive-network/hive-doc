@@ -2,6 +2,8 @@
 
 # Interface: set\_withdraw\_vesting\_route
 
+Defined in: wasm/lib/proto/set\_withdraw\_vesting\_route.ts:16
+
 The operation set_withdraw_vesting_route_operation allows a user to decide where
 and how much percent of hive should be transferred to  the account { to_account }
 from power down operation. A user may also decide that the Hive may be immediately converted to Hive Power.
@@ -18,16 +20,16 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **auto\_vest**: `boolean`
 
+Defined in: wasm/lib/proto/set\_withdraw\_vesting\_route.ts:34
+
 #### Param
+
+**auto\_vest**
 
 If auto_vest = true, then the amount of the Hive is immediately converted
                           into HP on the { to_account } balance.
                           If auto_vest = false, there is no conversion from Hive into HP.
                           Default auto_vest = false;
-
-#### Defined in
-
-wasm/lib/proto/set\_withdraw\_vesting\_route.ts:34
 
 ***
 
@@ -35,13 +37,13 @@ wasm/lib/proto/set\_withdraw\_vesting\_route.ts:34
 
 > **from\_account**: `string`
 
+Defined in: wasm/lib/proto/set\_withdraw\_vesting\_route.ts:18
+
 #### Param
 
+**from\_account**
+
 The account the funds are coming from.
-
-#### Defined in
-
-wasm/lib/proto/set\_withdraw\_vesting\_route.ts:18
 
 ***
 
@@ -49,16 +51,16 @@ wasm/lib/proto/set\_withdraw\_vesting\_route.ts:18
 
 > **percent**: `number`
 
+Defined in: wasm/lib/proto/set\_withdraw\_vesting\_route.ts:27
+
 #### Param
+
+**percent**
 
 The percentage of the HP shares.
                           If the sum of the setting shares is less than 100%,
                           the rest is transferred to the liquid balance of { from_account }.
                           Default value: percent = 0;
-
-#### Defined in
-
-wasm/lib/proto/set\_withdraw\_vesting\_route.ts:27
 
 ***
 
@@ -66,10 +68,10 @@ wasm/lib/proto/set\_withdraw\_vesting\_route.ts:27
 
 > **to\_account**: `string`
 
+Defined in: wasm/lib/proto/set\_withdraw\_vesting\_route.ts:20
+
 #### Param
 
+**to\_account**
+
 The account the funds are going to. A user may set up 10 accounts.
-
-#### Defined in
-
-wasm/lib/proto/set\_withdraw\_vesting\_route.ts:20

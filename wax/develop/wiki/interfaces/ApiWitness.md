@@ -2,15 +2,15 @@
 
 # Interface: ApiWitness
 
+Defined in: [wasm/lib/detailed/api/types/witness.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L3)
+
 ## Properties
 
 ### created
 
 > **created**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L6)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L6)
 
 ***
 
@@ -18,9 +18,7 @@
 
 > **id**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L4)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L4)
 
 ***
 
@@ -28,9 +26,7 @@
 
 > **last\_confirmed\_block\_num**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L9)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L9)
 
 ***
 
@@ -38,9 +34,7 @@
 
 > **owner**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L5)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L5)
 
 ***
 
@@ -48,9 +42,7 @@
 
 > **runningVersion**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L10)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L10)
 
 ***
 
@@ -58,9 +50,7 @@
 
 > **signing\_key**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L7)
 
 ***
 
@@ -68,6 +58,4 @@
 
 > **total\_missed**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/api/types/witness.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/types/witness.ts#L8)
+Defined in: [wasm/lib/detailed/api/types/witness.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/types/witness.ts#L8)

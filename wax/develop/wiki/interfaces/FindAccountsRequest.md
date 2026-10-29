@@ -2,22 +2,20 @@
 
 # Interface: FindAccountsRequest
 
+Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L3)
+
 ## Properties
 
 ### accounts
 
 > **accounts**: `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/api/database\_api/find\_accounts.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L4)
+Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L4)
 
 ***
 
 ### delayed\_votes\_active?
 
-> `optional` **delayed\_votes\_active**: `boolean`
+> `optional` **delayed\_votes\_active?**: `boolean`
 
-#### Defined in
-
-[wasm/lib/detailed/api/database\_api/find\_accounts.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L5)
+Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L5)

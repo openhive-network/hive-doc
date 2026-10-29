@@ -2,11 +2,15 @@
 
 # Interface: IWaxFormatterOptions
 
+Defined in: [wasm/lib/detailed/formatters/types.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L21)
+
 ## Properties
 
 ### asset
 
 > **asset**: `object`
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L22)
 
 #### appendTokenName
 
@@ -46,7 +50,7 @@ true
 
 #### locales?
 
-> `optional` **locales**: `string` \| `string`[]
+> `optional` **locales?**: `string` \| `string`[]
 
 Locales to be used when formatting the amount of the asset (defaults to the currently used locale by the user)
 
@@ -56,15 +60,13 @@ Locales to be used when formatting the amount of the asset (defaults to the curr
 undefined
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L22)
-
 ***
 
 ### createDefaultFormatters
 
 > **createDefaultFormatters**: `boolean`
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L61)
 
 Initializes formatter class with default wax formatters
 
@@ -74,15 +76,13 @@ Initializes formatter class with default wax formatters
 true
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L61)
-
 ***
 
 ### transaction
 
 > **transaction**: `object`
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L48)
 
 #### displayAsId
 
@@ -95,7 +95,3 @@ Displays transaction as its id (new format) instead of an object
 ```ts
 true
 ```
-
-#### Defined in
-
-[wasm/lib/detailed/formatters/types.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L48)

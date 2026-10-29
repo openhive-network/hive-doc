@@ -2,6 +2,8 @@
 
 # Interface: fill\_vesting\_withdraw
 
+Defined in: wasm/lib/proto/fill\_vesting\_withdraw.ts:12
+
 Related to withdraw_vesting_operation and set_withdraw_vesting_route_operation.
 Generated during block processing in batches for each active withdraw route (including implied
 from_account(VESTS)->from_account(HIVE)) each time vesting withdrawal period passes.
@@ -11,15 +13,15 @@ Note: not generated for implied route when all funds were already distributed al
 
 ### deposited
 
-> **deposited**: `undefined` \| [`asset`](./asset)
+> **deposited**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/fill\_vesting\_withdraw.ts:22
 
 #### Param
 
+**deposited**
+
 (HIVE or VESTS) [converted] target amount
-
-#### Defined in
-
-wasm/lib/proto/fill\_vesting\_withdraw.ts:22
 
 ***
 
@@ -27,13 +29,13 @@ wasm/lib/proto/fill\_vesting\_withdraw.ts:22
 
 > **from\_account**: `string`
 
+Defined in: wasm/lib/proto/fill\_vesting\_withdraw.ts:14
+
 #### Param
 
+**from\_account**
+
 user that activated power down
-
-#### Defined in
-
-wasm/lib/proto/fill\_vesting\_withdraw.ts:14
 
 ***
 
@@ -41,24 +43,24 @@ wasm/lib/proto/fill\_vesting\_withdraw.ts:14
 
 > **to\_account**: `string`
 
+Defined in: wasm/lib/proto/fill\_vesting\_withdraw.ts:16
+
 #### Param
 
+**to\_account**
+
 target of vesting route (potentially the same as from_account - receiver of deposited)
-
-#### Defined in
-
-wasm/lib/proto/fill\_vesting\_withdraw.ts:16
 
 ***
 
 ### withdrawn
 
-> **withdrawn**: `undefined` \| [`asset`](./asset)
+> **withdrawn**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/fill\_vesting\_withdraw.ts:18
 
 #### Param
 
+**withdraw**
+
 (VESTS) source amount
-
-#### Defined in
-
-wasm/lib/proto/fill\_vesting\_withdraw.ts:18

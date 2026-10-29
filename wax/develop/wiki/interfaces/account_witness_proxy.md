@@ -2,6 +2,8 @@
 
 # Interface: account\_witness\_proxy
 
+Defined in: wasm/lib/proto/account\_witness\_proxy.ts:19
+
 A user may vote for a witness or proposal directly (using an operation: account_witness_vote_operation or update_proposal_votes_operation)
 or indirectly (using the proxy - operation:  account_witness_proxy_operation).
 If a user sets a proxy, the witness votes are removed and the proposal votes are deactivated.
@@ -21,11 +23,11 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/account\_witness\_proxy.ts:21
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_witness\_proxy.ts:21
+**account**
 
 ***
 
@@ -33,11 +35,11 @@ wasm/lib/proto/account\_witness\_proxy.ts:21
 
 > **proxy**: `string`
 
+Defined in: wasm/lib/proto/account\_witness\_proxy.ts:26
+
 #### Param
+
+**proxy**
 
 Account name. To remove the proxy, the parameter should be set empty.
                         Only one proxy may be set for an account.
-
-#### Defined in
-
-wasm/lib/proto/account\_witness\_proxy.ts:26

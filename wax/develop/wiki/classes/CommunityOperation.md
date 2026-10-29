@@ -2,23 +2,25 @@
 
 # Class: CommunityOperation
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:120](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L120)
+
 ## Extends
 
-- [`HiveAppsOperation`](./HiveAppsOperation)\<[`CommunityOperation`](./CommunityOperation)\>
+- [`HiveAppsOperation`](./HiveAppsOperation)\<`CommunityOperation`\>
 
 ## Constructors
 
-### new CommunityOperation()
+### Constructor
 
-> **new CommunityOperation**(): [`CommunityOperation`](./CommunityOperation)
+> **new CommunityOperation**(): `CommunityOperation`
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 #### Inherited from
 
-[`HiveAppsOperation`](./HiveAppsOperation).[`constructor`](./HiveAppsOperation#constructors)
+[`HiveAppsOperation`](./HiveAppsOperation).[`constructor`](./HiveAppsOperation#constructor)
 
 ## Properties
 
@@ -26,15 +28,13 @@
 
 > `protected` **body**: `object`[] = `[]`
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
+
 Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 #### Inherited from
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`body`](./HiveAppsOperation#body)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
 
 ***
 
@@ -42,15 +42,13 @@ Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 > `protected` `readonly` **id**: `"community"` = `"community"`
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L121)
+
 Id of your custom hive apps operation
 
 #### Overrides
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`id`](./HiveAppsOperation#id)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L121)
 
 ***
 
@@ -58,19 +56,19 @@ Id of your custom hive apps operation
 
 > `protected` **ops**: [`operation`](../interfaces/operation)[] = `[]`
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
+
 #### Inherited from
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`ops`](./HiveAppsOperation#ops)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
 
 ## Methods
 
 ### authorize()
 
-> **authorize**(`requiredPostingAuths`, `requiredAuths`?): [`CommunityOperation`](./CommunityOperation)
+> **authorize**(`requiredPostingAuths`, `requiredAuths?`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
 
 Authorizes the currently staged hive apps operation, commits it to saved body and clears the stage
 
@@ -78,9 +76,9 @@ Authorizes the currently staged hive apps operation, commits it to saved body an
 
 ##### requiredPostingAuths
 
-required posting authorities (can be an account name)
+`string` \| `string`[]
 
-`string` | `string`[]
+required posting authorities (can be an account name)
 
 ##### requiredAuths?
 
@@ -90,7 +88,7 @@ required authorities (defaults to the empty array)
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
 
@@ -98,15 +96,13 @@ itself
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`authorize`](./HiveAppsOperation#authorize)
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
-
 ***
 
 ### finalize()
 
-> **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
 
 **`Internal`**
 
@@ -118,21 +114,19 @@ itself
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Inherited from
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`finalize`](./HiveAppsOperation#finalize)
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
-
 ***
 
 ### flagPost()
 
-> **flagPost**(`community`, `account`, `permlink`, `notes`): [`CommunityOperation`](./CommunityOperation)
+> **flagPost**(`community`, `account`, `permlink`, `notes`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:144](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L144)
 
 Flags post on given community
 
@@ -164,19 +158,17 @@ notes on the flag
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:144](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L144)
 
 ***
 
 ### mutePost()
 
-> **mutePost**(`community`, `account`, `permlink`, `notes`): [`CommunityOperation`](./CommunityOperation)
+> **mutePost**(`community`, `account`, `permlink`, `notes`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:319](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L319)
 
 Mutes post on given community
 
@@ -208,19 +200,17 @@ notes on the mute
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:319](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L319)
 
 ***
 
 ### pinPost()
 
-> **pinPost**(`community`, `account`, `permlink`): [`CommunityOperation`](./CommunityOperation)
+> **pinPost**(`community`, `account`, `permlink`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:247](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L247)
 
 Pins given post on the community page
 
@@ -246,19 +236,17 @@ post permlink to pin
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:247](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L247)
 
 ***
 
 ### setRole()
 
-> **setRole**(`community`, `account`, `role`): [`CommunityOperation`](./CommunityOperation)
+> **setRole**(`community`, `account`, `role`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:167](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L167)
 
 Updates the role for a community member
 
@@ -284,19 +272,17 @@ target role to apply to the community member
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:167](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L167)
 
 ***
 
 ### setUserTitle()
 
-> **setUserTitle**(`community`, `account`, `title`): [`CommunityOperation`](./CommunityOperation)
+> **setUserTitle**(`community`, `account`, `title`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:189](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L189)
 
 Sets title on the user
 
@@ -322,19 +308,17 @@ new account title
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:189](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L189)
 
 ***
 
 ### subscribe()
 
-> **subscribe**(`community`): [`CommunityOperation`](./CommunityOperation)
+> **subscribe**(`community`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L209)
 
 Subscribes to given community
 
@@ -348,19 +332,17 @@ target community
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L209)
 
 ***
 
 ### unmutePost()
 
-> **unmutePost**(`community`, `account`, `permlink`, `notes`): [`CommunityOperation`](./CommunityOperation)
+> **unmutePost**(`community`, `account`, `permlink`, `notes`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:343](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L343)
 
 Unmutes post on given community
 
@@ -392,19 +374,17 @@ notes on the unmute
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:343](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L343)
 
 ***
 
 ### unpinPost()
 
-> **unpinPost**(`community`, `account`, `permlink`): [`CommunityOperation`](./CommunityOperation)
+> **unpinPost**(`community`, `account`, `permlink`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:269](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L269)
 
 Unpins given post from the community page
 
@@ -430,19 +410,17 @@ post permlink to pin
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:269](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L269)
 
 ***
 
 ### unsubscribe()
 
-> **unsubscribe**(`community`): [`CommunityOperation`](./CommunityOperation)
+> **unsubscribe**(`community`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:227](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L227)
 
 Unsubscribes from given community
 
@@ -456,19 +434,17 @@ target community
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:227](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L227)
 
 ***
 
 ### updateProps()
 
-> **updateProps**(`community`, `props`): [`CommunityOperation`](./CommunityOperation)
+> **updateProps**(`community`, `props`): `CommunityOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L290)
 
 Updates props for the given community
 
@@ -488,10 +464,6 @@ community props
 
 #### Returns
 
-[`CommunityOperation`](./CommunityOperation)
+`CommunityOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L290)

@@ -4,13 +4,19 @@
 
 > **claim\_reward\_balance**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/claim\_reward\_balance.ts:14
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`claim_reward_balance`](../interfaces/claim_reward_balance)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`claim_reward_balance`](../interfaces/claim_reward_balance)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`claim_reward_balance`](../interfaces/claim_reward_balance)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/claim\_reward\_balance.ts:14

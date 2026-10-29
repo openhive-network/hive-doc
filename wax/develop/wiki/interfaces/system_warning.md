@@ -2,6 +2,8 @@
 
 # Interface: system\_warning
 
+Defined in: wasm/lib/proto/system\_warning.ts:19
+
 Related to block processing or selected operations.
 Generated every time something occurs that would normally be only visible to node operators in their logs
 but might be interesting to general HIVE community. Such vops can be observed on account history of 'initminer'.
@@ -21,10 +23,10 @@ Currently the following generate system warnings:
 
 > **message**: `string`
 
+Defined in: wasm/lib/proto/system\_warning.ts:21
+
 #### Param
 
+**message**
+
 warning message
-
-#### Defined in
-
-wasm/lib/proto/system\_warning.ts:21

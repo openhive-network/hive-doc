@@ -2,6 +2,8 @@
 
 # Interface: update\_proposal
 
+Defined in: wasm/lib/proto/update\_proposal.ts:23
+
 A user who created the proposal may update it. A user may decrease {daily_pay},
 change subject, permlink and {end_date} (using {extensions}).
 In order to update the proposal parameters, all parameters should be entered.
@@ -14,23 +16,23 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **creator**: `string`
 
+Defined in: wasm/lib/proto/update\_proposal.ts:27
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:27
+**creator**
 
 ***
 
 ### daily\_pay
 
-> **daily\_pay**: `undefined` \| [`asset`](./asset)
+> **daily\_pay**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/update\_proposal.ts:29
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:29
+**daily\_pay**
 
 ***
 
@@ -38,11 +40,11 @@ wasm/lib/proto/update\_proposal.ts:29
 
 > **extensions**: [`update_proposal_extension`](./update_proposal_extension)[]
 
+Defined in: wasm/lib/proto/update\_proposal.ts:37
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:37
+**extensions**
 
 ***
 
@@ -50,11 +52,11 @@ wasm/lib/proto/update\_proposal.ts:37
 
 > **permlink**: `string`
 
+Defined in: wasm/lib/proto/update\_proposal.ts:35
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:35
+**permlinks**
 
 ***
 
@@ -62,11 +64,11 @@ wasm/lib/proto/update\_proposal.ts:35
 
 > **proposal\_id**: `string`
 
+Defined in: wasm/lib/proto/update\_proposal.ts:25
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:25
+**proposal\_id**
 
 ***
 
@@ -74,8 +76,8 @@ wasm/lib/proto/update\_proposal.ts:25
 
 > **subject**: `string`
 
+Defined in: wasm/lib/proto/update\_proposal.ts:33
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/update\_proposal.ts:33
+**subject**

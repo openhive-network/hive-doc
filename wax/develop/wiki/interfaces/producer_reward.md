@@ -2,6 +2,8 @@
 
 # Interface: producer\_reward
 
+Defined in: wasm/lib/proto/producer\_reward.ts:10
+
 Related to block processing.
 Generated during block processing every block for current witness.
 
@@ -11,24 +13,24 @@ Generated during block processing every block for current witness.
 
 > **producer**: `string`
 
+Defined in: wasm/lib/proto/producer\_reward.ts:12
+
 #### Param
 
+**producer**
+
 witness (receiver of vesting_shares)
-
-#### Defined in
-
-wasm/lib/proto/producer\_reward.ts:12
 
 ***
 
 ### vesting\_shares
 
-> **vesting\_shares**: `undefined` \| [`asset`](./asset)
+> **vesting\_shares**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/producer\_reward.ts:14
 
 #### Param
 
+**vesting\_shares**
+
 (VESTS or HIVE) reward for block production (HIVE only during first 30 days after genesis)
-
-#### Defined in
-
-wasm/lib/proto/producer\_reward.ts:14

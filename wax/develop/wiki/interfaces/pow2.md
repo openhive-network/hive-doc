@@ -2,32 +2,28 @@
 
 # Interface: pow2
 
+Defined in: wasm/lib/proto/pow2.ts:36
+
 ## Properties
 
 ### new\_owner\_key?
 
-> `optional` **new\_owner\_key**: `string`
+> `optional` **new\_owner\_key?**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:38
+Defined in: wasm/lib/proto/pow2.ts:38
 
 ***
 
 ### props
 
-> **props**: `undefined` \| [`legacy_chain_properties`](./legacy_chain_properties)
+> **props**: [`legacy_chain_properties`](./legacy_chain_properties) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:39
+Defined in: wasm/lib/proto/pow2.ts:39
 
 ***
 
 ### work
 
-> **work**: `undefined` \| [`pow2_work`](./pow2_work)
+> **work**: [`pow2_work`](./pow2_work) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:37
+Defined in: wasm/lib/proto/pow2.ts:37

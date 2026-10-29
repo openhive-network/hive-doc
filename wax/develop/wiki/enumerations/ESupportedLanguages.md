@@ -2,15 +2,15 @@
 
 # Enumeration: ESupportedLanguages
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L35)
+
 ## Enumeration Members
 
 ### CHINESE
 
 > **CHINESE**: `"zh"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L38)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L38)
 
 ***
 
@@ -18,9 +18,7 @@
 
 > **ENGLISH**: `"en"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L36)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L36)
 
 ***
 
@@ -28,9 +26,7 @@
 
 > **GERMAN**: `"de"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L44)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L44)
 
 ***
 
@@ -38,9 +34,7 @@
 
 > **ITALIAN**: `"it"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L43)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L43)
 
 ***
 
@@ -48,9 +42,7 @@
 
 > **KOREAN**: `"kr"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L37)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L37)
 
 ***
 
@@ -58,9 +50,7 @@
 
 > **MALAY**: `"ms"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L39)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L39)
 
 ***
 
@@ -68,9 +58,7 @@
 
 > **POLISH**: `"pl"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L40)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L40)
 
 ***
 
@@ -78,9 +66,7 @@
 
 > **PORTUGUESE**: `"pt"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L41)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L41)
 
 ***
 
@@ -88,9 +74,7 @@
 
 > **RUSSIAN**: `"ru"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L42)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L42)
 
 ***
 
@@ -98,9 +82,7 @@
 
 > **SPANISH**: `"es"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L45)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L45)
 
 ***
 
@@ -108,6 +90,4 @@
 
 > **SWEDISH**: `"sv"`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/community.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L46)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L46)

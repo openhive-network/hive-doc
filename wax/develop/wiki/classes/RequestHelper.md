@@ -2,15 +2,17 @@
 
 # Class: RequestHelper
 
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L32)
+
 ## Constructors
 
-### new RequestHelper()
+### Constructor
 
-> **new RequestHelper**(): [`RequestHelper`](./RequestHelper)
+> **new RequestHelper**(): `RequestHelper`
 
 #### Returns
 
-[`RequestHelper`](./RequestHelper)
+`RequestHelper`
 
 ## Methods
 
@@ -18,11 +20,15 @@
 
 > **request**\<`TResponse`\>(`config`): `Promise`\<[`IDetailedResponseData`](../interfaces/IDetailedResponseData)\<`TResponse`\>\>
 
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/util/request_helper.ts#L125)
+
 Requests given resource with timings
 
 #### Type Parameters
 
-• **TResponse** *extends* `string` \| `object` = `string`
+##### TResponse
+
+`TResponse` *extends* `string` \| `object` = `string`
 
 #### Parameters
 
@@ -57,7 +63,3 @@ Request was aborted by the user agent
 #### Throws
 
 Request failed without receiving a response (e.g. network or CORS error)
-
-#### Defined in
-
-[wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/util/request_helper.ts#L125)

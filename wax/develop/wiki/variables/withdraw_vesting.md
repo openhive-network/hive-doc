@@ -4,13 +4,19 @@
 
 > **withdraw\_vesting**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/withdraw\_vesting.ts:20
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`withdraw_vesting`](../interfaces/withdraw_vesting)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`withdraw_vesting`](../interfaces/withdraw_vesting)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`withdraw_vesting`](../interfaces/withdraw_vesting)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/withdraw\_vesting.ts:20

@@ -1,19 +1,23 @@
 [@hiveio/wax](../globals) / TFormatFunction
 
-# Type Alias: TFormatFunction()\<T\>
+# Type Alias: TFormatFunction\<T\>
 
-> **TFormatFunction**\<`T`\>: (`args`) => `string` \| `any`
+> **TFormatFunction**\<`T`\> = (`args`) => `string` \| `any`
+
+Defined in: [wasm/lib/detailed/formatters/types.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/formatters/types.ts#L114)
 
 Formatter function that receives input value for the matched property and returns the formatted output
 Remember that this function takes two arguments. The first one is for data parsing, e.g. for transactions
-parsing using [["createTransactionFromJson"]](../interfaces/ITransaction.md). That data should maintain immutable.
+parsing using [\["createTransactionFromJson"\]](../interfaces/ITransaction.md). That data should maintain immutable.
 
 The second argument is the target working argument which should be returned from the formatter function
 if your options specify to ignore given formatting.
 
 ## Type Parameters
 
-• **T** = `object`
+### T
+
+`T` = `object`
 
 ## Parameters
 
@@ -31,6 +35,8 @@ desired formatted output data
 
 ## Example
 
+**Default formatter for transaction**
+
 ```typescript
 ;@WaxFormattable({ matchProperty: "operations" })
 public transactionFormatter(source: DeepReadonly<ApiTransaction>, target: object): string | object {
@@ -42,7 +48,3 @@ public transactionFormatter(source: DeepReadonly<ApiTransaction>, target: object
   return id;
 }
 ```
-
-## Defined in
-
-[wasm/lib/detailed/formatters/types.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/formatters/types.ts#L114)

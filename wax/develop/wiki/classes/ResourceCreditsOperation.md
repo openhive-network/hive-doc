@@ -2,23 +2,25 @@
 
 # Class: ResourceCreditsOperation
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L12)
+
 ## Extends
 
-- [`HiveAppsOperation`](./HiveAppsOperation)\<[`ResourceCreditsOperation`](./ResourceCreditsOperation)\>
+- [`HiveAppsOperation`](./HiveAppsOperation)\<`ResourceCreditsOperation`\>
 
 ## Constructors
 
-### new ResourceCreditsOperation()
+### Constructor
 
-> **new ResourceCreditsOperation**(): [`ResourceCreditsOperation`](./ResourceCreditsOperation)
+> **new ResourceCreditsOperation**(): `ResourceCreditsOperation`
 
 #### Returns
 
-[`ResourceCreditsOperation`](./ResourceCreditsOperation)
+`ResourceCreditsOperation`
 
 #### Inherited from
 
-[`HiveAppsOperation`](./HiveAppsOperation).[`constructor`](./HiveAppsOperation#constructors)
+[`HiveAppsOperation`](./HiveAppsOperation).[`constructor`](./HiveAppsOperation#constructor)
 
 ## Properties
 
@@ -26,15 +28,13 @@
 
 > `protected` **body**: `object`[] = `[]`
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
+
 Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 #### Inherited from
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`body`](./HiveAppsOperation#body)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
 
 ***
 
@@ -42,15 +42,13 @@ Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 > `protected` `readonly` **id**: `"rc"` = `"rc"`
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L13)
+
 Id of your custom hive apps operation
 
 #### Overrides
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`id`](./HiveAppsOperation#id)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/rc.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L13)
 
 ***
 
@@ -58,19 +56,19 @@ Id of your custom hive apps operation
 
 > `protected` **ops**: [`operation`](../interfaces/operation)[] = `[]`
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
+
 #### Inherited from
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`ops`](./HiveAppsOperation#ops)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
 
 ## Methods
 
 ### authorize()
 
-> **authorize**(`requiredPostingAuths`, `requiredAuths`?): [`ResourceCreditsOperation`](./ResourceCreditsOperation)
+> **authorize**(`requiredPostingAuths`, `requiredAuths?`): `ResourceCreditsOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
 
 Authorizes the currently staged hive apps operation, commits it to saved body and clears the stage
 
@@ -78,9 +76,9 @@ Authorizes the currently staged hive apps operation, commits it to saved body an
 
 ##### requiredPostingAuths
 
-required posting authorities (can be an account name)
+`string` \| `string`[]
 
-`string` | `string`[]
+required posting authorities (can be an account name)
 
 ##### requiredAuths?
 
@@ -90,7 +88,7 @@ required authorities (defaults to the empty array)
 
 #### Returns
 
-[`ResourceCreditsOperation`](./ResourceCreditsOperation)
+`ResourceCreditsOperation`
 
 itself
 
@@ -98,15 +96,13 @@ itself
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`authorize`](./HiveAppsOperation#authorize)
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
-
 ***
 
 ### delegate()
 
-> **delegate**(`workingAccount`, `maxRc`, `delegatee`, ...`otherDelegatees`): [`ResourceCreditsOperation`](./ResourceCreditsOperation)
+> **delegate**(`workingAccount`, `maxRc`, `delegatee`, ...`otherDelegatees`): `ResourceCreditsOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L27)
 
 Delegates resource credits to given account(s)
 
@@ -140,19 +136,17 @@ optional list of other target accounts to delegate.
 
 #### Returns
 
-[`ResourceCreditsOperation`](./ResourceCreditsOperation)
+`ResourceCreditsOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/rc.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L27)
 
 ***
 
 ### finalize()
 
-> **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
 
 **`Internal`**
 
@@ -164,21 +158,19 @@ itself
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Inherited from
 
 [`HiveAppsOperation`](./HiveAppsOperation).[`finalize`](./HiveAppsOperation#finalize)
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
-
 ***
 
 ### removeDelegation()
 
-> **removeDelegation**(`workingAccount`, `delegatee`, ...`otherDelegatees`): [`ResourceCreditsOperation`](./ResourceCreditsOperation)
+> **removeDelegation**(`workingAccount`, `delegatee`, ...`otherDelegatees`): `ResourceCreditsOperation`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/rc.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L53)
 
 Removes resource credits delegation from given account(s)
 
@@ -205,10 +197,6 @@ optional list of other target accounts to remove the delegation from.
 
 #### Returns
 
-[`ResourceCreditsOperation`](./ResourceCreditsOperation)
+`ResourceCreditsOperation`
 
 itself
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/rc.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/rc.ts#L53)

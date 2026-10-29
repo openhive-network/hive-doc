@@ -2,15 +2,15 @@
 
 # Interface: equihash\_pow
 
+Defined in: wasm/lib/proto/pow2.ts:24
+
 ## Properties
 
 ### input
 
-> **input**: `undefined` \| [`pow2_input`](./pow2_input)
+> **input**: [`pow2_input`](./pow2_input) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:25
+Defined in: wasm/lib/proto/pow2.ts:25
 
 ***
 
@@ -18,9 +18,7 @@ wasm/lib/proto/pow2.ts:25
 
 > **pow\_summary**: `number`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:28
+Defined in: wasm/lib/proto/pow2.ts:28
 
 ***
 
@@ -28,16 +26,12 @@ wasm/lib/proto/pow2.ts:28
 
 > **prev\_block**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:27
+Defined in: wasm/lib/proto/pow2.ts:27
 
 ***
 
 ### proof
 
-> **proof**: `undefined` \| [`equihash_proof`](./equihash_proof)
+> **proof**: [`equihash_proof`](./equihash_proof) \| `undefined`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:26
+Defined in: wasm/lib/proto/pow2.ts:26

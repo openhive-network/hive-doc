@@ -2,6 +2,8 @@
 
 # Interface: transfer\_to\_vesting
 
+Defined in: wasm/lib/proto/transfer\_to\_vesting.ts:17
+
 The operation is also called Staking.
 This operation converts Hive into Hive Power (also called Vesting Fund Shares  or VESTS) at the current exchange rate.
 The conversion may be done between the same account or to another account.
@@ -16,15 +18,15 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### amount
 
-> **amount**: `undefined` \| [`asset`](./asset)
+> **amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/transfer\_to\_vesting.ts:23
 
 #### Param
 
+**amount**
+
 Must be HIVE, amount > 0.
-
-#### Defined in
-
-wasm/lib/proto/transfer\_to\_vesting.ts:23
 
 ***
 
@@ -32,13 +34,13 @@ wasm/lib/proto/transfer\_to\_vesting.ts:23
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/transfer\_to\_vesting.ts:19
+
 #### Param
 
+**from\_account**
+
 The account the funds are coming from.
-
-#### Defined in
-
-wasm/lib/proto/transfer\_to\_vesting.ts:19
 
 ***
 
@@ -46,10 +48,10 @@ wasm/lib/proto/transfer\_to\_vesting.ts:19
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/transfer\_to\_vesting.ts:21
+
 #### Param
 
+**to\_account**
+
 The account the funds are going to. If null, then the same as 'from_account'.
-
-#### Defined in
-
-wasm/lib/proto/transfer\_to\_vesting.ts:21

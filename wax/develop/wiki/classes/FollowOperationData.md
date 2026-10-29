@@ -2,11 +2,15 @@
 
 # Class: FollowOperationData
 
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L12)
+
 ## Constructors
 
-### new FollowOperationData()
+### Constructor
 
-> **new FollowOperationData**(`action`, `follower`, `following`): [`FollowOperationData`](./FollowOperationData)
+> **new FollowOperationData**(`action`, `follower`, `following`): `FollowOperationData`
+
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L13)
 
 #### Parameters
 
@@ -24,11 +28,7 @@
 
 #### Returns
 
-[`FollowOperationData`](./FollowOperationData)
-
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L13)
+`FollowOperationData`
 
 ## Properties
 
@@ -36,9 +36,7 @@
 
 > `readonly` **action**: [`EFollowActions`](../enumerations/EFollowActions)
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L14)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L14)
 
 ***
 
@@ -46,9 +44,7 @@
 
 > `readonly` **follower**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L15)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L15)
 
 ***
 
@@ -56,6 +52,4 @@
 
 > `readonly` **following**: `string`[]
 
-#### Defined in
-
-[wasm/lib/detailed/hive\_apps\_operations/follow.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L16)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L16)

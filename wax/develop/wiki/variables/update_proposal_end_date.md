@@ -4,13 +4,19 @@
 
 > **update\_proposal\_end\_date**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/update\_proposal.ts:7
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`update_proposal_end_date`](../interfaces/update_proposal_end_date)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`update_proposal_end_date`](../interfaces/update_proposal_end_date)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`update_proposal_end_date`](../interfaces/update_proposal_end_date)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/update\_proposal.ts:7

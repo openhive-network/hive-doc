@@ -2,6 +2,8 @@
 
 # Interface: vote
 
+Defined in: wasm/lib/proto/vote.ts:42
+
 A user may upvote or downvote a post or a comment.
 
 A user has a voting power. The max voting power depends on HP.
@@ -44,13 +46,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **author**: `string`
 
+Defined in: wasm/lib/proto/vote.ts:46
+
 #### Param
 
+**author**
+
 Account name, the author of the post or the comment.
-
-#### Defined in
-
-wasm/lib/proto/vote.ts:46
 
 ***
 
@@ -58,13 +60,13 @@ wasm/lib/proto/vote.ts:46
 
 > **permlink**: `string`
 
+Defined in: wasm/lib/proto/vote.ts:48
+
 #### Param
 
+**permlink**
+
 The identifier of the post or comment.
-
-#### Defined in
-
-wasm/lib/proto/vote.ts:48
 
 ***
 
@@ -72,13 +74,13 @@ wasm/lib/proto/vote.ts:48
 
 > **voter**: `string`
 
+Defined in: wasm/lib/proto/vote.ts:44
+
 #### Param
 
+**voter**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/vote.ts:44
 
 ***
 
@@ -86,13 +88,13 @@ wasm/lib/proto/vote.ts:44
 
 > **weight**: `number`
 
+Defined in: wasm/lib/proto/vote.ts:55
+
 #### Param
+
+**weight**
 
 It defines how many percent of the non-used voting power a user wants to use.
                          Allowed values from -10000 (-100%) to 10000 (100%).
                          Downvotes: from -10000 (-100%) to 0.
                          Upvotes: from 0 to 10000 (100%).
-
-#### Defined in
-
-wasm/lib/proto/vote.ts:55

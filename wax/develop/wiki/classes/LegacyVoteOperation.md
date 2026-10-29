@@ -2,15 +2,19 @@
 
 # Class: LegacyVoteOperation
 
+Defined in: [wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L11)
+
 ## Extends
 
 - [`OperationBase`](./OperationBase)
 
 ## Constructors
 
-### new LegacyVoteOperation()
+### Constructor
 
-> **new LegacyVoteOperation**(`voteOperation`): [`LegacyVoteOperation`](./LegacyVoteOperation)
+> **new LegacyVoteOperation**(`voteOperation`): `LegacyVoteOperation`
+
+Defined in: [wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L12)
 
 #### Parameters
 
@@ -20,15 +24,11 @@
 
 #### Returns
 
-[`LegacyVoteOperation`](./LegacyVoteOperation)
+`LegacyVoteOperation`
 
 #### Overrides
 
-[`OperationBase`](./OperationBase).[`constructor`](./OperationBase#constructors)
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L12)
+[`OperationBase`](./OperationBase).[`constructor`](./OperationBase#constructor)
 
 ## Properties
 
@@ -36,15 +36,15 @@
 
 > `protected` `readonly` **voteOperation**: [`vote`](../interfaces/vote)
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L13)
+Defined in: [wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L13)
 
 ## Methods
 
 ### finalize()
 
-> **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L21)
 
 **`Internal`**
 
@@ -56,21 +56,19 @@
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Overrides
 
 [`OperationBase`](./OperationBase).[`finalize`](./OperationBase#finalize)
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L21)
-
 ***
 
 ### for()
 
-> `static` **for**(`chain`, `voter`, `author`, `permlink`, `weightPercent`): `Promise`\<[`LegacyVoteOperation`](./LegacyVoteOperation)\>
+> `static` **for**(`chain`, `voter`, `author`, `permlink`, `weightPercent?`): `Promise`\<`LegacyVoteOperation`\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L25)
 
 #### Parameters
 
@@ -90,14 +88,10 @@
 
 `string`
 
-##### weightPercent
+##### weightPercent?
 
 `number` = `100`
 
 #### Returns
 
-`Promise`\<[`LegacyVoteOperation`](./LegacyVoteOperation)\>
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/legacy\_vote\_operation.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/legacy_vote_operation.ts#L25)
+`Promise`\<`LegacyVoteOperation`\>

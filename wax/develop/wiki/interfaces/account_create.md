@@ -2,6 +2,8 @@
 
 # Interface: account\_create
 
+Defined in: wasm/lib/proto/account\_create.ts:14
+
 A new account may be created only by an existing account.
 The account that creates a new account pays a fee.
 The fee amount is set by the witnesses.
@@ -12,13 +14,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### active
 
-> **active**: `undefined` \| [`authority`](./authority)
+> **active**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/account\_create.ts:32
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:32
+**active**
 
 ***
 
@@ -26,27 +28,27 @@ wasm/lib/proto/account\_create.ts:32
 
 > **creator**: `string`
 
+Defined in: wasm/lib/proto/account\_create.ts:20
+
 #### Param
 
+**creator**
+
 An account that creates a new account.
-
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:20
 
 ***
 
 ### fee
 
-> **fee**: `undefined` \| [`asset`](./asset)
+> **fee**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/account\_create.ts:16
 
 #### Param
 
+**fee**
+
 Paid by creator. The witnesses decide the amount of the fee. Now, it is 3 HIVE.
-
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:16
 
 ***
 
@@ -54,11 +56,11 @@ wasm/lib/proto/account\_create.ts:16
 
 > **json\_metadata**: `string`
 
+Defined in: wasm/lib/proto/account\_create.ts:42
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:42
+**json\_metadata**
 
 ***
 
@@ -66,13 +68,13 @@ wasm/lib/proto/account\_create.ts:42
 
 > **memo\_key**: `string`
 
+Defined in: wasm/lib/proto/account\_create.ts:40
+
 #### Param
 
+**memo\_key**
+
 Not authority, public memo key.
-
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:40
 
 ***
 
@@ -80,36 +82,36 @@ wasm/lib/proto/account\_create.ts:40
 
 > **new\_account\_name**: `string`
 
+Defined in: wasm/lib/proto/account\_create.ts:26
+
 #### Param
+
+**new\_account\_name**
 
 Valid account name may consist of many parts separated by a dot,
                                  total may have up to 16 characters, parts have to start from a letter,
                                  may be followed by numbers, or '-'.
 
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:26
-
 ***
 
 ### owner
 
-> **owner**: `undefined` \| [`authority`](./authority)
+> **owner**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/account\_create.ts:28
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:28
+**owner**
 
 ***
 
 ### posting
 
-> **posting**: `undefined` \| [`authority`](./authority)
+> **posting**: [`authority`](./authority) \| `undefined`
+
+Defined in: wasm/lib/proto/account\_create.ts:36
 
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/account\_create.ts:36
+**posting**

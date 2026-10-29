@@ -2,6 +2,8 @@
 
 # Interface: consolidate\_treasury\_balance
 
+Defined in: wasm/lib/proto/consolidate\_treasury\_balance.ts:12
+
 Related to block processing.
 Generated during block processing potentially every block, but only if there is nonzero transfer. Transfer occurs
 if there are assets on OBSOLETE_TREASURY_ACCOUNT ('steem.dao'). They are consolidated from all balances (per asset
@@ -13,10 +15,10 @@ type) and moved to NEW_HIVE_TREASURY_ACCOUNT ('hive.fund').
 
 > **total\_moved**: [`asset`](./asset)[]
 
+Defined in: wasm/lib/proto/consolidate\_treasury\_balance.ts:14
+
 #### Param
 
+**total\_moved**
+
 (HIVE, VESTS or HBD) funds moved from old to new treasury
-
-#### Defined in
-
-wasm/lib/proto/consolidate\_treasury\_balance.ts:14

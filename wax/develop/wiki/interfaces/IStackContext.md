@@ -2,6 +2,8 @@
 
 # Interface: IStackContext
 
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L9)
+
 Parsed C++ exception data bridged from WASM. Pure data model — not an exception.
 
 The underlying JSON payload uses snake_case; getters expose camelCase equivalents
@@ -14,9 +16,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **file**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L11)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L11)
 
 ***
 
@@ -24,9 +24,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **hostname**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L14)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L14)
 
 ***
 
@@ -34,9 +32,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **level**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L10)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L10)
 
 ***
 
@@ -44,9 +40,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **line**: `number`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L12)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L12)
 
 ***
 
@@ -54,9 +48,7 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **method**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L13)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L13)
 
 ***
 
@@ -64,16 +56,12 @@ fields remain on the typed `stack` / `extension` members for direct inspection.
 
 > **thread\_name**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L15)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L15)
 
 ***
 
 ### timestamp?
 
-> `optional` **timestamp**: `string`
+> `optional` **timestamp?**: `string`
 
-#### Defined in
-
-[wasm/lib/detailed/cxx\_exception\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/cxx_exception_data.ts#L16)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/cxx_exception_data.ts#L16)

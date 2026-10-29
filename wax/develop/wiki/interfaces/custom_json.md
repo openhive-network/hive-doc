@@ -2,6 +2,8 @@
 
 # Interface: custom\_json
 
+Defined in: wasm/lib/proto/custom\_json.ts:18
+
 The operation custom_json_operation works similar as custom_operation,
 but it is designed to be human readable/developer friendly.
 The custom_json_operation is larger than custom_operation or custom_binary, that is why it costs more RC.
@@ -20,13 +22,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **id**: `string`
 
+Defined in: wasm/lib/proto/custom\_json.ts:24
+
 #### Param
 
+**id**
+
 Must be less than 32 characters long.
-
-#### Defined in
-
-wasm/lib/proto/custom\_json.ts:24
 
 ***
 
@@ -34,13 +36,13 @@ wasm/lib/proto/custom\_json.ts:24
 
 > **json**: `string`
 
+Defined in: wasm/lib/proto/custom\_json.ts:26
+
 #### Param
 
+**json**
+
 Must be a proper utf8 JSON string.
-
-#### Defined in
-
-wasm/lib/proto/custom\_json.ts:26
 
 ***
 
@@ -48,11 +50,11 @@ wasm/lib/proto/custom\_json.ts:26
 
 > **required\_auths**: `string`[]
 
+Defined in: wasm/lib/proto/custom\_json.ts:20
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/custom\_json.ts:20
+**required\_auths**
 
 ***
 
@@ -60,8 +62,8 @@ wasm/lib/proto/custom\_json.ts:20
 
 > **required\_posting\_auths**: `string`[]
 
+Defined in: wasm/lib/proto/custom\_json.ts:22
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/custom\_json.ts:22
+**required\_posting\_auths**

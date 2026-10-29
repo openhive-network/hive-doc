@@ -2,6 +2,8 @@
 
 # Interface: proxy\_cleared
 
+Defined in: wasm/lib/proto/proxy\_cleared.ts:23
+
 There are 4 cases( 4 operations ) that can generate `proxy_cleared_operation` virtual operation:
 
 `account_witness_proxy_operation`:
@@ -25,13 +27,13 @@ After HF25 a vop `proxy_cleared_operation` is generated automatically after `HIV
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/proxy\_cleared.ts:25
+
 #### Param
 
+**account**
+
 user that sets/unsets a proxy
-
-#### Defined in
-
-wasm/lib/proto/proxy\_cleared.ts:25
 
 ***
 
@@ -39,10 +41,10 @@ wasm/lib/proto/proxy\_cleared.ts:25
 
 > **proxy**: `string`
 
+Defined in: wasm/lib/proto/proxy\_cleared.ts:27
+
 #### Param
 
+**proxy**
+
 proxy user that facilitates voting on witnesses
-
-#### Defined in
-
-wasm/lib/proto/proxy\_cleared.ts:27

@@ -2,16 +2,18 @@
 
 # Class: AccountAuthorityUpdateOperation
 
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L58)
+
 Online operation - it is automatically filled in with the data acquired from the chain API.
 
 The purpose of this operation is to simplify account authority update process by automatic gathering current authority data
 from blockchain and then supplementing them by provided action methods. Operation is designed to support different authority categories
 (right now is implemented Hive builtin authority).
 
-It is initialized with all of the supported roles for the given account using [AccountAuthorityUpdateOperation.createFor](./AccountAuthorityUpdateOperation#createfor) automatically, so
+It is initialized with all of the supported roles for the given account using [AccountAuthorityUpdateOperation.createFor](./#createfor) automatically, so
 for example: If you want to add a single key to the active level of the account, you can just add the key, without worrying about your other key authorities.
 
-After initialization, you can use the [AccountAuthorityUpdateOperation.role](./AccountAuthorityUpdateOperation#role) method to retrieve the role instance for the given role level.
+After initialization, you can use the [AccountAuthorityUpdateOperation.role](./#role) method to retrieve the role instance for the given role level.
 
 ## Example
 
@@ -37,21 +39,21 @@ memo.set(myKey);
 
 > **get** **isEffective**(): `boolean`
 
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L149)
+
 Checks if the authority has changed since the last update and it is possible to transmit this operation (any changes applied)
 
 ##### Returns
 
 `boolean`
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/account\_update.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/account_update.ts#L149)
-
 ## Methods
 
 ### enforceOwnerRoleAuthorisation()
 
 > **enforceOwnerRoleAuthorisation**(): `void`
+
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L99)
 
 Enforces the requirement for **owner** role authorization when modifying **active** or **posting** roles.
 
@@ -64,15 +66,13 @@ Enforces the requirement for **owner** role authorization when modifying **activ
 
 `void`
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/account\_update.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/account_update.ts#L99)
-
 ***
 
 ### finalize()
 
-> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:161](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L161)
 
 **`Internal`**
 
@@ -84,15 +84,11 @@ Enforces the requirement for **owner** role authorization when modifying **activ
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Overrides
 
 [`OperationBase`](./OperationBase).[`finalize`](./OperationBase#finalize)
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/account\_update.ts:161](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/account_update.ts#L161)
 
 ***
 
@@ -100,11 +96,15 @@ Enforces the requirement for **owner** role authorization when modifying **activ
 
 > **role**\<`KRole`\>(`level`): [`TRoleKeyToValueMap`](../type-aliases/TRoleKeyToValueMap)\[`KRole`\]
 
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L111)
+
 Returns the role instance for the given role level.
 
 #### Type Parameters
 
-• **KRole** *extends* keyof [`THiveRoles`](../type-aliases/THiveRoles)
+##### KRole
+
+`KRole` *extends* keyof [`THiveRoles`](../type-aliases/THiveRoles)
 
 #### Parameters
 
@@ -120,15 +120,13 @@ role level to retrieve
 
 Role class instance for the given role level
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/account\_update.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/account_update.ts#L111)
-
 ***
 
 ### roles()
 
-> **roles**\<`KRoleContainer`\>(`category`): `Iterable`\<[`TRoleContainerKeyToValueMap`](../type-aliases/TRoleContainerKeyToValueMap)\[`KRoleContainer`\], `any`, `any`\>
+> **roles**\<`KRoleContainer`\>(`category`): `Iterable`\<[`TRoleContainerKeyToValueMap`](../type-aliases/TRoleContainerKeyToValueMap)\[`KRoleContainer`\]\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L137)
 
 Returns all of the roles for the given role category.
 
@@ -136,7 +134,9 @@ Note: You can differentiate between different role categories by using the `leve
 
 #### Type Parameters
 
-• **KRoleContainer** *extends* `"hive"`
+##### KRoleContainer
+
+`KRoleContainer` *extends* `"hive"`
 
 #### Parameters
 
@@ -148,7 +148,7 @@ role category to retrieve
 
 #### Returns
 
-`Iterable`\<[`TRoleContainerKeyToValueMap`](../type-aliases/TRoleContainerKeyToValueMap)\[`KRoleContainer`\], `any`, `any`\>
+`Iterable`\<[`TRoleContainerKeyToValueMap`](../type-aliases/TRoleContainerKeyToValueMap)\[`KRoleContainer`\]\>
 
 Iterable of all roles for the given role category
 
@@ -162,15 +162,13 @@ for(const role of operation.roles("hive"))
     role.add(myKey);
 ```
 
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/account\_update.ts:137](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/account_update.ts#L137)
-
 ***
 
 ### createFor()
 
-> `static` **createFor**(`chain`, `account`): `Promise`\<[`AccountAuthorityUpdateOperation`](./AccountAuthorityUpdateOperation)\>
+> `static` **createFor**(`chain`, `account`): `Promise`\<`AccountAuthorityUpdateOperation`\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/account\_update.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/account_update.ts#L73)
 
 Creates an instance of AccountAuthorityUpdateOperation with all supported roles pre-initialized for the given account.
 
@@ -190,10 +188,6 @@ account we will operate on
 
 #### Returns
 
-`Promise`\<[`AccountAuthorityUpdateOperation`](./AccountAuthorityUpdateOperation)\>
+`Promise`\<`AccountAuthorityUpdateOperation`\>
 
 initialized account authority update operation
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/account\_update.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/account_update.ts#L73)

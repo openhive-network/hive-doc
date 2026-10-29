@@ -2,6 +2,8 @@
 
 # Interface: comment\_benefactor\_reward
 
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:13
+
 Related to comment_operation and comment_options_operation.
 Generated during block processing after cashout time passes and comment is eligible for rewards (nonzero reward).
 Note: the reward is a fragment of the author portion of comment reward depending on share assigned to benefactor
@@ -17,13 +19,13 @@ author_reward
 
 > **author**: `string`
 
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:17
+
 #### Param
 
+**author**
+
 author of the comment
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:17
 
 ***
 
@@ -31,41 +33,41 @@ wasm/lib/proto/comment\_benefactor\_reward.ts:17
 
 > **benefactor**: `string`
 
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:15
+
 #### Param
 
+**benefactor**
+
 user assigned to receive share of author reward (receiver of payouts)
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:15
 
 ***
 
 ### hbd\_payout
 
-> **hbd\_payout**: `undefined` \| [`asset`](./asset)
+> **hbd\_payout**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:21
 
 #### Param
 
+**hbd\_payout**
+
 (HBD) part of reward
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:21
 
 ***
 
 ### hive\_payout
 
-> **hive\_payout**: `undefined` \| [`asset`](./asset)
+> **hive\_payout**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:25
 
 #### Param
 
+**hive\_payout**
+
 (HIVE) part of reward
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:25
 
 ***
 
@@ -73,13 +75,13 @@ wasm/lib/proto/comment\_benefactor\_reward.ts:25
 
 > **payout\_must\_be\_claimed**: `boolean`
 
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:33
+
 #### Param
 
+**payout\_must\_be\_claimed**
+
 true if payouts require use of claim_reward_balance_operation
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:33
 
 ***
 
@@ -87,24 +89,24 @@ wasm/lib/proto/comment\_benefactor\_reward.ts:33
 
 > **permlink**: `string`
 
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:19
+
 #### Param
 
+**permlink**
+
 permlink of the comment
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:19
 
 ***
 
 ### vesting\_payout
 
-> **vesting\_payout**: `undefined` \| [`asset`](./asset)
+> **vesting\_payout**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/comment\_benefactor\_reward.ts:29
 
 #### Param
 
+**vesting\_payout**
+
 (VESTS) part of reward
-
-#### Defined in
-
-wasm/lib/proto/comment\_benefactor\_reward.ts:29

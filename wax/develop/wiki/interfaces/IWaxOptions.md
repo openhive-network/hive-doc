@@ -2,6 +2,8 @@
 
 # Interface: IWaxOptions
 
+Defined in: [wasm/lib/detailed/interfaces.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L152)
+
 ## Extends
 
 - [`IWaxBaseExtendibleOptions`](./IWaxBaseExtendibleOptions)
@@ -16,21 +18,21 @@
 
 > **chainId**: `string`
 
+Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L111)
+
 Chain id in hex string format
 
 #### Inherited from
 
 [`IWaxBaseExtendibleOptions`](./IWaxBaseExtendibleOptions).[`chainId`](./IWaxBaseExtendibleOptions#chainid)
 
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L111)
-
 ***
 
 ### wasmLocation?
 
-> `optional` **wasmLocation**: `string`
+> `optional` **wasmLocation?**: `string`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/interfaces.ts#L170)
 
 The path to the WASM file. It can be a relative path or an absolute URL
 If not specified, the default path is used: "./build_wasm/wax.common.wasm" (may change if bundled)
@@ -45,7 +47,3 @@ Note: When you don't have your WASM file served from the static directory (such 
          - For Webpack: `const wasmUrl = new URL("./my_wasm_files/wax.common.wasm", import.meta.url).href;`
       Then pass the imported `wasmUrl` variable to this option.
       For web workers, replace `import.meta.url` with `self.location.href`.
-
-#### Defined in
-
-[wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/interfaces.ts#L170)

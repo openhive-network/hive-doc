@@ -2,15 +2,19 @@
 
 # Class: RecurrentTransferRemovalOperation
 
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L117)
+
 ## Extends
 
 - `RecurrentTransferOperationBase`
 
 ## Constructors
 
-### new RecurrentTransferRemovalOperation()
+### Constructor
 
-> **new RecurrentTransferRemovalOperation**(`data`): [`RecurrentTransferRemovalOperation`](./RecurrentTransferRemovalOperation)
+> **new RecurrentTransferRemovalOperation**(`data`): `RecurrentTransferRemovalOperation`
+
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:135](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L135)
 
 Removes a recurrent transfer in the currency Hive or HBD.
 Since HF 28, if user has more than one recurrent transfer to the same receiver
@@ -26,15 +30,11 @@ When invoking this operation, the virtual operation fill_recurrent_transfer_oper
 
 #### Returns
 
-[`RecurrentTransferRemovalOperation`](./RecurrentTransferRemovalOperation)
+`RecurrentTransferRemovalOperation`
 
 #### Overrides
 
 `RecurrentTransferOperationBase.constructor`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:135](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L135)
 
 ## Properties
 
@@ -42,19 +42,19 @@ When invoking this operation, the virtual operation fill_recurrent_transfer_oper
 
 > `protected` `readonly` **recurrentTransfer**: [`recurrent_transfer`](../interfaces/recurrent_transfer)
 
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
+
 #### Inherited from
 
 `RecurrentTransferOperationBase.recurrentTransfer`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
 
 ## Methods
 
 ### finalize()
 
-> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+> **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
+
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L121)
 
 **`Internal`**
 
@@ -66,12 +66,8 @@ When invoking this operation, the virtual operation fill_recurrent_transfer_oper
 
 #### Returns
 
-`Iterable`\<[`operation`](../interfaces/operation), `any`, `any`\>
+`Iterable`\<[`operation`](../interfaces/operation)\>
 
 #### Overrides
 
 `RecurrentTransferOperationBase.finalize`
-
-#### Defined in
-
-[wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L121)

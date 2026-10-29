@@ -4,13 +4,19 @@
 
 > **account\_witness\_proxy**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/account\_witness\_proxy.ts:19
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`account_witness_proxy`](../interfaces/account_witness_proxy)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`account_witness_proxy`](../interfaces/account_witness_proxy)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`account_witness_proxy`](../interfaces/account_witness_proxy)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/account\_witness\_proxy.ts:19

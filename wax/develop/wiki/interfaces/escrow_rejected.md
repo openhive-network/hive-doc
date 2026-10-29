@@ -2,6 +2,8 @@
 
 # Interface: escrow\_rejected
 
+Defined in: wasm/lib/proto/escrow\_rejected.ts:13
+
 Related to escrow_approve_operation and escrow_transfer_operation.
 Generated when pending escrow transfer is cancelled and user that initiated it receives all the funds back.
 It can happen with explicit rejection with use of first operation. Can also happen during block processing when either
@@ -17,13 +19,13 @@ escrow_approved
 
 > **agent**: `string`
 
+Defined in: wasm/lib/proto/escrow\_rejected.ts:19
+
 #### Param
 
+**agent**
+
 user that was designated as agent of cancelled escrow transfer
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:19
 
 ***
 
@@ -31,27 +33,27 @@ wasm/lib/proto/escrow\_rejected.ts:19
 
 > **escrow\_id**: `number`
 
+Defined in: wasm/lib/proto/escrow\_rejected.ts:21
+
 #### Param
 
+**escrow\_id**
+
 id of cancelled escrow transfer
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:21
 
 ***
 
 ### fee
 
-> **fee**: `undefined` \| [`asset`](./asset)
+> **fee**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/escrow\_rejected.ts:31
 
 #### Param
 
+**fee**
+
 (HIVE of HBD) fee from cancelled escrow transfer (same amount as in escrow_transfer_operation)
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:31
 
 ***
 
@@ -59,41 +61,41 @@ wasm/lib/proto/escrow\_rejected.ts:31
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/escrow\_rejected.ts:15
+
 #### Param
 
+**from\_account**
+
 user that initiated escrow transfer (receiver of all the funds)
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:15
 
 ***
 
 ### hbd\_amount
 
-> **hbd\_amount**: `undefined` \| [`asset`](./asset)
+> **hbd\_amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/escrow\_rejected.ts:23
 
 #### Param
 
+**hbd\_amount**
+
 (HBD) funds from cancelled escrow transfer (same amount as in escrow_transfer_operation)
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:23
 
 ***
 
 ### hive\_amount
 
-> **hive\_amount**: `undefined` \| [`asset`](./asset)
+> **hive\_amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/escrow\_rejected.ts:27
 
 #### Param
 
+**hive\_amount**
+
 (HIVE) funds from cancelled escrow transfer (same amount as in escrow_transfer_operation)
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:27
 
 ***
 
@@ -101,10 +103,10 @@ wasm/lib/proto/escrow\_rejected.ts:27
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/escrow\_rejected.ts:17
+
 #### Param
 
+**to\_account**
+
 user that was target of cancelled escrow transfer
-
-#### Defined in
-
-wasm/lib/proto/escrow\_rejected.ts:17

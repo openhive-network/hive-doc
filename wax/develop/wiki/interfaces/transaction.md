@@ -2,15 +2,15 @@
 
 # Interface: transaction
 
+Defined in: wasm/lib/proto/transaction.ts:7
+
 ## Properties
 
 ### expiration
 
 > **expiration**: `string`
 
-#### Defined in
-
-wasm/lib/proto/transaction.ts:10
+Defined in: wasm/lib/proto/transaction.ts:10
 
 ***
 
@@ -18,9 +18,7 @@ wasm/lib/proto/transaction.ts:10
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
-#### Defined in
-
-wasm/lib/proto/transaction.ts:12
+Defined in: wasm/lib/proto/transaction.ts:12
 
 ***
 
@@ -28,9 +26,7 @@ wasm/lib/proto/transaction.ts:12
 
 > **operations**: [`operation`](./operation)[]
 
-#### Defined in
-
-wasm/lib/proto/transaction.ts:11
+Defined in: wasm/lib/proto/transaction.ts:11
 
 ***
 
@@ -38,9 +34,7 @@ wasm/lib/proto/transaction.ts:11
 
 > **ref\_block\_num**: `number`
 
-#### Defined in
-
-wasm/lib/proto/transaction.ts:8
+Defined in: wasm/lib/proto/transaction.ts:8
 
 ***
 
@@ -48,9 +42,7 @@ wasm/lib/proto/transaction.ts:8
 
 > **ref\_block\_prefix**: `number`
 
-#### Defined in
-
-wasm/lib/proto/transaction.ts:9
+Defined in: wasm/lib/proto/transaction.ts:9
 
 ***
 
@@ -58,8 +50,6 @@ wasm/lib/proto/transaction.ts:9
 
 > **signatures**: `string`[]
 
+Defined in: wasm/lib/proto/transaction.ts:14
+
 for signed_transaction
-
-#### Defined in
-
-wasm/lib/proto/transaction.ts:14

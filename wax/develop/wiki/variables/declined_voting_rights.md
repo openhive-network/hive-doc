@@ -4,13 +4,19 @@
 
 > **declined\_voting\_rights**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/declined\_voting\_rights.ts:9
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`declined_voting_rights`](../interfaces/declined_voting_rights)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`declined_voting_rights`](../interfaces/declined_voting_rights)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`declined_voting_rights`](../interfaces/declined_voting_rights)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/declined\_voting\_rights.ts:9

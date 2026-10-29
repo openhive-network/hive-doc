@@ -4,13 +4,19 @@
 
 > **limit\_order\_cancelled**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/limit\_order\_cancelled.ts:13
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`limit_order_cancelled`](../interfaces/limit_order_cancelled)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`limit_order_cancelled`](../interfaces/limit_order_cancelled)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`limit_order_cancelled`](../interfaces/limit_order_cancelled)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/limit\_order\_cancelled.ts:13

@@ -4,13 +4,19 @@
 
 > **recurrent\_transfer\_extension**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/recurrent\_transfer\_extension.ts:10
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`recurrent_transfer_extension`](../interfaces/recurrent_transfer_extension)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`recurrent_transfer_extension`](../interfaces/recurrent_transfer_extension)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`recurrent_transfer_extension`](../interfaces/recurrent_transfer_extension)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/recurrent\_transfer\_extension.ts:10

@@ -2,6 +2,8 @@
 
 # Interface: remove\_proposal
 
+Defined in: wasm/lib/proto/remove\_proposal.ts:11
+
 Using operation remove_proposal_operation, a user may remove proposals specified by given IDs.
 
 Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operations/46_remove_proposal.md?ref_type=heads
@@ -12,11 +14,11 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **extensions**: [`future_extensions`](./future_extensions)[]
 
+Defined in: wasm/lib/proto/remove\_proposal.ts:17
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/remove\_proposal.ts:17
+**extensions**
 
 ***
 
@@ -24,11 +26,11 @@ wasm/lib/proto/remove\_proposal.ts:17
 
 > **proposal\_ids**: `string`[]
 
+Defined in: wasm/lib/proto/remove\_proposal.ts:15
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/remove\_proposal.ts:15
+**proposal\_ids**
 
 ***
 
@@ -36,8 +38,8 @@ wasm/lib/proto/remove\_proposal.ts:15
 
 > **proposal\_owner**: `string`
 
+Defined in: wasm/lib/proto/remove\_proposal.ts:13
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/remove\_proposal.ts:13
+**proposal\_owner**

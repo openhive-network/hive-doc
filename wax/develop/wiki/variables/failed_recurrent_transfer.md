@@ -4,13 +4,19 @@
 
 > **failed\_recurrent\_transfer**: `object`
 
-## Type declaration
+Defined in: wasm/lib/proto/failed\_recurrent\_transfer.ts:14
+
+## Type Declaration
 
 ### create()
 
+> **create**\<`I`\>(`base?`): [`failed_recurrent_transfer`](../interfaces/failed_recurrent_transfer)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -24,6 +30,8 @@
 
 ### fromJSON()
 
+> **fromJSON**(`object`): [`failed_recurrent_transfer`](../interfaces/failed_recurrent_transfer)
+
 #### Parameters
 
 ##### object
@@ -36,9 +44,13 @@
 
 ### fromPartial()
 
+> **fromPartial**\<`I`\>(`object`): [`failed_recurrent_transfer`](../interfaces/failed_recurrent_transfer)
+
 #### Type Parameters
 
-• **I** *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
+##### I
+
+`I` *extends* `object` & `object` & \{ \[K in string \| number \| symbol\]: never \}
 
 #### Parameters
 
@@ -52,6 +64,8 @@
 
 ### toJSON()
 
+> **toJSON**(`message`): `unknown`
+
 #### Parameters
 
 ##### message
@@ -61,7 +75,3 @@
 #### Returns
 
 `unknown`
-
-## Defined in
-
-wasm/lib/proto/failed\_recurrent\_transfer.ts:14

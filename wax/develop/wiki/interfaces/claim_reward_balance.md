@@ -2,6 +2,8 @@
 
 # Interface: claim\_reward\_balance
 
+Defined in: wasm/lib/proto/claim\_reward\_balance.ts:14
+
 An operation claim_reward_balance_operation is used to transfer previously collected
 author and/or curation rewards from sub balance for the reward to regular balances.
 Rewards expressed in Hive and HBD are transferred to liquid balances, rewards in HP increase vesting balance.
@@ -15,52 +17,52 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **account**: `string`
 
+Defined in: wasm/lib/proto/claim\_reward\_balance.ts:16
+
 #### Param
 
+**account**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/claim\_reward\_balance.ts:16
 
 ***
 
 ### reward\_hbd
 
-> **reward\_hbd**: `undefined` \| [`asset`](./asset)
+> **reward\_hbd**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/claim\_reward\_balance.ts:22
 
 #### Param
 
+**reward\_hbd**
+
 The amount of HBD reward to be transferred to liquid balance
-
-#### Defined in
-
-wasm/lib/proto/claim\_reward\_balance.ts:22
 
 ***
 
 ### reward\_hive
 
-> **reward\_hive**: `undefined` \| [`asset`](./asset)
+> **reward\_hive**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/claim\_reward\_balance.ts:18
 
 #### Param
 
+**reward\_hive**
+
 The amount of Hive reward to be transferred to liquid balance.
-
-#### Defined in
-
-wasm/lib/proto/claim\_reward\_balance.ts:18
 
 ***
 
 ### reward\_vests
 
-> **reward\_vests**: `undefined` \| [`asset`](./asset)
+> **reward\_vests**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/claim\_reward\_balance.ts:26
 
 #### Param
 
+**reward\_vests**
+
 The amount of HP reward to be transferred to vesting balance.
-
-#### Defined in
-
-wasm/lib/proto/claim\_reward\_balance.ts:26

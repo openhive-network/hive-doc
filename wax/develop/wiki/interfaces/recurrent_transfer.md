@@ -2,6 +2,8 @@
 
 # Interface: recurrent\_transfer
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:24
+
 Creates/updates/removes a recurrent transfer in the currency Hive or HBD.
 Since HF 28, if user has more than one recurrent transfer to the same receiver
 or if user creates the recurrent transfer using pair_id in the extensions,
@@ -22,9 +24,13 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### amount
 
-> **amount**: `undefined` \| [`asset`](./asset)
+> **amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:35
 
 #### Param
+
+**amount**
 
 The amount of asset to transfer from
 
@@ -39,26 +45,22 @@ to.
                         times because of the lack of funds, the recurrent transfer will be deleted.
                         Allowed currency: Hive and HBD.
 
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:35
-
 ***
 
 ### executions
 
 > **executions**: `number`
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:52
+
 #### Param
+
+**executions**
 
 How many times the recurrent payment will be executed.
                              Executions must be at least 2 when creating a new recurrent transfer.
                              Since HF 29 executions may be set to 1 when modifying an existing recurrent transfer
                              (e.g. to update the amount or memo on the last remaining payment).
-
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:52
 
 ***
 
@@ -66,15 +68,15 @@ wasm/lib/proto/recurrent\_transfer.ts:52
 
 > **extensions**: [`recurrent_transfer_extension`](./recurrent_transfer_extension)[]
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:58
+
 #### Param
+
+**extensions**
 
 Extensions. Since HF 28 it may contain the 'pair_id'.
                                                    It allows to define more than one recurrent transfer from sender to the same receiver 'to'.
                                                    Default value 'pair_id=0'.
-
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:58
 
 ***
 
@@ -82,11 +84,11 @@ wasm/lib/proto/recurrent\_transfer.ts:58
 
 > **from**: `string`
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:26
+
 #### Param
 
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:26
+**from\_account**
 
 ***
 
@@ -94,13 +96,13 @@ wasm/lib/proto/recurrent\_transfer.ts:26
 
 > **memo**: `string`
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:39
+
 #### Param
 
+**memo**
+
 must be shorter than 2048.
-
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:39
 
 ***
 
@@ -108,15 +110,15 @@ wasm/lib/proto/recurrent\_transfer.ts:39
 
 > **recurrence**: `number`
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:45
+
 #### Param
+
+**recurrence**
 
 How often will the payment be triggered, unit: hours.
                              The first transfer is executed immediately.
                              The minimum value of the parameter is 24 h.
-
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:45
 
 ***
 
@@ -124,10 +126,10 @@ wasm/lib/proto/recurrent\_transfer.ts:45
 
 > **to**: `string`
 
+Defined in: wasm/lib/proto/recurrent\_transfer.ts:28
+
 #### Param
 
+**to\_account**
+
 Account to transfer asset to. Cannot set a transfer to yourself.
-
-#### Defined in
-
-wasm/lib/proto/recurrent\_transfer.ts:28

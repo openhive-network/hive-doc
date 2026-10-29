@@ -2,6 +2,8 @@
 
 # Interface: collateralized\_convert
 
+Defined in: wasm/lib/proto/collateralized\_convert.ts:14
+
 Similar to convert_operation, this operation instructs the blockchain to convert HIVE to HBD.
 The operation is performed after 3.5 days, but the owner gets HBD immediately.
 The price risk is cushioned by extra HIVE (HIVE_COLLATERAL_RATIO = 200 % ).
@@ -13,15 +15,15 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 ### amount
 
-> **amount**: `undefined` \| [`asset`](./asset)
+> **amount**: [`asset`](./asset) \| `undefined`
+
+Defined in: wasm/lib/proto/collateralized\_convert.ts:20
 
 #### Param
 
+**amount**
+
 Amount > 0, have to be in Hive.
-
-#### Defined in
-
-wasm/lib/proto/collateralized\_convert.ts:20
 
 ***
 
@@ -29,13 +31,13 @@ wasm/lib/proto/collateralized\_convert.ts:20
 
 > **owner**: `string`
 
+Defined in: wasm/lib/proto/collateralized\_convert.ts:16
+
 #### Param
 
+**owner**
+
 Account name.
-
-#### Defined in
-
-wasm/lib/proto/collateralized\_convert.ts:16
 
 ***
 
@@ -43,10 +45,10 @@ wasm/lib/proto/collateralized\_convert.ts:16
 
 > **requestid**: `number`
 
+Defined in: wasm/lib/proto/collateralized\_convert.ts:18
+
 #### Param
 
+**requestid**
+
 The number is given by a user. Should be unique for a user.
-
-#### Defined in
-
-wasm/lib/proto/collateralized\_convert.ts:18

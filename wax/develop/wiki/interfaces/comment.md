@@ -2,6 +2,8 @@
 
 # Interface: comment
 
+Defined in: wasm/lib/proto/comment.ts:14
+
 Using comment operation a user may create a post or a comment.
 From the blockchain point of view, it is the same operation - always comment.
 If a comment has no parent, it is a post.
@@ -16,14 +18,14 @@ Description https://gitlab.syncad.com/hive/hive/-/blob/develop/doc/devs/operatio
 
 > **author**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:32
+
 #### Param
+
+**author**
 
 Account name, the author of the post or the comment.
                          It cannot be modified.
-
-#### Defined in
-
-wasm/lib/proto/comment.ts:32
 
 ***
 
@@ -31,14 +33,14 @@ wasm/lib/proto/comment.ts:32
 
 > **body**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:47
+
 #### Param
+
+**body**
 
 The content of the post or the comment.
                        It may be modified.
-
-#### Defined in
-
-wasm/lib/proto/comment.ts:47
 
 ***
 
@@ -46,7 +48,11 @@ wasm/lib/proto/comment.ts:47
 
 > **json\_metadata**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:59
+
 #### Param
+
+**json\_metadata**
 
 There is no blockchain validation on json_metadata,
                                 but the structure has been established by the community.
@@ -58,25 +64,21 @@ There is no blockchain validation on json_metadata,
                                 - users
                                 - images
 
-#### Defined in
-
-wasm/lib/proto/comment.ts:59
-
 ***
 
 ### parent\_author
 
 > **parent\_author**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:20
+
 #### Param
+
+**parent\_author**
 
 Account name, the author of the commented post or comment.
                                 If the operation creates a post, it is empty.
                                 It cannot be modified.
-
-#### Defined in
-
-wasm/lib/proto/comment.ts:20
 
 ***
 
@@ -84,16 +86,16 @@ wasm/lib/proto/comment.ts:20
 
 > **parent\_permlink**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:27
+
 #### Param
+
+**parent\_permlink**
 
 The identifier of the commented post or comment.
                                   When a user creates a post, it may contain the identifier of the community
                                   (e.g. hive-174695) or main tag (e.g. travel).
                                   It cannot be modified.
-
-#### Defined in
-
-wasm/lib/proto/comment.ts:27
 
 ***
 
@@ -101,14 +103,14 @@ wasm/lib/proto/comment.ts:27
 
 > **permlink**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:37
+
 #### Param
+
+**permlink**
 
 Unique to the author, the identifier of the post or comment.
                            It cannot be modified.
-
-#### Defined in
-
-wasm/lib/proto/comment.ts:37
 
 ***
 
@@ -116,11 +118,11 @@ wasm/lib/proto/comment.ts:37
 
 > **title**: `string`
 
+Defined in: wasm/lib/proto/comment.ts:42
+
 #### Param
+
+**title**
 
 The title of the submitted post, in case of the comment, is often empty.
                         It may be modified.
-
-#### Defined in
-
-wasm/lib/proto/comment.ts:42

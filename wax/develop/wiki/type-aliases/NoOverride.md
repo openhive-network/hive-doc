@@ -2,14 +2,14 @@
 
 # Type Alias: NoOverride
 
-> **NoOverride**: `object`
+> **NoOverride** = `object`
 
-## Type declaration
+Defined in: [wasm/lib/detailed/visitor.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L20)
+
+## Properties
 
 ### \[\_\]
 
-> **\[\_\]**: *typeof* [`_`](../variables)
+> **\[\_\]**: *typeof* [`_`](../variables/_)
 
-## Defined in
-
-[wasm/lib/detailed/visitor.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/f133f2ed0d45e5b77b23fe13820ee7175aafab0f/ts/wasm/lib/detailed/visitor.ts#L20)
+Defined in: [wasm/lib/detailed/visitor.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/41dd38f2e2e1da6af90684938b2e4bef0bd93939/ts/wasm/lib/detailed/visitor.ts#L20)

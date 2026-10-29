@@ -2,15 +2,15 @@
 
 # Interface: pow2\_input
 
+Defined in: wasm/lib/proto/pow2.ts:6
+
 ## Properties
 
 ### nonce
 
 > **nonce**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:9
+Defined in: wasm/lib/proto/pow2.ts:9
 
 ***
 
@@ -18,9 +18,7 @@ wasm/lib/proto/pow2.ts:9
 
 > **prev\_block**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:8
+Defined in: wasm/lib/proto/pow2.ts:8
 
 ***
 
@@ -28,6 +26,4 @@ wasm/lib/proto/pow2.ts:8
 
 > **worker\_account**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow2.ts:7
+Defined in: wasm/lib/proto/pow2.ts:7

@@ -2,15 +2,15 @@
 
 # Interface: pow\_work
 
+Defined in: wasm/lib/proto/pow.ts:6
+
 ## Properties
 
 ### input
 
 > **input**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow.ts:8
+Defined in: wasm/lib/proto/pow.ts:8
 
 ***
 
@@ -18,9 +18,7 @@ wasm/lib/proto/pow.ts:8
 
 > **signature**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow.ts:9
+Defined in: wasm/lib/proto/pow.ts:9
 
 ***
 
@@ -28,9 +26,7 @@ wasm/lib/proto/pow.ts:9
 
 > **work**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow.ts:10
+Defined in: wasm/lib/proto/pow.ts:10
 
 ***
 
@@ -38,6 +34,4 @@ wasm/lib/proto/pow.ts:10
 
 > **worker**: `string`
 
-#### Defined in
-
-wasm/lib/proto/pow.ts:7
+Defined in: wasm/lib/proto/pow.ts:7
