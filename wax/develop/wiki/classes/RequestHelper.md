@@ -60,4 +60,4 @@ Request failed without receiving a response (e.g. network or CORS error)
 
 #### Defined in
 
-[wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/3722012494e8b95cad34795ca4735863e6a7742f/ts/wasm/lib/detailed/util/request_helper.ts#L125)
+[wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/8aac63d1c920aecfaef0aa7d4de773b894226572/ts/wasm/lib/detailed/util/request_helper.ts#L125)
