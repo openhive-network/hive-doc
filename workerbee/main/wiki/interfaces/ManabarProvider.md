@@ -2,7 +2,7 @@
 
 # Interface: ManabarProvider\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/manabar-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/manabar-provider.ts#L19)
+Defined in: [src/chain-observers/providers/manabar-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/manabar-provider.ts#L19)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/manabar-provider.ts:19](https://gitla
 
 > `readonly` **manabarData**: `Map`\<`string`, `Set`\<`EManabarType`\>\>
 
-Defined in: [src/chain-observers/providers/manabar-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/manabar-provider.ts#L20)
+Defined in: [src/chain-observers/providers/manabar-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/manabar-provider.ts#L20)
 
 ## Methods
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/providers/manabar-provider.ts:20](https://gitla
 
 > **provide**(`data`): `Promise`\<[`IManabarProviderData`](./IManabarProviderData)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/manabar-provider.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/manabar-provider.ts#L41)
+Defined in: [src/chain-observers/providers/manabar-provider.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/manabar-provider.ts#L41)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/chain-observers/providers/manabar-provider.ts:41](https://gitla
 
 > **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/manabar-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/manabar-provider.ts#L22)
+Defined in: [src/chain-observers/providers/manabar-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/manabar-provider.ts#L22)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/chain-observers/providers/manabar-provider.ts:22](https://gitla
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/manabar-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/manabar-provider.ts#L32)
+Defined in: [src/chain-observers/providers/manabar-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/manabar-provider.ts#L32)
 
 #### Returns
 

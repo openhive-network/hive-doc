@@ -2,7 +2,7 @@
 
 # Interface: Observer\<T\>
 
-Defined in: [src/types/subscribable.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/subscribable.ts#L4)
+Defined in: [src/types/subscribable.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/types/subscribable.ts#L4)
 
 An object interface that defines a set of callback functions a user can use to get notified
 
@@ -18,7 +18,7 @@ An object interface that defines a set of callback functions a user can use to g
 
 > **complete**: () => `void`
 
-Defined in: [src/types/subscribable.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/subscribable.ts#L26)
+Defined in: [src/types/subscribable.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/types/subscribable.ts#L26)
 
 A callback function that gets called by the producer if and when it has no more
 values to provide (by calling `next` callback function). This means that no error
@@ -36,7 +36,7 @@ if the consumer has unsubscribed.
 
 > **error**: (`err`) => `void`
 
-Defined in: [src/types/subscribable.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/subscribable.ts#L18)
+Defined in: [src/types/subscribable.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/types/subscribable.ts#L18)
 
 A callback function that gets called by the producer if and when it encountered a
 problem of any kind. The errored value will be provided through the `err` parameter.
@@ -60,7 +60,7 @@ the consumer has unsubscribed.
 
 > **next**: (`value`) => `void`
 
-Defined in: [src/types/subscribable.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/subscribable.ts#L10)
+Defined in: [src/types/subscribable.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/types/subscribable.ts#L10)
 
 A callback function that gets called by the producer during the subscription when
 the producer "has" the `value`. It won't be called if `error` or `complete` callback

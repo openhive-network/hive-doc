@@ -2,7 +2,7 @@
 
 # Interface: IFollowOperation
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L7)
+Defined in: [src/chain-observers/providers/follow-provider.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/follow-provider.ts#L7)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:7](https://gitlab.
 
 > **follower**: `string`
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L8)
+Defined in: [src/chain-observers/providers/follow-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/follow-provider.ts#L8)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:8](https://gitlab.
 
 > **following**: `string`
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L9)
+Defined in: [src/chain-observers/providers/follow-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/follow-provider.ts#L9)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:9](https://gitlab.
 
 > **what**: `EFollowActions`
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L10)
+Defined in: [src/chain-observers/providers/follow-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/follow-provider.ts#L10)

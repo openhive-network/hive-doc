@@ -2,7 +2,7 @@
 
 # Interface: IWitness
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:3](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/witness-classifier.ts#L3)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:3](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L3)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/classifiers/witness-classifier.ts:3](https://gi
 
 > **lastConfirmedBlockNum**: `number`
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/witness-classifier.ts#L7)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L7)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/chain-observers/classifiers/witness-classifier.ts:7](https://gi
 
 > **owner**: `string`
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/witness-classifier.ts#L4)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L4)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/chain-observers/classifiers/witness-classifier.ts:4](https://gi
 
 > **runningVersion**: `string`
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/witness-classifier.ts#L5)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L5)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/chain-observers/classifiers/witness-classifier.ts:5](https://gi
 
 > **totalMissedBlocks**: `number`
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/witness-classifier.ts#L6)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L6)

@@ -2,7 +2,7 @@
 
 # Interface: IBlockData
 
-Defined in: [src/chain-observers/classifiers/block-classifier.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/block-classifier.ts#L9)
+Defined in: [src/chain-observers/classifiers/block-classifier.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/block-classifier.ts#L9)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/classifiers/block-classifier.ts:9](https://gitl
 
 > **transactions**: [`ITransactionData`](./ITransactionData)[]
 
-Defined in: [src/chain-observers/classifiers/block-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/block-classifier.ts#L10)
+Defined in: [src/chain-observers/classifiers/block-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/block-classifier.ts#L10)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/chain-observers/classifiers/block-classifier.ts:10](https://git
 
 > **transactionsPerId**: `Map`\<`string`, `transaction`\>
 
-Defined in: [src/chain-observers/classifiers/block-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/block-classifier.ts#L11)
+Defined in: [src/chain-observers/classifiers/block-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/block-classifier.ts#L11)

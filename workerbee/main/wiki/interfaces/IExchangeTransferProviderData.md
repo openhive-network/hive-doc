@@ -2,7 +2,7 @@
 
 # Interface: IExchangeTransferProviderData
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/exchange-transfer-provider.ts#L16)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/exchange-transfer-provider.ts#L16)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:16](htt
 
 > **exchangeTransferOperations**: [`WorkerBeeIterable`](../classes/WorkerBeeIterable)\<[`IOperationTransactionPair`](./IOperationTransactionPair)\<[`IExchangeTransferMetadata`](./IExchangeTransferMetadata)\>\>
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/exchange-transfer-provider.ts#L17)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/exchange-transfer-provider.ts#L17)

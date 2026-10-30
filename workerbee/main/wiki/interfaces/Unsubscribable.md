@@ -2,7 +2,7 @@
 
 # Interface: Unsubscribable
 
-Defined in: [src/types/subscribable.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/subscribable.ts#L29)
+Defined in: [src/types/subscribable.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/types/subscribable.ts#L29)
 
 ## Methods
 
@@ -10,7 +10,7 @@ Defined in: [src/types/subscribable.ts:29](https://gitlab.syncad.com/hive/worker
 
 > **unsubscribe**(): `void`
 
-Defined in: [src/types/subscribable.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/subscribable.ts#L30)
+Defined in: [src/types/subscribable.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/types/subscribable.ts#L30)
 
 #### Returns
 

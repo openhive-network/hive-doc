@@ -2,7 +2,7 @@
 
 # Interface: IWhaleAlertProviderData
 
-Defined in: [src/chain-observers/providers/whale-alert-provider.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/whale-alert-provider.ts#L15)
+Defined in: [src/chain-observers/providers/whale-alert-provider.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/whale-alert-provider.ts#L15)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/chain-observers/providers/whale-alert-provider.ts:15](https://g
 
 > **whaleOperations**: [`WorkerBeeIterable`](../classes/WorkerBeeIterable)\<[`IOperationTransactionPair`](./IOperationTransactionPair)\<[`IWhaleAlertMetadata`](./IWhaleAlertMetadata)\>\>
 
-Defined in: [src/chain-observers/providers/whale-alert-provider.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/whale-alert-provider.ts#L16)
+Defined in: [src/chain-observers/providers/whale-alert-provider.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/whale-alert-provider.ts#L16)

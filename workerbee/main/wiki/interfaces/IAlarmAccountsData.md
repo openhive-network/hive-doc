@@ -2,7 +2,7 @@
 
 # Interface: IAlarmAccountsData\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/alarm-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/alarm-provider.ts#L23)
+Defined in: [src/chain-observers/providers/alarm-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/alarm-provider.ts#L23)
 
 ## Type Parameters
 
@@ -16,4 +16,4 @@ Defined in: [src/chain-observers/providers/alarm-provider.ts:23](https://gitlab.
 
 > **alarmsPerAccount**: `Partial`\<[`TAlarmAccounts`](../type-aliases/TAlarmAccounts)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/alarm-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/alarm-provider.ts#L24)
+Defined in: [src/chain-observers/providers/alarm-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/alarm-provider.ts#L24)
