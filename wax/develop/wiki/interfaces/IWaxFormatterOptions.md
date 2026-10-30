@@ -2,7 +2,7 @@
 
 # Interface: IWaxFormatterOptions
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L21)
+Defined in: [wasm/lib/detailed/formatters/types.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/types.ts#L21)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/formatters/types.ts:21](https://gitlab.syncad.com
 
 > **asset**: `object`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L22)
+Defined in: [wasm/lib/detailed/formatters/types.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/types.ts#L22)
 
 #### appendTokenName
 
@@ -66,7 +66,7 @@ undefined
 
 > **createDefaultFormatters**: `boolean`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L61)
+Defined in: [wasm/lib/detailed/formatters/types.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/types.ts#L61)
 
 Initializes formatter class with default wax formatters
 
@@ -82,7 +82,7 @@ true
 
 > **transaction**: `object`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/types.ts#L48)
+Defined in: [wasm/lib/detailed/formatters/types.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/types.ts#L48)
 
 #### displayAsId
 

@@ -2,7 +2,7 @@
 
 # Enumeration: ECommunityOperationActions
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:98](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L98)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:98](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L98)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:98](https://g
 
 > **FLAG\_POST**: `"flagPost"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L99)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L99)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:99](https://g
 
 > **MUTE\_POST**: `"mutePost"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L107)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L107)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:107](https://
 
 > **PIN\_POST**: `"pinPost"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L104)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L104)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:104](https://
 
 > **SET\_ROLE**: `"setRole"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:101](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L101)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:101](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L101)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:101](https://
 
 > **SET\_USER\_TITLE**: `"setUserTitle"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L100)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L100)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:100](https://
 
 > **SUBSCRIBE**: `"subscribe"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:102](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L102)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:102](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L102)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:102](https://
 
 > **UNMUTE\_POST**: `"unmutePost"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L108)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L108)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:108](https://
 
 > **UNPIN\_POST**: `"unpinPost"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L105)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L105)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:105](https://
 
 > **UNSUBSCRIBE**: `"unsubscribe"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:103](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L103)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:103](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L103)
 
 ***
 
@@ -82,4 +82,4 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:103](https://
 
 > **UPDATE\_PROPS**: `"updateProps"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:106](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L106)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:106](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L106)

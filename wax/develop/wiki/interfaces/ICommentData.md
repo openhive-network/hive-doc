@@ -2,7 +2,7 @@
 
 # Interface: ICommentData
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L16)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L16)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:16](https://gitlab
 
 > `optional` **allowCurationRewards?**: `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L100)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:100](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L100)
 
 Allow or disallow curation rewards for the post.
 Setting this property will create an additional comment_options operation.
@@ -27,7 +27,7 @@ true
 
 > `optional` **allowVotes?**: `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L107)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:107](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L107)
 
 Allow or disallow votes for the post.
 Setting this property will create an additional comment_options operation.
@@ -44,7 +44,7 @@ true
 
 > `optional` **alternativeAuthor?**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L82)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L82)
 
 The alternative author of the post.
 
@@ -54,7 +54,7 @@ The alternative author of the post.
 
 > **author**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L32)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L32)
 
 Account name, the author of the post or the comment.
 **It cannot be modified**
@@ -65,7 +65,7 @@ Account name, the author of the post or the comment.
 
 > `optional` **beneficiaries?**: [`beneficiary_route_type`](./beneficiary_route_type)[]
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:92](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L92)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:92](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L92)
 
 The beneficiaries of the post including account and the weight.
 Setting this property will create an additional comment_options operation.
@@ -76,7 +76,7 @@ Setting this property will create an additional comment_options operation.
 
 > **body**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L37)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L37)
 
 The content of the post or the comment.
 **It may be modified**.
@@ -87,7 +87,7 @@ The content of the post or the comment.
 
 > `optional` **description?**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L70)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L70)
 
 The description of the post.
 
@@ -97,7 +97,7 @@ The description of the post.
 
 > `optional` **format?**: [`ECommentFormat`](../enumerations/ECommentFormat)
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L66)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L66)
 
 The format of the comment.
 Currently supported formats are: html, markdown, markdown+html.
@@ -112,7 +112,7 @@ Currently supported formats are: html, markdown, markdown+html.
 
 > `optional` **images?**: `string`[]
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L78)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L78)
 
 The images in the post.
 
@@ -122,7 +122,7 @@ The images in the post.
 
 > **jsonMetadata**: `object`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L48)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L48)
 
 There is no blockchain validation on json_metadata, but the structure has been established by the community.
 From the blockchain point of view it is a json file.
@@ -139,7 +139,7 @@ For the second layer, the following keys may be used:
 
 > `optional` **links?**: `string`[]
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L74)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L74)
 
 The links in the post.
 
@@ -149,7 +149,7 @@ The links in the post.
 
 > `optional` **maxAcceptedPayout?**: [`TNaiAssetSource`](../type-aliases/TNaiAssetSource)
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L121)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L121)
 
 The maximum accepted payout for the post.
 Setting this property will create an additional comment_options operation.
@@ -166,7 +166,7 @@ Setting this property will create an additional comment_options operation.
 
 > **parentAuthor**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L21)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L21)
 
 Account name, the author of the commented post or comment.
 If the operation creates a post, it is empty.
@@ -177,7 +177,7 @@ If the operation creates a post, it is empty.
 
 > **parentPermlink**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L27)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L27)
 
 The identifier of the commented post or comment.
 When a user creates a post, it may contain the identifier of the community (e.g. hive-174695) or main tag (e.g. travel).
@@ -189,7 +189,7 @@ When a user creates a post, it may contain the identifier of the community (e.g.
 
 > `optional` **percentHbd?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L114)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L114)
 
 The percentage of the HBD reward.
 Setting this property will create an additional comment_options operation.
@@ -206,7 +206,7 @@ Setting this property will create an additional comment_options operation.
 
 > **permlink**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L53)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L53)
 
 Unique to the author, the identifier of the post or comment.
 **It cannot be modified**.
@@ -217,7 +217,7 @@ Unique to the author, the identifier of the post or comment.
 
 > `optional` **tags?**: `string`[]
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L86)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:86](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L86)
 
 The tags of the post.
 
@@ -227,7 +227,7 @@ The tags of the post.
 
 > **title**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L58)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/comment.ts#L58)
 
 The title of the submitted post, in case of the comment, is often empty.
 **It may be modified**.

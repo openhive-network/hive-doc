@@ -2,7 +2,7 @@
 
 # Abstract Class: AEncryptionProvider
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L26)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L26)
 
 Helper class encapsulating transaction signing and encryption flow. Derived class must implement signature
 generation logic like also methods related to data encryption.
@@ -35,7 +35,7 @@ generation logic like also methods related to data encryption.
 
 > `abstract` **decryptData**(`buffer`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L38)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L38)
 
 Decrypts data
 
@@ -63,7 +63,7 @@ The decrypted data as a string.
 
 > `abstract` **encryptData**(`buffer`, `recipient`, `nonce?`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L35)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L35)
 
 Encrypts data
 
@@ -103,7 +103,7 @@ A string containing the encrypted data.
 
 > `abstract` `protected` **generateSignatures**(`transaction`): `Promise`\<`string`[]\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
 
 #### Parameters
 
@@ -125,7 +125,7 @@ Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](h
 
 > **signTransaction**(`transaction`): `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L28)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L28)
 
 Signs a transaction by signing a digest of the transaction
 

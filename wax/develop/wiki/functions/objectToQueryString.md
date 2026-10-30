@@ -4,7 +4,7 @@
 
 > **objectToQueryString**(`params`): `string`
 
-Defined in: [wasm/lib/detailed/util/query\_string.ts:1](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/util/query_string.ts#L1)
+Defined in: [wasm/lib/detailed/util/query\_string.ts:1](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/util/query_string.ts#L1)
 
 ## Parameters
 

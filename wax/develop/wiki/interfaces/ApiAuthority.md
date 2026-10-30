@@ -2,7 +2,7 @@
 
 # Interface: ApiAuthority
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L19)
+Defined in: [wasm/lib/detailed/api/types/account.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L19)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:19](https://gitlab.syncad.co
 
 > **account\_auths**: [`ApiAccountAuth`](./ApiAccountAuth)[]
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L21)
+Defined in: [wasm/lib/detailed/api/types/account.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L21)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:21](https://gitlab.syncad.co
 
 > **key\_auths**: [`ApiKeyAuth`](./ApiKeyAuth)[]
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L22)
+Defined in: [wasm/lib/detailed/api/types/account.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L22)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:22](https://gitlab.syncad.co
 
 > **weight\_threshold**: `number`
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L20)
+Defined in: [wasm/lib/detailed/api/types/account.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L20)

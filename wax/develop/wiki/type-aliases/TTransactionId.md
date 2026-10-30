@@ -4,7 +4,7 @@
 
 > **TTransactionId** = `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:103](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L103)
+Defined in: [wasm/lib/detailed/interfaces.ts:103](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L103)
 
 Transaction id type
 

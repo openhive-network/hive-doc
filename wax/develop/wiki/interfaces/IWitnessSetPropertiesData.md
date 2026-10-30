@@ -2,7 +2,7 @@
 
 # Interface: IWitnessSetPropertiesData
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L10)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L10)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:1
 
 > `optional` **accountCreationFee?**: [`TNaiAssetSource`](../type-aliases/TNaiAssetSource)
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L26)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L26)
 
 The account creation fee.
 
@@ -20,7 +20,7 @@ The account creation fee.
 
 > `optional` **accountSubsidyBudget?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L46)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L46)
 
 The account subsidy budget.
 
@@ -30,7 +30,7 @@ The account subsidy budget.
 
 > `optional` **accountSubsidyDecay?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L50)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L50)
 
 The account subsidy decay.
 
@@ -40,7 +40,7 @@ The account subsidy decay.
 
 > `optional` **hbdExchangeRate?**: `object`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L34)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L34)
 
 The HBD exchange rate.
 
@@ -58,7 +58,7 @@ The HBD exchange rate.
 
 > `optional` **hbdInterestRate?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L42)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L42)
 
 The HBD interest rate.
 
@@ -68,7 +68,7 @@ The HBD interest rate.
 
 > `optional` **maximumBlockSize?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L38)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L38)
 
 The maximum block size.
 
@@ -78,7 +78,7 @@ The maximum block size.
 
 > `optional` **newSigningKey?**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L22)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L22)
 
 The new signing key of the witness.
 
@@ -88,7 +88,7 @@ The new signing key of the witness.
 
 > **owner**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L14)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L14)
 
 Witness account name.
 
@@ -98,7 +98,7 @@ Witness account name.
 
 > `optional` **url?**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L30)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L30)
 
 The URL of the witness.
 
@@ -108,6 +108,6 @@ The URL of the witness.
 
 > **witnessSigningKey**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L18)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L18)
 
 The public key of the witness.

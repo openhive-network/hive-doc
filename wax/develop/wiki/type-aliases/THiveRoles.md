@@ -4,7 +4,7 @@
 
 > **THiveRoles** = `object`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L13)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L13)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **active**: [`HiveRoleAuthorityDefinition`](../interfaces/HiveRoleAuthorityDefinition)\<`"active"`\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L14)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L14)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **memo**: [`HiveRoleMemoKeyDefinition`](../interfaces/HiveRoleMemoKeyDefinition)
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L17)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L17)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **owner**: [`HiveRoleAuthorityDefinition`](../interfaces/HiveRoleAuthorityDefinition)\<`"owner"`\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L15)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:15](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L15)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **posting**: [`HiveRoleAuthorityDefinition`](../interfaces/HiveRoleAuthorityDefinition)\<`"posting"`\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L16)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/index.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/index.ts#L16)

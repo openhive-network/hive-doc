@@ -2,7 +2,7 @@
 
 # Interface: IRecurrentTransferData
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L27)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L27)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:27](ht
 
 > **amount**: [`asset`](./asset)
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L32)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L32)
 
 The amount of asset to transfer.
 Allowed assets: **HIVE** and **HBD**.
@@ -25,7 +25,7 @@ Allowed assets: **HIVE** and **HBD**.
 
 > `optional` **executions?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L53)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L53)
 
 How many times the recurrent payment will be executed.
 Executions must be at least 2, if you set executions to 1 the recurrent transfer will not be executed.
@@ -42,7 +42,7 @@ Executions must be at least 2, if you set executions to 1 the recurrent transfer
 
 > **from**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L12)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L12)
 
 Account to transfer asset from.
 
@@ -56,7 +56,7 @@ Account to transfer asset from.
 
 > `optional` **memo?**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L38)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L38)
 
 Must be shorter than 2048 characters.
 
@@ -72,7 +72,7 @@ Must be shorter than 2048 characters.
 
 > `optional` **pairId?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L24)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:24](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L24)
 
 Since HF 28, if user has more than one recurrent transfer to the same receiver
 or if user creates the recurrent transfer using pairId, user has to specify the pairId
@@ -94,7 +94,7 @@ in order to update or remove the defined recurrent transfer.
 
 > `optional` **recurrence?**: `number`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L46)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L46)
 
 How often will the payment be triggered, unit: hours.
 The first transfer is executed immediately.
@@ -112,7 +112,7 @@ The minimum value of the parameter is 24 h.
 
 > **to**: `string`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L16)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L16)
 
 Account to transfer asset to. Cannot set a transfer to yourself.
 

@@ -2,7 +2,7 @@
 
 # Interface: ApiAccountAuth
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L4)
+Defined in: [wasm/lib/detailed/api/types/account.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L4)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:4](https://gitlab.syncad.com
 
 > **0**: `string`
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L5)
+Defined in: [wasm/lib/detailed/api/types/account.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L5)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [wasm/lib/detailed/api/types/account.ts:5](https://gitlab.syncad.com
 
 > **1**: `number`
 
-Defined in: [wasm/lib/detailed/api/types/account.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/account.ts#L6)
+Defined in: [wasm/lib/detailed/api/types/account.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/account.ts#L6)

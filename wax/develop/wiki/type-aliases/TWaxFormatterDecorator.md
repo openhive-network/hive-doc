@@ -4,7 +4,7 @@
 
 > **TWaxFormatterDecorator** = (`target`, `propertyKey`, `descriptor`) => `void`
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/decorators/formatters.ts#L37)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/decorators/formatters.ts#L37)
 
 ## Parameters
 

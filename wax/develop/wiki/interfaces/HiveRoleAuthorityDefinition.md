@@ -2,7 +2,7 @@
 
 # Interface: HiveRoleAuthorityDefinition\<TRole\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L8)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L8)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **level**: `TRole`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/level\_base.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/level_base.ts#L10)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/level\_base.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/level_base.ts#L10)
 
 Role level name. It should be unique and marked `as const` for proper type narrowing
 (See: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions)
@@ -37,7 +37,7 @@ Role level name. It should be unique and marked `as const` for proper type narro
 
 > **get** **changed**(): `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L39)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L39)
 
 Checks if the authority has changed since the last update.
 
@@ -59,7 +59,7 @@ This check does not rely on previous [add](./#add), [remove](./#remove) etc. cal
 
 > **get** **isNullAuthority**(): `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:218](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L218)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:218](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L218)
 
 Checks if the currently selected role is null - everyone can access your account - no account nor key authorities.
 
@@ -77,7 +77,7 @@ Either true or false depending on whether the authority is null or not.
 
 > **get** **value**(): `Readonly`\<[`authority`](./authority)\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L73)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L73)
 
 ##### Returns
 
@@ -93,7 +93,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **add**(`accountOrKey`, `weight?`): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:122](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L122)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:122](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L122)
 
 Adds an account or key to the currently selected role with specified weight.
 If the account or key already exists, its weight is updated.
@@ -124,7 +124,7 @@ itself
 
 > `protected` **addToRole**(`accountOrKey`, `weight`): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L77)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L77)
 
 #### Parameters
 
@@ -146,7 +146,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **clear**(): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:203](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L203)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:203](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L203)
 
 Clears the currently selected role making it null authority. See [isNullAuthority](./#isnullauthority) method.
 
@@ -162,7 +162,7 @@ itself
 
 > **enforceModifications**(): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L30)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L30)
 
 Once called, will mark given role as modified, and effectively push its definition into final operation.
 
@@ -180,7 +180,7 @@ Once called, will mark given role as modified, and effectively push its definiti
 
 > `protected` **ensureValidAccountOrKey**(`accountOrKey`): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L99)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:99](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L99)
 
 #### Parameters
 
@@ -198,7 +198,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > `protected` **getTuple**(`accountOrKey`): `void` \| \[`string`, `number`\]
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L104)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:104](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L104)
 
 #### Parameters
 
@@ -216,7 +216,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **has**(`accountOrKey`, `weight?`): `boolean`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:173](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L173)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:173](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L173)
 
 Checks if the account or key is present in the currently selected role.
 
@@ -246,7 +246,7 @@ Either true or false depending on whether the account or key is present in the c
 
 > **init**(`maxAccountNameLength`, `hiveAddressPrefix`, `authority`): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L66)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L66)
 
 #### Parameters
 
@@ -272,7 +272,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **remove**(`accountOrKey`): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:158](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L158)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:158](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L158)
 
 Removes given account or key from the currently selected role.
 Does nothing if the account or key is not present.
@@ -297,7 +297,7 @@ itself
 
 > `protected` **removeFromRole**(`accountOrKey`): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L87)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:87](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L87)
 
 #### Parameters
 
@@ -315,7 +315,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive
 
 > **replace**(`accountOrKey`, `weight`, `newKeyOrAccount?`): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:138](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L138)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:138](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L138)
 
 Replaces the account or key with a new one in the currently selected role or changes the weight of the existing account or key.
 
@@ -351,7 +351,7 @@ itself
 
 > **reset**(): `void`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L26)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L26)
 
 Resets the level to its initial state.
 
@@ -369,7 +369,7 @@ Resets the level to its initial state.
 
 > **setTreshold**(`treshold?`): `this`
 
-Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:190](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L190)
+Defined in: [wasm/lib/detailed/complex\_operations/role\_classes/categories/hive\_authority/hive\_role\_authority\_definition.ts:190](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/role_classes/categories/hive_authority/hive_role_authority_definition.ts#L190)
 
 Sets weight threshold for the currently selected role.
 

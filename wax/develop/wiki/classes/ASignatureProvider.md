@@ -2,7 +2,7 @@
 
 # Abstract Class: ASignatureProvider
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L7)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L7)
 
 Helper class encapsulating transaction signing flow. Derived class must implement signature generation logic.
 
@@ -30,7 +30,7 @@ Helper class encapsulating transaction signing flow. Derived class must implemen
 
 > `abstract` `protected` **generateSignatures**(`transaction`): `Promise`\<`string`[]\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L17)
 
 #### Parameters
 
@@ -48,7 +48,7 @@ Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:17](h
 
 > **signTransaction**(`transaction`): `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L8)
+Defined in: [wasm/lib/detailed/extensions/signatures/extension\_helpers.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/extensions/signatures/extension_helpers.ts#L8)
 
 Signs a transaction by signing a digest of the transaction
 

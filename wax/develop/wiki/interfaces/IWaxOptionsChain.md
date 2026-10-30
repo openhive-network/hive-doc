@@ -2,7 +2,7 @@
 
 # Interface: IWaxOptionsChain
 
-Defined in: [wasm/lib/detailed/interfaces.ts:182](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L182)
+Defined in: [wasm/lib/detailed/interfaces.ts:182](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L182)
 
 ## Extends
 
@@ -15,7 +15,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:182](https://gitlab.syncad.com/hive
 
 > **apiEndpoint**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L121)
+Defined in: [wasm/lib/detailed/interfaces.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L121)
 
 Endpoint for all of the API requests
 
@@ -35,7 +35,7 @@ Endpoint for all of the API requests
 
 > **apiTimeout**: `number`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L149)
+Defined in: [wasm/lib/detailed/interfaces.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L149)
 
 Timeout for all of the API requests in milliseconds.
 Set to 0 to disable timeout
@@ -56,7 +56,7 @@ Set to 0 to disable timeout
 
 > **chainId**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L111)
+Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 Chain id in hex string format
 
@@ -70,7 +70,7 @@ Chain id in hex string format
 
 > **restApiEndpoint**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L129)
+Defined in: [wasm/lib/detailed/interfaces.ts:129](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L129)
 
 Endpoint for all of the REST API requests
 
@@ -90,7 +90,7 @@ Endpoint for all of the REST API requests
 
 > `optional` **wasmLocation?**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L170)
+Defined in: [wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L170)
 
 The path to the WASM file. It can be a relative path or an absolute URL
 If not specified, the default path is used: "./build_wasm/wax.common.wasm" (may change if bundled)
@@ -116,7 +116,7 @@ Note: When you don't have your WASM file served from the static directory (such 
 
 > `optional` **waxApiCaller?**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L140)
+Defined in: [wasm/lib/detailed/interfaces.ts:140](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L140)
 
 X-Wax-Api-Caller header value for all requests (both API and REST API).
 This header is used to identify the application making requests to the server.

@@ -4,4 +4,4 @@
 
 > **ApiTransaction** = `BaseTransaction`\<[`ApiOperation`](../interfaces/ApiOperation)\>
 
-Defined in: [wasm/lib/detailed/api/types/transaction.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/types/transaction.ts#L19)
+Defined in: [wasm/lib/detailed/api/types/transaction.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/types/transaction.ts#L19)

@@ -2,7 +2,7 @@
 
 # Interface: IBinaryViewOutputData
 
-Defined in: [wasm/lib/detailed/interfaces.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L58)
+Defined in: [wasm/lib/detailed/interfaces.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L58)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:58](https://gitlab.syncad.com/hive/
 
 > **binary**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L59)
+Defined in: [wasm/lib/detailed/interfaces.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L59)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [wasm/lib/detailed/interfaces.ts:59](https://gitlab.syncad.com/hive/
 
 > **offsets**: [`IBinaryViewNode`](../type-aliases/IBinaryViewNode)[]
 
-Defined in: [wasm/lib/detailed/interfaces.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L60)
+Defined in: [wasm/lib/detailed/interfaces.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L60)

@@ -2,7 +2,7 @@
 
 # Class: WaxInvalidFeeError
 
-Defined in: [wasm/lib/detailed/errors.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L105)
+Defined in: [wasm/lib/detailed/errors.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L105)
 
 Raised when a fee does not match the required value.
 
@@ -16,7 +16,7 @@ Raised when a fee does not match the required value.
 
 > **new WaxInvalidFeeError**(`raw`, `category?`): `WaxInvalidFeeError`
 
-Defined in: [wasm/lib/detailed/errors.ts:106](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L106)
+Defined in: [wasm/lib/detailed/errors.ts:106](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L106)
 
 #### Parameters
 
@@ -78,7 +78,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **raw**: [`CxxExceptionData`](./CxxExceptionData)
 
-Defined in: [wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L32)
+Defined in: [wasm/lib/detailed/errors.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L32)
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ not capture any frames.
 
 > **get** **assertHash**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L56)
+Defined in: [wasm/lib/detailed/errors.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L56)
 
 Hash identifying the specific C++ assertion site.
 
@@ -146,7 +146,7 @@ Hash identifying the specific C++ assertion site.
 
 > **get** **category**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L44)
+Defined in: [wasm/lib/detailed/errors.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L44)
 
 Origin of the assertion: `"protocol"` or `"chain"`.
 
@@ -166,7 +166,7 @@ Origin of the assertion: `"protocol"` or `"chain"`.
 
 > **get** **extras**(): `Record`\<`string`, `any`\>
 
-Defined in: [wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L53)
+Defined in: [wasm/lib/detailed/errors.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L53)
 
 Additional fields from the top-level C++ stack frame.
 
@@ -186,7 +186,7 @@ Additional fields from the top-level C++ stack frame.
 
 > **get** **fee**(): `unknown`
 
-Defined in: [wasm/lib/detailed/errors.ts:112](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L112)
+Defined in: [wasm/lib/detailed/errors.ts:112](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L112)
 
 The invalid fee value, if available from the assertion data.
 
@@ -202,7 +202,7 @@ The invalid fee value, if available from the assertion data.
 
 > **get** **subject**(): `unknown`
 
-Defined in: [wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L50)
+Defined in: [wasm/lib/detailed/errors.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L50)
 
 The value that failed the assertion.
 
@@ -222,7 +222,7 @@ The value that failed the assertion.
 
 > **get** **subjectType**(): `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/errors.ts#L47)
+Defined in: [wasm/lib/detailed/errors.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/errors.ts#L47)
 
 Kind of the value that failed validation (e.g. `"account_name"`, `"asset"`, `"balance"`).
 

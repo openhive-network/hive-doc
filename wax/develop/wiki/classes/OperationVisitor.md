@@ -2,7 +2,7 @@
 
 # Class: OperationVisitor\<R\>
 
-Defined in: [wasm/lib/detailed/visitor.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L22)
+Defined in: [wasm/lib/detailed/visitor.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L22)
 
 ## Extended by
 
@@ -34,7 +34,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:22](https://gitlab.syncad.com/hive/wax
 
 > `readonly` **accept**(`op`): [`NoOverride`](../type-aliases/NoOverride) & `void` \| `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L26)
+Defined in: [wasm/lib/detailed/visitor.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L26)
 
 You should not override this method
 
@@ -54,7 +54,7 @@ You should not override this method
 
 > `optional` **account\_create\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L42)
+Defined in: [wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L42)
 
 #### Parameters
 
@@ -76,7 +76,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:42](https://gitlab.syncad.com/hive/wax
 
 > `optional` **account\_create\_with\_delegation\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L71)
+Defined in: [wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L71)
 
 #### Parameters
 
@@ -98,7 +98,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:71](https://gitlab.syncad.com/hive/wax
 
 > `optional` **account\_update\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L43)
+Defined in: [wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L43)
 
 #### Parameters
 
@@ -120,7 +120,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:43](https://gitlab.syncad.com/hive/wax
 
 > `optional` **account\_update2\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L73)
+Defined in: [wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L73)
 
 #### Parameters
 
@@ -142,7 +142,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:73](https://gitlab.syncad.com/hive/wax
 
 > `optional` **account\_witness\_proxy\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L46)
+Defined in: [wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L46)
 
 #### Parameters
 
@@ -164,7 +164,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:46](https://gitlab.syncad.com/hive/wax
 
 > `optional` **account\_witness\_vote\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L45)
+Defined in: [wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L45)
 
 #### Parameters
 
@@ -186,7 +186,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:45](https://gitlab.syncad.com/hive/wax
 
 > `optional` **cancel\_transfer\_from\_savings\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L67)
+Defined in: [wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L67)
 
 #### Parameters
 
@@ -208,7 +208,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:67](https://gitlab.syncad.com/hive/wax
 
 > `optional` **change\_recovery\_account\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L59)
+Defined in: [wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L59)
 
 #### Parameters
 
@@ -230,7 +230,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:59](https://gitlab.syncad.com/hive/wax
 
 > `optional` **claim\_account\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L55)
+Defined in: [wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L55)
 
 #### Parameters
 
@@ -252,7 +252,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:55](https://gitlab.syncad.com/hive/wax
 
 > `optional` **claim\_reward\_balance\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L69)
+Defined in: [wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L69)
 
 #### Parameters
 
@@ -274,7 +274,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:69](https://gitlab.syncad.com/hive/wax
 
 > `optional` **collateralized\_convert\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L78)
+Defined in: [wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L78)
 
 #### Parameters
 
@@ -296,7 +296,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:78](https://gitlab.syncad.com/hive/wax
 
 > `optional` **comment\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L34)
+Defined in: [wasm/lib/detailed/visitor.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L34)
 
 #### Parameters
 
@@ -318,7 +318,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:34](https://gitlab.syncad.com/hive/wax
 
 > `optional` **comment\_options\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L52)
+Defined in: [wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L52)
 
 #### Parameters
 
@@ -340,7 +340,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:52](https://gitlab.syncad.com/hive/wax
 
 > `optional` **convert\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L41)
+Defined in: [wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L41)
 
 #### Parameters
 
@@ -362,7 +362,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:41](https://gitlab.syncad.com/hive/wax
 
 > `optional` **create\_claimed\_account\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L56)
+Defined in: [wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L56)
 
 #### Parameters
 
@@ -384,7 +384,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:56](https://gitlab.syncad.com/hive/wax
 
 > `optional` **create\_proposal\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L74)
+Defined in: [wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L74)
 
 #### Parameters
 
@@ -406,7 +406,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:74](https://gitlab.syncad.com/hive/wax
 
 > `optional` **custom\_json\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L51)
+Defined in: [wasm/lib/detailed/visitor.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L51)
 
 #### Parameters
 
@@ -428,7 +428,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:51](https://gitlab.syncad.com/hive/wax
 
 > `optional` **custom\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L48)
+Defined in: [wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L48)
 
 #### Parameters
 
@@ -450,7 +450,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:48](https://gitlab.syncad.com/hive/wax
 
 > `optional` **decline\_voting\_rights\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L68)
+Defined in: [wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L68)
 
 #### Parameters
 
@@ -472,7 +472,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:68](https://gitlab.syncad.com/hive/wax
 
 > `optional` **delegate\_vesting\_shares\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L70)
+Defined in: [wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L70)
 
 #### Parameters
 
@@ -494,7 +494,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:70](https://gitlab.syncad.com/hive/wax
 
 > `optional` **delete\_comment\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L50)
+Defined in: [wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L50)
 
 #### Parameters
 
@@ -516,7 +516,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:50](https://gitlab.syncad.com/hive/wax
 
 > `optional` **escrow\_approve\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L64)
+Defined in: [wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L64)
 
 #### Parameters
 
@@ -538,7 +538,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:64](https://gitlab.syncad.com/hive/wax
 
 > `optional` **escrow\_dispute\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L61)
+Defined in: [wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L61)
 
 #### Parameters
 
@@ -560,7 +560,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:61](https://gitlab.syncad.com/hive/wax
 
 > `optional` **escrow\_release\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L62)
+Defined in: [wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L62)
 
 #### Parameters
 
@@ -582,7 +582,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:62](https://gitlab.syncad.com/hive/wax
 
 > `optional` **escrow\_transfer\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L60)
+Defined in: [wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L60)
 
 #### Parameters
 
@@ -604,7 +604,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:60](https://gitlab.syncad.com/hive/wax
 
 > `optional` **feed\_publish\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L40)
+Defined in: [wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L40)
 
 #### Parameters
 
@@ -626,7 +626,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:40](https://gitlab.syncad.com/hive/wax
 
 > `optional` **limit\_order\_cancel\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L39)
+Defined in: [wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L39)
 
 #### Parameters
 
@@ -648,7 +648,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:39](https://gitlab.syncad.com/hive/wax
 
 > `optional` **limit\_order\_create\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L38)
+Defined in: [wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L38)
 
 #### Parameters
 
@@ -670,7 +670,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:38](https://gitlab.syncad.com/hive/wax
 
 > `optional` **limit\_order\_create2\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L54)
+Defined in: [wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L54)
 
 #### Parameters
 
@@ -692,7 +692,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:54](https://gitlab.syncad.com/hive/wax
 
 > `optional` **pow\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L47)
+Defined in: [wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L47)
 
 #### Parameters
 
@@ -714,7 +714,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:47](https://gitlab.syncad.com/hive/wax
 
 > `optional` **pow2\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L63)
+Defined in: [wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L63)
 
 #### Parameters
 
@@ -736,7 +736,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:63](https://gitlab.syncad.com/hive/wax
 
 > `optional` **recover\_account\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L58)
+Defined in: [wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L58)
 
 #### Parameters
 
@@ -758,7 +758,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:58](https://gitlab.syncad.com/hive/wax
 
 > `optional` **recurrent\_transfer\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L79)
+Defined in: [wasm/lib/detailed/visitor.ts:79](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L79)
 
 #### Parameters
 
@@ -780,7 +780,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:79](https://gitlab.syncad.com/hive/wax
 
 > `optional` **remove\_proposal\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L76)
+Defined in: [wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L76)
 
 #### Parameters
 
@@ -802,7 +802,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:76](https://gitlab.syncad.com/hive/wax
 
 > `optional` **request\_account\_recovery\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L57)
+Defined in: [wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L57)
 
 #### Parameters
 
@@ -824,7 +824,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:57](https://gitlab.syncad.com/hive/wax
 
 > `optional` **set\_withdraw\_vesting\_route\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L53)
+Defined in: [wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L53)
 
 #### Parameters
 
@@ -846,7 +846,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:53](https://gitlab.syncad.com/hive/wax
 
 > `optional` **transfer\_from\_savings\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L66)
+Defined in: [wasm/lib/detailed/visitor.ts:66](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L66)
 
 #### Parameters
 
@@ -868,7 +868,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:66](https://gitlab.syncad.com/hive/wax
 
 > `optional` **transfer\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L35)
+Defined in: [wasm/lib/detailed/visitor.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L35)
 
 #### Parameters
 
@@ -890,7 +890,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:35](https://gitlab.syncad.com/hive/wax
 
 > `optional` **transfer\_to\_savings\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L65)
+Defined in: [wasm/lib/detailed/visitor.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L65)
 
 #### Parameters
 
@@ -912,7 +912,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:65](https://gitlab.syncad.com/hive/wax
 
 > `optional` **transfer\_to\_vesting\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L36)
+Defined in: [wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L36)
 
 #### Parameters
 
@@ -934,7 +934,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:36](https://gitlab.syncad.com/hive/wax
 
 > `optional` **update\_proposal\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L77)
+Defined in: [wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L77)
 
 #### Parameters
 
@@ -956,7 +956,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:77](https://gitlab.syncad.com/hive/wax
 
 > `optional` **update\_proposal\_votes\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L75)
+Defined in: [wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L75)
 
 #### Parameters
 
@@ -978,7 +978,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:75](https://gitlab.syncad.com/hive/wax
 
 > `optional` **vote\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L33)
+Defined in: [wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L33)
 
 #### Parameters
 
@@ -1000,7 +1000,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:33](https://gitlab.syncad.com/hive/wax
 
 > `optional` **withdraw\_vesting\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L37)
+Defined in: [wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L37)
 
 #### Parameters
 
@@ -1022,7 +1022,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:37](https://gitlab.syncad.com/hive/wax
 
 > `optional` **witness\_block\_approve\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L49)
+Defined in: [wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L49)
 
 #### Parameters
 
@@ -1044,7 +1044,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:49](https://gitlab.syncad.com/hive/wax
 
 > `optional` **witness\_set\_properties\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L72)
+Defined in: [wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L72)
 
 #### Parameters
 
@@ -1066,7 +1066,7 @@ Defined in: [wasm/lib/detailed/visitor.ts:72](https://gitlab.syncad.com/hive/wax
 
 > `optional` **witness\_update\_operation**(`op`): `R`
 
-Defined in: [wasm/lib/detailed/visitor.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/visitor.ts#L44)
+Defined in: [wasm/lib/detailed/visitor.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/visitor.ts#L44)
 
 #### Parameters
 

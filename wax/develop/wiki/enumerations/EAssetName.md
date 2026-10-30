@@ -2,7 +2,7 @@
 
 # Enumeration: EAssetName
 
-Defined in: [wasm/lib/detailed/base\_api.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/base_api.ts#L26)
+Defined in: [wasm/lib/detailed/base\_api.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/base_api.ts#L26)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/base\_api.ts:26](https://gitlab.syncad.com/hive/w
 
 > **HBD**: `"HBD"`
 
-Defined in: [wasm/lib/detailed/base\_api.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/base_api.ts#L28)
+Defined in: [wasm/lib/detailed/base\_api.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/base_api.ts#L28)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/base\_api.ts:28](https://gitlab.syncad.com/hive/w
 
 > **HIVE**: `"HIVE"`
 
-Defined in: [wasm/lib/detailed/base\_api.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/base_api.ts#L27)
+Defined in: [wasm/lib/detailed/base\_api.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/base_api.ts#L27)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [wasm/lib/detailed/base\_api.ts:27](https://gitlab.syncad.com/hive/w
 
 > **VESTS**: `"VESTS"`
 
-Defined in: [wasm/lib/detailed/base\_api.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/base_api.ts#L29)
+Defined in: [wasm/lib/detailed/base\_api.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/base_api.ts#L29)

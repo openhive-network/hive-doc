@@ -2,7 +2,7 @@
 
 # Abstract Class: WaxFormatterBase
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L16)
+Defined in: [wasm/lib/detailed/formatters/base.ts:16](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/base.ts#L16)
 
 Classes implementing this interface denote that they are ready to handle tagged templates
 
@@ -20,7 +20,7 @@ Classes implementing this interface denote that they are ready to handle tagged 
 
 > **new WaxFormatterBase**(`options?`): `WaxFormatterBase`
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L19)
+Defined in: [wasm/lib/detailed/formatters/base.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/base.ts#L19)
 
 #### Parameters
 
@@ -116,7 +116,7 @@ true
 
 > `readonly` **options**: [`IWaxFormatterOptions`](../interfaces/IWaxFormatterOptions)
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L17)
+Defined in: [wasm/lib/detailed/formatters/base.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/base.ts#L17)
 
 Options for the formatter
 
@@ -130,7 +130,7 @@ Options for the formatter
 
 > **format**\<`I`, `R`\>(`data`): `R`
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L72)
+Defined in: [wasm/lib/detailed/formatters/base.ts:72](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/base.ts#L72)
 
 Formats given data based on formatter options
 
@@ -176,7 +176,7 @@ formatter.format(naiObject);
 
 > `abstract` `protected` **handleProperty**(`source`, `target`, `property`): `any`
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L27)
+Defined in: [wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/base.ts#L27)
 
 #### Parameters
 
@@ -202,7 +202,7 @@ Defined in: [wasm/lib/detailed/formatters/base.ts:27](https://gitlab.syncad.com/
 
 > **waxify**(`strings`, ...`args`): `string`
 
-Defined in: [wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/formatters/base.ts#L76)
+Defined in: [wasm/lib/detailed/formatters/base.ts:76](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/base.ts#L76)
 
 Formats given text based on arguments structure
 

@@ -2,7 +2,7 @@
 
 # Enumeration: EFollowActions
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L31)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L31)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:31](https://gitl
 
 > **BLACKLIST**: `"blacklist"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L36)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L36)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:36](https://gitl
 
 > **FOLLOW**: `"blog"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L32)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L32)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:32](https://gitl
 
 > **FOLLOW\_BLACKLIST**: `"follow_blacklist"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L38)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L38)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:38](https://gitl
 
 > **FOLLOW\_MUTED**: `"follow_muted"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L42)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L42)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:42](https://gitl
 
 > **MUTE**: `"ignore"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L34)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L34)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:34](https://gitl
 
 > **RESET\_ALL\_LISTS**: `"reset_all_lists"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L44)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L44)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:44](https://gitl
 
 > **RESET\_BLACKLIST**: `"reset_blacklist"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L35)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L35)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:35](https://gitl
 
 > **RESET\_FOLLOW\_BLACKLIST**: `"reset_follow_blacklist"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L37)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L37)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:37](https://gitl
 
 > **RESET\_FOLLOW\_MUTED\_LIST**: `"reset_follow_muted_list"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L41)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L41)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:41](https://gitl
 
 > **RESET\_FOLLOWING\_LIST**: `"reset_following_list"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L45)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L45)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:45](https://gitl
 
 > **RESET\_MUTED\_LIST**: `"reset_muted_list"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L46)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L46)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:46](https://gitl
 
 > **UNBLACKLIST**: `"unblacklist"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L39)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L39)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:39](https://gitl
 
 > **UNFOLLOW**: `""`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L33)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L33)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:33](https://gitl
 
 > **UNFOLLOW\_BLACKLIST**: `"unfollow_blacklist"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L40)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L40)
 
 ***
 
@@ -122,4 +122,4 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:40](https://gitl
 
 > **UNFOLLOW\_MUTED**: `"unfollow_muted"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L43)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L43)

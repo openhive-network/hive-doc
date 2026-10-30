@@ -2,7 +2,7 @@
 
 # Class: RequestHelper
 
-Defined in: [wasm/lib/detailed/util/request\_helper.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/util/request_helper.ts#L32)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/util/request_helper.ts#L32)
 
 ## Constructors
 
@@ -20,7 +20,7 @@ Defined in: [wasm/lib/detailed/util/request\_helper.ts:32](https://gitlab.syncad
 
 > **request**\<`TResponse`\>(`config`): `Promise`\<[`IDetailedResponseData`](../interfaces/IDetailedResponseData)\<`TResponse`\>\>
 
-Defined in: [wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/util/request_helper.ts#L125)
+Defined in: [wasm/lib/detailed/util/request\_helper.ts:125](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/util/request_helper.ts#L125)
 
 Requests given resource with timings
 

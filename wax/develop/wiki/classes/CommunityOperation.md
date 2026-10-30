@@ -2,7 +2,7 @@
 
 # Class: CommunityOperation
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:120](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L120)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:120](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L120)
 
 ## Extends
 
@@ -28,7 +28,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:120](https://
 
 > `protected` **body**: `object`[] = `[]`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
 
 Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
@@ -42,7 +42,7 @@ Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 > `protected` `readonly` **id**: `"community"` = `"community"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L121)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:121](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L121)
 
 Id of your custom hive apps operation
 
@@ -56,7 +56,7 @@ Id of your custom hive apps operation
 
 > `protected` **ops**: [`operation`](../interfaces/operation)[] = `[]`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://git
 
 > **authorize**(`requiredPostingAuths`, `requiredAuths?`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
 
 Authorizes the currently staged hive apps operation, commits it to saved body and clears the stage
 
@@ -102,7 +102,7 @@ itself
 
 > **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
 
 **`Internal`**
 
@@ -126,7 +126,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://git
 
 > **flagPost**(`community`, `account`, `permlink`, `notes`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:144](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L144)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:144](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L144)
 
 Flags post on given community
 
@@ -168,7 +168,7 @@ itself
 
 > **mutePost**(`community`, `account`, `permlink`, `notes`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:319](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L319)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:319](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L319)
 
 Mutes post on given community
 
@@ -210,7 +210,7 @@ itself
 
 > **pinPost**(`community`, `account`, `permlink`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:247](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L247)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:247](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L247)
 
 Pins given post on the community page
 
@@ -246,7 +246,7 @@ itself
 
 > **setRole**(`community`, `account`, `role`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:167](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L167)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:167](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L167)
 
 Updates the role for a community member
 
@@ -282,7 +282,7 @@ itself
 
 > **setUserTitle**(`community`, `account`, `title`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:189](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L189)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:189](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L189)
 
 Sets title on the user
 
@@ -318,7 +318,7 @@ itself
 
 > **subscribe**(`community`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L209)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:209](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L209)
 
 Subscribes to given community
 
@@ -342,7 +342,7 @@ itself
 
 > **unmutePost**(`community`, `account`, `permlink`, `notes`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:343](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L343)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:343](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L343)
 
 Unmutes post on given community
 
@@ -384,7 +384,7 @@ itself
 
 > **unpinPost**(`community`, `account`, `permlink`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:269](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L269)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:269](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L269)
 
 Unpins given post from the community page
 
@@ -420,7 +420,7 @@ itself
 
 > **unsubscribe**(`community`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:227](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L227)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:227](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L227)
 
 Unsubscribes from given community
 
@@ -444,7 +444,7 @@ itself
 
 > **updateProps**(`community`, `props`): `CommunityOperation`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L290)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:290](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L290)
 
 Updates props for the given community
 

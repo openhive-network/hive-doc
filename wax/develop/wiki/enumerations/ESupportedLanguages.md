@@ -2,7 +2,7 @@
 
 # Enumeration: ESupportedLanguages
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L35)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L35)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:35](https://g
 
 > **CHINESE**: `"zh"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L38)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L38)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:38](https://g
 
 > **ENGLISH**: `"en"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L36)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L36)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:36](https://g
 
 > **GERMAN**: `"de"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L44)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:44](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L44)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:44](https://g
 
 > **ITALIAN**: `"it"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L43)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:43](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L43)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:43](https://g
 
 > **KOREAN**: `"kr"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L37)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L37)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:37](https://g
 
 > **MALAY**: `"ms"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L39)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:39](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L39)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:39](https://g
 
 > **POLISH**: `"pl"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L40)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:40](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L40)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:40](https://g
 
 > **PORTUGUESE**: `"pt"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L41)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L41)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:41](https://g
 
 > **RUSSIAN**: `"ru"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L42)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:42](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L42)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:42](https://g
 
 > **SPANISH**: `"es"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L45)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:45](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L45)
 
 ***
 
@@ -90,4 +90,4 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:45](https://g
 
 > **SWEDISH**: `"sv"`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L46)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L46)

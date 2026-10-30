@@ -4,7 +4,7 @@
 
 > **TWaxApiRequest**\<`TReq`, `TRes`\> = `object`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:1115](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L1115)
+Defined in: [wasm/lib/detailed/interfaces.ts:1115](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L1115)
 
 ## Type Parameters
 
@@ -22,7 +22,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:1115](https://gitlab.syncad.com/hiv
 
 > `readonly` `optional` **method?**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:1119](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L1119)
+Defined in: [wasm/lib/detailed/interfaces.ts:1119](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L1119)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:1119](https://gitlab.syncad.com/hiv
 
 > `readonly` **params**: `TReq`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:1116](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L1116)
+Defined in: [wasm/lib/detailed/interfaces.ts:1116](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L1116)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:1116](https://gitlab.syncad.com/hiv
 
 > `readonly` `optional` **responseArray?**: `boolean`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:1118](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L1118)
+Defined in: [wasm/lib/detailed/interfaces.ts:1118](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L1118)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:1118](https://gitlab.syncad.com/hiv
 
 > `readonly` **result**: `TRes`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:1117](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L1117)
+Defined in: [wasm/lib/detailed/interfaces.ts:1117](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L1117)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [wasm/lib/detailed/interfaces.ts:1117](https://gitlab.syncad.com/hiv
 
 > `readonly` `optional` **urlPath?**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:1120](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/interfaces.ts#L1120)
+Defined in: [wasm/lib/detailed/interfaces.ts:1120](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/interfaces.ts#L1120)

@@ -4,7 +4,7 @@
 
 > **TCalculateScoresFunction** = (`data`) => [`TScoredEndpoint`](./TScoredEndpoint)[]
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L30)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L30)
 
 ## Parameters
 

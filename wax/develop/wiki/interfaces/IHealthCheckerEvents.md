@@ -2,7 +2,7 @@
 
 # Interface: IHealthCheckerEvents
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L32)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L32)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:32](https://gitlab
 
 > **data**: (`endpoints`) => `void` \| `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L36)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:36](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L36)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:36](https://gitlab
 
 > **error**: (`error`) => `void` \| `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L37)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L37)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:37](https://gitlab
 
 > **newbest**: (`endpoint`) => `void` \| `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L33)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:33](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L33)
 
 #### Parameters
 
@@ -64,7 +64,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:33](https://gitlab
 
 > **newdown**: (`endpoint`) => `void` \| `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L35)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:35](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L35)
 
 #### Parameters
 
@@ -82,7 +82,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:35](https://gitlab
 
 > **newup**: (`endpoint`) => `void` \| `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L34)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L34)
 
 #### Parameters
 
@@ -100,7 +100,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:34](https://gitlab
 
 > **validationerror**: (`error`) => `void` \| `Promise`\<`void`\>
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L38)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L38)
 
 #### Parameters
 

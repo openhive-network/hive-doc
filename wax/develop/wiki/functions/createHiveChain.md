@@ -4,7 +4,7 @@
 
 > **createHiveChain**(`options?`): `Promise`\<[`IHiveChainInterface`](../interfaces/IHiveChainInterface)\>
 
-Defined in: [wasm/lib/index.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/index.ts#L67)
+Defined in: [wasm/lib/index.ts:67](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/index.ts#L67)
 
 Creates a Wax Hive chain instance
 

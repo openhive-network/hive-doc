@@ -2,7 +2,7 @@
 
 # Interface: RcAccount
 
-Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L7)
+Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L7)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:7](https://gitl
 
 > **account**: `string`
 
-Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L8)
+Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L8)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:8](https://gitl
 
 > **max\_rc**: `string` \| `number`
 
-Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L11)
+Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:11](https://git
 
 > **max\_rc\_creation\_adjustment**: [`NaiAsset`](./NaiAsset)
 
-Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L10)
+Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L10)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:10](https://git
 
 > **rc\_manabar**: [`ApiManabar`](./ApiManabar)
 
-Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L9)
+Defined in: [wasm/lib/detailed/api/rc\_api/find\_rc\_accounts.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/rc_api/find_rc_accounts.ts#L9)

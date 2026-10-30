@@ -2,7 +2,7 @@
 
 # Interface: VerifyAuthorityRequest
 
-Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/verify_authority.ts#L3)
+Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/database_api/verify_authority.ts#L3)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:3](https:/
 
 > **pack**: [`TTransactionPackType`](../enumerations/TTransactionPackType)
 
-Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/verify_authority.ts#L5)
+Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/database_api/verify_authority.ts#L5)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:5](https:/
 
 > **trx**: [`ApiTransaction`](../type-aliases/ApiTransaction)
 
-Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/3d827177c4112afa560e8adbccbf055964c990b2/ts/wasm/lib/detailed/api/database_api/verify_authority.ts#L4)
+Defined in: [wasm/lib/detailed/api/database\_api/verify\_authority.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/api/database_api/verify_authority.ts#L4)
