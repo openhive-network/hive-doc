@@ -2,7 +2,7 @@
 
 # Interface: IRcAccount
 
-Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/rc-account-classifier.ts#L4)
+Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/rc-account-classifier.ts#L4)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:4](https:/
 
 > **name**: `string`
 
-Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/rc-account-classifier.ts#L5)
+Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/rc-account-classifier.ts#L5)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:5](https:/
 
 > **rcManabar**: [`IMaxManabarData`](./IMaxManabarData)
 
-Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/rc-account-classifier.ts#L6)
+Defined in: [src/chain-observers/classifiers/rc-account-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/rc-account-classifier.ts#L6)

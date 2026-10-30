@@ -2,7 +2,7 @@
 
 # Interface: IImpactedAccountProviderData\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L13)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L13)
 
 ## Type Parameters
 
@@ -16,4 +16,4 @@ Defined in: [src/chain-observers/providers/impacted-account-provider.ts:13](http
 
 > **impactedAccounts**: `Partial`\<[`TImpactedAccountProvided`](../type-aliases/TImpactedAccountProvided)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L14)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L14)

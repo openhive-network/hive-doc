@@ -2,7 +2,7 @@
 
 # Interface: FollowProvider\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:25](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/follow-provider.ts#L25)
+Defined in: [src/chain-observers/providers/follow-provider.ts:25](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L25)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:25](https://gitlab
 
 > `readonly` **accounts**: `Set`\<`string`\>
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/follow-provider.ts#L26)
+Defined in: [src/chain-observers/providers/follow-provider.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L26)
 
 ## Methods
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:26](https://gitlab
 
 > **provide**(`data`): `Promise`\<[`IFollowProviderData`](./IFollowProviderData)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/follow-provider.ts#L37)
+Defined in: [src/chain-observers/providers/follow-provider.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L37)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:37](https://gitlab
 
 > **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/follow-provider.ts#L28)
+Defined in: [src/chain-observers/providers/follow-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L28)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/chain-observers/providers/follow-provider.ts:28](https://gitlab
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/follow-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/follow-provider.ts#L33)
+Defined in: [src/chain-observers/providers/follow-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/follow-provider.ts#L33)
 
 #### Returns
 

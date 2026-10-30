@@ -2,7 +2,7 @@
 
 # Interface: IAccountBalance
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L29)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L29)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:29](https://g
 
 > **HBD**: [`IHiveAssetWithSavingsDetailedBalance`](./IHiveAssetWithSavingsDetailedBalance)
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L30)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L30)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:30](https://g
 
 > **HIVE**: [`IHiveAssetWithSavingsDetailedBalance`](./IHiveAssetWithSavingsDetailedBalance)
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:31](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L31)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:31](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L31)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:31](https://g
 
 > **HP**: [`IHiveHPAssetDetailedBalance`](./IHiveHPAssetDetailedBalance)
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L32)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L32)

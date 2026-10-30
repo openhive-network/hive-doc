@@ -4,7 +4,7 @@
 
 > **TNewAccountProvided** = `object`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L8)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:8](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L8)
 
 ## Properties
 
@@ -12,7 +12,7 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:8](https://gi
 
 > **accountName**: `TAccountName`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L9)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L9)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:9](https://gi
 
 > **active**: `authority`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L12)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L12)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:12](https://g
 
 > **creator**: `TAccountName`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L10)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L10)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:10](https://g
 
 > **jsonMetadata**: `Record`\<`string`, `unknown`\>
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L15)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L15)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:15](https://g
 
 > **memo**: `TPublicKey`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L14)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L14)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:14](https://g
 
 > **owner**: `authority`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L11)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L11)
 
 ***
 
@@ -60,4 +60,4 @@ Defined in: [src/chain-observers/providers/new-account-provider.ts:11](https://g
 
 > **posting**: `authority`
 
-Defined in: [src/chain-observers/providers/new-account-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/new-account-provider.ts#L13)
+Defined in: [src/chain-observers/providers/new-account-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/new-account-provider.ts#L13)

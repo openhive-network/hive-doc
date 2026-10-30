@@ -1,5 +1,5 @@
-<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>IWorkerBee | @hiveio/workerbee - v1.28.4-rc1-stable.261029210857</title><meta name="description" content="Documentation for @hiveio/workerbee - v1.28.4-rc1-stable.261029210857"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
-<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">@hiveio/workerbee - v1.28.4-rc1-stable.261029210857</a>
+<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>IWorkerBee | @hiveio/workerbee - v1.28.4-rc1-stable.261030074010</title><meta name="description" content="Documentation for @hiveio/workerbee - v1.28.4-rc1-stable.261030074010"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">@hiveio/workerbee - v1.28.4-rc1-stable.261030074010</a>
 <div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/>
 <ul role="listbox" id="tsd-search-results"></ul>
 <div id="tsd-search-status" aria-live="polite" aria-atomic="true">
@@ -12,7 +12,7 @@
 <h1>Interface IWorkerBee</h1></div>
 <div class="tsd-signature"><span class="tsd-signature-keyword">interface</span> <span class="tsd-kind-interface">IWorkerBee</span> <span class="tsd-signature-symbol">{</span><br/>    <a class="tsd-kind-property" href="#chain">chain</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">TWaxExtended</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">WaxExtendTypes</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-property" href="#running">running</a><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">;</span><br/>    <span class="tsd-signature-keyword">get</span> <a class="tsd-kind-get-signature" href="#observeobserve">observe</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">QueenBee</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#asynciterator-1">&quot;[asyncIterator]&quot;</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AsyncIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="IBlockData.html" class="tsd-signature-type tsd-kind-interface">IBlockData</a> <span class="tsd-signature-symbol">&amp;</span> <a href="IBlockHeaderData.html" class="tsd-signature-type tsd-kind-interface">IBlockHeaderData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#broadcast-1">broadcast</a><span class="tsd-signature-symbol">(</span><br/>        <span class="tsd-kind-parameter">tx</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ApiTransaction</span> <span class="tsd-signature-symbol">|</span> <span class="tsd-signature-type">ITransaction</span><span class="tsd-signature-symbol">,</span><br/>        <span class="tsd-kind-parameter">options</span><span class="tsd-signature-symbol">?:</span> <a href="IBroadcastOptions.html" class="tsd-signature-type tsd-kind-interface">IBroadcastOptions</a><span class="tsd-signature-symbol">,</span><br/>    <span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#delete-1">delete</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#getversion-1">getVersion</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#iterate-1">iterate</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AsyncIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="IBlockData.html" class="tsd-signature-type tsd-kind-interface">IBlockData</a> <span class="tsd-signature-symbol">&amp;</span> <a href="IBlockHeaderData.html" class="tsd-signature-type tsd-kind-interface">IBlockHeaderData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#iterate-2">iterate</a><span class="tsd-signature-symbol">(</span><br/>        <span class="tsd-kind-parameter">throwOnError</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">,</span><br/>    <span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AsyncIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="IBlockData.html" class="tsd-signature-type tsd-kind-interface">IBlockData</a> <span class="tsd-signature-symbol">&amp;</span> <a href="IBlockHeaderData.html" class="tsd-signature-type tsd-kind-interface">IBlockHeaderData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#iterate-3">iterate</a><span class="tsd-signature-symbol">(</span><br/>        <span class="tsd-kind-parameter">errorHandler</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">error</span><span class="tsd-signature-symbol">:</span> <a href="../classes/WorkerBeeError.html" class="tsd-signature-type tsd-kind-class">WorkerBeeError</a><span class="tsd-signature-symbol">)</span> <span class="tsd-signature-symbol">=&gt;</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">,</span><br/>    <span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AsyncIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="IBlockData.html" class="tsd-signature-type tsd-kind-interface">IBlockData</a> <span class="tsd-signature-symbol">&amp;</span> <a href="IBlockHeaderData.html" class="tsd-signature-type tsd-kind-interface">IBlockHeaderData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#providepastoperations-1">providePastOperations</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">fromBlock</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">,</span> <span class="tsd-kind-parameter">toBlock</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">TPastQueen</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#providepastoperations-2">providePastOperations</a><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">relativeTime</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TPastQueen</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#start-1">start</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/>    <a class="tsd-kind-call-signature" href="#stop-1">stop</a><span class="tsd-signature-symbol">()</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">;</span><br/><span class="tsd-signature-symbol">}</span></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L32">src/interfaces.ts:32</a></li></ul></aside>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L32">src/interfaces.ts:32</a></li></ul></aside>
 <section class="tsd-panel-group tsd-index-group">
 <section class="tsd-panel tsd-index-panel">
 <details class="tsd-index-content tsd-accordion" open><summary class="tsd-accordion-summary tsd-index-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
@@ -47,14 +47,14 @@
 <div class="tsd-comment tsd-typography"><p>Exposed hive chain interface we are using.</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L43">src/interfaces.ts:43</a></li></ul></aside></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L43">src/interfaces.ts:43</a></li></ul></aside></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="running"><code class="tsd-tag">Readonly</code><span>running</span><a href="#running" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <div class="tsd-signature"><span class="tsd-kind-property">running</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 <div class="tsd-comment tsd-typography"><p>Indicates if the bot is running</p>
 </div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L38">src/interfaces.ts:38</a></li></ul></aside></section></section></details>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L38">src/interfaces.ts:38</a></li></ul></aside></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Accessors"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
 <h2 class="tsd-anchor-link" id="accessors-1">Accessors<a href="#accessors-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2></summary>
 <section>
@@ -75,7 +75,7 @@
 
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L132">src/interfaces.ts:132</a></li></ul></aside></div></li></ul></section></section></details>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L132">src/interfaces.ts:132</a></li></ul></aside></div></li></ul></section></section></details>
 <details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
 <h2 class="tsd-anchor-link" id="methods-1">Methods<a href="#methods-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2></summary>
 <section>
@@ -97,7 +97,7 @@
 
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L168">src/interfaces.ts:168</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L168">src/interfaces.ts:168</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="broadcast"><span>broadcast</span><a href="#broadcast" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -122,7 +122,7 @@ if you want to ensure that the signatures in the transaction, applied on chain m
 </div></li></ul></div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L152">src/interfaces.ts:152</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L152">src/interfaces.ts:152</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="delete"><span>delete</span><a href="#delete" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -134,7 +134,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L59">src/interfaces.ts:59</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L59">src/interfaces.ts:59</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="getversion"><span>get<wbr/>Version</span><a href="#getversion" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -144,7 +144,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><p>The version of the library</p>
 <aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L137">src/interfaces.ts:137</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L137">src/interfaces.ts:137</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="iterate"><span>iterate</span><a href="#iterate" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -163,7 +163,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L184">src/interfaces.ts:184</a></li></ul></aside></div></li>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L184">src/interfaces.ts:184</a></li></ul></aside></div></li>
 <li class="">
 <div class="tsd-signature tsd-anchor-link" id="iterate-2"><span class="tsd-kind-call-signature">iterate</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">throwOnError</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AsyncIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="IBlockData.html" class="tsd-signature-type tsd-kind-interface">IBlockData</a> <span class="tsd-signature-symbol">&amp;</span> <a href="IBlockHeaderData.html" class="tsd-signature-type tsd-kind-interface">IBlockHeaderData</a><span class="tsd-signature-symbol">&gt;</span><a href="#iterate-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
 <div class="tsd-description">
@@ -185,7 +185,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L206">src/interfaces.ts:206</a></li></ul></aside></div></li>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L206">src/interfaces.ts:206</a></li></ul></aside></div></li>
 <li class="">
 <div class="tsd-signature tsd-anchor-link" id="iterate-3"><span class="tsd-kind-call-signature">iterate</span><span class="tsd-signature-symbol">(</span><br/>    <span class="tsd-kind-parameter">errorHandler</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">error</span><span class="tsd-signature-symbol">:</span> <a href="../classes/WorkerBeeError.html" class="tsd-signature-type tsd-kind-class">WorkerBeeError</a><span class="tsd-signature-symbol">)</span> <span class="tsd-signature-symbol">=&gt;</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">,</span><br/><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">AsyncIterator</span><span class="tsd-signature-symbol">&lt;</span><a href="IBlockData.html" class="tsd-signature-type tsd-kind-interface">IBlockData</a> <span class="tsd-signature-symbol">&amp;</span> <a href="IBlockHeaderData.html" class="tsd-signature-type tsd-kind-interface">IBlockHeaderData</a><span class="tsd-signature-symbol">&gt;</span><a href="#iterate-3" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
 <div class="tsd-description">
@@ -207,7 +207,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L223">src/interfaces.ts:223</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L223">src/interfaces.ts:223</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="providepastoperations"><span>provide<wbr/>Past<wbr/>Operations</span><a href="#providepastoperations" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -236,7 +236,7 @@ If you want to iterate over multiple ranges, you should create a new instance of
 <h4 class="tsd-anchor-link" id="throws">Throws<a href="#throws" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>if called before <a href="#start" class="tsd-kind-method">start</a></p>
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L86">src/interfaces.ts:86</a></li></ul></aside></div></li>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L86">src/interfaces.ts:86</a></li></ul></aside></div></li>
 <li class="">
 <div class="tsd-signature tsd-anchor-link" id="providepastoperations-2"><span class="tsd-kind-call-signature">providePastOperations</span><span class="tsd-signature-symbol">(</span><span class="tsd-kind-parameter">relativeTime</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TPastQueen</span><span class="tsd-signature-symbol">&gt;</span><a href="#providepastoperations-2" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></div>
 <div class="tsd-description">
@@ -261,7 +261,7 @@ If you want to iterate over multiple ranges, you should create a new instance of
 <h4 class="tsd-anchor-link" id="throws-1">Throws<a href="#throws-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h4><p>if called before <a href="#start" class="tsd-kind-method">start</a></p>
 </div></div><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L115">src/interfaces.ts:115</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L115">src/interfaces.ts:115</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="start"><span>start</span><a href="#start" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -272,7 +272,7 @@ If you want to iterate over multiple ranges, you should create a new instance of
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L48">src/interfaces.ts:48</a></li></ul></aside></div></li></ul></section>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L48">src/interfaces.ts:48</a></li></ul></aside></div></li></ul></section>
 <section class="tsd-panel tsd-member">
 <h3 class="tsd-anchor-link" id="stop"><span>stop</span><a href="#stop" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
 <ul class="tsd-signatures">
@@ -283,7 +283,7 @@ If you want to iterate over multiple ranges, you should create a new instance of
 </div>
 <h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L53">src/interfaces.ts:53</a></li></ul></aside></div></li></ul></section></section></details></div>
+<li>Defined in <a href="https://github.com/openhive-network/workerbee/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L53">src/interfaces.ts:53</a></li></ul></aside></div></li></ul></section></section></details></div>
 <div class="col-sidebar">
 <div class="page-menu">
 <div class="tsd-navigation settings">
@@ -306,7 +306,7 @@ If you want to iterate over multiple ranges, you should create a new instance of
 <details open class="tsd-accordion tsd-page-navigation-section"><summary class="tsd-accordion-summary" data-key="section-Methods"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>Methods</summary>
 <div><a href="#asynciterator"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>[async<wbr/>Iterator]</span></a><a href="#broadcast"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>broadcast</span></a><a href="#delete"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>delete</span></a><a href="#getversion"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>get<wbr/>Version</span></a><a href="#iterate"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>iterate</span></a><a href="#providepastoperations"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>provide<wbr/>Past<wbr/>Operations</span></a><a href="#start"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>start</span></a><a href="#stop"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Method"><use href="../assets/icons.svg#icon-2048"></use></svg><span>stop</span></a></div></details></div></details></div>
 <div class="site-menu">
-<nav class="tsd-navigation"><a href="../modules.html">@hiveio/workerbee - v1.28.4-rc1-stable.261029210857</a>
+<nav class="tsd-navigation"><a href="../modules.html">@hiveio/workerbee - v1.28.4-rc1-stable.261030074010</a>
 <ul class="tsd-small-nested-navigation" id="tsd-nav-container">
 <li>Loading...</li></ul></nav></div></div></div><footer>
 <p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></footer>

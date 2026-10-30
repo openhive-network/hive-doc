@@ -2,7 +2,7 @@
 
 # Interface: IWorkerBee
 
-Defined in: [src/interfaces.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L32)
+Defined in: [src/interfaces.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L32)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/interfaces.ts:32](https://gitlab.syncad.com/hive/workerbee/-/bl
 
 > `readonly` **chain**: `TWaxExtended`\<`WaxExtendTypes`\>
 
-Defined in: [src/interfaces.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L43)
+Defined in: [src/interfaces.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L43)
 
 Exposed hive chain interface we are using.
 
@@ -20,7 +20,7 @@ Exposed hive chain interface we are using.
 
 > `readonly` **running**: `boolean`
 
-Defined in: [src/interfaces.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L38)
+Defined in: [src/interfaces.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L38)
 
 Indicates if the bot is running
 
@@ -32,7 +32,7 @@ Indicates if the bot is running
 
 > **get** **observe**(): `QueenBee`
 
-Defined in: [src/interfaces.ts:132](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L132)
+Defined in: [src/interfaces.ts:132](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L132)
 
 Allows you to iterate over blocks in live mode
 
@@ -59,7 +59,7 @@ workerbee.observe.onBlock().subscribe({
 
 > **\[asyncIterator\]**(): `AsyncIterator`\<[`IBlockData`](./IBlockData) & [`IBlockHeaderData`](./IBlockHeaderData)\>
 
-Defined in: [src/interfaces.ts:168](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L168)
+Defined in: [src/interfaces.ts:168](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L168)
 
 Allows you to iterate over blocks indefinitely
 
@@ -85,7 +85,7 @@ for await (const block of workerbee) {
 
 > **broadcast**(`tx`, `options?`): `Promise`\<`void`\>
 
-Defined in: [src/interfaces.ts:152](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L152)
+Defined in: [src/interfaces.ts:152](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L152)
 
 Broadcast given transaction to the remote and returns a promise resolved when
 transaction has been successfully applied on chain.
@@ -120,7 +120,7 @@ Options for broadcasting
 
 > **delete**(): `void`
 
-Defined in: [src/interfaces.ts:59](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L59)
+Defined in: [src/interfaces.ts:59](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L59)
 
 Deletes the current bot instance and underlying wax and beekepeer objects.
 wax chain object is deleted only when its instance was managed by workerbee itself.
@@ -135,7 +135,7 @@ wax chain object is deleted only when its instance was managed by workerbee itse
 
 > **getVersion**(): `string`
 
-Defined in: [src/interfaces.ts:137](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L137)
+Defined in: [src/interfaces.ts:137](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L137)
 
 #### Returns
 
@@ -151,7 +151,7 @@ The version of the library
 
 > **iterate**(): `AsyncIterator`\<[`IBlockData`](./IBlockData) & [`IBlockHeaderData`](./IBlockHeaderData)\>
 
-Defined in: [src/interfaces.ts:184](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L184)
+Defined in: [src/interfaces.ts:184](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L184)
 
 Allows you to iterate over blocks indefinitely - alias to async iterator
 
@@ -175,7 +175,7 @@ for await (const block of workerbee.iterate()) {
 
 > **iterate**(`throwOnError`): `AsyncIterator`\<[`IBlockData`](./IBlockData) & [`IBlockHeaderData`](./IBlockHeaderData)\>
 
-Defined in: [src/interfaces.ts:206](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L206)
+Defined in: [src/interfaces.ts:206](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L206)
 
 Allows you to iterate over blocks indefinitely - alias to async iterator
 
@@ -211,7 +211,7 @@ try {
 
 > **iterate**(`errorHandler`): `AsyncIterator`\<[`IBlockData`](./IBlockData) & [`IBlockHeaderData`](./IBlockHeaderData)\>
 
-Defined in: [src/interfaces.ts:223](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L223)
+Defined in: [src/interfaces.ts:223](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L223)
 
 Allows you to iterate over blocks indefinitely - alias to async iterator
 
@@ -246,7 +246,7 @@ for await (const block of workerbee.iterate(console.error))
 
 > **providePastOperations**(`fromBlock`, `toBlock`): `TPastQueen`
 
-Defined in: [src/interfaces.ts:86](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L86)
+Defined in: [src/interfaces.ts:86](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L86)
 
 Allows you to iterate over blocks in the past from a given range
 
@@ -293,7 +293,7 @@ if called before [start](./#start)
 
 > **providePastOperations**(`relativeTime`): `Promise`\<`TPastQueen`\>
 
-Defined in: [src/interfaces.ts:115](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L115)
+Defined in: [src/interfaces.ts:115](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L115)
 
 Allows you to iterate over blocks in the past from a given range
 
@@ -340,7 +340,7 @@ if called before [start](./#start)
 
 > **start**(): `void`
 
-Defined in: [src/interfaces.ts:48](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L48)
+Defined in: [src/interfaces.ts:48](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L48)
 
 Starts the automation with given configuration
 
@@ -354,7 +354,7 @@ Starts the automation with given configuration
 
 > **stop**(): `void`
 
-Defined in: [src/interfaces.ts:53](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/interfaces.ts#L53)
+Defined in: [src/interfaces.ts:53](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/interfaces.ts#L53)
 
 Request automation stop
 

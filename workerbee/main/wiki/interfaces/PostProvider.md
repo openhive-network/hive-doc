@@ -2,7 +2,7 @@
 
 # Interface: PostProvider\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:111](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L111)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:111](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L111)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/blog-content-provider.ts:111](https:/
 
 > `readonly` **authors**: `Map`\<`string`, `ICommentData` \| `undefined`\>
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:42](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L42)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:42](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L42)
 
 #### Inherited from
 
@@ -32,7 +32,7 @@ Defined in: [src/chain-observers/providers/blog-content-provider.ts:42](https://
 
 > `protected` `readonly` **isPost**: `boolean`
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L43)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L43)
 
 #### Inherited from
 
@@ -44,7 +44,7 @@ Defined in: [src/chain-observers/providers/blog-content-provider.ts:43](https://
 
 > **createProviderData**(`data`): `Promise`\<[`TBlogContentProvided`](../type-aliases/TBlogContentProvided)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:56](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L56)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:56](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L56)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: [src/chain-observers/providers/blog-content-provider.ts:56](https://
 
 > **provide**(`data`): `Promise`\<[`IPostProviderData`](./IPostProviderData)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:121](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L121)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:121](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L121)
 
 #### Parameters
 
@@ -88,7 +88,7 @@ Defined in: [src/chain-observers/providers/blog-content-provider.ts:121](https:/
 
 > **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:116](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L116)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:116](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L116)
 
 #### Parameters
 
@@ -110,7 +110,7 @@ Defined in: [src/chain-observers/providers/blog-content-provider.ts:116](https:/
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/blog-content-provider.ts:50](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/blog-content-provider.ts#L50)
+Defined in: [src/chain-observers/providers/blog-content-provider.ts:50](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/blog-content-provider.ts#L50)
 
 #### Returns
 

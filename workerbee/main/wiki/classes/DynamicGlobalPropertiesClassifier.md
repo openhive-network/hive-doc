@@ -2,7 +2,7 @@
 
 # Class: DynamicGlobalPropertiesClassifier
 
-Defined in: [src/chain-observers/classifiers/dynamic-global-properties-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/dynamic-global-properties-classifier.ts#L11)
+Defined in: [src/chain-observers/classifiers/dynamic-global-properties-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/dynamic-global-properties-classifier.ts#L11)
 
 ## Extends
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/classifiers/dynamic-global-properties-classifie
 
 > **getType**: `IDynamicGlobalPropertiesData`
 
-Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/collector-classifier-base.ts#L26)
 
 #### Inherited from
 
@@ -40,7 +40,7 @@ Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:26](ht
 
 > **optionsType**: `undefined`
 
-Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/collector-classifier-base.ts#L29)
 
 #### Inherited from
 
@@ -52,7 +52,7 @@ Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:29](ht
 
 > **queryOptionsType**: `void`
 
-Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/collector-classifier-base.ts#L28)
 
 #### Inherited from
 
@@ -64,7 +64,7 @@ Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:28](ht
 
 > **queryType**: `void`
 
-Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/collector-classifier-base.ts#L27)
 
 #### Inherited from
 
@@ -76,7 +76,7 @@ Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:27](ht
 
 > **storeType**: `object`
 
-Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
+Defined in: [src/chain-observers/classifiers/collector-classifier-base.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/collector-classifier-base.ts#L30)
 
 #### Inherited from
 

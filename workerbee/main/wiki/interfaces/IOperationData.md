@@ -2,7 +2,7 @@
 
 # Interface: IOperationData
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/operation-classifier.ts#L14)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:14](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/operation-classifier.ts#L14)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/chain-observers/classifiers/operation-classifier.ts:14](https:/
 
 > **operations**: `Iterable`\<[`IOperationTransactionPair`](./IOperationTransactionPair)\<`operation`\>\>
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/operation-classifier.ts#L11)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/operation-classifier.ts#L11)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [src/chain-observers/classifiers/operation-classifier.ts:11](https:/
 
 > **operationsPerType**: `object`
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/operation-classifier.ts#L15)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:15](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/operation-classifier.ts#L15)
 
 #### account\_create\_operation?
 

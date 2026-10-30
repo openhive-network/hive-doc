@@ -2,7 +2,7 @@
 
 # Interface: IAccount
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L35)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L35)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:35](https://g
 
 > **balance**: [`IAccountBalance`](./IAccountBalance)
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L41)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L41)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:41](https://g
 
 > **downvoteManabar**: [`IManabarData`](./IManabarData)
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L38)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:38](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L38)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:38](https://g
 
 > `optional` **governanceVoteExpiration?**: `Date`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L43)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L43)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:43](https://g
 
 > **jsonMetadata**: `Record`\<`string`, `any`\>
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:40](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L40)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:40](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L40)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:40](https://g
 
 > **name**: `string`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L36)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L36)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:36](https://g
 
 > **postingJsonMetadata**: `Record`\<`string`, `any`\>
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:39](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L39)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:39](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L39)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:39](https://g
 
 > **recoveryAccount**: `string`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:42](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L42)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:42](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L42)
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:42](https://g
 
 > **upvoteManabar**: [`IMaxManabarData`](./IMaxManabarData)
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/classifiers/account-classifier.ts#L37)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/classifiers/account-classifier.ts#L37)

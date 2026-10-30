@@ -2,7 +2,7 @@
 
 # Interface: IFilterBase
 
-Defined in: [src/chain-observers/filters/filter-base.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/filters/filter-base.ts#L5)
+Defined in: [src/chain-observers/filters/filter-base.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/filters/filter-base.ts#L5)
 
 ## Methods
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/filters/filter-base.ts:5](https://gitlab.syncad
 
 > **match**(`data`): `Promise`\<`boolean`\>
 
-Defined in: [src/chain-observers/filters/filter-base.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/filters/filter-base.ts#L7)
+Defined in: [src/chain-observers/filters/filter-base.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/filters/filter-base.ts#L7)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/filters/filter-base.ts:7](https://gitlab.syncad
 
 > `optional` **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/filters/filter-base.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/filters/filter-base.ts#L6)
+Defined in: [src/chain-observers/filters/filter-base.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/filters/filter-base.ts#L6)
 
 #### Returns
 

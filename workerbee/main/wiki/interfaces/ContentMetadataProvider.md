@@ -2,7 +2,7 @@
 
 # Abstract Interface: ContentMetadataProvider\<TAccounts, TOptions\>
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:31](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/content-metadata-provider.ts#L31)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:31](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/content-metadata-provider.ts#L31)
 
 ## Extends
 
@@ -24,7 +24,7 @@ Defined in: [src/chain-observers/providers/content-metadata-provider.ts:31](http
 
 > `readonly` **authors**: `Set`\<`string`\>
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/content-metadata-provider.ts#L35)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/content-metadata-provider.ts#L35)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/chain-observers/providers/content-metadata-provider.ts:35](http
 
 > `protected` `readonly` **isPost**: `boolean`
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/content-metadata-provider.ts#L36)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/content-metadata-provider.ts#L36)
 
 ## Methods
 
@@ -40,7 +40,7 @@ Defined in: [src/chain-observers/providers/content-metadata-provider.ts:36](http
 
 > **createProviderData**(`data`): `Promise`\<`Partial`\<[`TContentMetadataProvided`](../type-aliases/TContentMetadataProvided)\<`TAccounts`\>\>\>
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:49](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/content-metadata-provider.ts#L49)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:49](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/content-metadata-provider.ts#L49)
 
 #### Parameters
 
@@ -58,7 +58,7 @@ Defined in: [src/chain-observers/providers/content-metadata-provider.ts:49](http
 
 > `abstract` **provide**(`data`): `Promise`\<`object`\>
 
-Defined in: [src/chain-observers/providers/provider-base.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/provider-base.ts#L17)
+Defined in: [src/chain-observers/providers/provider-base.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/provider-base.ts#L17)
 
 #### Parameters
 
@@ -80,7 +80,7 @@ Defined in: [src/chain-observers/providers/provider-base.ts:17](https://gitlab.s
 
 > `abstract` **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:47](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/content-metadata-provider.ts#L47)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:47](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/content-metadata-provider.ts#L47)
 
 #### Parameters
 
@@ -102,7 +102,7 @@ Defined in: [src/chain-observers/providers/content-metadata-provider.ts:47](http
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/content-metadata-provider.ts#L43)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/content-metadata-provider.ts#L43)
 
 #### Returns
 

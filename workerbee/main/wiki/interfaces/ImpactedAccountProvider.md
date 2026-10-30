@@ -2,7 +2,7 @@
 
 # Interface: ImpactedAccountProvider\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L21)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L21)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/impacted-account-provider.ts:21](http
 
 > `readonly` **accounts**: `Set`\<`string`\>
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L22)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L22)
 
 ## Methods
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/providers/impacted-account-provider.ts:22](http
 
 > **provide**(`data`): `Promise`\<[`IImpactedAccountProviderData`](./IImpactedAccountProviderData)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L35)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:35](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L35)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/chain-observers/providers/impacted-account-provider.ts:35](http
 
 > **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L24)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L24)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/chain-observers/providers/impacted-account-provider.ts:24](http
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/impacted-account-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/impacted-account-provider.ts#L29)
+Defined in: [src/chain-observers/providers/impacted-account-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/impacted-account-provider.ts#L29)
 
 #### Returns
 

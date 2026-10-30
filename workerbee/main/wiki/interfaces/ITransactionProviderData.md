@@ -2,7 +2,7 @@
 
 # Interface: ITransactionProviderData\<TIdOfTx\>
 
-Defined in: [src/chain-observers/providers/transaction-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/transaction-provider.ts#L11)
+Defined in: [src/chain-observers/providers/transaction-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/transaction-provider.ts#L11)
 
 ## Type Parameters
 
@@ -16,4 +16,4 @@ Defined in: [src/chain-observers/providers/transaction-provider.ts:11](https://g
 
 > **transactions**: `Partial`\<[`TTransactionProvider`](../type-aliases/TTransactionProvider)\<`TIdOfTx`\>\>
 
-Defined in: [src/chain-observers/providers/transaction-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/transaction-provider.ts#L12)
+Defined in: [src/chain-observers/providers/transaction-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/transaction-provider.ts#L12)

@@ -2,7 +2,7 @@
 
 # Class: DataEvaluationContext
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L17)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L17)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/factories/data-evaluation-context.ts:17](https:
 
 > **new DataEvaluationContext**(`factory`): `DataEvaluationContext`
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L24)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L24)
 
 #### Parameters
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/factories/data-evaluation-context.ts:24](https:
 
 > **accessStore**\<`Classifier`\>(`classifier`): `Classifier`\[`"storeType"`\] *extends* `void` ? `never` : `Classifier`\[`"storeType"`\]
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:92](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L92)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:92](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L92)
 
 #### Type Parameters
 
@@ -52,7 +52,7 @@ Defined in: [src/chain-observers/factories/data-evaluation-context.ts:92](https:
 
 > **addTiming**(`name`, `time`): `void`
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L28)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L28)
 
 #### Parameters
 
@@ -74,7 +74,7 @@ Defined in: [src/chain-observers/factories/data-evaluation-context.ts:28](https:
 
 > **get**\<`Classifier`\>(`classifier`): `Promise`\<`Classifier`\[`"getType"`\] *extends* `void` ? `never` : `Classifier`\[`"getType"`\]\>
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L43)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:43](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L43)
 
 #### Type Parameters
 
@@ -98,7 +98,7 @@ Defined in: [src/chain-observers/factories/data-evaluation-context.ts:43](https:
 
 > **inject**\<`T`\>(`classifier`, `collector`): `void`
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L32)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L32)
 
 #### Type Parameters
 
@@ -126,7 +126,7 @@ Defined in: [src/chain-observers/factories/data-evaluation-context.ts:32](https:
 
 > **query**\<`Classifier`\>(`classifier`, `collectorOptions`): `Promise`\<`Classifier`\[`"queryType"`\] *extends* `void` ? `never` : `Classifier`\[`"queryType"`\]\>
 
-Defined in: [src/chain-observers/factories/data-evaluation-context.ts:73](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/factories/data-evaluation-context.ts#L73)
+Defined in: [src/chain-observers/factories/data-evaluation-context.ts:73](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/factories/data-evaluation-context.ts#L73)
 
 #### Type Parameters
 

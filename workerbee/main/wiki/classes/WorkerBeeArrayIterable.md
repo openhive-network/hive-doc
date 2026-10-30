@@ -2,7 +2,7 @@
 
 # Class: WorkerBeeArrayIterable\<T\>
 
-Defined in: [src/types/iterator.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L36)
+Defined in: [src/types/iterator.ts:36](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L36)
 
 Container that can be iterated over the elements of the collection.
 
@@ -33,7 +33,7 @@ data.whaleOperations.forEach(({ transaction }) => console.log(`Got transaction: 
 
 > **new WorkerBeeArrayIterable**\<`T`\>(`array?`): `WorkerBeeArrayIterable`\<`T`\>
 
-Defined in: [src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L37)
+Defined in: [src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L37)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ Defined in: [src/types/iterator.ts:37](https://gitlab.syncad.com/hive/workerbee/
 
 > `protected` `readonly` **iterable**: `Iterable`\<`T`\>
 
-Defined in: [src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L16)
+Defined in: [src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L16)
 
 #### Inherited from
 
@@ -67,7 +67,7 @@ Defined in: [src/types/iterator.ts:16](https://gitlab.syncad.com/hive/workerbee/
 
 > **\[iterator\]**(): `Iterator`\<`T`\>
 
-Defined in: [src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L22)
+Defined in: [src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L22)
 
 #### Returns
 
@@ -83,7 +83,7 @@ Defined in: [src/types/iterator.ts:22](https://gitlab.syncad.com/hive/workerbee/
 
 > **forEach**(`callbackfn`): `void`
 
-Defined in: [src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L30)
+Defined in: [src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L30)
 
 #### Parameters
 
@@ -105,7 +105,7 @@ Defined in: [src/types/iterator.ts:30](https://gitlab.syncad.com/hive/workerbee/
 
 > **push**(`value`): `void`
 
-Defined in: [src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L41)
+Defined in: [src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L41)
 
 #### Parameters
 
@@ -123,7 +123,7 @@ Defined in: [src/types/iterator.ts:41](https://gitlab.syncad.com/hive/workerbee/
 
 > **values**(): `Iterable`\<`T`\>
 
-Defined in: [src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/types/iterator.ts#L26)
+Defined in: [src/types/iterator.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/types/iterator.ts#L26)
 
 #### Returns
 

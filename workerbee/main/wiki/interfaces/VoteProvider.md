@@ -2,7 +2,7 @@
 
 # Interface: VoteProvider\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/vote-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/vote-provider.ts#L20)
+Defined in: [src/chain-observers/providers/vote-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/vote-provider.ts#L20)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/vote-provider.ts:20](https://gitlab.s
 
 > `readonly` **voters**: `Set`\<`string`\>
 
-Defined in: [src/chain-observers/providers/vote-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/vote-provider.ts#L21)
+Defined in: [src/chain-observers/providers/vote-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/vote-provider.ts#L21)
 
 ## Methods
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/providers/vote-provider.ts:21](https://gitlab.s
 
 > **provide**(`data`): `Promise`\<[`IVoteProviderData`](./IVoteProviderData)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/vote-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/vote-provider.ts#L32)
+Defined in: [src/chain-observers/providers/vote-provider.ts:32](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/vote-provider.ts#L32)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/chain-observers/providers/vote-provider.ts:32](https://gitlab.s
 
 > **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/vote-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/vote-provider.ts#L23)
+Defined in: [src/chain-observers/providers/vote-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/vote-provider.ts#L23)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/chain-observers/providers/vote-provider.ts:23](https://gitlab.s
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/vote-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/641ebd4057420d4440d52d6ceb6edbf663489747/src/chain-observers/providers/vote-provider.ts#L28)
+Defined in: [src/chain-observers/providers/vote-provider.ts:28](https://gitlab.syncad.com/hive/workerbee/-/blob/3982dd8b488b220b2d8116d78e4de2feb40b2434/src/chain-observers/providers/vote-provider.ts#L28)
 
 #### Returns
 
