@@ -4,7 +4,7 @@
 
 > **TFormatFunction**\<`T`\> = (`args`) => `string` \| `any`
 
-Defined in: [wasm/lib/detailed/formatters/types.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/formatters/types.ts#L114)
+Defined in: [wasm/lib/detailed/formatters/types.ts:114](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/formatters/types.ts#L114)
 
 Formatter function that receives input value for the matched property and returns the formatted output
 Remember that this function takes two arguments. The first one is for data parsing, e.g. for transactions

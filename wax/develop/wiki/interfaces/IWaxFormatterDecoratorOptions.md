@@ -2,7 +2,7 @@
 
 # Interface: IWaxFormatterDecoratorOptions\<T\>
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/decorators/formatters.ts#L3)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/decorators/formatters.ts#L3)
 
 ## Type Parameters
 
@@ -16,7 +16,7 @@ Defined in: [wasm/lib/detailed/decorators/formatters.ts:3](https://gitlab.syncad
 
 > `optional` **matchInstanceOf?**: (...`args`) => `T`
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/decorators/formatters.ts#L34)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:34](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/decorators/formatters.ts#L34)
 
 Matches instance of a given class
 
@@ -36,7 +36,7 @@ Matches instance of a given class
 
 > `optional` **matchProperty?**: `string`
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/decorators/formatters.ts#L9)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/decorators/formatters.ts#L9)
 
 Property to match. If not specified defaults to the formatter method name
 
@@ -46,7 +46,7 @@ Property to match. If not specified defaults to the formatter method name
 
 > `optional` **matchValue?**: `any`
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/decorators/formatters.ts#L17)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:17](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/decorators/formatters.ts#L17)
 
 Optional value to match on the property.
 Note: uses strict equality for value checking (`===`)
@@ -57,7 +57,7 @@ Note: uses strict equality for value checking (`===`)
 
 > `optional` **requireDefined?**: `boolean`
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/decorators/formatters.ts#L27)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/decorators/formatters.ts#L27)
 
 Optional value to require property value to be defined (!== undefined)
 

@@ -2,7 +2,7 @@
 
 # Class: UpdateProposalOperation
 
-Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L38)
+Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:38](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L38)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:38](https
 
 > **new UpdateProposalOperation**(`props`): `UpdateProposalOperation`
 
-Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L41)
+Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L41)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:41](https
 
 > **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L78)
+Defined in: [wasm/lib/detailed/complex\_operations/update\_proposal.ts:78](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/update_proposal.ts#L78)
 
 **`Internal`**
 

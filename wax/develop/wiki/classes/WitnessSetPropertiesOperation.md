@@ -2,7 +2,7 @@
 
 # Class: WitnessSetPropertiesOperation
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L53)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:53](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L53)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:5
 
 > **new WitnessSetPropertiesOperation**(`data`): `WitnessSetPropertiesOperation`
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L61)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:61](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L61)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:6
 
 > **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L89)
+Defined in: [wasm/lib/detailed/complex\_operations/witness\_set\_properties.ts:89](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/witness_set_properties.ts#L89)
 
 **`Internal`**
 

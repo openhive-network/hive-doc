@@ -2,7 +2,7 @@
 
 # Abstract Class: OperationBase
 
-Defined in: [wasm/lib/detailed/operation\_base.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/operation_base.ts#L8)
+Defined in: [wasm/lib/detailed/operation\_base.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/operation_base.ts#L8)
 
 ## Extended by
 
@@ -28,7 +28,7 @@ Defined in: [wasm/lib/detailed/operation\_base.ts:8](https://gitlab.syncad.com/h
 
 > `abstract` **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/operation\_base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/ad138c1321357120995b72459cde906821a1033a/ts/wasm/lib/detailed/operation_base.ts#L9)
+Defined in: [wasm/lib/detailed/operation\_base.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/operation_base.ts#L9)
 
 #### Parameters
 
