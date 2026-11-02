@@ -2,7 +2,7 @@
 
 # Class: WorkerBeeError
 
-Defined in: [src/errors.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/errors.ts#L4)
+Defined in: [src/errors.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/errors.ts#L4)
 
 **`Internal`**
 
@@ -16,7 +16,7 @@ Defined in: [src/errors.ts:4](https://gitlab.syncad.com/hive/workerbee/-/blob/14
 
 > **new WorkerBeeError**(`message`, `originator?`): `WorkerBeeError`
 
-Defined in: [src/errors.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/errors.ts#L5)
+Defined in: [src/errors.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/errors.ts#L5)
 
 #### Parameters
 

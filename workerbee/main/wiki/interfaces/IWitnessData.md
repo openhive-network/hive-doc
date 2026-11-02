@@ -2,7 +2,7 @@
 
 # Interface: IWitnessData
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L10)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/witness-classifier.ts#L10)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/chain-observers/classifiers/witness-classifier.ts:10](https://g
 
 > **witnesses**: `Record`\<`string`, [`IWitness`](./IWitness)\>
 
-Defined in: [src/chain-observers/classifiers/witness-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/classifiers/witness-classifier.ts#L11)
+Defined in: [src/chain-observers/classifiers/witness-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/witness-classifier.ts#L11)

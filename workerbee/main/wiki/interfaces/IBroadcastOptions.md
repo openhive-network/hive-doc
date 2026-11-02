@@ -2,7 +2,7 @@
 
 # Interface: IBroadcastOptions
 
-Defined in: [src/interfaces.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/interfaces.ts#L9)
+Defined in: [src/interfaces.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/interfaces.ts#L9)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/interfaces.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blo
 
 > `optional` **expireInMs?**: `number`
 
-Defined in: [src/interfaces.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/interfaces.ts#L24)
+Defined in: [src/interfaces.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/interfaces.ts#L24)
 
 Time in milliseconds after which the transaction will be considered expired
 
@@ -26,7 +26,7 @@ Time in milliseconds after which the transaction will be considered expired
 
 > `optional` **verifySignatures?**: `boolean`
 
-Defined in: [src/interfaces.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/interfaces.ts#L16)
+Defined in: [src/interfaces.ts:16](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/interfaces.ts#L16)
 
 If true, the bot will verify if the signatures in the transaction, applied on chain match the local ones
 

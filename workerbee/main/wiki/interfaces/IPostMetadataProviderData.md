@@ -2,7 +2,7 @@
 
 # Interface: IPostMetadataProviderData\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/content-metadata-provider.ts#L26)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:26](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/content-metadata-provider.ts#L26)
 
 ## Type Parameters
 
@@ -16,4 +16,4 @@ Defined in: [src/chain-observers/providers/content-metadata-provider.ts:26](http
 
 > **postsMetadata**: `Partial`\<[`TContentMetadataProvided`](../type-aliases/TContentMetadataProvided)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/content-metadata-provider.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/14ef337aed6fb39de20f05f5efe0a62254b4a09f/src/chain-observers/providers/content-metadata-provider.ts#L27)
+Defined in: [src/chain-observers/providers/content-metadata-provider.ts:27](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/content-metadata-provider.ts#L27)
