@@ -42,6 +42,10 @@ We currently support only the `hive` role category.
 
 :::code source="../../../static/snippets/src/python/transaction/operations/account_update/set_memo.py" language="python" title="Test it yourself on github codespace: [src/python/transaction/operations/account_update/set_memo.py](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/python/transaction/operations/account_update/set_memo.py)" :::
 
++++ Rust
+
+:::code source="../../../static/snippets/src/rust/transaction/operations/account_update/set_memo.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/operations/account_update/set_memo.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/set_memo.rs)" :::
+
 +++
 
 ## Adding account proxy to the posting role definition
@@ -56,6 +60,10 @@ Sometimes you want to allow a separate account to operate on behalf of your acco
 
 :::code source="../../../static/snippets/src/python/transaction/operations/account_update/add_posting_account.py" language="python" title="Test it yourself on github codespace: [src/python/transaction/operations/account_update/add_posting_account.py](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/python/transaction/operations/account_update/add_posting_account.py)" :::
 
++++ Rust
+
+:::code source="../../../static/snippets/src/rust/transaction/operations/account_update/add_posting_account.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/operations/account_update/add_posting_account.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/add_posting_account.rs)" :::
+
 +++
 
 ## Changing active key
@@ -67,6 +75,10 @@ Sometimes you want to allow a separate account to operate on behalf of your acco
 +++ Python
 
 :::code source="../../../static/snippets/src/python/transaction/operations/account_update/change_active_key.py" language="python" title="Test it yourself on github codespace: [src/python/transaction/operations/account_update/change_active_key.py](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/python/transaction/operations/account_update/change_active_key.py)" :::
+
++++ Rust
+
+:::code source="../../../static/snippets/src/rust/transaction/operations/account_update/change_active_key.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/operations/account_update/change_active_key.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/change_active_key.rs)" :::
 
 +++
 
@@ -80,6 +92,10 @@ Sometimes you want to allow a separate account to operate on behalf of your acco
 
 :::code source="../../../static/snippets/src/python/transaction/operations/account_update/change_weight_threshold.py" language="python" title="Test it yourself on github codespace: [src/python/transaction/operations/account_update/change_weight_threshold.py](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/python/transaction/operations/account_update/change_weight_threshold.py)" :::
 
++++ Rust
+
+:::code source="../../../static/snippets/src/rust/transaction/operations/account_update/change_weight_threshold.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/operations/account_update/change_weight_threshold.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/change_weight_threshold.rs)" :::
+
 +++
 
 ## Iterating over the hive category roles
@@ -91,5 +107,9 @@ Sometimes you want to allow a separate account to operate on behalf of your acco
 +++ Python
 
 :::code source="../../../static/snippets/src/python/transaction/operations/account_update/iterate_roles.py" language="python" title="Test it yourself on github codespace: [src/python/transaction/operations/account_update/iterate_roles.py](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/python/transaction/operations/account_update/iterate_roles.py)" :::
+
++++ Rust
+
+:::code source="../../../static/snippets/src/rust/transaction/operations/account_update/iterate_roles.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/operations/account_update/iterate_roles.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/iterate_roles.rs)" :::
 
 +++

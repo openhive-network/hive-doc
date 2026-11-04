@@ -53,6 +53,10 @@ Meanwhile the other friends does not need your help anymore, so you can remove t
 
 **Not implemented yet** — planned for a future release.
 
++++ Rust
+
+:::code source="../../static/snippets/src/rust/transaction/hive_apps_operations/resource_credits_operations.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/hive_apps_operations/resource_credits_operations.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/resource_credits_operations.rs)" :::
+
 +++
 
 ### 2. Follow Operation
@@ -105,6 +109,10 @@ This operation class handles operations related to following, muting, blacklisti
 
 **Not implemented yet** — planned for a future release.
 
++++ Rust
+
+:::code source="../../static/snippets/src/rust/transaction/hive_apps_operations/follow_operation.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/hive_apps_operations/follow_operation.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/follow_operation.rs)" :::
+
 +++
 
 ### 3. Community Operation
@@ -151,6 +159,10 @@ You want to join a specific community to stay updated with its content and you w
 
 **Not implemented yet** — planned for a future release.
 
++++ Rust
+
+:::code source="../../static/snippets/src/rust/transaction/hive_apps_operations/community_operation.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/hive_apps_operations/community_operation.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/community_operation.rs)" :::
+
 +++
 
 ##### Updating Community Properties
@@ -179,6 +191,10 @@ Since you are an community administrator, you can update its properties:
 +++ Python
 
 **Not implemented yet** — planned for a future release.
+
++++ Rust
+
+:::code source="../../static/snippets/src/rust/transaction/hive_apps_operations/community_properties.rs" language="rust" title="Test it yourself on github codespace: [src/rust/transaction/hive_apps_operations/community_properties.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/community_properties.rs)" :::
 
 +++
 

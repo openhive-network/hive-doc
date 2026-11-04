@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../static/favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -441,6 +442,49 @@ async def main():
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/example_usage/advanced_usage/explicit_data_initialization.rs">src/rust/transaction/example_usage/advanced_usage/explicit_data_initialization.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let chain = create_hive_chain(None)?;
+
+    // We use &amp;WaxFoundation here to enforce lack of any network activity.
+    let base: &amp;WaxFoundation = &amp;chain;
+
+    /* `create_transaction_with_chain_reference_data` can be useful for cases
+     * when you would like to perform a lot of massive operations
+     * without any access to remote Hive API calls.
+     * Due to long TAPOS lifespan (near to 64000 blocks,
+     * so it really targets to the c.a. 3 hours), you can easily
+     * once receive TAPOS data (reference block-id) from blockchain
+     * and next reuse it in your code generating massive transactions,
+     * to finally sign and broadcast them.
+     */
+
+    let dgp = chain
+        .api()
+        .database_api
+        .get_dynamic_global_properties(Default::default())
+        .await?;
+
+    // here comes your massive transaction generation code:
+    base.create_transaction_with_chain_reference_data(
+        &amp;dgp.head_block_id,
+        None,
+        Some(&quot;+10m&quot;),
+    )?;
+
+    // Add some operations here
+    // to finally sign and broadcast
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="initialization-from-hive-api-json-form">Initialization from hive API-JSON form</h2>
 <p>This can be useful for analyzing transactions retrieved from the API or restored previously from the API form.</p>
@@ -512,6 +556,47 @@ async def main():
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/example_usage/advanced_usage/api_form_initialization.rs">src/rust/transaction/example_usage/advanced_usage/api_form_initialization.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+use wax::api::GetBlockRequest;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let chain = create_hive_chain(None)?;
+
+    // We use &amp;WaxFoundation here to enforce lack of any network activity.
+    let base: &amp;WaxFoundation = &amp;chain;
+
+    /*
+     * This creation method is useful for cases,
+     * when already confirmed blockchain transaction is about to
+     * analyzed using Transaction functions
+     * such as providing signature_keys or transaction ID.
+     */
+
+    // Fetch block data from Hive API.
+    let block = chain
+        .api()
+        .block_api
+        .get_block(GetBlockRequest {
+            block_num: 5_000_000,
+        })
+        .await?
+        .block
+        .expect(&quot;block 5000000 exists on the mainnet&quot;);
+
+    // Converts Hive API-form transaction in JSON form to our transaction.
+    base.create_transaction_from_json(&amp;serde_json::to_string(
+        &amp;block.transactions[0],
+    )?)?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="initialize-from-protobuf-transaction">Initialize from protobuf transaction</h2>
 <p>This can be useful for analyzing transactions restored previously from the protobuf form.</p>
@@ -581,6 +666,39 @@ async def main():
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/example_usage/advanced_usage/protobuf_transaction_initialization.rs">src/rust/transaction/example_usage/advanced_usage/protobuf_transaction_initialization.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+use wax::proto::Transaction;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let wax = create_wax_foundation(None);
+
+    /*
+     * This creation method is dedicated to usecases, when
+     * protobuf transaction object is available for further use.
+     * All other actions provided by the Transaction interface are
+     * very common to the case specifc to API-JSON interaction.
+     */
+
+    let tx = Transaction {
+        ref_block_num: 34559,
+        ref_block_prefix: 1271006404,
+        expiration: &quot;2021-12-13T11:31:33&quot;.into(),
+        operations: vec![],
+        extensions: vec![],
+        signatures: vec![],
+    };
+
+    // Constructs a new Transaction object with ready protobuf transaction.
+    wax.create_transaction_from_proto(tx)?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 
                 
@@ -621,7 +739,7 @@ asyncio.run(main())</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -13,7 +13,7 @@
     <!-- Primary Meta Tags -->
     <title>Intro to Wax library | Wax &#128218;</title>
     <meta name="title" content="Intro to Wax library | Wax 📚">
-    <meta name="description" content="Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently three language implementations of the library: TypeScript, C++, and Python.">
+    <meta name="description" content="Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently four language implementations of the library: TypeScript, C++, Python and Rust.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://hive.pages.syncad.com/wax-doc/default/">
@@ -23,7 +23,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://hive.pages.syncad.com/wax-doc/default/">
     <meta property="og:title" content="Intro to Wax library | Wax 📚">
-    <meta property="og:description" content="Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently three language implementations of the library: TypeScript, C++, and Python.">
+    <meta property="og:description" content="Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently four language implementations of the library: TypeScript, C++, Python and Rust.">
     <meta property="og:site_name" content="Wax Docs">
     <meta property="og:locale" content="en_US">
 
@@ -31,7 +31,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://hive.pages.syncad.com/wax-doc/default/">
     <meta name="twitter:title" content="Intro to Wax library | Wax 📚">
-    <meta name="twitter:description" content="Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently three language implementations of the library: TypeScript, C++, and Python.">
+    <meta name="twitter:description" content="Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently four language implementations of the library: TypeScript, C++, Python and Rust.">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="https://hive.pages.syncad.com/wax-doc/default/index.md">
@@ -39,11 +39,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="static/favicon.ico" />
-    <link href="resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -125,7 +125,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -367,7 +368,7 @@
 
                 <!-- Page content  -->
 <h1 id="intro-to-wax-library">Intro to Wax library</h1>
-<p>Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently three language implementations of the library: TypeScript, C++, and Python.  Each implementation of Wax incorporates the same code used by the core Hive protocol library to define Hive objects (operations, transactions, etc). This ensures that Wax will always maintain compatibility with the core blockchain protocol.</p>
+<p>Wax is a multi-language, object-oriented library for interacting with the Hive blockchain network. There are currently four language implementations of the library: TypeScript, C++, Python and Rust. Each implementation of Wax incorporates the same code used by the core Hive protocol library to define Hive objects (operations, transactions, etc). This ensures that Wax will always maintain compatibility with the core blockchain protocol.</p>
 <p>Wax enables developers to:</p>
 <ul>
 <li>read blockchain data from Hive API endpoints by making API requests</li>
@@ -437,7 +438,7 @@
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

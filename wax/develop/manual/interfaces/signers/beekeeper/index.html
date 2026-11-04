@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -397,6 +398,29 @@
 <pre translate="no" class="language-bash"><code v-pre class="language-bash">pip install beekeepy --index-url https://gitlab.syncad.com/api/v4/projects/434/packages/pypi/simple</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<p>
+<div class="mb-6 px-5 py-4 flex justify-between relative border border-base-border hover:border-base-border-hover rounded transition-colors duration-150">
+    <div class="flex items-center text-base-500">
+        <span class="inline-flex items-center justify-center leading-none">
+            <img class="block shrink-0" width="20" src="../../../static/crates_io.png">
+        </span>
+        <span class="inline-block font-medium ml-2">View <strong>Beekeeper signer</strong> crate on crates.io</span>
+    </div>
+    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
+        <span>https://crates.io/crates/hiveio-wax-signers-beekeeper</span>
+    </div>
+    <a href="https://crates.io/crates/hiveio-wax-signers-beekeeper" target="_blank" class="absolute block inset-0"></a>
+</div>
+</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">cargo add hiveio-wax-signers-beekeeper</code></pre>
+</doc-codeblock></div>
+<blockquote>
+<p>The crate is imported as <code translate="no" v-pre>wax_signers_beekeeper</code> in code, e.g.: <code translate="no" v-pre>use wax_signers_beekeeper::BeekeeperSignatureProvider;</code></p>
+</blockquote>
+</doc-tab>
 </doc-tabs>
 <h2 id="usage">Usage</h2>
 <doc-tabs>
@@ -476,6 +500,48 @@ async def main() -&gt; None:
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use beekeeper::api::BeekeeperApi;
+use beekeeper::options::BeekeeperOptions;
+use wax::prelude::*;
+use wax_signers_beekeeper::BeekeeperSignatureProvider;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let chain = create_hive_chain(None)?;
+
+    // Open an in-memory Beekeeper wallet and import your private key
+    let api = BeekeeperApi::new(BeekeeperOptions::new(&quot;my-storage&quot;).in_memory(true));
+    let session = api.create_session()?;
+    let mut wallet = session.create_wallet(&quot;my-wallet&quot;, &quot;my-password&quot;)?.wallet;
+    let public_key = wallet.import_key(&quot;your-private-key&quot;)?;
+
+    // Wrap the unlocked wallet in a Wax signature provider
+    let provider = BeekeeperSignatureProvider::new(wallet);
+
+    // Create a transaction using the Wax Hive chain instance
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Perform some operations, e.g. push the vote operation:
+    tx.push_operation(chain.create_operation(Value::VoteOperation(Vote {
+        voter: &quot;alice&quot;.into(),
+        author: &quot;bob&quot;.into(),
+        permlink: &quot;example-post&quot;.into(),
+        weight: 10000,
+    })));
+
+    // Sign the transaction
+    tx.sign(&amp;provider, &amp;public_key)?;
+
+    // Broadcast the transaction
+    chain.broadcast(&amp;tx).await?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 
                 
@@ -516,7 +582,7 @@ asyncio.run(main())</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

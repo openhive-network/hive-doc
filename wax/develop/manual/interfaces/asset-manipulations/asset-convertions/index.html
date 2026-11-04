@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -434,6 +435,41 @@ hp_asset = wax.vests_to_hp(vests_asset, total_vesting_fund_hive_amount, total_ve
 print(f&quot;HP Asset: \n\n{hp_asset}&quot;)</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/asset_manipulations/asset_convertions/vests_to_hp.rs">src/rust/asset_manipulations/asset_convertions/vests_to_hp.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create a Wax Foundation instance
+    let wax_api = create_wax_foundation(None);
+
+    // Assume these amounts represent the vests, totalVestingFundHive, and totalVestingShares
+    let vests_amount = 1_000000;
+    let total_vesting_fund_hive_amount = 20_000;
+    let total_vesting_shares_amount = 5_000000;
+
+    // Convert amounts to `NaiAsset`
+    let vests_asset = wax_api.vests_satoshis(vests_amount)?;
+    let total_vesting_fund_hive_asset =
+        wax_api.hive_satoshis(total_vesting_fund_hive_amount)?;
+    let total_vesting_shares_asset =
+        wax_api.vests_satoshis(total_vesting_shares_amount)?;
+
+    // Use `vests_to_hp` to perform the conversion
+    let hp_asset = wax_api.vests_to_hp(
+        &amp;vests_asset,
+        &amp;total_vesting_fund_hive_asset,
+        &amp;total_vesting_shares_asset,
+    )?;
+
+    println!(&quot;HP Asset: {hp_asset:?}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="hbd-to-hive-conversion">HBD to HIVE conversion</h2>
 <p>This method converts HBD into Hive. This conversion requires three <code translate="no" v-pre>NaiAsset</code> instances or values convertible to <code translate="no" v-pre>NaiAsset</code> (number, string or bigint for JavaScript): one for the HBD, one for the base (another HBD asset), and one for the quote (a HIVE asset).</p>
@@ -494,6 +530,34 @@ hive_asset = wax.hbd_to_hive(hbd_asset, base_asset, quote_asset)
 print(f&quot;Converted Hive Asset: {hive_asset}&quot;)</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/asset_manipulations/asset_convertions/hbd_to_hive.rs">src/rust/asset_manipulations/asset_convertions/hbd_to_hive.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create a Wax Foundation instance
+    let wax_api = create_wax_foundation(None);
+
+    // Assume these amounts represent the HBD, base, and quote
+    let hbd_amount = 1_000;
+    let base_amount = 1_500;
+    let quote_amount = 2_000;
+
+    // Convert amounts to `NaiAsset`
+    let hbd_asset = wax_api.hbd_satoshis(hbd_amount)?;
+    let base_asset = wax_api.hbd_satoshis(base_amount)?;
+    let quote_asset = wax_api.hive_satoshis(quote_amount)?;
+
+    // Use `hbd_to_hive` to perform the conversion
+    let hive_asset = wax_api.hbd_to_hive(&amp;hbd_asset, &amp;base_asset, &amp;quote_asset)?;
+    println!(&quot;Converted Hive Asset: {hive_asset:?}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 
                 
@@ -534,7 +598,7 @@ print(f&quot;Converted Hive Asset: {hive_asset}&quot;)</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

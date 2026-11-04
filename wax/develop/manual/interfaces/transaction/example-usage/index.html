@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -616,6 +617,71 @@ asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-panel>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/example_usage/example_usage/example_usage.rs">src/rust/transaction/example_usage/example_usage/example_usage.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use runner::{SnippetsBeekeeperData, snippets_beekeeper_data};
+use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize chain
+    let chain = create_hive_chain(None)?;
+
+    // Retrieve the signers
+    let SnippetsBeekeeperData { signer1, signer2, public_key1, public_key2, .. } = snippets_beekeeper_data();
+
+    // Create a transaction
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Use the ReplyOperation to create a reply operation
+    tx.push_complex_operation(
+        &amp;chain,
+        ReplyOperation {
+            parent_author: &quot;parent-author&quot;.into(),
+            parent_permlink: &quot;parent-permlink&quot;.into(),
+            author: &quot;author&quot;.into(),
+            body: &quot;body&quot;.into(),
+            beneficiaries: vec![BeneficiaryRoute {
+                account: &quot;test&quot;.into(),
+                weight: 40,
+            }],
+            tags: vec![&quot;tag&quot;.into()],
+            description: Some(&quot;description&quot;.into()),
+            ..Default::default()
+        },
+    )?;
+
+    // Convert the transaction into the Hive API-form JSON
+    let api_tx = tx.to_api()?;
+
+    // log apiTransaction
+    println!(&quot;{api_tx}&quot;);
+
+    // Apply the transaction in the API form into transaction interface
+    let mut tx_from_api = chain.create_transaction_from_json(&amp;api_tx)?;
+
+    tx_from_api.sign(&amp;signer1, &amp;public_key1)?;
+
+    // Log txSigned
+    println!(&quot;{}&quot;, tx_from_api.to_api()?);
+
+    tx_from_api.sign(&amp;signer2, &amp;public_key2)?;
+
+    // log multi signed transaction
+    println!(&quot;{}&quot;, tx_from_api.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;tx_from_api).await?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="example-usage-legacy-format">Example usage (Legacy format)</h2>
 <p>In this example we will create a transaction with one <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border h-6 px-2 text-xs rounded-md">
@@ -666,7 +732,7 @@ this is a beekeeper-specific feature.
 */
 
 // Generate the signature based on the transction digest
-const signature = wallet.signDigest(publicKey1, digest);
+const signature = await wallet.signDigest(publicKey1, digest);
 
 // Suplement the transaction by created signature
 tx.addSignature(signature);
@@ -745,6 +811,64 @@ console.log(txApiForm);</code></pre>
 <template #title>Python</template>
 <p><strong>The legacy transaction format is deprecated</strong> — wax-python no longer supports this conversion.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/example_usage/example_usage/example_legacy_usage.rs">src/rust/transaction/example_usage/example_usage/example_legacy_usage.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use runner::{SnippetsBeekeeperData, snippets_beekeeper_data};
+use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize chain
+    let chain = create_hive_chain(None)?;
+
+    // Create/get a wallet
+    let SnippetsBeekeeperData { mut wallet, public_key1, .. } = snippets_beekeeper_data();
+
+    // Create a transaction
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Declare example operation
+    let operation = chain.create_operation(Value::VoteOperation(Vote {
+        voter: &quot;voter&quot;.into(),
+        author: &quot;author&quot;.into(),
+        permlink: &quot;test-permlink&quot;.into(),
+        weight: 2200,
+    }));
+
+    // Push the operation into the transaction
+    tx.push_operation(operation);
+
+    // Convert the transaction into the Hive API-legacy form JSON before signing
+    let legacy_api_tx = tx.to_legacy_api()?;
+
+    println!(&quot;{legacy_api_tx}&quot;);
+
+    // Because we want to process transaction signing in legacy way, we need to sign the transaction externally, which is shown below.
+    // We need to calculate the transaction digest first.
+    let digest = tx.legacy_sig_digest()?;
+
+    /*
+    Other signers (except beekeeper) do not allow signing the digest directly,
+    this is a beekeeper-specific feature.
+    */
+
+    // Generate the signature based on the transaction digest
+    let signature = wallet.sign_digest(&amp;public_key1, &amp;digest)?;
+
+    // Supplement the transaction by created signature
+    tx.add_signature(&amp;signature)?;
+
+    // This is JSON form ready for broadcasting or passing to third-party service.
+    let tx_api_form = tx.to_legacy_api()?;
+
+    println!(&quot;{tx_api_form}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="full-transaction-interface-example-usage">Full Transaction interface example usage</h2>
 <doc-tabs>
@@ -753,6 +877,7 @@ console.log(txApiForm);</code></pre>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
 <div class="codeblock-title">Test it yourself: <a href="https://stackblitz.com/github/openhive-network/wax-doc-snippets?file=src%2Ftypescript%2Ftransaction%2Fexample-usage%2Fexample-usage%2Ffull-transaction-usage.ts&amp;startScript=test-transaction-full-example-usage">src/typescript/transaction/example-usage/example-usage/full-transaction-usage.ts</a></div>
 <pre translate="no" class="language-typescript"><code v-pre class="language-typescript">import beekeeperFactory from '@hiveio/beekeeper';
+import BeekeeperSigner from '@hiveio/wax-signers-beekeeper';
 import {
   createHiveChain,
   createWaxFoundation,
@@ -821,6 +946,10 @@ const publicEncryptionSigningKey = await wallet.importKey(
   privateEncryptionKeyData.wifPrivateKey
 );
 
+// Create signers that sign transactions with the posting and active keys held by the wallet
+const postingSigner = BeekeeperSigner.for(chain, wallet, publicPostingSigningKey);
+const activeSigner = BeekeeperSigner.for(chain, wallet, publicActiveSigningKey);
+
 '--------------------------------------------------------------'
 ////////////////////////////////////////////////////////////////
 //                  Simple operation scenario                 //
@@ -842,7 +971,7 @@ const voteOp = {
 simpleOperationTx.pushOperation(voteOp);
 
 // Sign and build the transaction
-simpleOperationTx.sign(wallet, publicPostingSigningKey);
+await postingSigner.signTransaction(simpleOperationTx);
 
 // Log the simple transaction into console in API form
 console.log(simpleOperationTx.toApi());
@@ -885,7 +1014,7 @@ this is a beekeeper-specific feature.
 */
 
 // Generate the signature based on the transction digest
-const signature = wallet.signDigest(publicPostingSigningKey, digest);
+const signature = await wallet.signDigest(publicPostingSigningKey, digest);
 
 // Suplement the transaction by created signature
 legacyTx.addSignature(signature);
@@ -931,7 +1060,7 @@ encryptionTx
   .pushOperation(transferOp);
 
 // Sign and build the transaction
-encryptionTx.sign(wallet, publicPostingSigningKey);
+await postingSigner.signTransaction(encryptionTx);
 
 // Log the encryption transaction into console in API form
 console.log(encryptionTx.toApi());
@@ -1002,7 +1131,7 @@ constructor that you are currently using
 */
 
 // Sign and build the transaction
-commentOperationTx.sign(wallet, publicPostingSigningKey);
+await postingSigner.signTransaction(commentOperationTx);
 
 // Log the article transaction into console in API form
 console.log(commentOperationTx.toApi());
@@ -1056,7 +1185,7 @@ for(const role of accountAuthorityUpdateOp.roles(&quot;hive&quot;))
 accountUpdateTx.pushOperation(accountAuthorityUpdateOp);
 
 // Sign and build the transaction
-accountUpdateTx.sign(wallet, publicActiveSigningKey);
+await activeSigner.signTransaction(accountUpdateTx);
 
 // Log the article transaction into console in API form
 console.log(accountUpdateTx.toApi());
@@ -1111,7 +1240,7 @@ operationFactoriesTx.pushOperation(new WitnessSetPropertiesOperation({
 }));
 
 // Sign and build the transaction
-operationFactoriesTx.sign(wallet, publicActiveSigningKey);
+await activeSigner.signTransaction(operationFactoriesTx);
 
 // Log the operation factories transaction into console in API form
 console.log(operationFactoriesTx.toApi());
@@ -1180,7 +1309,7 @@ otherOperationsTx.pushOperation(
 );
 
 // Sign and build the transaction
-otherOperationsTx.sign(wallet, publicPostingSigningKey);
+await postingSigner.signTransaction(otherOperationsTx);
 
 // Log the other operations transaction into console in API form
 console.log(otherOperationsTx.toApi());
@@ -1748,6 +1877,480 @@ asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-panel>
 </doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/example_usage/example_usage/full_transaction_usage.rs">src/rust/transaction/example_usage/example_usage/full_transaction_usage.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use beekeeper::prelude::*;
+use wax::prelude::*;
+use wax_signers_beekeeper::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize wax api
+    let wax_api = create_wax_foundation(None);
+
+    // Initialize chain
+    let chain = create_hive_chain(None)?;
+
+    // Initialize beekeeper
+    let beekeeper = BeekeeperApi::new(
+        BeekeeperOptions::new(&quot;ignored&quot;).in_memory(true),
+    );
+
+    // Create session
+    let session = beekeeper.create_session()?;
+
+    // Create wallet
+    let wallet_password = &quot;w1-password&quot;;
+    let mut wallet = session.create_wallet(&quot;w1&quot;, wallet_password)?.wallet;
+
+    // Declare example account name
+    let account_name = &quot;your-account&quot;;
+    // Declare example password for generating private key
+    let master_password = &quot;your-master-password&quot;;
+
+    // Generating a new posting private key from a password
+    let private_posting_key_data = wax_api.get_private_key_from_password(
+        account_name,
+        &quot;posting&quot;,
+        master_password,
+    )?;
+    // Import the posting key into the wallet
+    let public_posting_signing_key =
+        wallet.import_key(&amp;private_posting_key_data.wif_private_key)?;
+
+    // Generating a new active private key from a password
+    let private_active_key_data = wax_api.get_private_key_from_password(
+        account_name,
+        &quot;active&quot;,
+        master_password,
+    )?;
+    // Import the active key into the wallet
+    let public_active_signing_key =
+        wallet.import_key(&amp;private_active_key_data.wif_private_key)?;
+
+    // Generating a new encryption private key from a password
+    let private_encryption_key_data = wax_api.get_private_key_from_password(
+        account_name,
+        &quot;memo&quot;,
+        master_password,
+    )?;
+    // Import the encryption key into the wallet
+    let public_encryption_signing_key =
+        wallet.import_key(&amp;private_encryption_key_data.wif_private_key)?;
+
+    session.lock_all()?;
+    let provider = BeekeeperSignatureProvider::new(
+        session.open_wallet(&quot;w1&quot;)?.unlock(wallet_password)?,
+    );
+
+    ////////////////////////////////////////////////////////////////
+    //                  Simple operation scenario                 //
+    ////////////////////////////////////////////////////////////////
+
+    // Create a transaction
+    let mut simple_operation_tx = chain.create_transaction(None).await?;
+
+    let vote_op = chain.create_operation(Value::VoteOperation(Vote {
+        voter: &quot;voter&quot;.into(),
+        author: &quot;author&quot;.into(),
+        permlink: &quot;test-permlink&quot;.into(),
+        weight: 2200,
+    }));
+
+    // Push simple vote operation into previously initialized transaction
+    simple_operation_tx.push_operation(vote_op);
+
+    // Sign and build the transaction
+    simple_operation_tx.sign(&amp;provider, &amp;public_posting_signing_key)?;
+
+    // Log the simple transaction into console in API form
+    println!(&quot;{}&quot;, simple_operation_tx.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access to
+     * Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;simple_operation_tx).await?;
+
+    ////////////////////////////////////////////////////////////////
+    //             Simple operation legacy scenario               //
+    ////////////////////////////////////////////////////////////////
+
+    // Create a transaction
+    let mut legacy_tx = chain.create_transaction(None).await?;
+
+    // Declare example transfer operation
+    let transfer = Value::TransferOperation(Transfer {
+        from_account: account_name.into(),
+        to_account: &quot;friend&quot;.into(),
+        amount: chain.hive_coins(100)?,
+        memo: &quot;My transfer operation&quot;.into(),
+    });
+
+    // Push simple vote operation into previously initialized transaction
+    legacy_tx.push_operation(chain.create_operation(transfer.clone()));
+
+    // Because we want to process transaction signing in legacy way, we need to sign the transaction externally, which is shown below.
+    // We need to calculate the transaction digest first.
+    let digest = legacy_tx.legacy_sig_digest()?;
+
+    /*
+    Other signers (except beekeeper) do not allow signing the digest directly,
+    this is a beekeeper-specific feature.
+    */
+
+    // Generate the signature based on the transaction digest
+    let signature =
+        wallet.sign_digest(&amp;public_posting_signing_key, &amp;digest)?;
+
+    // Supplement the transaction by created signature
+    legacy_tx.add_signature(&amp;signature)?;
+
+    // This is JSON form ready for broadcasting or passing to third-party service.
+    let tx_api_form = legacy_tx.to_legacy_api()?;
+
+    // Log the simple legacy transaction into console in API form
+    println!(&quot;{tx_api_form}&quot;);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;legacy_tx).await?;
+
+    ////////////////////////////////////////////////////////////////
+    //                    Encryption example                      //
+    ////////////////////////////////////////////////////////////////
+
+    // Create a transaction
+    let mut encryption_tx = chain.create_transaction(None).await?;
+
+    // Declare other example transfer operation
+    let transfer_encryption_op =
+        chain.create_operation(Value::TransferOperation(Transfer {
+            from_account: account_name.into(),
+            to_account: &quot;friend&quot;.into(),
+            amount: chain.hive_coins(100)?,
+            memo: &quot;This will be encrypted&quot;.into(),
+        }));
+
+    encryption_tx
+        // Start encryption process
+        .start_encrypt(&amp;public_encryption_signing_key, None)
+        // Push transfer operation into previously initialized transaction
+        .push_operation(transfer_encryption_op)
+        // Stop encryption process
+        .stop_encrypt()?
+        // Push another transfer operation into previously initialized transaction
+        .push_operation(chain.create_operation(transfer));
+
+    // Sign and build the transaction
+    encryption_tx.perform_operation_encryption(&amp;provider)?;
+    encryption_tx.sign(&amp;provider, &amp;public_posting_signing_key)?;
+
+    // Log the encryption transaction into console in API form
+    println!(&quot;{}&quot;, encryption_tx.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access
+     * to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;encryption_tx).await?;
+
+    ////////////////////////////////////////////////////////////////
+    //                Comment operation scenario                  //
+    ////////////////////////////////////////////////////////////////
+
+    // This example will create multiple operations including
+    // comment_operation and comment_options_operation
+
+    // Create a transaction
+    let mut comment_operation_tx = chain.create_transaction(None).await?;
+
+    /*
+     * Use BlogPostOperation to create an article operation and set all fields.
+     */
+    comment_operation_tx.push_complex_operation(
+        &amp;chain,
+        BlogPostOperation {
+            author: account_name.into(),
+            permlink: Some(&quot;my-article-permlink&quot;.into()),
+            title: &quot;My article title&quot;.into(),
+            body: &quot;My article body&quot;.into(),
+            category: &quot;my-category&quot;.into(),
+            tags: vec![&quot;my-article&quot;.into()],
+            description: Some(&quot;This is my article!&quot;.into()),
+            images: vec![&quot;article.jpg&quot;.into()],
+            links: vec![&quot;https://example.com&quot;.into()],
+            format: Some(CommentFormat::Markdown),
+            beneficiaries: vec![BeneficiaryRoute {
+                account: &quot;friend&quot;.into(),
+                weight: 40,
+            }],
+            max_accepted_payout: Some(NaiAssetConvertible::Asset(
+                chain.hbd_coins(100)?,
+            )),
+            allow_curation_rewards: Some(true),
+            allow_votes: Some(true),
+            ..Default::default()
+        },
+    )?;
+
+    /*
+     * Use ReplyOperation to create a reply operation and set all fields.
+     * Note that the category is not set because it is only available in
+     * the BlogPostOperation.
+     */
+    comment_operation_tx.push_complex_operation(
+        &amp;chain,
+        ReplyOperation {
+            author: account_name.into(),
+            permlink: Some(&quot;My-reply-permlink&quot;.into()),
+            parent_author: account_name.into(),
+            parent_permlink: &quot;my-article-permlink&quot;.into(),
+            body: &quot;My reply body&quot;.into(),
+            tags: vec![&quot;my-reply&quot;.into()],
+            description: Some(&quot;This is my reply!&quot;.into()),
+            images: vec![&quot;reply.jpg&quot;.into()],
+            links: vec![&quot;https://example.com&quot;.into()],
+            format: Some(CommentFormat::Markdown),
+            beneficiaries: vec![BeneficiaryRoute {
+                account: &quot;friend&quot;.into(),
+                weight: 40,
+            }],
+            max_accepted_payout: Some(NaiAssetConvertible::Asset(
+                chain.hbd_coins(100)?,
+            )),
+            allow_curation_rewards: Some(true),
+            allow_votes: Some(true),
+            ..Default::default()
+        },
+    )?;
+
+    /*
+    Note that all the logic is hidden under the specific operation
+    constructor that you are currently using
+    */
+
+    // Sign and build the transaction
+    comment_operation_tx.sign(&amp;provider, &amp;public_posting_signing_key)?;
+
+    // Log the article transaction into console in API form
+    println!(&quot;{}&quot;, comment_operation_tx.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access
+     * to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;comment_operation_tx).await?;
+
+    ////////////////////////////////////////////////////////////////
+    //            Account authority update scenario               //
+    ////////////////////////////////////////////////////////////////
+
+    // This example will create account_update2_operation
+
+    // Create a transaction
+    let mut account_update_tx = chain.create_transaction(None).await?;
+
+    /*
+     * Use AccountAuthorityUpdateOperation to create
+     * new account_update2_operation with all the fields initialized
+     */
+    let mut account_authority_update_op =
+        AccountAuthorityUpdateOperation::create_for(&amp;chain, &quot;gtg&quot;).await?;
+
+    // The role fields squash all authority categories and allow you to select
+    // specific ones to modify in a user-friendly interface
+    let has_gandalf_auth = account_authority_update_op.active.has(&quot;gandalf&quot;, None);
+
+    println!(&quot;Has Gandalf Auth: {has_gandalf_auth}&quot;);
+
+    // Add frodo authority with weight 2
+    account_authority_update_op.active.add(&quot;frodo&quot;, 2)?;
+
+    // Update the memo key
+    account_authority_update_op
+        .memo
+        .set(&quot;STM8GC13uCZbP44HzMLV6zPZGwVQ8Nt4Kji8PapsPiNq1BK153XTX&quot;)?;
+
+    // You can also iterate over different authority levels from given category
+    // To perform batch operations
+    println!(&quot;Current account authority:&quot;);
+    for role in [
+        &amp;account_authority_update_op.owner,
+        &amp;account_authority_update_op.active,
+        &amp;account_authority_update_op.posting,
+    ] {
+        println!(&quot;{} : {:?}&quot;, role.role().as_str(), role.value());
+    }
+    println!(&quot;memo : {}&quot;, account_authority_update_op.memo.value());
+
+    account_update_tx
+        .push_complex_operation(&amp;chain, account_authority_update_op)?;
+
+    // Sign and build the transaction
+    account_update_tx.sign(&amp;provider, &amp;public_active_signing_key)?;
+
+    // Log the article transaction into console in API form
+    println!(&quot;{}&quot;, account_update_tx.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access
+     * to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;account_update_tx).await?;
+
+    ////////////////////////////////////////////////////////////////
+    //            Other operation factories scenario              //
+    ////////////////////////////////////////////////////////////////
+
+    // Create a transaction
+    let mut operation_factories_tx = chain.create_transaction(None).await?;
+
+    // Create a recurrent transfer operation that will be executed every day
+    // for 30 days with the ammount of 100.000 HIVE
+    operation_factories_tx.push_complex_operation(
+        &amp;chain,
+        DefineRecurrentTransferOperation {
+            from_account: account_name.into(),
+            to_account: &quot;friend&quot;.into(),
+            amount: NaiAssetConvertible::Asset(chain.hive_coins(100)?),
+            memo: Some(&quot;Daily pay&quot;.into()),
+            recurrence: Some(24),
+            executions: Some(30),
+            ..Default::default()
+        },
+    )?;
+
+    // Create a proposal update operation of id equals 1 with the
+    // ammount of 100.000 HBD
+    operation_factories_tx.push_complex_operation(
+        &amp;chain,
+        UpdateProposalOperation {
+            proposal_id: 1,
+            creator: account_name.into(),
+            daily_pay: NaiAssetConvertible::Asset(chain.hbd_coins(100)?),
+            subject: &quot;Proposal Update&quot;.into(),
+            permlink: &quot;proposal-update&quot;.into(),
+            end_date: Some(HiveDateTime::parse(&quot;2023-03-14T00:00:00&quot;)?),
+        },
+    )?;
+
+    // Create a witness set properties operation with hbd interest rate of 7.5%,
+    // maximum block size of 65536, account creation fee of 300.000 HIVE
+    // and url of &quot;https://example.com&quot;
+    operation_factories_tx.push_complex_operation(
+        &amp;chain,
+        WitnessSetPropertiesOperation {
+            owner: account_name.into(),
+            witness_signing_key: public_active_signing_key.clone(),
+            maximum_block_size: Some(65536),
+            hbd_interest_rate: Some(750),
+            account_creation_fee: Some(NaiAssetConvertible::Asset(
+                chain.hive_coins(300)?,
+            )),
+            url: Some(&quot;https://example.com&quot;.into()),
+            ..Default::default()
+        },
+    )?;
+
+    // Sign and build the transaction
+    operation_factories_tx.sign(&amp;provider, &amp;public_active_signing_key)?;
+
+    // Log the operation factories transaction into console in API form
+    println!(&quot;{}&quot;, operation_factories_tx.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access
+     * to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;operation_factories_tx).await?;
+
+    ////////////////////////////////////////////////////////////////
+    //      Scenario that includes all HiveAppsOperations         //
+    ////////////////////////////////////////////////////////////////
+
+    // (custom_json based)
+
+    // Create a transaction
+    let mut other_operations_tx = chain.create_transaction(None).await?;
+
+    // Create follow operation new instance and push its operations into the
+    // created transaction
+    other_operations_tx.push_complex_operation(
+        &amp;chain,
+        FollowOperation::new()
+            .follow_blog(account_name, vec![&quot;blog-to-follow&quot;.into()])?
+            .mute_blog(account_name, vec![&quot;blog-to-mute&quot;.into()])?
+            .reblog(account_name, &quot;to-reblog&quot;, &quot;post-permlink&quot;)
+            // The account that authorizes underlying custom json operation is
+            // also reponsible for signing the transaction using its posting
+            // authority
+            .authorize(vec![account_name.into()], Vec::new())?,
+    )?;
+
+    // Create resource credits operation new instance and push its operations
+    // into the created transaction
+    other_operations_tx.push_complex_operation(
+        &amp;chain,
+        ResourceCreditsOperation::new()
+            // Delegate 1000 RC from your account to a friend's account.
+            .delegate(account_name, 1000, vec![&quot;friend&quot;.into()])?
+            // The account that authorizes underlying custom json operation is
+            // also reponsible for signing the transaction using its posting
+            // authority
+            .authorize(vec![account_name.into()], Vec::new())?,
+    )?;
+
+    // Declare example community name
+    let community_name = &quot;community-name&quot;;
+
+    // Create community operation new instance and push its operations into
+    // the created transaction
+    other_operations_tx.push_complex_operation(
+        &amp;chain,
+        CommunityOperation::new()
+            // Subscribe the community
+            .subscribe(&quot;communityName&quot;)
+            // Flag the post of the author in the community with the permlink
+            // Add notes regarding the violation (violation notes).
+            .flag_post(
+                community_name,
+                &quot;author-account&quot;,
+                &quot;post-permlink&quot;,
+                &quot;violation notes&quot;,
+            )
+            // The account that authorizes underlying custom json operation is
+            // also reponsible for signing the transaction using its posting
+            // authority
+            .authorize(vec![account_name.into()], Vec::new())?,
+    )?;
+
+    // Sign and build the transaction
+    other_operations_tx.sign(&amp;provider, &amp;public_posting_signing_key)?;
+
+    // Log the other operations transaction into console in API form
+    println!(&quot;{}&quot;, other_operations_tx.to_api()?);
+
+    /*
+     * Call actual broadcast API to send transaction to the blockchain.
+     * The code is commented out because examples does not have access
+     * to Hive mainnet keys.
+     */
+    // chain.broadcast(&amp;other_operations_tx).await?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 
                 
@@ -1788,7 +2391,7 @@ asyncio.run(main())</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

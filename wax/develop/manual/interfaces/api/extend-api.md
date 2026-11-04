@@ -32,6 +32,10 @@ BlockHeaderResponse(header=BlockHeader(previous='0000007a514fd4034a39ff8bb422576
 
 ===
 
++++ Rust
+
+:::code source="../../static/snippets/src/rust/api/extend_api/interface_extend.rs" language="rust" title="Test it yourself on github codespace: [src/rust/api/extend_api/interface_extend.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/api/extend_api/interface_extend.rs)" :::
+
 +++
 
 ## Manually extending REST API
@@ -58,6 +62,10 @@ BlockHeaderResponse(header=BlockHeader(previous='0000007a514fd4034a39ff8bb422576
 
 :::code source="../../static/snippets/src/python/api/extend_api/interface_extend_rest.py" language="python" title="Test it yourself: [src/python/api/extend_api/interface_extend_rest.py](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/python/api/extend_api/interface_extend_rest.py)" :::
 
++++ Rust
+
+:::code source="../../static/snippets/src/rust/api/extend_api/interface_extend_rest.rs" language="rust" title="Test it yourself on github codespace: [src/rust/api/extend_api/interface_extend_rest.rs](https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&ref=main&file=workspaces/wax-doc-snippets/src/rust/api/extend_api/interface_extend_rest.rs)" :::
+
 +++
 
 ## Automatically extending API
@@ -71,6 +79,10 @@ When dealing with TypeScript and JavaScript, you can use the following package t
 [!ref icon="../../static/npm.svg" target="_blank" text="View **WAX Spec Generator** package on npmjs 🡭"](https://www.npmjs.com/package/@hiveio/wax-spec-generator)
 
 +++ Python
+
+TBA
+
++++ Rust
 
 TBA
 
@@ -94,6 +106,10 @@ const extendedChain = chain.extend(JsonRPC);
 ```
 
 +++ Python
+
+TBA
+
++++ Rust
 
 TBA
 
@@ -136,5 +152,9 @@ Last synced block: 99305697
 ```
 
 ===
+
++++ Rust
+
+TBA
 
 +++

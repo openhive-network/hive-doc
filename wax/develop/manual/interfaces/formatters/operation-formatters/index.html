@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -420,6 +421,66 @@ console.log(output);</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/operation_formatters/rc_delegate.rs">src/rust/formatters/operation_formatters/rc_delegate.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create resource credits operation new instance
+    let rc_operation = ResourceCreditsOperation::new()
+        .delegate(&quot;initminer&quot;, 4127361273, vec![&quot;gtg&quot;.into(), &quot;null&quot;.into()])?
+        .remove_delegation(&quot;initminer&quot;, vec![&quot;null&quot;.into()])?
+        .authorize(vec![&quot;initminer&quot;.into()], Vec::new())?;
+
+    // Push operations of resource credits operation into the created transaction
+    tx.push_complex_operation(&amp;chain, rc_operation)?;
+
+    let output = chain.formatter().format(&amp;tx.transaction().operations)?;
+
+    println!(&quot;{}&quot;, serde_json::to_string_pretty(&amp;output)?);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-1" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">[
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;delegatees&quot;: [&quot;gtg&quot;, &quot;null&quot;],
+      &quot;from&quot;: &quot;initminer&quot;,
+      &quot;rc&quot;: {
+        &quot;amount&quot;: &quot;4127361273&quot;,
+        &quot;nai&quot;: &quot;@@000000037&quot;,
+        &quot;precision&quot;: 6
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;delegatees&quot;: [&quot;null&quot;],
+      &quot;from&quot;: &quot;initminer&quot;,
+      &quot;rc&quot;: {
+        &quot;amount&quot;: &quot;0&quot;,
+        &quot;nai&quot;: &quot;@@000000037&quot;,
+        &quot;precision&quot;: 6
+      }
+    }
+  }
+]</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
 </doc-tabs>
 <h2 id="formatting-community-operations">Formatting community operations</h2>
 <doc-tabs>
@@ -449,7 +510,7 @@ const output = chain.formatter.format(tx.transaction.operations);
 
 console.log(output);</code></pre>
 </doc-codeblock></div>
-<doc-panel id="output-1" collapsed>
+<doc-panel id="output-2" collapsed>
     <template #title>Output</template>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
 <pre translate="no" class="language-javascript"><code v-pre class="language-javascript">[{
@@ -584,6 +645,162 @@ console.log(output);</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<p>The formatted tree is plain JSON data — actions are their wire-form strings and absent optional fields are simply omitted (there is no <code translate="no" v-pre>undefined</code> in <code translate="no" v-pre>serde_json</code>).</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/operation_formatters/community.rs">src/rust/formatters/operation_formatters/community.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create community operation new instance
+    let community_operation = CommunityOperation::new()
+        .flag_post(&quot;mycomm&quot;, &quot;gtg&quot;, &quot;first-post&quot;, &quot;note&quot;)
+        .mute_post(&quot;mycomm&quot;, &quot;gtg&quot;, &quot;first-post&quot;, &quot;note&quot;)
+        .pin_post(&quot;mycomm&quot;, &quot;gtg&quot;, &quot;first-post&quot;)
+        .subscribe(&quot;mycomm&quot;)
+        .unmute_post(&quot;mycomm&quot;, &quot;gtg&quot;, &quot;first-post&quot;, &quot;note&quot;)
+        .unpin_post(&quot;mycomm&quot;, &quot;gtg&quot;, &quot;first-post&quot;)
+        .unsubscribe(&quot;mycomm&quot;)
+        .set_user_title(&quot;mycomm&quot;, &quot;gtg&quot;, &quot;first-post&quot;)
+        .update_props(
+            &quot;mycomm&quot;,
+            CommunityProps {
+                title: &quot;Custom title&quot;.into(),
+                ..Default::default()
+            },
+        )
+        .authorize(vec![&quot;gtg&quot;.into()], Vec::new())?;
+
+    // Push operations of community operation into the created transaction
+    tx.push_complex_operation(&amp;chain, community_operation)?;
+
+    let output = chain.formatter().format(&amp;tx.transaction().operations)?;
+
+    println!(&quot;{}&quot;, serde_json::to_string_pretty(&amp;output)?);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-3" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">[
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;account&quot;: &quot;gtg&quot;,
+        &quot;action&quot;: &quot;flagPost&quot;,
+        &quot;notes&quot;: &quot;note&quot;,
+        &quot;permlink&quot;: &quot;first-post&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;account&quot;: &quot;gtg&quot;,
+        &quot;action&quot;: &quot;mutePost&quot;,
+        &quot;notes&quot;: &quot;note&quot;,
+        &quot;permlink&quot;: &quot;first-post&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;account&quot;: &quot;gtg&quot;,
+        &quot;action&quot;: &quot;pinPost&quot;,
+        &quot;permlink&quot;: &quot;first-post&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;action&quot;: &quot;subscribe&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;account&quot;: &quot;gtg&quot;,
+        &quot;action&quot;: &quot;unmutePost&quot;,
+        &quot;notes&quot;: &quot;note&quot;,
+        &quot;permlink&quot;: &quot;first-post&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;account&quot;: &quot;gtg&quot;,
+        &quot;action&quot;: &quot;unpinPost&quot;,
+        &quot;permlink&quot;: &quot;first-post&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;action&quot;: &quot;unsubscribe&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;account&quot;: &quot;gtg&quot;,
+        &quot;action&quot;: &quot;setUserTitle&quot;,
+        &quot;title&quot;: &quot;first-post&quot;
+      }
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;accounts&quot;: [&quot;gtg&quot;],
+      &quot;community&quot;: &quot;mycomm&quot;,
+      &quot;data&quot;: {
+        &quot;action&quot;: &quot;updateProps&quot;,
+        &quot;props&quot;: {
+          &quot;about&quot;: &quot;&quot;,
+          &quot;description&quot;: &quot;&quot;,
+          &quot;flag_text&quot;: &quot;&quot;,
+          &quot;is_nsfw&quot;: false,
+          &quot;lang&quot;: &quot;en&quot;,
+          &quot;title&quot;: &quot;Custom title&quot;
+        }
+      }
+    }
+  }
+]</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
 </doc-tabs>
 <h2 id="formatting-follow-operations">Formatting follow operations</h2>
 <doc-tabs>
@@ -615,7 +832,7 @@ const output = chain.formatter.format(tx.transaction.operations);
 
 console.log(output);</code></pre>
 </doc-codeblock></div>
-<doc-panel id="output-2" collapsed>
+<doc-panel id="output-4" collapsed>
     <template #title>Output</template>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
 <pre translate="no" class="language-javascript"><code v-pre class="language-javascript">[{
@@ -717,6 +934,130 @@ console.log(output);</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/operation_formatters/follow.rs">src/rust/formatters/operation_formatters/follow.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create follow operation new instance
+    let follow_operation = FollowOperation::new()
+        .follow_blacklist_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into(), &quot;null&quot;.into()])?
+        .follow_muted_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into()])?
+        .reset_all_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into(), &quot;null&quot;.into()])?
+        .reset_blacklist_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into()])?
+        .reset_follow_blacklist_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into(), &quot;null&quot;.into()])?
+        .reset_follow_muted_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into()])?
+        .unblacklist_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into(), &quot;null&quot;.into()])?
+        .unfollow_blacklist_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into()])?
+        .unfollow_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into(), &quot;null&quot;.into()])?
+        .unfollow_muted_blog(&quot;initminer&quot;, vec![&quot;gtg&quot;.into()])?
+        .reblog(&quot;initminer&quot;, &quot;gtg&quot;, &quot;first-post&quot;)
+        .authorize(vec![&quot;initminer&quot;.into()], Vec::new())?;
+
+    // Push operations of follow operation into the created transaction
+    tx.push_complex_operation(&amp;chain, follow_operation)?;
+
+    let output = chain.formatter().format(&amp;tx.transaction().operations)?;
+
+    println!(&quot;{}&quot;, serde_json::to_string_pretty(&amp;output)?);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-5" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">[
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;follow_blacklist&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;, &quot;null&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;follow_muted&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;reset_all_lists&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;, &quot;null&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;reset_blacklist&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;reset_follow_blacklist&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;, &quot;null&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;reset_follow_muted_list&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;unblacklist&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;, &quot;null&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;unfollow_blacklist&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;, &quot;null&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;action&quot;: &quot;unfollow_muted&quot;,
+      &quot;follower&quot;: &quot;initminer&quot;,
+      &quot;following&quot;: [&quot;gtg&quot;]
+    }
+  },
+  {
+    &quot;custom_json_operation&quot;: {
+      &quot;account&quot;: &quot;initminer&quot;,
+      &quot;author&quot;: &quot;gtg&quot;,
+      &quot;permlink&quot;: &quot;first-post&quot;
+    }
+  }
+]</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
 </doc-tabs>
 <h2 id="formatting-witness-properties-object">Formatting witness properties object</h2>
 <p>You can also parse the serialized <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-info-text bg-badge-info border border-badge-info-border h-6 px-2 text-xs rounded-md">
@@ -749,7 +1090,7 @@ const output = chain.formatter.format(witness_props);
 
 console.log(output.value.props);</code></pre>
 </doc-codeblock></div>
-<doc-panel id="output-3" collapsed>
+<doc-panel id="output-6" collapsed>
     <template #title>Output</template>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
 <pre translate="no" class="language-javascript"><code v-pre class="language-javascript">{
@@ -769,6 +1110,47 @@ console.log(output.value.props);</code></pre>
 <doc-tab v-cloak id="python-3">
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
+</doc-tab>
+<doc-tab v-cloak id="rust-3">
+<template #title>Rust</template>
+<p>Only the properties present in the packed <code translate="no" v-pre>props</code> appear in the output (there is no <code translate="no" v-pre>undefined</code> in <code translate="no" v-pre>serde_json</code>).</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/operation_formatters/witness_update.rs">src/rust/formatters/operation_formatters/witness_update.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use serde_json::json;
+use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let wax_api = create_wax_foundation(None);
+
+    // Data from blockchain
+    let witness_props = json!({
+        &quot;type&quot;: &quot;witness_set_properties_operation&quot;,
+        &quot;value&quot;: {
+            &quot;owner&quot;: &quot;null&quot;,
+            &quot;props&quot;: [
+                [&quot;new_signing_key&quot;, &quot;3553544d365471534a61533161526a367036795a456f35786963583762764c6872666456716935546f4e724b78485533465242456457&quot;],
+                [&quot;key&quot;, &quot;029072da2e84ebd6eb520f944db3d1af718500b0f1ddf60e11e986f990acddd524&quot;]
+            ],
+            &quot;extensions&quot;: []
+        }
+    });
+
+    let output = wax_api.formatter().format(&amp;witness_props)?;
+
+    println!(&quot;{}&quot;, serde_json::to_string_pretty(&amp;output[&quot;value&quot;][&quot;props&quot;])?);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-7" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;key&quot;: &quot;STM5z76mjZJnTZHHZjgnFxFadTb1ztc6R7EuDgCzd6dNiv6ETB2tj&quot;,
+  &quot;new_signing_key&quot;: &quot;STM2nf9tLEWSdisd5pjocs2odhD3PvsnJTfMmK7Gm2Z2x8CvpXs1WC&quot;
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
 </doc-tab>
 </doc-tabs>
 
@@ -810,7 +1192,7 @@ console.log(output.value.props);</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

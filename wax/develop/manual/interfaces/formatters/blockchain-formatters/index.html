@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -394,6 +395,32 @@ console.log(output);</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<p><code translate="no" v-pre>format_number</code> accepts any amount convertible to a string (integers, floats, decimal strings). There is no locale argument — group separators default to the <code translate="no" v-pre>en-US</code> style and can be changed with <code translate="no" v-pre>WaxFormatterOptions::default().with_separators(...)</code>.</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/blockchain_formatters/format_number.rs">src/rust/formatters/blockchain_formatters/format_number.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let wax_api = create_wax_foundation(None);
+
+    // Group separators default to the en-US style (`,` and `.`); use
+    // `WaxFormatterOptions::default().with_separators(...)` to change them
+    let output = wax_api.formatter().format_number(76543212345678i64, 3);
+
+    println!(&quot;{output}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-1">
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">76,543,212,345,678.000</code></pre>
+</doc-codeblock></div>
+</doc-panel>
+</doc-tab>
 </doc-tabs>
 <h2 id="formatting-nai-asset">Formatting NAI Asset</h2>
 <p>If you want to format a string, use <code translate="no" v-pre>waxify</code> literal</p>
@@ -417,7 +444,7 @@ const output = chain.waxify`Amount: ${naiAsset}`;
 
 console.log(output);</code></pre>
 </doc-codeblock></div>
-<doc-panel id="output-1">
+<doc-panel id="output-2">
     <template #title>Output</template>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Amount: 300.000 HIVE</code></pre>
@@ -427,6 +454,40 @@ console.log(output);</code></pre>
 <doc-tab v-cloak id="python-1">
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
+</doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<p>Rust has no tagged template literals — <code translate="no" v-pre>display</code> is the counterpart of <code translate="no" v-pre>waxify</code>: it formats the value and renders it for display, ready to be composed with the <code translate="no" v-pre>format!</code> family.</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/blockchain_formatters/format_nai.rs">src/rust/formatters/blockchain_formatters/format_nai.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use serde_json::json;
+use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let wax_api = create_wax_foundation(None);
+
+    // Data from blockchain
+    let nai_asset = json!({
+        &quot;amount&quot;: &quot;300000&quot;,
+        &quot;precision&quot;: 3,
+        &quot;nai&quot;: &quot;@@000000021&quot;
+    });
+
+    // `display` is the Rust counterpart of the TS `waxify` literal — compose
+    // it with the `format!` family
+    let output = format!(&quot;Amount: {}&quot;, wax_api.formatter().display(&amp;nai_asset)?);
+
+    println!(&quot;{output}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-3">
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">Amount: 300.000 HIVE</code></pre>
+</doc-codeblock></div>
+</doc-panel>
 </doc-tab>
 </doc-tabs>
 <h2 id="formatting-transaction">Formatting Transaction</h2>
@@ -467,7 +528,7 @@ const output = chain.waxify`Tx: #${tx}`;
 
 console.log(output);</code></pre>
 </doc-codeblock></div>
-<doc-panel id="output-2">
+<doc-panel id="output-4">
     <template #title>Output</template>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre translate="no" class="language-none"><code v-pre class="language-none">Tx: #3725c81634f152011e2043eb7119911b953d4267</code></pre>
@@ -477,6 +538,54 @@ console.log(output);</code></pre>
 <doc-tab v-cloak id="python-2">
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
+</doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/blockchain_formatters/format_tx.rs">src/rust/formatters/blockchain_formatters/format_tx.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use serde_json::json;
+use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let wax_api = create_wax_foundation(None);
+
+    // Data from blockchain
+    let tx = json!({
+        &quot;ref_block_num&quot;: 1959,
+        &quot;ref_block_prefix&quot;: 3625727107u32,
+        &quot;expiration&quot;: &quot;2023-11-09T22:01:24&quot;,
+        &quot;operations&quot;: [
+            {
+                &quot;type&quot;: &quot;transfer_operation&quot;,
+                &quot;value&quot;: {
+                    &quot;from&quot;: &quot;oneplus7&quot;,
+                    &quot;to&quot;: &quot;kryptogames&quot;,
+                    &quot;amount&quot;: {
+                        &quot;amount&quot;: &quot;300000&quot;,
+                        &quot;precision&quot;: 3,
+                        &quot;nai&quot;: &quot;@@000000021&quot;
+                    },
+                    &quot;memo&quot;: &quot;Roll under 50 4d434bd943616&quot;
+                }
+            }
+        ],
+        &quot;extensions&quot;: [],
+        &quot;signatures&quot;: []
+    });
+
+    let output = format!(&quot;Tx: #{}&quot;, wax_api.formatter().display(&amp;tx)?);
+
+    println!(&quot;{output}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-5">
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-none"><code v-pre class="language-none">Tx: #3725c81634f152011e2043eb7119911b953d4267</code></pre>
+</doc-codeblock></div>
+</doc-panel>
 </doc-tab>
 </doc-tabs>
 <h2 id="formatting-entire-transaction-without-replacing-with-transaction-id">Formatting entire transaction without replacing with transaction id</h2>
@@ -520,7 +629,7 @@ const output = formatter.format(tx);
 
 console.log(output);</code></pre>
 </doc-codeblock></div>
-<doc-panel id="output-3" collapsed>
+<doc-panel id="output-6" collapsed>
     <template #title>Output</template>
 <div class="codeblock-wrapper"><doc-codeblock line-numbers>
 <pre translate="no" class="language-javascript"><code v-pre class="language-javascript">{
@@ -550,6 +659,76 @@ console.log(output);</code></pre>
 <doc-tab v-cloak id="python-3">
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
+</doc-tab>
+<doc-tab v-cloak id="rust-3">
+<template #title>Rust</template>
+<p>In Rust the options-only extension is a separate method: <code translate="no" v-pre>extend_options</code> derives a new formatter with the same rules but the given options (<code translate="no" v-pre>extend::&lt;F&gt;()</code> is the rule-extension form). <code translate="no" v-pre>format</code> returns the rewritten tree as plain <code translate="no" v-pre>serde_json::Value</code> data.</p>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/formatters/blockchain_formatters/format_options.rs">src/rust/formatters/blockchain_formatters/format_options.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use serde_json::json;
+use wax::prelude::*;
+
+fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    let wax_api = create_wax_foundation(None);
+
+    // Data from blockchain
+    let tx = json!({
+        &quot;ref_block_num&quot;: 1959,
+        &quot;ref_block_prefix&quot;: 3625727107u32,
+        &quot;expiration&quot;: &quot;2023-11-09T22:01:24&quot;,
+        &quot;operations&quot;: [
+            {
+                &quot;type&quot;: &quot;transfer_operation&quot;,
+                &quot;value&quot;: {
+                    &quot;from&quot;: &quot;oneplus7&quot;,
+                    &quot;to&quot;: &quot;kryptogames&quot;,
+                    &quot;amount&quot;: {
+                        &quot;amount&quot;: &quot;300000&quot;,
+                        &quot;precision&quot;: 3,
+                        &quot;nai&quot;: &quot;@@000000021&quot;
+                    },
+                    &quot;memo&quot;: &quot;Roll under 50 4d434bd943616&quot;
+                }
+            }
+        ],
+        &quot;extensions&quot;: []
+    });
+
+    // Derive a formatter that keeps the transaction object instead of
+    // replacing it with the transaction id
+    let formatter = wax_api.formatter().extend_options(
+        WaxFormatterOptions::default().with_transaction_as_id(false),
+    );
+
+    let output = formatter.format(&amp;tx)?;
+
+    println!(&quot;{}&quot;, serde_json::to_string_pretty(&amp;output)?);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+<doc-panel id="output-7" collapsed>
+    <template #title>Output</template>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-json"><code v-pre class="language-json">{
+  &quot;expiration&quot;: &quot;2023-11-09T22:01:24&quot;,
+  &quot;extensions&quot;: [],
+  &quot;operations&quot;: [
+    {
+      &quot;type&quot;: &quot;transfer_operation&quot;,
+      &quot;value&quot;: {
+        &quot;amount&quot;: &quot;300.000 HIVE&quot;,
+        &quot;from&quot;: &quot;oneplus7&quot;,
+        &quot;memo&quot;: &quot;Roll under 50 4d434bd943616&quot;,
+        &quot;to&quot;: &quot;kryptogames&quot;
+      }
+    }
+  ],
+  &quot;ref_block_num&quot;: 1959,
+  &quot;ref_block_prefix&quot;: 3625727107
+}</code></pre>
+</doc-codeblock></div>
+</doc-panel>
 </doc-tab>
 </doc-tabs>
 
@@ -591,7 +770,7 @@ console.log(output);</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

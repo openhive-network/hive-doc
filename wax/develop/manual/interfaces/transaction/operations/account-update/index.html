@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../static/favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -459,6 +460,33 @@ async def main() -&gt; None:
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/set_memo.rs">src/rust/transaction/operations/account_update/set_memo.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create online operation - create_for will parse authorities for &quot;gtg&quot; account from the chain
+    let mut op = AccountAuthorityUpdateOperation::create_for(&amp;chain, &quot;gtg&quot;).await?;
+
+    // Select memo role and set its key
+    op.memo.set(&quot;STM4utwdRemiWrprD4aZantE8CVRnxRRZShz68W5SoDfZinfhCmSA&quot;)?;
+
+    // Push operation to transaction
+    tx.push_complex_operation(&amp;chain, op)?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="adding-account-proxy-to-the-posting-role-definition">Adding account proxy to the posting role definition</h2>
 <p>Sometimes you want to allow a separate account to operate on behalf of your account (e.g., a bot, backup account, or trusted service). To define such authority proxy, you can use the <code translate="no" v-pre>AccountAuthorityUpdateOperation</code> by calling its <code translate="no" v-pre>add(account: TAccountName, weight: number = 1)</code> method. The important aspect is matching the account weight to the role threshold - only entries with weights equal or greater than the role threshold will be able to authorize operations and satisfy the authority.</p>
@@ -514,6 +542,33 @@ async def main() -&gt; None:
 
 
 asyncio.run(main())</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/add_posting_account.rs">src/rust/transaction/operations/account_update/add_posting_account.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create online operation - create_for will parse authorities for &quot;gtg&quot; account from the chain
+    let mut op = AccountAuthorityUpdateOperation::create_for(&amp;chain, &quot;gtg&quot;).await?;
+
+    // Add account named &quot;initminer&quot; to the posting role of my account. Weight `None` defaults to 1
+    op.posting.add(&quot;initminer&quot;, None)?;
+
+    // Push operation to transaction
+    tx.push_complex_operation(&amp;chain, op)?;
+
+    Ok(())
+}</code></pre>
 </doc-codeblock></div>
 </doc-tab>
 </doc-tabs>
@@ -580,6 +635,37 @@ async def main() -&gt; None:
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/change_active_key.rs">src/rust/transaction/operations/account_update/change_active_key.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create online operation - create_for will parse authorities for &quot;gtg&quot; account from the chain
+    let mut op = AccountAuthorityUpdateOperation::create_for(&amp;chain, &quot;gtg&quot;).await?;
+
+    // Example public keys data
+    let old_key = &quot;STM4utwdRemiWrprD4aZantE8CVRnxRRZShz68W5SoDfZinfhCmSA&quot;;
+    let new_key = &quot;STM6NPx2HsYEBTyCpsA792NMbHFJYSB8GL79wFDovAjiEvGEiXbF2&quot;;
+
+    // Replace old key in active role with new key and weight 1
+    op.active.replace(old_key, 1, Some(new_key))?;
+
+    // Push operation to transaction
+    tx.push_complex_operation(&amp;chain, op)?;
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="modifying-the-owner-level-with-threshold-change">Modifying the owner level with threshold change</h2>
 <doc-tabs>
@@ -599,7 +685,7 @@ const tx = await chain.createTransaction();
 const op = await AccountAuthorityUpdateOperation.createFor(chain, &quot;gtg&quot;);
 
 // Add &quot;initminer&quot; to owner role and change weight threshold to 2
-op.role(&quot;owner&quot;).add(&quot;initminer&quot;, 1).setThreshold(2);
+op.role(&quot;owner&quot;).add(&quot;initminer&quot;, 1).setTreshold(2);
 
 // Push operation to transaction
 tx.pushOperation(op);</code></pre>
@@ -634,6 +720,33 @@ async def main() -&gt; None:
 
 
 asyncio.run(main())</code></pre>
+</doc-codeblock></div>
+</doc-tab>
+<doc-tab v-cloak id="rust-3">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/change_weight_threshold.rs">src/rust/transaction/operations/account_update/change_weight_threshold.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Create online operation - create_for will parse authorities for &quot;gtg&quot; account from the chain
+    let mut op = AccountAuthorityUpdateOperation::create_for(&amp;chain, &quot;gtg&quot;).await?;
+
+    // Add &quot;initminer&quot; to owner role and change weight threshold to 2
+    op.owner.add(&quot;initminer&quot;, 1)?.set_threshold(2)?;
+
+    // Push operation to transaction
+    tx.push_complex_operation(&amp;chain, op)?;
+
+    Ok(())
+}</code></pre>
 </doc-codeblock></div>
 </doc-tab>
 </doc-tabs>
@@ -702,6 +815,43 @@ async def main() -&gt; None:
 asyncio.run(main())</code></pre>
 </doc-codeblock></div>
 </doc-tab>
+<doc-tab v-cloak id="rust-4">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/account_update/iterate_roles.rs">src/rust/transaction/operations/account_update/iterate_roles.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let _tx = chain.create_transaction(None).await?;
+
+    // Create online operation - create_for will parse authorities for &quot;gtg&quot; account from the chain
+    let op = AccountAuthorityUpdateOperation::create_for(&amp;chain, &quot;gtg&quot;).await?;
+
+    // Iterate over all authority role levels of the hive role category
+    for role in [&amp;op.owner, &amp;op.active, &amp;op.posting] {
+        // Print the current role value
+        println!(&quot;{:#?}&quot;, role.value());
+
+        // Warn if role is null authority
+        if role.is_null_authority() {
+            eprintln!(&quot;Role is null authority&quot;);
+        }
+    }
+
+    // Print the current memo key
+    println!(&quot;{}&quot;, op.memo.value());
+
+    // We do not have to push operation to the transaction as we just wanted to iterate over roles
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 
                 
@@ -742,7 +892,7 @@ asyncio.run(main())</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

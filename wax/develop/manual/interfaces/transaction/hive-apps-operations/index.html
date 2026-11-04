@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../static/favicon.ico" />
-    <link href="../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -468,6 +469,67 @@ console.log(otherTx.transaction.operations[1]); // Remove delegation operation</
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/resource_credits_operations.rs">src/rust/transaction/hive_apps_operations/resource_credits_operations.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use runner::{SnippetsBeekeeperData, snippets_beekeeper_data};
+use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    let SnippetsBeekeeperData { signer1, public_key1, .. } = snippets_beekeeper_data();
+
+    // Your account name
+    let your_account = &quot;your-account&quot;;
+
+    // Friend's account
+    let friend = &quot;your-friend-account&quot;;
+
+    // Other friend's account
+    let other_friend = &quot;other-friend-account&quot;;
+
+    // Create resource credits operation new instance
+    let rc_operation = ResourceCreditsOperation::new()
+        // Delegate 1000 RC from your account to a friend's account.
+        .delegate(your_account, 1000, vec![friend.into()])?
+        // The account that authorizes underlying custom json operation is
+        // also responsible for signing the transaction using its posting authority
+        .authorize(vec![your_account.into()], Vec::new())?;
+
+    // Push operations of resource credits operation into the created transaction
+    tx.push_complex_operation(&amp;chain, rc_operation.clone())?;
+
+    // Sign and build the transaction
+    tx.sign(&amp;signer1, &amp;public_key1)?;
+
+    let mut other_tx = chain.create_transaction(None).await?;
+
+    let rc_operation = rc_operation
+        // Remove delegation of RC from your account to a friend's account.
+        .remove_delegation(your_account, vec![other_friend.into()])?
+        // The account that authorizes the operation must also sign the
+        // transaction
+        .authorize(vec![your_account.into()], Vec::new())?;
+
+    other_tx.push_complex_operation(&amp;chain, rc_operation)?;
+
+    // Sign and build the other transaction
+    other_tx.sign(&amp;signer1, &amp;public_key1)?;
+
+    println!(&quot;{:#?}&quot;, other_tx.transaction().operations[0]); // Delegate operation
+    println!(&quot;{:#?}&quot;, other_tx.transaction().operations[1]); // Remove delegation operation
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h3 id="2-follow-operation">2. Follow Operation</h3>
 <p>This operation class handles operations related to following, muting, blacklisting blogs, and reblogging posts.</p>
@@ -559,6 +621,58 @@ console.log(tx.transaction.operations[2]); // Reblog operation</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/follow_operation.rs">src/rust/transaction/hive_apps_operations/follow_operation.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use runner::{SnippetsBeekeeperData, snippets_beekeeper_data};
+use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    let SnippetsBeekeeperData { signer1, public_key1, .. } = snippets_beekeeper_data();
+
+    // Your account name
+    let your_account = &quot;your-account&quot;;
+
+    // Blog author name to follow
+    let blog_to_follow = &quot;interesting-blog&quot;;
+
+    // Blog author name to mute
+    let blog_to_mute = &quot;spammer&quot;;
+
+    // Author of post to reblog
+    let to_reblog = &quot;reblog-me&quot;;
+
+    // Create follow operation new instance
+    let follow_operation = FollowOperation::new()
+        .follow_blog(your_account, vec![blog_to_follow.into()])?
+        .mute_blog(your_account, vec![blog_to_mute.into()])?
+        .reblog(your_account, to_reblog, &quot;post-permlink&quot;)
+        // The account that authorizes underlying custom json operation is
+        // also responsible for signing the transaction using its posting authority
+        .authorize(vec![your_account.into()], Vec::new())?;
+
+    // Push operations of follow operation into the created transaction
+    tx.push_complex_operation(&amp;chain, follow_operation)?;
+
+    // Sign and build the transaction
+    tx.sign(&amp;signer1, &amp;public_key1)?;
+
+    println!(&quot;{:#?}&quot;, tx.transaction().operations[0]); // Follow operation
+    println!(&quot;{:#?}&quot;, tx.transaction().operations[1]); // Mute operation
+    println!(&quot;{:#?}&quot;, tx.transaction().operations[2]); // Reblog operation
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h3 id="3-community-operation">3. Community Operation</h3>
 <p>This operation class manages operations specific to communities on the Hive blockchain.</p>
@@ -638,6 +752,59 @@ console.log(tx.transaction.operations[1]); // Flag post operation</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/community_operation.rs">src/rust/transaction/hive_apps_operations/community_operation.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use runner::{SnippetsBeekeeperData, snippets_beekeeper_data};
+use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    let SnippetsBeekeeperData { signer1, public_key1, .. } = snippets_beekeeper_data();
+
+    // Your account name
+    let your_account = &quot;your-account&quot;;
+
+    // Community name you want to join
+    let community_name = &quot;community-name&quot;;
+
+    // Create community operation new instance
+    let community_operation = CommunityOperation::new()
+        // Subscribe the community
+        .subscribe(community_name)
+        // Flag the post of the author (authoraccount) in
+        // the community (communityname) with the permlink (postpermlink)
+        // Add notes regarding the violation (violation notes).
+        .flag_post(
+            community_name,
+            &quot;author-account&quot;,
+            &quot;post-permlink&quot;,
+            &quot;violation notes&quot;,
+        )
+        // The account that authorizes underlying custom json operation is also
+        // responsible for signing the transaction using its posting authority
+        .authorize(vec![your_account.into()], Vec::new())?;
+
+    // Push operations of community operation into the created transaction
+    tx.push_complex_operation(&amp;chain, community_operation)?;
+
+    // Sign and build the transaction
+    tx.sign(&amp;signer1, &amp;public_key1)?;
+
+    println!(&quot;{:#?}&quot;, tx.transaction().operations[0]); // Subscribe operation
+    println!(&quot;{:#?}&quot;, tx.transaction().operations[1]); // Flag post operation
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h5 id="updating-community-properties">Updating Community Properties</h5>
 <p>Since you are an community administrator, you can update its properties:</p>
@@ -705,6 +872,59 @@ console.log(tx.transaction.operations[0]); // Update community properties operat
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-3">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/hive_apps_operations/community_properties.rs">src/rust/transaction/hive_apps_operations/community_properties.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use runner::{SnippetsBeekeeperData, snippets_beekeeper_data};
+use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Create chain
+    let chain = create_hive_chain(None)?;
+
+    // Create transaction with data from remote
+    let mut tx = chain.create_transaction(None).await?;
+
+    let SnippetsBeekeeperData { signer1, public_key1, .. } = snippets_beekeeper_data();
+
+    // Your account name
+    let your_account = &quot;your-account&quot;;
+
+    // Community name you want to join
+    let community_name = &quot;community-name&quot;;
+
+    // Create community operation new instance
+    let community_operation = CommunityOperation::new()
+        // Update the properties of the community
+        .update_props(
+            community_name,
+            CommunityProps {
+                title: &quot;New Community Title&quot;.into(),
+                about: Some(&quot;Community Description&quot;.into()),
+                is_nsfw: Some(false),
+                lang: Some(SupportedLanguages::English.as_str().into()),
+                description: Some(&quot;Detailed community description&quot;.into()),
+                flag_text: Some(&quot;Post flagging rules&quot;.into()),
+            },
+        )
+        // The account that authorizes underlying custom json operation
+        // is also responsible for signing the transaction using its posting authority
+        .authorize(vec![your_account.into()], Vec::new())?;
+
+    // Push operations of community operation into the created transaction
+    tx.push_complex_operation(&amp;chain, community_operation)?;
+
+    // Sign and build the transaction
+    tx.sign(&amp;signer1, &amp;public_key1)?;
+
+    println!(&quot;{:#?}&quot;, tx.transaction().operations[0]); // Update community properties operation
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
@@ -766,7 +986,7 @@ console.log(tx.transaction.operations[0]); // Update community properties operat
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

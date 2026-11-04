@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -39,12 +39,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../static/favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -126,7 +126,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -408,6 +409,48 @@ console.log(tx.transaction);</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/update_proposal/creating_update_proposal.rs">src/rust/transaction/operations/update_proposal/creating_update_proposal.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    let proposal_id = 1;
+    let creator = &quot;your-account&quot;;
+    let daily_pay = chain.hbd_coins(100)?; // 100.000 HBD
+    let subject = &quot;Proposal Update&quot;;
+    let permlink = &quot;proposal-update&quot;;
+
+    tx.push_complex_operation(
+        &amp;chain,
+        UpdateProposalOperation {
+            proposal_id,
+            creator: creator.into(),
+            daily_pay: NaiAssetConvertible::Asset(daily_pay),
+            subject: subject.into(),
+            permlink: permlink.into(),
+            ..Default::default()
+        },
+    )?;
+
+    /*
+    Get a transaction object holding all operations and transaction
+    TAPOS &amp; expiration data, but transaction is **not signed yet**
+    */
+    println!(&quot;{:#?}&quot;, tx.transaction());
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <h2 id="adding-an-end-date-to-an-update-proposal">Adding an End Date to an Update Proposal</h2>
 <doc-tabs>
@@ -450,6 +493,49 @@ console.log(tx.transaction);</code></pre>
 <template #title>Python</template>
 <p><strong>Not implemented yet</strong> — planned for a future release.</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/operations/update_proposal/update_proposal_end_date.rs">src/rust/transaction/operations/update_proposal/update_proposal_end_date.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    let proposal_id = 1;
+    let creator = &quot;your-account&quot;;
+    let daily_pay = chain.hbd_coins(100)?; // 100.000 HBD
+    let subject = &quot;Proposal Update&quot;;
+    let permlink = &quot;proposal-update&quot;;
+    let end_date = &quot;2023-03-14T00:00:00&quot;.parse()?;
+
+    tx.push_complex_operation(
+        &amp;chain,
+        UpdateProposalOperation {
+            proposal_id,
+            creator: creator.into(),
+            daily_pay: NaiAssetConvertible::Asset(daily_pay),
+            subject: subject.into(),
+            permlink: permlink.into(),
+            end_date: Some(end_date),
+        },
+    )?;
+
+    /*
+    Get a transaction object holding all operations and transaction
+    TAPOS &amp; expiration data, but transaction is **not signed yet**
+    */
+    println!(&quot;{:#?}&quot;, tx.transaction());
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 
                 
@@ -490,7 +576,7 @@ console.log(tx.transaction);</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>

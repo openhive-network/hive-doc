@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="turbo-root" content="/wax-doc/default">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846383137353">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.847096888648">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -45,12 +45,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../../../static/favicon.ico" />
-    <link href="../../../../resources/css/retype.css?v=4.6.0.846383137353" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=4.6.0.847096888648" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.846383137353" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.846383137353" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=4.6.0.847096888648" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../../../resources/js/prism.js?v=4.6.0.847096888648" defer></script>
 
     <style>
       /* Custom CSS: https://github.com/retypeapp/retype/discussions/81#discussioncomment-2473238 */
@@ -132,7 +132,8 @@
       {
         const languages = {
           'javascript': [],
-          'python': []
+          'python': [],
+          'rust': [],
         };
         const languageKeys = Object.keys(languages);
 
@@ -419,13 +420,53 @@ try {
   // Now safe to broadcast
   // await chain.broadcast(tx);
 } catch (error) {
-  console.error('Verification failed:', error.message);
+  console.error('Verification failed:', (error as Error).message);
 }</code></pre>
 </doc-codeblock></div>
 </doc-tab>
 <doc-tab v-cloak id="python">
 <template #title>Python</template>
 <p>TBA</p>
+</doc-tab>
+<doc-tab v-cloak id="rust">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/working_with_transaction/online_transaction/on_chain_verification.rs">src/rust/transaction/working_with_transaction/online_transaction/on_chain_verification.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize an online transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Declare example operation
+    let operation = chain.create_operation(Value::VoteOperation(Vote {
+        voter: &quot;gtg&quot;.into(),
+        author: &quot;gtg&quot;.into(),
+        permlink: &quot;hello-world&quot;.into(),
+        weight: 2200,
+    }));
+
+    // Push operation into the transaction
+    tx.push_operation(operation);
+
+    // Perform on-chain verification before broadcasting
+    match tx.perform_on_chain_verification().await {
+        Ok(()) =&gt; {
+            println!(&quot;Transaction passed on-chain verification!&quot;);
+
+            // Now safe to broadcast
+            // chain.broadcast(&amp;tx).await?;
+        }
+        Err(error) =&gt; eprintln!(&quot;Verification failed: {error}&quot;),
+    }
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
 </doc-tab>
 </doc-tabs>
 <p>This verification process includes:</p>
@@ -497,13 +538,55 @@ try {
 
   console.log('Verification successful!');
 } catch (error) {
-  console.error('Verification failed:', error.message);
+  console.error('Verification failed:', (error as Error).message);
 }</code></pre>
 </doc-codeblock></div>
 </doc-tab>
 <doc-tab v-cloak id="python-1">
 <template #title>Python</template>
 <p>TBA</p>
+</doc-tab>
+<doc-tab v-cloak id="rust-1">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/working_with_transaction/online_transaction/on_chain_operation_validation.rs">src/rust/transaction/working_with_transaction/online_transaction/on_chain_operation_validation.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize an online transaction object
+    let mut tx = chain.create_transaction(None).await?;
+
+    // Declare example operation
+    let operation = chain.create_operation(Value::TransferOperation(Transfer {
+        from_account: &quot;gtg&quot;.into(),
+        to_account: &quot;friend&quot;.into(),
+        amount: chain.hive_coins(5)?,
+        // Would be caught:
+        memo: format!(
+            &quot;Here is my private key: {}&quot;,
+            &quot;5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3&quot;
+        ),
+    }));
+
+    // Push operation into the transaction
+    tx.push_operation(operation);
+
+    // Perform on-chain verification before broadcasting
+    // The verification would fail before broadcasting
+
+    // Errors with &quot;Potential private key leak detected!&quot;:
+    match tx.perform_on_chain_verification().await {
+        Ok(()) =&gt; println!(&quot;Verification successful!&quot;),
+        Err(error) =&gt; eprintln!(&quot;Verification failed: {error}&quot;),
+    }
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
 </doc-tab>
 </doc-tabs>
 <h2 id="authority-verification-trace">Authority Verification Trace</h2>
@@ -687,6 +770,63 @@ console.log(trace);</code></pre>
 <template #title>Python</template>
 <p>TBA</p>
 </doc-tab>
+<doc-tab v-cloak id="rust-2">
+<template #title>Rust</template>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div class="codeblock-title">Test it yourself on github codespace: <a href="https://github.com/codespaces/new?repo=openhive-network/wax-doc-snippets&amp;ref=main&amp;file=workspaces/wax-doc-snippets/src/rust/transaction/working_with_transaction/online_transaction/authority_verification_trace.rs">src/rust/transaction/working_with_transaction/online_transaction/authority_verification_trace.rs</a></div>
+<pre translate="no" class="language-rust"><code v-pre class="language-rust">use wax::prelude::*;
+
+#[tokio::main]
+async fn main() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+    // Initialize hive chain interface
+    let chain = create_hive_chain(None)?;
+
+    // Initialize a transaction object with already existing data
+    // (txid: 88e992c6094a6c6813f970b77abc4a6fee4a8a27)
+    let parsed_transaction = chain.create_transaction_from_json(
+        r#&quot;{
+        &quot;expiration&quot;: &quot;2025-09-03T15:43:06&quot;,
+        &quot;extensions&quot;: [],
+        &quot;operations&quot;: [
+            {
+                &quot;type&quot;: &quot;custom_json_operation&quot;,
+                &quot;value&quot;: {
+                    &quot;id&quot;: &quot;notify&quot;,
+                    &quot;json&quot;: &quot;[\&quot;setLastRead\&quot;,{\&quot;date\&quot;:\&quot;2025-09-03T15:31:07\&quot;}]&quot;,
+                    &quot;required_auths&quot;: [],
+                    &quot;required_posting_auths&quot;: [
+                        &quot;sandormb&quot;
+                    ]
+                }
+            }
+        ],
+        &quot;signatures&quot;: [
+            &quot;202cf9ea0754d1927a7875fdaf3aa6d743d7ffe4ccdc64059b9d6cb8e75ea1e5421e5d28d7205e6c820f8307c36e97b45da2bed6fa5795b3cf675020b77facdaee&quot;
+        ],
+        &quot;ref_block_num&quot;: 17420,
+        &quot;ref_block_prefix&quot;: 1854844897
+    }&quot;#,
+    )?;
+
+    let use_legacy_serialization = false;
+
+    // Create an online transaction to perform online authority verification
+    let tx = chain.create_transaction(None).await?;
+    // Provide an external transaction for analysis
+    let trace = tx
+        .generate_authority_verification_trace(
+            use_legacy_serialization,
+            Some(&amp;parsed_transaction),
+        )
+        .await?;
+
+    // Display the final trace
+    println!(&quot;{trace:#?}&quot;);
+
+    Ok(())
+}</code></pre>
+</doc-codeblock></div>
+</doc-tab>
 </doc-tabs>
 <p>The trace can help understand:</p>
 <ul>
@@ -739,7 +879,7 @@ console.log(trace);</code></pre>
                             <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/main/LICENSE.md">License</a>
                         </li>
                         <li>
-                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/466872d8/">Version: 466872d8</a>
+                            <a class="block mr-4 py-2 text-sm whitespace-nowrap transition-colors duration-200 ease-linear text-footer-link hover:text-footer-link-hover md:mb-0" href="https://gitlab.syncad.com/hive/wax-doc/-/blob/e09390f7/">Version: e09390f7</a>
                         </li>
                     </ul>
                 </div>
