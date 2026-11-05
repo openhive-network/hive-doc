@@ -2,7 +2,7 @@
 
 # Class: WaxHealthCheckerError
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/errors.ts#L5)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L5)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:5](https://gitlab.syncad.
 
 > **new WaxHealthCheckerError**(`cause`, `apiEndpoint`, `apiUrl?`): `WaxHealthCheckerError`
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/errors.ts#L6)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L6)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:6](https://gitlab.syncad.
 
 > `readonly` **apiEndpoint**: [`IHiveEndpoint`](../interfaces/IHiveEndpoint)
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/errors.ts#L8)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L8)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [wasm/lib/detailed/healthchecker/errors.ts:8](https://gitlab.syncad.
 
 > `readonly` `optional` **apiUrl?**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/errors.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/errors.ts#L9)
+Defined in: [wasm/lib/detailed/healthchecker/errors.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/errors.ts#L9)
 
 ***
 

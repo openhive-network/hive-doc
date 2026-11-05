@@ -2,7 +2,7 @@
 
 # Class: WaxChainApiError
 
-Defined in: [wasm/lib/detailed/errors.ts:132](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L132)
+Defined in: [wasm/lib/detailed/errors.ts:132](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/errors.ts#L132)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/errors.ts:132](https://gitlab.syncad.com/hive/wax
 
 > **new WaxChainApiError**(`message`, `request`, `response`, `cause?`): `WaxChainApiError`
 
-Defined in: [wasm/lib/detailed/errors.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L133)
+Defined in: [wasm/lib/detailed/errors.ts:133](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/errors.ts#L133)
 
 #### Parameters
 
@@ -84,7 +84,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **request**: `TInterceptorRequestOptions`
 
-Defined in: [wasm/lib/detailed/errors.ts:135](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L135)
+Defined in: [wasm/lib/detailed/errors.ts:135](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/errors.ts#L135)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [wasm/lib/detailed/errors.ts:135](https://gitlab.syncad.com/hive/wax
 
 > `readonly` **response**: `Partial`\<[`IDetailedResponseData`](../interfaces/IDetailedResponseData)\<`any`\>\>
 
-Defined in: [wasm/lib/detailed/errors.ts:136](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L136)
+Defined in: [wasm/lib/detailed/errors.ts:136](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/errors.ts#L136)
 
 ***
 

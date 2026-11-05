@@ -2,7 +2,7 @@
 
 # Interface: INewBestEvent
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L56)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L56)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:56](https://gitlab.sync
 
 > **apiEndpoint**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L59)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L59)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:59](https://gitlab.sync
 
 > **apiType**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L58)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:58](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L58)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:58](https://gitlab.sync
 
 > **best**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L57)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:57](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L57)

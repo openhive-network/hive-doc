@@ -4,7 +4,7 @@
 
 > **TAuthorityEntryVerificationSuccess** = `object`
 
-Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L50)
+Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:50](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L50)
 
 Determines set of information collected when given authority path entry has been processed successfully.
 
@@ -14,7 +14,7 @@ Determines set of information collected when given authority path entry has been
 
 > **entryAccepted**: `true`
 
-Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L51)
+Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:51](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:51](https:
 
 > **isOpenAuthority**: `boolean`
 
-Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L56)
+Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:56](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L56)
 
 - true when authority is open
 - false when any key in the authority matched (it implies sufficient weight)

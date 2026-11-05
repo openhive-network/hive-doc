@@ -2,7 +2,7 @@
 
 # Class: CommunityOperationData
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L27)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:27](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L27)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:27](https://g
 
 > **new CommunityOperationData**(`accounts`, `community`, `data`): `CommunityOperationData`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L28)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:28](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L28)
 
 #### Parameters
 
@@ -36,7 +36,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:28](https://g
 
 > `readonly` **accounts**: `string`[]
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L29)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L29)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:29](https://g
 
 > `readonly` **community**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L30)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L30)
 
 ***
 
@@ -52,4 +52,4 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:30](https://g
 
 > `readonly` **data**: [`TCommunityRules`](../type-aliases/TCommunityRules)
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L31)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/community.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/community.ts#L31)

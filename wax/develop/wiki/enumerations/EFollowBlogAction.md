@@ -2,7 +2,7 @@
 
 # Enumeration: EFollowBlogAction
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L20)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L20)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:20](https://gitl
 
 > **BOTH**: `2`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L23)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:23](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L23)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:23](https://gitl
 
 > **FOLLOW\_BLOG**: `0`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L21)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:21](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L21)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:21](https://gitl
 
 > **MUTE\_BLOG**: `1`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L22)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/follow.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/hive_apps_operations/follow.ts#L22)

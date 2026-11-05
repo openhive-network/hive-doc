@@ -2,7 +2,7 @@
 
 # Interface: ApiBlockHeader
 
-Defined in: [wasm/lib/detailed/api/types/block.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/block.ts#L3)
+Defined in: [wasm/lib/detailed/api/types/block.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/types/block.ts#L3)
 
 ## Extended by
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/api/types/block.ts:3](https://gitlab.syncad.com/h
 
 > **extensions**: `object`[]
 
-Defined in: [wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/block.ts#L8)
+Defined in: [wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/types/block.ts#L8)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [wasm/lib/detailed/api/types/block.ts:8](https://gitlab.syncad.com/h
 
 > **previous**: `string`
 
-Defined in: [wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/block.ts#L4)
+Defined in: [wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/types/block.ts#L4)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [wasm/lib/detailed/api/types/block.ts:4](https://gitlab.syncad.com/h
 
 > **timestamp**: `string`
 
-Defined in: [wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/block.ts#L5)
+Defined in: [wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/types/block.ts#L5)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [wasm/lib/detailed/api/types/block.ts:5](https://gitlab.syncad.com/h
 
 > **transaction\_merkle\_root**: `string`
 
-Defined in: [wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/block.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/types/block.ts#L7)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [wasm/lib/detailed/api/types/block.ts:7](https://gitlab.syncad.com/h
 
 > **witness**: `string`
 
-Defined in: [wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/block.ts#L6)
+Defined in: [wasm/lib/detailed/api/types/block.ts:6](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/types/block.ts#L6)

@@ -2,7 +2,7 @@
 
 # Enumeration: ECommentFormat
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/comment.ts#L10)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:10](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L10)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:10](https://gitlab
 
 > **HTML**: `"html"`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/comment.ts#L11)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:11](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L11)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:11](https://gitlab
 
 > **MARKDOWN**: `"markdown"`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/comment.ts#L12)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:12](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L12)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:12](https://gitlab
 
 > **MIXED**: `"markdown+html"`
 
-Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/comment.ts#L13)
+Defined in: [wasm/lib/detailed/complex\_operations/comment.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/complex_operations/comment.ts#L13)

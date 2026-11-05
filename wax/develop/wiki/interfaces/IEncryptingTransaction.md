@@ -2,7 +2,7 @@
 
 # Interface: IEncryptingTransaction\<StopEncryptResult\>
 
-Defined in: [wasm/lib/detailed/interfaces.ts:527](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/interfaces.ts#L527)
+Defined in: [wasm/lib/detailed/interfaces.ts:527](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L527)
 
 Same as [ITransaction](./ITransaction), but marks operations as encrypted using given keys, which will be encrypted upon
 ITransaction.sign.
@@ -45,7 +45,7 @@ tx.startEncrypt(myPublicKey).pushOperation({
 
 > **stopEncrypt**(): `StopEncryptResult`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/interfaces.ts#L535)
+Defined in: [wasm/lib/detailed/interfaces.ts:535](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L535)
 
 Stops encryption chain
 
