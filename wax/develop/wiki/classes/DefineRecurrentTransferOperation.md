@@ -2,7 +2,7 @@
 
 # Class: DefineRecurrentTransferOperation
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:91](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L91)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:91](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L91)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:91](ht
 
 > **new DefineRecurrentTransferOperation**(`data`): `DefineRecurrentTransferOperation`
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L108)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:108](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L108)
 
 Creates/updates a recurrent transfer in the currency Hive or HBD.
  * Since HF 28, if user has more than one recurrent transfer to the same receiver
@@ -51,7 +51,7 @@ Creates/updates a recurrent transfer in the currency Hive or HBD.
 
 > `protected` `readonly` **recurrentTransfer**: [`recurrent_transfer`](../interfaces/recurrent_transfer)
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L59)
 
 #### Inherited from
 
@@ -63,7 +63,7 @@ Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:59](ht
 
 > **finalize**(`sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L64)
+Defined in: [wasm/lib/detailed/complex\_operations/recurrent\_transfer.ts:64](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/complex_operations/recurrent_transfer.ts#L64)
 
 **`Internal`**
 

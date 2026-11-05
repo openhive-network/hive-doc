@@ -2,7 +2,7 @@
 
 # Interface: IScoredEndpointUp
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L13)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L13)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:13](https://gitlab
 
 > **endpointUrl**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.sync
 
 > **latencies**: `number`[]
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L18)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:18](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L18)
 
 Note: Latencies are listed in a way that the last element is the newest in history
 
@@ -36,7 +36,7 @@ Note: Latencies are listed in a way that the last element is the newest in histo
 
 > **score**: `number`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L14)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:14](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L14)
 
 ***
 
@@ -44,4 +44,4 @@ Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:14](https://gitlab
 
 > **up**: `true`
 
-Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L19)
+Defined in: [wasm/lib/detailed/healthchecker/healthchecker.ts:19](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/healthchecker.ts#L19)

@@ -2,7 +2,7 @@
 
 # Interface: IHiveEndpointDataDown
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L68)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:68](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L68)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:68](https://gitlab.sync
 
 > **endpointUrl**: `string`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L65)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:65](https://gitlab.sync
 
 > **reason**: [`TErrorReason`](../type-aliases/TErrorReason)
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L70)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:70](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L70)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:70](https://gitlab.sync
 
 > **up**: `false`
 
-Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L69)
+Defined in: [wasm/lib/detailed/healthchecker/endpoint.ts:69](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/healthchecker/endpoint.ts#L69)

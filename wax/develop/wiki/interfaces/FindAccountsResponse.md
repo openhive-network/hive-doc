@@ -2,7 +2,7 @@
 
 # Interface: FindAccountsResponse
 
-Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L8)
+Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L8)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:8](https://gi
 
 > **accounts**: [`ApiAccount`](./ApiAccount)[]
 
-Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L9)
+Defined in: [wasm/lib/detailed/api/database\_api/find\_accounts.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/database_api/find_accounts.ts#L9)

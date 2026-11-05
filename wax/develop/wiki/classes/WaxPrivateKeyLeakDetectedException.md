@@ -2,7 +2,7 @@
 
 # Class: WaxPrivateKeyLeakDetectedException
 
-Defined in: [wasm/lib/detailed/errors.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/errors.ts#L148)
+Defined in: [wasm/lib/detailed/errors.ts:148](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L148)
 
 Thrown when a private key leak is detected in the transaction.
 To avoid additional privacy leaks in the messaging, reported error contains only a **public key** matching to detected private one like
@@ -18,7 +18,7 @@ also the account name and authority role related to such key.
 
 > **new WaxPrivateKeyLeakDetectedException**(`msg`, `matchingPublicKey`, `account`, `authorityRole`): `WaxPrivateKeyLeakDetectedException`
 
-Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/errors.ts#L149)
+Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L149)
 
 #### Parameters
 
@@ -52,7 +52,7 @@ Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax
 
 > `readonly` **account**: `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/errors.ts#L149)
+Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L149)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax
 
 > `readonly` **authorityRole**: `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/errors.ts#L150)
+Defined in: [wasm/lib/detailed/errors.ts:150](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L150)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: node\_modules/.pnpm/typescript@6.0.3/node\_modules/typescript/lib/li
 
 > `readonly` **matchingPublicKey**: `string`
 
-Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/errors.ts#L149)
+Defined in: [wasm/lib/detailed/errors.ts:149](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/errors.ts#L149)
 
 ***
 

@@ -2,7 +2,7 @@
 
 # Interface: IExtensionData
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/cxx_exception_data.ts#L25)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:25](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/cxx_exception_data.ts#L25)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:25](https://gitlab.syncad
 
 > **assertion\_expression**: `string`
 
-Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/cxx_exception_data.ts#L26)
+Defined in: [wasm/lib/detailed/cxx\_exception\_data.ts:26](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/cxx_exception_data.ts#L26)

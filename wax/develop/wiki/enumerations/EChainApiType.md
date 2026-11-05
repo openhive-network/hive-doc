@@ -2,7 +2,7 @@
 
 # Enumeration: EChainApiType
 
-Defined in: [wasm/lib/detailed/chain\_api.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/chain_api.ts#L29)
+Defined in: [wasm/lib/detailed/chain\_api.ts:29](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/chain_api.ts#L29)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/chain\_api.ts:29](https://gitlab.syncad.com/hive/
 
 > **JSON\_RPC**: `"json_rpc"`
 
-Defined in: [wasm/lib/detailed/chain\_api.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/chain_api.ts#L30)
+Defined in: [wasm/lib/detailed/chain\_api.ts:30](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/chain_api.ts#L30)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [wasm/lib/detailed/chain\_api.ts:30](https://gitlab.syncad.com/hive/
 
 > **REST**: `"rest"`
 
-Defined in: [wasm/lib/detailed/chain\_api.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/chain_api.ts#L31)
+Defined in: [wasm/lib/detailed/chain\_api.ts:31](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/chain_api.ts#L31)

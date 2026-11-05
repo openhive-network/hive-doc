@@ -2,7 +2,7 @@
 
 # Abstract Class: HiveAppsOperation\<ChildT, BodyT\>
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L7)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L7)
 
 ## Extends
 
@@ -44,7 +44,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:7](https://gitl
 
 > `protected` **body**: `BodyT`[] = `[]`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:13](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L13)
 
 Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
@@ -54,7 +54,7 @@ Object bodies to stringify in the final hive apps operation form - <i>Stage</i>
 
 > `abstract` `protected` `readonly` **id**: `string`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L20)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:20](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L20)
 
 Id of your custom hive apps operation
 
@@ -64,7 +64,7 @@ Id of your custom hive apps operation
 
 > `protected` **ops**: [`operation`](../interfaces/operation)[] = `[]`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L22)
 
 ## Methods
 
@@ -72,7 +72,7 @@ Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:22](https://git
 
 > **authorize**(`requiredPostingAuths`, `requiredAuths?`): `ChildT`
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:32](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L32)
 
 Authorizes the currently staged hive apps operation, commits it to saved body and clears the stage
 
@@ -102,7 +102,7 @@ itself
 
 > **finalize**(`_sink`): `Iterable`\<[`operation`](../interfaces/operation)\>
 
-Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
+Defined in: [wasm/lib/detailed/hive\_apps\_operations/factory.ts:59](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/hive_apps_operations/factory.ts#L59)
 
 **`Internal`**
 

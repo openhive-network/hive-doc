@@ -2,7 +2,7 @@
 
 # Interface: GetBlockHeaderRequest
 
-Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_header.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/block_api/get_block_header.ts#L3)
+Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_header.ts:3](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/block_api/get_block_header.ts#L3)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_header.ts:3](https://g
 
 > **block\_num**: `number`
 
-Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_header.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/block_api/get_block_header.ts#L4)
+Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_header.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/block_api/get_block_header.ts#L4)

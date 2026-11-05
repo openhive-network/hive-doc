@@ -2,7 +2,7 @@
 
 # Enumeration: TTransactionPackType
 
-Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/types/index.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/index.ts#L7)
 
 ## Enumeration Members
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/h
 
 > **HF\_26**: `"hf26"`
 
-Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/types/index.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/index.ts#L7)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/h
 
 > **LEGACY**: `"legacy"`
 
-Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/api/types/index.ts#L7)
+Defined in: [wasm/lib/detailed/api/types/index.ts:7](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/api/types/index.ts#L7)

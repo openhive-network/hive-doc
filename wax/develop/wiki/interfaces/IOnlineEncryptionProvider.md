@@ -2,7 +2,7 @@
 
 # Interface: IOnlineEncryptionProvider
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/extensions/signatures/index.ts#L37)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:37](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/extensions/signatures/index.ts#L37)
 
 ## Methods
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:37](https://gitlab
 
 > **decryptData**(`buffer`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/extensions/signatures/index.ts#L54)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/extensions/signatures/index.ts#L54)
 
 Decrypts data
 
@@ -34,7 +34,7 @@ The decrypted data as a string.
 
 > **encryptData**(`buffer`, `recipient`, `nonce?`): `Promise`\<`string`\>
 
-Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/b01b7edf441b2e4ae66d53ccdeaa3b4aec519fbb/ts/wasm/lib/detailed/extensions/signatures/index.ts#L46)
+Defined in: [wasm/lib/detailed/extensions/signatures/index.ts:46](https://gitlab.syncad.com/hive/wax/-/blob/d577f4753a0f64c8d44c7401c48b895fc4c26f93/ts/wasm/lib/detailed/extensions/signatures/index.ts#L46)
 
 Encrypts data
 
