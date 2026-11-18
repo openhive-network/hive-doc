@@ -2,7 +2,7 @@
 
 # Interface: IHiveAssetData
 
-Defined in: [wasm/lib/detailed/interfaces.ts:566](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L566)
+Defined in: [wasm/lib/detailed/interfaces.ts:581](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L581)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:566](https://gitlab.syncad.com/hive
 
 > **amount**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:572](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L572)
+Defined in: [wasm/lib/detailed/interfaces.ts:587](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L587)
 
 Asset amount
 
@@ -26,7 +26,7 @@ Asset amount
 
 > **symbol**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:579](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L579)
+Defined in: [wasm/lib/detailed/interfaces.ts:594](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L594)
 
 Asset symbol
 

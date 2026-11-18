@@ -2,7 +2,7 @@
 
 # Interface: GetBlockRangeResponse
 
-Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_range.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L8)
+Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_range.ts:8](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L8)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_range.ts:8](https://gi
 
 > **blocks**: [`ApiBlock`](./ApiBlock)[]
 
-Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_range.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L9)
+Defined in: [wasm/lib/detailed/api/block\_api/get\_block\_range.ts:9](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/api/block_api/get_block_range.ts#L9)

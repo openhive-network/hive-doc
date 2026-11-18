@@ -2,7 +2,7 @@
 
 # Interface: IWaxBaseExtendibleOptions
 
-Defined in: [wasm/lib/detailed/interfaces.ts:105](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L105)
+Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L111)
 
 ## Extended by
 
@@ -15,6 +15,6 @@ Defined in: [wasm/lib/detailed/interfaces.ts:105](https://gitlab.syncad.com/hive
 
 > **chainId**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L111)
+Defined in: [wasm/lib/detailed/interfaces.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L117)
 
 Chain id in hex string format

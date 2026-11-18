@@ -4,7 +4,7 @@
 
 > **WaxFormattable**(`options?`): [`TWaxFormatterDecorator`](../type-aliases/TWaxFormatterDecorator)
 
-Defined in: [wasm/lib/detailed/decorators/formatters.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/decorators/formatters.ts#L54)
+Defined in: [wasm/lib/detailed/decorators/formatters.ts:54](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/decorators/formatters.ts#L54)
 
 When used on method, marks that this method is intended to be used for wax formatting with given property matching.
 When no options provided, method name is used for property matching

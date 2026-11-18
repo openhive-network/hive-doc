@@ -338,7 +338,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:146
 
 > **HIVE\_CUSTOM\_OP\_BLOCK\_LIMIT**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:229
+Defined in: wasm/lib/build\_wasm/config.ts:230
 
 ***
 
@@ -1390,6 +1390,14 @@ Defined in: wasm/lib/build\_wasm/config.ts:40
 
 ***
 
+### HIVE\_PROPOSAL\_MAX\_DAILY\_PAY
+
+> **HIVE\_PROPOSAL\_MAX\_DAILY\_PAY**: `string`
+
+Defined in: wasm/lib/build\_wasm/config.ts:229
+
+***
+
 ### HIVE\_PROPOSAL\_MAX\_IDS\_NUMBER
 
 > **HIVE\_PROPOSAL\_MAX\_IDS\_NUMBER**: `string`
@@ -1418,7 +1426,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:218
 
 > **HIVE\_RC\_BUCKET\_TIME\_LENGTH**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:231
+Defined in: wasm/lib/build\_wasm/config.ts:232
 
 ***
 
@@ -1426,7 +1434,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:231
 
 > **HIVE\_RC\_HISTORICAL\_ACCOUNT\_CREATION\_ADJUSTMENT**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:234
+Defined in: wasm/lib/build\_wasm/config.ts:235
 
 ***
 
@@ -1434,7 +1442,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:234
 
 > **HIVE\_RC\_MAX\_ACCOUNTS\_PER\_DELEGATION\_OP**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:235
+Defined in: wasm/lib/build\_wasm/config.ts:236
 
 ***
 
@@ -1442,7 +1450,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:235
 
 > **HIVE\_RC\_REGEN\_TIME**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:230
+Defined in: wasm/lib/build\_wasm/config.ts:231
 
 ***
 
@@ -1450,7 +1458,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:230
 
 > **HIVE\_RC\_STATS\_REPORT\_FREQUENCY**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:233
+Defined in: wasm/lib/build\_wasm/config.ts:234
 
 ***
 
@@ -1458,7 +1466,7 @@ Defined in: wasm/lib/build\_wasm/config.ts:233
 
 > **HIVE\_RC\_WINDOW\_BUCKET\_COUNT**: `string`
 
-Defined in: wasm/lib/build\_wasm/config.ts:232
+Defined in: wasm/lib/build\_wasm/config.ts:233
 
 ***
 

@@ -4,7 +4,7 @@
 
 > **operation**: `object`
 
-Defined in: wasm/lib/proto/operation.ts:99
+Defined in: wasm/lib/proto/operation.ts:100
 
 ## Type Declaration
 

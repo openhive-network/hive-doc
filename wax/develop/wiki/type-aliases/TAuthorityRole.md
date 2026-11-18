@@ -4,4 +4,4 @@
 
 > **TAuthorityRole** = `string`
 
-Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L4)
+Defined in: [wasm/lib/detailed/verify\_authority\_trace\_interface.ts:4](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/verify_authority_trace_interface.ts#L4)

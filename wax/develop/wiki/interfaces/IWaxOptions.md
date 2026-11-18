@@ -2,7 +2,7 @@
 
 # Interface: IWaxOptions
 
-Defined in: [wasm/lib/detailed/interfaces.ts:152](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L152)
+Defined in: [wasm/lib/detailed/interfaces.ts:158](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L158)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [wasm/lib/detailed/interfaces.ts:152](https://gitlab.syncad.com/hive
 
 > **chainId**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:111](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L111)
+Defined in: [wasm/lib/detailed/interfaces.ts:117](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L117)
 
 Chain id in hex string format
 
@@ -28,11 +28,28 @@ Chain id in hex string format
 
 ***
 
+### enableLogs?
+
+> `optional` **enableLogs?**: `boolean`
+
+Defined in: [wasm/lib/detailed/interfaces.ts:185](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L185)
+
+Whether the WASM module may write its logs (e.g. the hive protocol `ilog` / `wlog` / `elog` messages) to the console.
+Set to false to silence all of the WASM module output.
+
+#### Default
+
+```ts
+true
+```
+
+***
+
 ### wasmLocation?
 
 > `optional` **wasmLocation?**: `string`
 
-Defined in: [wasm/lib/detailed/interfaces.ts:170](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/detailed/interfaces.ts#L170)
+Defined in: [wasm/lib/detailed/interfaces.ts:176](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/detailed/interfaces.ts#L176)
 
 The path to the WASM file. It can be a relative path or an absolute URL
 If not specified, the default path is used: "./build_wasm/wax.common.wasm" (may change if bundled)

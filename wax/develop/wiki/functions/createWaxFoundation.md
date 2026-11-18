@@ -4,7 +4,7 @@
 
 > **createWaxFoundation**(`options?`): `Promise`\<[`IWaxBaseInterface`](../interfaces/IWaxBaseInterface)\>
 
-Defined in: [wasm/lib/index.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/1a91d054cf9d01385db4d6224262f77abf1c86b2/ts/wasm/lib/index.ts#L82)
+Defined in: [wasm/lib/index.ts:82](https://gitlab.syncad.com/hive/wax/-/blob/a16d25496931bf7989e7fb881def9b373fa78a3a/ts/wasm/lib/index.ts#L82)
 
 Creates a Wax Hive base instance
 
