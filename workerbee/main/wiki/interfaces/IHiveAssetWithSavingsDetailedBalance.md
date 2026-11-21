@@ -2,7 +2,7 @@
 
 # Interface: IHiveAssetWithSavingsDetailedBalance
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/account-classifier.ts#L19)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/account-classifier.ts#L19)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:19](https://g
 
 > **liquid**: `asset`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/account-classifier.ts#L5)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/account-classifier.ts#L5)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:5](https://gi
 
 > **savings**: `asset`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/account-classifier.ts#L20)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/account-classifier.ts#L20)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:20](https://g
 
 > **total**: `asset`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/account-classifier.ts#L7)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/account-classifier.ts#L7)
 
 #### Inherited from
 
@@ -46,7 +46,7 @@ Defined in: [src/chain-observers/classifiers/account-classifier.ts:7](https://gi
 
 > **unclaimed**: `asset`
 
-Defined in: [src/chain-observers/classifiers/account-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/account-classifier.ts#L6)
+Defined in: [src/chain-observers/classifiers/account-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/account-classifier.ts#L6)
 
 #### Inherited from
 

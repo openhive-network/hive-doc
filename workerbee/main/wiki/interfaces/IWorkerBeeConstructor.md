@@ -2,7 +2,7 @@
 
 # Interface: IWorkerBeeConstructor
 
-Defined in: [src/interfaces.ts:226](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/interfaces.ts#L226)
+Defined in: [src/interfaces.ts:226](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/interfaces.ts#L226)
 
 ## Constructors
 
@@ -10,7 +10,7 @@ Defined in: [src/interfaces.ts:226](https://gitlab.syncad.com/hive/workerbee/-/b
 
 > **new IWorkerBeeConstructor**(`chain`): [`IWorkerBee`](./IWorkerBee)
 
-Defined in: [src/interfaces.ts:234](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/interfaces.ts#L234)
+Defined in: [src/interfaces.ts:234](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/interfaces.ts#L234)
 
 Constructs new WorkerBee bot object
 

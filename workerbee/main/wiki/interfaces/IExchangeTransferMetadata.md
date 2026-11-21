@@ -2,7 +2,7 @@
 
 # Interface: IExchangeTransferMetadata
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/exchange-transfer-provider.ts#L9)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/exchange-transfer-provider.ts#L9)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:9](http
 
 > **amount**: `asset`
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/exchange-transfer-provider.ts#L12)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:12](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/exchange-transfer-provider.ts#L12)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:12](htt
 
 > **exchange**: [`Exchange`](../type-aliases/Exchange)
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/exchange-transfer-provider.ts#L13)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:13](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/exchange-transfer-provider.ts#L13)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:13](htt
 
 > **from**: `string`
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/exchange-transfer-provider.ts#L10)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/exchange-transfer-provider.ts#L10)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:10](htt
 
 > **to**: `string`
 
-Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/exchange-transfer-provider.ts#L11)
+Defined in: [src/chain-observers/providers/exchange-transfer-provider.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/exchange-transfer-provider.ts#L11)

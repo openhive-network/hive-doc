@@ -2,7 +2,7 @@
 
 # Interface: Subscribable\<T\>
 
-Defined in: [src/types/subscribable.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/types/subscribable.ts#L33)
+Defined in: [src/types/subscribable.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/types/subscribable.ts#L33)
 
 ## Type Parameters
 
@@ -16,7 +16,7 @@ Defined in: [src/types/subscribable.ts:33](https://gitlab.syncad.com/hive/worker
 
 > **subscribe**(`observer`): [`Unsubscribable`](./Unsubscribable)
 
-Defined in: [src/types/subscribable.ts:34](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/types/subscribable.ts#L34)
+Defined in: [src/types/subscribable.ts:34](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/types/subscribable.ts#L34)
 
 #### Parameters
 

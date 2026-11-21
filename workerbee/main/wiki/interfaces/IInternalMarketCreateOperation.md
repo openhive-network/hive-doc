@@ -2,7 +2,7 @@
 
 # Interface: IInternalMarketCreateOperation
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L17)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:17](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L17)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:17](https
 
 > **amountToSell**: `asset`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L19)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L19)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:19](https
 
 > **cancel**: `false`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L18)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L18)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:18](https
 
 > **exchangeRate**: `price`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L21)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:21](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L21)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:21](https
 
 > **expiration**: `Date`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L22)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L22)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:22](https
 
 > **filled**: `boolean`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L20)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:20](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L20)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:20](https
 
 > **orderId**: `number`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L10)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L10)
 
 #### Inherited from
 
@@ -66,7 +66,7 @@ Defined in: [src/chain-observers/providers/internal-market-provider.ts:10](https
 
 > **owner**: `string`
 
-Defined in: [src/chain-observers/providers/internal-market-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/internal-market-provider.ts#L9)
+Defined in: [src/chain-observers/providers/internal-market-provider.ts:9](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/internal-market-provider.ts#L9)
 
 #### Inherited from
 

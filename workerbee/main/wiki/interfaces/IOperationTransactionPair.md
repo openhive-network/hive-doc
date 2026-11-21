@@ -2,7 +2,7 @@
 
 # Interface: IOperationTransactionPair\<OpType\>
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/operation-classifier.ts#L5)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:5](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/operation-classifier.ts#L5)
 
 ## Type Parameters
 
@@ -16,7 +16,7 @@ Defined in: [src/chain-observers/classifiers/operation-classifier.ts:5](https://
 
 > **operation**: `OpType`
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/operation-classifier.ts#L6)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:6](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/operation-classifier.ts#L6)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [src/chain-observers/classifiers/operation-classifier.ts:6](https://
 
 > **transaction**: [`ITransactionData`](./ITransactionData)
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/operation-classifier.ts#L7)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/operation-classifier.ts#L7)

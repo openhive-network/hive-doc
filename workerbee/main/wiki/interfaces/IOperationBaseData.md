@@ -2,7 +2,7 @@
 
 # Interface: IOperationBaseData
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/operation-classifier.ts#L10)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:10](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/operation-classifier.ts#L10)
 
 ## Extended by
 
@@ -15,4 +15,4 @@ Defined in: [src/chain-observers/classifiers/operation-classifier.ts:10](https:/
 
 > **operations**: `Iterable`\<[`IOperationTransactionPair`](./IOperationTransactionPair)\<`operation`\>\>
 
-Defined in: [src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/classifiers/operation-classifier.ts#L11)
+Defined in: [src/chain-observers/classifiers/operation-classifier.ts:11](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/classifiers/operation-classifier.ts#L11)

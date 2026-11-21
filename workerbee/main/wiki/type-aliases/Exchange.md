@@ -4,4 +4,4 @@
 
 > **Exchange** = *typeof* `BinanceExchange` \| *typeof* `HTXExchange` \| *typeof* `MEXCExchange` \| *typeof* `ProBitExchange` \| *typeof* `UpbitExchange`
 
-Defined in: [src/utils/known-exchanges.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/utils/known-exchanges.ts#L7)
+Defined in: [src/utils/known-exchanges.ts:7](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/utils/known-exchanges.ts#L7)

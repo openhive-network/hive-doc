@@ -2,7 +2,7 @@
 
 # Interface: IReblogProviderOptions
 
-Defined in: [src/chain-observers/providers/reblog-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/reblog-provider.ts#L22)
+Defined in: [src/chain-observers/providers/reblog-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/reblog-provider.ts#L22)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/chain-observers/providers/reblog-provider.ts:22](https://gitlab
 
 > **accounts**: `string`[]
 
-Defined in: [src/chain-observers/providers/reblog-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/reblog-provider.ts#L23)
+Defined in: [src/chain-observers/providers/reblog-provider.ts:23](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/reblog-provider.ts#L23)

@@ -2,7 +2,7 @@
 
 # Interface: IReblogProviderData\<TAccounts\>
 
-Defined in: [src/chain-observers/providers/reblog-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/reblog-provider.ts#L18)
+Defined in: [src/chain-observers/providers/reblog-provider.ts:18](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/reblog-provider.ts#L18)
 
 ## Type Parameters
 
@@ -16,4 +16,4 @@ Defined in: [src/chain-observers/providers/reblog-provider.ts:18](https://gitlab
 
 > **reblogs**: `Partial`\<[`TReblogProvided`](../type-aliases/TReblogProvided)\<`TAccounts`\>\>
 
-Defined in: [src/chain-observers/providers/reblog-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/reblog-provider.ts#L19)
+Defined in: [src/chain-observers/providers/reblog-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/reblog-provider.ts#L19)

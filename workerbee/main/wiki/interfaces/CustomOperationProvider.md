@@ -2,7 +2,7 @@
 
 # Interface: CustomOperationProvider\<TOperationId\>
 
-Defined in: [src/chain-observers/providers/custom-operation-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/custom-operation-provider.ts#L19)
+Defined in: [src/chain-observers/providers/custom-operation-provider.ts:19](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/custom-operation-provider.ts#L19)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/chain-observers/providers/custom-operation-provider.ts:19](http
 
 > `readonly` **ids**: `Set`\<`string`\>
 
-Defined in: [src/chain-observers/providers/custom-operation-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/custom-operation-provider.ts#L22)
+Defined in: [src/chain-observers/providers/custom-operation-provider.ts:22](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/custom-operation-provider.ts#L22)
 
 ## Methods
 
@@ -28,7 +28,7 @@ Defined in: [src/chain-observers/providers/custom-operation-provider.ts:22](http
 
 > **provide**(`data`): `Promise`\<[`ICustomOperationProviderData`](./ICustomOperationProviderData)\<`TOperationId`\>\>
 
-Defined in: [src/chain-observers/providers/custom-operation-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/custom-operation-provider.ts#L33)
+Defined in: [src/chain-observers/providers/custom-operation-provider.ts:33](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/custom-operation-provider.ts#L33)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: [src/chain-observers/providers/custom-operation-provider.ts:33](http
 
 > **pushOptions**(`options`): `void`
 
-Defined in: [src/chain-observers/providers/custom-operation-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/custom-operation-provider.ts#L24)
+Defined in: [src/chain-observers/providers/custom-operation-provider.ts:24](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/custom-operation-provider.ts#L24)
 
 #### Parameters
 
@@ -72,7 +72,7 @@ Defined in: [src/chain-observers/providers/custom-operation-provider.ts:24](http
 
 > **usedContexts**(): `TRegisterEvaluationContext`[]
 
-Defined in: [src/chain-observers/providers/custom-operation-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/5d935b802bf63dd6ae9d7911b398e4cc3b84e819/src/chain-observers/providers/custom-operation-provider.ts#L29)
+Defined in: [src/chain-observers/providers/custom-operation-provider.ts:29](https://gitlab.syncad.com/hive/workerbee/-/blob/bc217d4103c521db7966585fc06621a710c6556e/src/chain-observers/providers/custom-operation-provider.ts#L29)
 
 #### Returns
 
